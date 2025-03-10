@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "[ScaDS.AI / TU Dresden](https://www.scads.ai), Office at Strehlener Str. 12-14, Room 733, Dresden, Germany."
+subtitle: <a href='https://www.scads.ai'>ScaDS.AI / TU Dresden</a>, Strehlener Str. 12-14, Room 733, Dresden, Germany.
 profile:
   align: right
   image: Michael_Faerber_2024_rez.jpg
