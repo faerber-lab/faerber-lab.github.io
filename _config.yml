@@ -168,7 +168,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_news", "_scripts"]
+include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -271,8 +271,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Färber]
+  first_name: [Michael]
 
   style: apa
   locale: en
