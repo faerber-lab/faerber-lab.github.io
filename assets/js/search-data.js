@@ -415,14 +415,14 @@ ninja.data = [{
           section: "News",},{id: "news-is-hallucination-always-bad-check-out-our-arxiv-paper-hallucinations-can-improve-large-language-models-in-drug-discovery",
           title: 'Is hallucination always bad? Check out our Arxiv paper, “Hallucinations Can Improve Large...',
           description: "",
-          section: "News",},{id: "projects-klartext-ai-based-translation-of-websites-into-plain-language",
-          title: 'Klartext-AI-based Translation of Websites Into Plain Language',
-          description: "with background image",
+          section: "News",},{id: "projects-klartext",
+          title: 'Klartext',
+          description: "AI-based Translation of Websites Into Plain Language",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-llm4edu",
+          title: 'LLM4Edu',
+          description: "Learning Large Language Models on Graphs for Education",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
