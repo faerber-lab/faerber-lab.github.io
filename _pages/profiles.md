@@ -11,12 +11,33 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: about_joe.md
+    content: about_tim.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>ScaDS.AI office, Room 732</p>
       <p>Strehlener Str. 12-14, Dresden, Germany.</p>
   - align: left
+    image: prof_pic.jpg
+    content: about_joe.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>ScaDS.AI office, Room 732</p>
+      <p>Strehlener Str. 12-14, Dresden, Germany.</p>
+- align: right
+    image: prof_pic.jpg
+    content: about_chang.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>ScaDS.AI office, Room 732</p>
+      <p>Strehlener Str. 12-14, Dresden, Germany.</p>
+  - align: left
+    image: prof_pic.jpg
+    content: about_parisa.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>ScaDS.AI office, Room 732</p>
+      <p>Strehlener Str. 12-14, Dresden, Germany.</p>
+  - align: right
     image: prof_pic.jpg
     content: about_tobias.md
     image_circular: false # crops the image to make it circular
