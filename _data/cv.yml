@@ -4,17 +4,17 @@
     - name: Full Name
       value: Prof. Michael Färber
     - name: Date of Birth
-      value: May, 1987
+      value: May 1987
     - name: Languages
       value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD (Dr.-Ing)
-      institution: Karlsruhe Institute Of Technology, Germany
+    - title: PhD (Dr.-Ing.)
+      institution: Karlsruhe Institute of Technology, Germany
       year: 2017
-    - title: Diplom-Informatik (≡M.Sc.) in Computer Science
+    - title: Diplom-Informatik (≡ M.Sc.) in Computer Science
       institution: University of Ulm, Germany
       year: 2011
     - title: Bachelor of Arts (B.A.) in Philosophy
@@ -25,43 +25,22 @@
   type: time_table
   contents:
     - title: Full Professor (Chair of Scalable Software Architectures for Data Analytics)
-      institution: ScaDS.AI/ TU Dresden
-      year: April 2024 - present
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
+      institution: ScaDS.AI / TU Dresden, Germany
+      year: April 2024 – Present
       
     - title: Deputy Full Professor (W3-Lehrstuhlvertretung)
-      institution: Karlsruhe Institute Of Technology, Germany
-      year: Oct. 2020 - Mar. 2024
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-
-    # - title: Director
-    #   institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-    #   year: 1917-1933
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      institution: Karlsruhe Institute of Technology, Germany
+      year: October 2020 – March 2024
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2023
       items:
-        - Best Paper Award at ISWC'23 for "SemOpenAlex-The Scientific Landscape in 26B RDF Triples"
+        - Best Paper Award at ISWC'23 for *"SemOpenAlex – The Scientific Landscape in 26B RDF Triples"*
     - year: 2022
       items:
-        - Best Poster Award at ISWC'22 for "The Green AI Ontology"
+        - Best Poster Award at ISWC'22 for *"The Green AI Ontology"*
 
 - title: Other Interests
   type: list
