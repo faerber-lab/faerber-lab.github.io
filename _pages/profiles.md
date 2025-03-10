@@ -23,7 +23,7 @@ profiles:
     more_info: >
       <p>ScaDS.AI office, Room 732</p>
       <p>Strehlener Str. 12-14, Dresden, Germany.</p>
-- align: right
+  - align: right
     image: prof_pic.jpg
     content: about_chang.md
     image_circular: false # crops the image to make it circular
