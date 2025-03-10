@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Michael Frber",
+    "name": "Michael Färber",
     "label": "Professor",
     "image": "",
     "email": "michael.faerber@tu-dresden.de",
@@ -11,7 +11,7 @@
       "postalCode": "01069",
       "city": "Dresden",
       "countryCode": "Germany"
-    },
+    }
   },
   "work": [
     {
@@ -19,16 +19,16 @@
       "position": "Professor (Chair of Scalable Software Architectures for Data Analytics)",
       "url": "https://scads.ai/about-us/ai-professorships/scalable-software-architectures-for-data-analytics/",
       "startDate": "2024-04-01",
-      "endDate": "present",
+      "endDate": "present"
     }
   ],
   "education": [
     {
       "institution": "Karlsruhe Institute of Technology",
-      "location": "Kalrsruhe, Germany",
+      "location": "Karlsruhe, Germany",
       "studyType": "PhD (Dr.-Ing.)",
       "startDate": "2012-04",
-      "endDate": "2017-02",
+      "endDate": "2017-02"
     }
   ],
   "awards": [
@@ -43,8 +43,7 @@
       "date": "2022-11",
       "awarder": "ISWC 2022",
       "summary": "For 'The Green AI Ontology' "
-    },
-    
+    }
   ],
   "languages": [
     {
