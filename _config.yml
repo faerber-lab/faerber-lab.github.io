@@ -189,6 +189,7 @@ exclude:
   - _pages/about_einstein.md
   - _pages/repositories.md
   - _pages/dropdown.md
+  - _pages/blog.md
   - purgecss.config.js
   - README.md
   - readme_preview/
