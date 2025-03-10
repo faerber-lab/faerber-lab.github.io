@@ -3,15 +3,13 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Michael_Faerber_2024_rez.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Strehlener Str. 12-14 Room 733 </p>
+    <p>01069 Dresden, Germany</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,14 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, welcome to Faerber Lab! I'm Michael Färber, and since April 2024, I’ve been a W3 Full Professor and the head of the research group "Scalable Software Architectures for Data Analytics" at the AI Center ScaDS.AI at the Technical University (TU) Dresden.
+Welcome to Faerber Lab! I’m Michael Färber, and since April 2024, I’ve been serving as a W3 Full Professor and leading the "Scalable Software Architectures for Data Analytics" research group at the AI Center ScaDS.AI at the Technical University (TU) Dresden.
 
-Our research group was established with the goal of advancing cutting-edge research at the intersection of AI, natural language processing, machine learning, and knowledge representation. Additionally, we also work on research in explainable AI and machine learning on graph data.
-
-We are committed to pushing the boundaries of scalable software architectures, with the aim of driving innovation and advancing the field of data analytics.
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Our group is engaged in research at the intersection of AI, natural language processing, machine learning, and knowledge representation. We also focus on advancing explainable AI and applying machine learning to graph data. If you’re interested in these areas, feel free to contact us—we’d be happy to connect!
