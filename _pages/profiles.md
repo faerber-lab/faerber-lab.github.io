@@ -14,34 +14,34 @@ profiles:
     content: about_tim.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>ScaDS.AI office, Room 732</p>
-      <p>Strehlener Str. 12-14, Dresden, Germany.</p>
+      <p>Tim Schopf</p>
+      <p>Room 732</p>
   - align: left
     image: prof_pic.jpg
     content: about_joe.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>ScaDS.AI office, Room 732</p>
-      <p>Strehlener Str. 12-14, Dresden, Germany.</p>
+      <p>Shuzhou Yuan (Joe)</p>
+      <p>Room 732</p>
   - align: right
     image: prof_pic.jpg
-    content: about_chang.md
+    content: about_zhan.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>ScaDS.AI office, Room 732</p>
-      <p>Strehlener Str. 12-14, Dresden, Germany.</p>
+      <p>Zhan Qu</p>
+      <p>Room 732</p>
   - align: left
     image: prof_pic.jpg
     content: about_parisa.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>ScaDS.AI office, Room 732</p>
-      <p>Strehlener Str. 12-14, Dresden, Germany.</p>
+      <p>Parisa Aghdam</p>
+      <p>Room 732</p>
   - align: right
     image: prof_pic.jpg
     content: about_tobias.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>ScaDS.AI office, Room 732</p>
-      <p>Strehlener Str. 12-14, Dresden, Germany.</p>
+      <p>Tobias Schreieder</p>
+      <p>Room 732</p>
 ---
