@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Klartext-AI-based Translation of Websites Into Plain Language
-description: with background image
-img: assets/img/12.jpg
+title: Klartext
+description: AI-based Translation of Websites Into Plain Language
+img: assets/img/klartext.jpg
 importance: 1
 category: work
 related_publications: true
