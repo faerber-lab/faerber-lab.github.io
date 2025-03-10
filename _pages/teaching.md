@@ -6,7 +6,8 @@ description: Teaching activities and materials for the courses.
 nav: true
 nav_order: 6
 ---
-## Lecture: *Behind the Secrets of Large Language Models* (SecretLLM)
+
+## Lecture: Behind the Secrets of Large Language Models (SecretLLM)
 
 This course offers a **practical and in-depth exploration** of large language models (LLMs), which are at the core of modern natural language processing (NLP) systems. Students will gain hands-on experience alongside theoretical insights into LLM architecture, training methodologies, capabilities, and ethical considerations.
 
