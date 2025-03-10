@@ -434,11 +434,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-starting-as-full-professor-w3-at-scads-ai-dresden-leipzig-tu-dresden",
+            },},{id: "news-starting-as-full-professor-w3-at-scads-ai-dresden-leipzig-tu-dresden",
           title: 'Starting as full professor (W3) at ScaDS.AI Dresden/Leipzig / TU Dresden.',
+          description: "",
+          section: "News",},{id: "news-2-papers-autordf2gml-kgprompt-accepted-at-iswc-24-see-you-in-baltimore",
+          title: '2 Papers (AutoRDF2GML + KGPrompt) accepted at ISWC’24. See you in Baltimore!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
