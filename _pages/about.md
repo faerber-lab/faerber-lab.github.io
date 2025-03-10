@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -23,6 +23,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to Faerber Lab! I’m Michael Färber, and since April 2024, I have been serving as a W3 Full Professor and leading the "Scalable Software Architectures for Data Analytics" research group at the AI Center ScaDS.AI at TU Dresden, Germany.
+Welcome to Faerber Lab! I’m Michael Färber, and since April 2024, I have been serving as a W3 Full Professor and leading the _Scalable Software Architectures for Data Analytics_ research group at the AI Center ScaDS.AI at TU Dresden, Germany.
 
 Our group conducts research at the intersection of AI, natural language processing, machine learning, and knowledge representation. We are also focused on advancing explainable AI and applying machine learning to graph data. If you are interested in these areas, please feel free to contact us—we would be happy to connect!
