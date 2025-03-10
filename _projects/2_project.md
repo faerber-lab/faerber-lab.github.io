@@ -5,7 +5,7 @@ description: Learning Large Language Models on Graphs for Education
 img: assets/img/Logo_LLM4EDU.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
 Large Language Models (LLMs) have demonstrated remarkable In-Context Learning (ICL) capabilities with no or limited training data, such as understanding human language and answering general questions. However, fine-tuning these models for specific tasks is essential for their adaptability, particularly in the educational sector, where they promise to revolutionize learning environments and have a profound societal impact. In collaboration with Macmillan Learning, the project LLM4Edu aims to develop next-generation AI tools specifically tailored for educational applications. By employing graph-based methods, we will extract meaningful datasets from unstructured user data, facilitating the development of parameter-efficient fine-tuning methods that are particularly suited to educational contexts.
