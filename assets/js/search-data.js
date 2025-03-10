@@ -434,8 +434,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-starting-as-full-professor-w3-at-scads-ai-dresden-leipzig-tu-dresden",
-          title: 'Starting as full professor (W3) at ScaDS.AI Dresden/Leipzig / TU Dresden.',
+            },},{id: "news-paper-gnnavi-accepted-at-findings-of-acl-24-see-you-in-bangkok",
+          title: 'Paper GNNavi accepted at Findings of ACL’24. See you in Bangkok!',
           description: "",
           section: "News",},{id: "news-2-papers-autordf2gml-kgprompt-accepted-at-iswc-24-see-you-in-baltimore",
           title: '2 Papers (AutoRDF2GML + KGPrompt) accepted at ISWC’24. See you in Baltimore!',
