@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Klartext-AI-based Translation of Websites Into Plain Language
 description: with background image
 img: assets/img/12.jpg
 importance: 1
@@ -8,74 +8,20 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The aim of the project “Klartext” is to use the latest large language models, similar to ChatGPT, to translate extensive content from the websites of ScaDS.AI Dresden/Leipzig and the TUD Dresden University of Technology into plain or simple language and to offer this alongside German and English. This not only serves to reduce language barriers, but also creates significant added value by promoting the inclusion and participation of all citizens in scientific and cultural discourse.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+A key component of the project is to significantly increase the efficiency of translation through the use of artificial intelligence and at the same time ensure consistently high quality results. This is to be achieved through extensive automation and standardization of text generation, whereby the texts are only confirmed or checked by one person before publication. In addition, the “translation” software should be intuitive and open source so that it can be used worldwide. An integrated feedback system should also offer users the opportunity to provide feedback on the translations in order to adapt the AI system and ensure a continuous improvement in translation quality.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Problem:**
+It is estimated that between 10 and 17 million people in Germany live with reading difficulties of various kinds. This group includes several million functional illiterates as well as people with reading and writing disorders and mental disabilities. In recent years, the number of non-native speakers has also increased significantly. All of these people could benefit enormously from texts written in “plain language”. However, despite the obvious need, there are still only a few small websites that provide content in plain language throughout. Even websites of state institutions lack such a service, as this involves additional effort and a lack of suitable tools for easy provision.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Lead:**
+Prof. Dr.-Ing. Michael Färber
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Team Members:**
+Gina Valentin;
+Daniel Spiering
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Partner:**
+Prof. Dr. Alexander Lasch (TUD Dresden University of Technology);
+Claudia Neumann (TUD Dresden University of Technology)
