@@ -27,6 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+Hi, welcome to Faerber Lab! I'm Michael Färber, and since April 2024, I’ve been a W3 Full Professor and the head of the research group "Scalable Software Architectures for Data Analytics" at the AI Center ScaDS.AI at the Technical University (TU) Dresden.
+
+Our research group was established with the goal of advancing cutting-edge research at the intersection of AI, natural language processing, machine learning, and knowledge representation. Additionally, we also work on research in explainable AI and machine learning on graph data.
+
+We are committed to pushing the boundaries of scalable software architectures, with the aim of driving innovation and advancing the field of data analytics.
+
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
