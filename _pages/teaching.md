@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Teaching activities and materials for the courses.
+description: Teaching activities and courses materials.
 nav: true
 nav_order: 6
 ---
@@ -24,3 +24,5 @@ To get the most out of this course, students should have:
 - Prior knowledge of **Introduction to Machine Learning** or an equivalent course.
 - A **basic understanding of neural networks**.
 - **Programming experience in Python**.
+
+#### This course is offered together with Simon Razniewski
