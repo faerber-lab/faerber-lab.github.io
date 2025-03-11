@@ -5,16 +5,15 @@ permalink: /
 subtitle: <a href='https://www.scads.ai'>ScaDS.AI / TU Dresden</a>, Strehlener Str. 12-14, Room 733, Dresden, Germany.
 profile:
   align: right
-  image: Michael_Faerber_2024_rez.jpg
+  image: m.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: "" # Added empty string to prevent parsing errors
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true  # includes a list of news items
-  scrollable: true  # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false  # adds a vertical scroll bar if there are more than 3 news items
   limit: 5  # leave blank to include all the news in the `_news` folder
 
 latest_posts:
@@ -23,6 +22,6 @@ latest_posts:
   limit: 3  # leave blank to include all blog posts
 ---
 
-Welcome! I’m Michael Färber, and since April 2024, I have been serving as a W3 Full Professor and leading the _Scalable Software Architectures for Data Analytics_ research group at the AI Center ScaDS.AI at TU Dresden, Germany.
+Welcome! I’m Michael Färber, and since April 2024, I have been serving as a Full Professor and leading the _Scalable Software Architectures for Data Analytics_ research group at the AI Center ScaDS.AI at TU Dresden, Germany.
 
 Our group conducts research at the **intersection of AI, natural language processing, machine learning**, and **knowledge representation**. We are also working on **explainable AI** and **machine learning on graph data**. If you are interested in these areas, please feel free to contact us—we would be happy to connect!
