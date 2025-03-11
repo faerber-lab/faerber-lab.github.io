@@ -21,6 +21,13 @@
       "startDate": "2024-04-01",
       "endDate": "present"
     }
+    {
+      "name": "AIFB, Karlsruhe Institute of Technology",
+      "position": "Deputy Full Professor (Web Science Group)",
+      "url": "https://websci.aifb.kit.edu/",
+      "startDate": "2020-10-01",
+      "endDate": "2024-03-31",
+    }
   ],
   "education": [
     {
@@ -30,19 +37,19 @@
       "startDate": "2012-04",
       "endDate": "2017-02"
     }
-  ],
-  "awards": [
     {
-      "title": "Best Paper Awards",
-      "date": "2023-11",
-      "awarder": "ISWC 2023",
-      "summary": "For the paper 'SemOpenAlex' "
-    },
+      "institution": "University of Ulm",
+      "location": "Ulm, Germany",
+      "studyType": "Diplom-Informatik (≡ M.Sc.) in Computer Science",
+      "startDate": "2006-10",
+      "endDate": "2011-05"
+    }
     {
-      "title": "Best Poster Awards",
-      "date": "2022-11",
-      "awarder": "ISWC 2022",
-      "summary": "For 'The Green AI Ontology' "
+      "institution": "University of Ulm",
+      "location": "Ulm, Germany",
+      "studyType": "Bachelor of Arts (B.A.) in Philosophy",
+      "startDate": "2009-04",
+      "endDate": "2012-03"
     }
   ],
   "languages": [
