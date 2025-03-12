@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 title: Faerber Lab # the website title (if blank, full name will be used instead)
-first_name: Färber
+first_name: Prof.
 middle_name: # R.
-last_name: Lab
+last_name: Michael Färber
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
-description: # > the ">" symbol means to ignore newlines until "footer_text:"
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Website of Michael Faerber's Research Group.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -141,8 +141,8 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  # books:
-  #   output: true
+  books:
+    output: true
   news:
     defaults:
       layout: post
@@ -185,6 +185,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/repositories.md
   - _pages/dropdown.md
   - _pages/blog.md
   - _projects/3_project.md
