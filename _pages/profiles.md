@@ -15,35 +15,35 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Tim Schopf</p>
-      <p>Room 732, Strehlener Str. 12-14, Dresden </p>
+      <p>Room 732</p>
   - align: left
     image: joe.jpg
     content: about_joe.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Shuzhou Yuan</p>
-      <p>Room 732, Strehlener Str. 12-14, Dresden </p>
+      <p>Room 732</p>
   - align: right
     image: zhan.png
     content: about_zhan.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Zhan Qu</p>
-      <p>Room 732, Strehlener Str. 12-14, Dresden </p>
+      <p>Room 732</p>
   - align: left
     image: parisa.jpeg
     content: about_parisa.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Parisa Aghdam</p>
-      <p>Room 732, Strehlener Str. 12-14, Dresden </p>
+      <p>Room 732</p>
   - align: right
     image: tobias.jpeg
     content: about_tobias.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Tobias Schreieder</p>
-      <p>Room 732, Strehlener Str. 12-14, Dresden </p>
+      <p>Room 732</p>
   - align: left
     image: nic.jpg
     content: about_nic.md
