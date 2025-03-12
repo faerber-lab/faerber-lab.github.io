@@ -9,9 +9,16 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-vacancies",
+          title: "vacancies",
+          description: "Check out the latest openings to join our research group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/vacancies/";
+          },
+        },{id: "nav-publications",
           title: "publications",
-          description: "See my Google Scholar profile for the updated list of publications.",
+          description: "Selected Publications. For the latest list, visit my Google Scholar profile.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -37,12 +44,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-member",
-          title: "member",
-          description: "members of the lab or group",
+        },{id: "nav-team",
+          title: "team",
+          description: "Group members. Join the team (see openings) !",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/member/";
+            window.location.href = "/team/";
           },
         },{id: "post-a-post-with-image-galleries",
       
