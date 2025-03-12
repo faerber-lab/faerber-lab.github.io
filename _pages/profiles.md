@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /team/
 title: team
-description: Group members. Join the team (see openings) !
+description: Group members, including Postdoc and PhD students.
 nav: true
 nav_order: 7
 
