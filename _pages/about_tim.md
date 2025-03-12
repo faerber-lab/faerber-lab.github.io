@@ -1,5 +1,4 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Tim Schopf is a postdoctoral researcher at ScaDS.AI and Technische Universität Dresden since January 2025. He earned his PhD in 2024 from Technical University of Munich. His current interests includes natural language processing, language models, and knowledge graphs. 
+- [Personal Website](https://timschopf.github.io/)
+- [Google Scholar Profile](https://scholar.google.de/citations?user=-9pQaLQAAAAJ&hl=de)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
