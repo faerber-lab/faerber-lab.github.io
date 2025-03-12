@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 title: Faerber Lab # the website title (if blank, full name will be used instead)
-first_name: Prof.
+first_name: Michael
 middle_name: # R.
-last_name: Michael Färber
+last_name: Färber
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: # > the ">" symbol means to ignore newlines until "footer_text:"
   Website of Michael Faerber's Research Group.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
