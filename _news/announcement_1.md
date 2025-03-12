@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper GNNavi accepted at Findings of ACL’24. See you in Bangkok!
+Paper <a href='https://arxiv.org/abs/2402.11709'>GNNavi</a> accepted at Findings of ACL’24. See you in Bangkok!
