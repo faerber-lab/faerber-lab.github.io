@@ -1,3 +1,3 @@
-Nicholas Popovic began his PhD at Karlsruhe Institute of Technology (KIT) in 2021 and transitioned to Technische Universität Dresden in 2025. He earned his Master's degree from KIT. His research interests focuses on natural language processing and machine learning, particularly on representation learning for information extraction. He has contributed to publications such as "Embedded Named Entity Recognition using Probing Classifiers" and "VOCAB-EXPANDER: A System for Creating Domain-Specific Vocabularies Based on Word Embeddings."
+Nicholas Popovic's research interests lie in natural language processing and machine learning, with a particular focus on representation learning for information extraction. He has contributed to publications such as "Embedded Named Entity Recognition using Probing Classifiers."
 - [Personal Website](https://nicpopovic.com/)
 - [Google Scholar Profile](https://scholar.google.de/citations?hl=de&user=b0Q3-DoAAAAJ)
