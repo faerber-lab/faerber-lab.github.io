@@ -21,27 +21,22 @@
       institution: University of Ulm, Germany
       year: 2012
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
     - title: Full Professor (Chair of Scalable Software Architectures for Data Analytics)
       institution: ScaDS.AI / TU Dresden, Germany
-      year: April 2024 – Present
+      year: 04/2024–Present
     - title: Deputy Full Professor (W3-Lehrstuhlvertretung)
       institution: Karlsruhe Institute of Technology, Germany
-      year: October 2020 – March 2024
+      year: 10/2020–03/2024
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2023
       items:
-        - Best Paper Award at ISWC'23 for *"SemOpenAlex – The Scientific Landscape in 26B RDF Triples"*
+        - Best Paper Award at ISWC'23 for "SemOpenAlex – The Scientific Landscape in 26B RDF Triples"
     - year: 2022
       items:
-        - Best Poster Award at ISWC'22 for *"The Green AI Ontology"*
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Photography, Hiking.
+        - Best Poster Award at ISWC'22 for "The Green AI Ontology"
