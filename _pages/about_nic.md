@@ -1,5 +1,3 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Nicholas Popovic began his PhD at Karlsruhe Institute of Technology (KIT) in 2021 and transitioned to Technische Universität Dresden in 2025. He earned his Master's degree from KIT. His research interests focuses on natural language processing and machine learning, particularly on representation learning for information extraction. He has contributed to publications such as "Embedded Named Entity Recognition using Probing Classifiers" and "VOCAB-EXPANDER: A System for Creating Domain-Specific Vocabularies Based on Word Embeddings."
+- [Personal Website](https://nicpopovic.com/)
+- [Google Scholar Profile](https://scholar.google.de/citations?hl=de&user=b0Q3-DoAAAAJ)
