@@ -1,8 +1,8 @@
 ---
 layout: profiles
-permalink: /member/
-title: member
-description: members of the lab or group
+permalink: /team/
+title: team
+description: Group members. Join the team (see openings) !
 nav: true
 nav_order: 7
 
