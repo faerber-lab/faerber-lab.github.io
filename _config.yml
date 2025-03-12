@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 title: Faerber Lab # the website title (if blank, full name will be used instead)
-first_name: Michael
+first_name: Färber
 middle_name: # R.
-last_name: Färber
+last_name: Lab
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 description: # > the ">" symbol means to ignore newlines until "footer_text:"
