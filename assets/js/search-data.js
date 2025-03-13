@@ -391,8 +391,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-paper-gnnavi-accepted-at-findings-of-acl-24-see-you-in-bangkok",
-          title: 'Paper GNNavi accepted at Findings of ACL’24. See you in Bangkok!',
+            },},{id: "news-our-paper-gnnavi-has-been-accepted-at-findings-of-acl-24-and-grasame-at-findings-of-naacl-24-see-you-in-bangkok-and-mexico-city",
+          title: 'Our paper GNNavi has been accepted at Findings of ACL’24, and GraSAME at...',
           description: "",
           section: "News",},{id: "news-paper-grasame-accepted-at-findings-of-naacl-24-see-you-in-mexico-city",
           title: 'Paper  GraSAME  accepted at Findings of NAACL’24. See you in Mexico City!',
