@@ -403,16 +403,16 @@ ninja.data = [{
           section: "News",},{id: "news-can-hallucinations-in-llms-be-beneficial-check-out-our-new-arxiv-paper-hallucinations-can-improve-large-language-models-in-drug-discovery",
           title: 'Can hallucinations in LLMs be beneficial? Check out our new Arxiv paper, “Hallucinations...',
           description: "",
-          section: "News",},{id: "projects-klartext",
-          title: 'Klartext',
-          description: "AI-based Translation of Websites Into Plain Language",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-llm4edu",
+          section: "News",},{id: "projects-llm4edu",
           title: 'LLM4Edu',
           description: "Learning Large Language Models on Graphs for Education",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-klartext",
+          title: 'Klartext',
+          description: "AI-based Translation of Websites Into Plain Language",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/klartext/";
             },},{
         id: 'social-email',
         title: 'email',
