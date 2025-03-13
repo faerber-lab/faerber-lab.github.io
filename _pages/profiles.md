@@ -38,7 +38,7 @@ profiles:
       <p>Parisa Aghdam</p>
       <p>Room 732</p>
   - align: right
-    image: tobias.jpeg
+    image: tobias.png
     content: about_tobias.md
     image_circular: false # crops the image to make it circular
     more_info: >
