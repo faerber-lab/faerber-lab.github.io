@@ -386,11 +386,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-starting-as-full-professor-w3-at-scads-ai-dresden-leipzig-tu-dresden",
-          title: 'Starting as full professor (W3) at ScaDS.AI Dresden/Leipzig / TU Dresden.',
+            },},{id: "news-starting-as-full-professor-w3-at-scads-ai-tu-dresden",
+          title: 'Starting as full professor (W3) at ScaDS.AI / TU Dresden.',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
+              window.location.href = "/news/start/";
             },},{id: "news-our-paper-gnnavi-has-been-accepted-at-findings-of-acl-24-and-grasame-at-findings-of-naacl-24-see-you-in-bangkok-and-mexico-city",
           title: 'Our paper GNNavi has been accepted at Findings of ACL’24, and GraSAME at...',
           description: "",
