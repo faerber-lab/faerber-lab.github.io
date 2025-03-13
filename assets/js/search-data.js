@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-vacancies",
           title: "vacancies",
-          description: "Latest openings and available student thesis topics to join our research group.",
+          description: "Latest openings and available student thesis topics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/vacancies/";
