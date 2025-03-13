@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Professor @ <a href='https://www.scads.ai'>ScaDS.AI / TU Dresden</a>. 
+subtitle: Professor @ <a href='https://www.scads.ai'>ScaDS.AI / TU Dresden</a>, contact me at michael.faerber@tu-dresden.de.
 
 profile:
   align: right
@@ -14,7 +14,7 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true  # includes a list of news items
-  scrollable: false  # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: true  # adds a vertical scroll bar if there are more than 3 news items
   limit: 5  # leave blank to include all the news in the `_news` folder
 
 latest_posts:
