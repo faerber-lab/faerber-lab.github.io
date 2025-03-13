@@ -26,3 +26,4 @@ We offer student thesis supervision on various topics, including (but not limite
 
 Prof. Dr.-Ing. Michael Färber has supervised over 50 Bachelor and Master theses and encourages applications from both **English- and German-speaking students**. Many thesis topics are available for study abroad through partner institutions and **DAAD funding**, with the goal of co-authoring a scientific paper based on the thesis. Feel free to contact us for details.
 
+**E-Mail**: michael.faerber@tu-dresden.de
