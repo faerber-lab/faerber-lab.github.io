@@ -7,7 +7,9 @@ nav: true
 nav_order: 6
 ---
 
-### Behind the Secrets of Large Language Models (_SecretLLM_, Winter 2024/2025)
+### SecretLLM: Behind the Secrets of Large Language Models
+
+**Period**: Winter 2024/2025
 
 This course offers a **practical and in-depth exploration** of large language models (LLMs), which are at the core of modern natural language processing (NLP) systems. Students will gain hands-on experience alongside theoretical insights into LLM architecture, training methodologies, capabilities, and ethical considerations.
 
