@@ -62,6 +62,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/photo-gallery/";
         
       },
+    },{id: "post-gpt-3-bert-amp-co-when-to-use-which-language-model",
+      
+        title: "GPT-3, BERT &amp; Co. - When to Use Which Language Model?",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/which-llm/";
+        
+      },
     },{id: "post-a-post-with-tabs",
       
         title: "a post with tabs",
