@@ -13,7 +13,7 @@ nav_order: 1
 
 We offer supervision for student theses on various topics, including (but not limited to):  
 
-1. **GPT-3, BERT & Co.:** When to Use Which Language Model?  
+1. <a href='https://faerber-lab.github.io/blog/2024/which-llm/'>**GPT-3, BERT & Co.:** When to Use Which Language Model? </a>
 2. Using **Quantum Computing** in Natural Language Processing  
 3. *Alles nur Show?* Ein automatischer Vergleich von Nachrichten vor der Bundestagswahl mit dem Koalitionsvertrag mittels Natural Language Processing  
 4. Creating a Dataset of **Textual Descriptions of Planned Actions and Expectations of Entities**  
