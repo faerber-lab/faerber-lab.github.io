@@ -7,9 +7,10 @@ nav: true
 nav_order: 1
 ---
 
-#### **We currently have no PostDoc/PhD openings.** 
+**We currently have no PostDoc/PhD openings.** 
 
-#### **Student Thesis Supervision**  
+**Student Thesis Supervision**  
+
 We offer supervision for student theses on various topics, including (but not limited to):  
 
 1. **GPT-3, BERT & Co.:** When to Use Which Language Model?  
