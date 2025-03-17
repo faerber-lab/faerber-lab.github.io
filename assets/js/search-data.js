@@ -62,6 +62,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/photo-gallery/";
         
       },
+    },{id: "post-using-quantum-computing-in-natural-language-processing",
+      
+        title: "Using Quantum Computing in Natural Language Processing",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/quantum-nlp/";
+        
+      },
     },{id: "post-gpt-3-bert-amp-co-when-to-use-which-language-model",
       
         title: "GPT-3, BERT &amp; Co. - When to Use Which Language Model?",
