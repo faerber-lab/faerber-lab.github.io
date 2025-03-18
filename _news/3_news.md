@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our demo paper <a href='https://simplifymytext.org'> SimplifyMyText </a> has been accepted at ECIR’25. See you in Lucca, Italy!
+Our <a href='https://www.simplifymytext.org/'> SimplifyMyText </a> has been accepted as demo paper at ECIR’25. See you in Lucca, Italy!
