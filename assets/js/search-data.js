@@ -70,7 +70,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/quantum-nlp/";
+          window.location.href = "/blog/2024/thesis-quantum-nlp/";
         
       },
     },{id: "post-gpt-3-bert-amp-co-when-to-use-which-language-model",
