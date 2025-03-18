@@ -14,7 +14,7 @@ This topic focuses on a collaboration with Orca Capital, a company specializing 
 
 - Developing extensions and improvements of the system, using the latest findings in deep learning and natural language processing.
 
--Evaluating the system’s performance and making its predictions more interpretable, integrating methods from the field of explainable AI.
+- Evaluating the system’s performance and making its predictions more interpretable, integrating methods from the field of explainable AI.
 
 **What prerequisites do you need?**
 
