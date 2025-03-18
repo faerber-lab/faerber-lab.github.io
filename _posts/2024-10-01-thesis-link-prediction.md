@@ -14,9 +14,9 @@ This topic is about advancing AI-based recommendation methods through the integr
 
 **What are the tasks?**
 
--Implementing and testing algorithms for link prediction, community detection, node classification, and potentially other graph-supervised learning tasks.
+- Implementing and testing algorithms for link prediction, community detection, node classification, and potentially other graph-supervised learning tasks.
 
--Exploring the trade-offs between the utilization of textual and structural features in link prediction algorithms, and devising methods to efficiently combine these features.
+- Exploring the trade-offs between the utilization of textual and structural features in link prediction algorithms, and devising methods to efficiently combine these features.
  
 
 **What prerequisites do you need?**
