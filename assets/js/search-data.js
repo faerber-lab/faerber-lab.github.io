@@ -81,7 +81,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/which-llm/";
+          window.location.href = "/blog/2024/thesis-which-llm/";
         
       },
     },{id: "post-a-post-with-tabs",
