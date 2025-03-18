@@ -62,6 +62,39 @@ ninja.data = [{
           window.location.href = "/blog/2024/photo-gallery/";
         
       },
+    },{id: "post-stock-market-predictions-through-deep-learning",
+      
+        title: "Stock Market Predictions through Deep Learning",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-stock-market/";
+        
+      },
+    },{id: "post-designing-and-executing-a-large-scale-user-study-on-scientific-text-simplification",
+      
+        title: "Designing and Executing a Large-Scale User Study on Scientific Text Simplification",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-simplification/";
+        
+      },
+    },{id: "post-extending-the-rdf-knowledge-graph-semopenalex-org",
+      
+        title: "Extending the RDF Knowledge Graph SemOpenAlex.org",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-semopenalex-extend/";
+        
+      },
     },{id: "post-using-quantum-computing-in-natural-language-processing",
       
         title: "Using Quantum Computing in Natural Language Processing",
@@ -82,6 +115,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/thesis-mmodal-medical/";
+        
+      },
+    },{id: "post-large-language-model-enhanced-graph-message-passing-network-for-link-prediction",
+      
+        title: "Large Language Model-enhanced Graph Message Passing Network for Link Prediction",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-link-prediction/";
         
       },
     },{id: "post-fusing-rdf-knowledge-graphs-with-deep-learning-for-advanced-recommender-systems",
