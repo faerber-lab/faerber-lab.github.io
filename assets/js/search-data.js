@@ -73,6 +73,72 @@ ninja.data = [{
           window.location.href = "/blog/2024/thesis-quantum-nlp/";
         
       },
+    },{id: "post-advanced-multi-modality-learning-in-electronic-health-records-for-personalized-medical-recommendations",
+      
+        title: "Advanced Multi-Modality Learning in Electronic Health Records for Personalized Medical Recommendations",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-mmodal-medical/";
+        
+      },
+    },{id: "post-fusing-rdf-knowledge-graphs-with-deep-learning-for-advanced-recommender-systems",
+      
+        title: "Fusing RDF Knowledge Graphs with Deep Learning for Advanced Recommender Systems",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-kg-recsys/";
+        
+      },
+    },{id: "post-creating-a-dataset-of-complex-temporal-questions-for-testing-large-language-models-llms",
+      
+        title: "Creating a Dataset of Complex Temporal Questions for Testing Large Language Models (LLMs)...",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-dataset-temporal/";
+        
+      },
+    },{id: "post-creating-a-multimodal-dataset-of-actions-labeled-with-their-expected-durations",
+      
+        title: "Creating a Multimodal Dataset of Actions Labeled with their Expected Durations",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-dataset-mmodal/";
+        
+      },
+    },{id: "post-creating-a-dataset-of-textual-descriptions-of-planned-actions-and-expectations-of-entities",
+      
+        title: "Creating a Dataset of Textual Descriptions of Planned Actions and Expectations of Entities...",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-dataset-actions/";
+        
+      },
+    },{id: "post-alles-nur-show-ein-automatischer-vergleich-von-nachrichten-vor-der-bundestagswahl-mit-dem-koalitionsvertrag-mittels-natural-language-processing",
+      
+        title: "Alles nur Show? Ein automatischer Vergleich von Nachrichten vor der Bundestagswahl mit dem...",
+      
+      description: "open thesis supervision topic",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/thesis-alles/";
+        
+      },
     },{id: "post-gpt-3-bert-amp-co-when-to-use-which-language-model",
       
         title: "GPT-3, BERT &amp; Co. - When to Use Which Language Model?",
