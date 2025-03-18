@@ -16,11 +16,11 @@ It is expected that the student will submit the work as a joint scientific publi
 
 **What Should You Bring?**
 
-Interest in Text Mining
+- Interest in Text Mining
 
-An independent working style
+- An independent working style
 
-Basic programming knowledge (e.g., in Python or R)
+- Basic programming knowledge (e.g., in Python or R)
  
 
 [1] https://www.wiwo.de/downloads/27830022/8/koalitionsvertrag-2021-2025.pdf
