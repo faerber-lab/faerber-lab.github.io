@@ -20,13 +20,13 @@ Our project aims to develop a personalzied and interpretable recommender system 
 
 **Ideal Candidate**
 
-Background in machine learning, data science, or related fields.
+- Background in machine learning, data science, or related fields.
 
-Experience or interest in working with healthcare data, particularly EHRs.
+- Experience or interest in working with healthcare data, particularly EHRs.
 
-Strong programming skills (Python, PyTorch, Huggingface).
+- Strong programming skills (Python, PyTorch, Huggingface).
 
-Enthusiastic about solving complex problems and contributing to impactful research.
+- Enthusiastic about solving complex problems and contributing to impactful research.
  
 
 **Contact Information**
