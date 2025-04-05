@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-**We currently have no PostDoc/PhD openings.** 
+**We're opening a PostDoc position soon**—reach out if you're interested! Potential topics include LLMs, natural language processing, graph neural networks, and knowledge graphs.
 
 **Student Thesis Supervision**  
 
