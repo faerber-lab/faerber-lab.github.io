@@ -9,6 +9,13 @@ nav_order: 1
 
 **We're opening a PostDoc position soon**—reach out if you're interested! Potential topics include LLMs, natural language processing, graph neural networks, and knowledge graphs.
 
+International applicants can apply for funding through DAAD, DFG, Humboldt (there are special calls for female candidates), and others. I am happy to serve as a host and have previously hosted several international researchers. For more information, see the <a href='https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship'>Humboldt Research Fellowship </a>. 
+
+**For PhD positions**, you have several options:
+1. Apply for the NHR call by the September deadline if you plan to start in April 2026, see <a href='https://www.nhr-verein.de/application'>NHR Application</a>.
+2. Applicants from abroad can apply for DAAD or similar grants.
+3. If you're about six months ahead, email me, and we can work on a proposal to secure funding for a PhD position.
+
 **Student Thesis Supervision**  
 
 We offer supervision for student theses on various topics, including (but not limited to):  
