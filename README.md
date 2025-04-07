@@ -1,3 +1,19 @@
+# faerber-lab (how-to)
+
+- `about` page (front page): [pages/about.md](_pages/about.md)
+  - website title, footer information, total number of news at front page, etc. are managed at [config.yml](_config.yml)
+  - for adding a new news, create a new page at [news folder](_news/), for example: [_news/1_news.md](_news/1_news.md)
+  - socials icons are managed at [data/socials.yml](_data/socials.yml)
+- `vacancies` page: [pages/vacancies.md](_pages/vacancies.md)
+- `publications` page: [pages/publications.md](_pages/publications.md)
+  - for adding new publications, add bibtex information for each paper at [bibliography/papers.bib](_bibliography/papers.bib)
+- `projects` page: [pages/projects.md](_pages/projects.md)
+- `cv` page: [assets/json/resume.json](assets/json/resume.json)
+- `teaching` page: [pages/teaching.md](_pages/teaching.md)
+- `team` page: [pages/pofiles.md](_pages/profiles.md)
+  - for each member, create one page in [pages folder](_pages/), for example: [pages/about_joe.md](_pages/about_joe.md)
+
+
 # al-folio
 
 <div align="center">
