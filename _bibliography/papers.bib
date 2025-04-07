@@ -57,7 +57,8 @@ year="2021",
 publisher="Springer International Publishing",
 address="Cham",
 pages="251--267",
-isbn="978-3-030-86517-7"
+isbn="978-3-030-86517-7",
+abstract={Neural networks are a popular tool in e-commerce, in particular for product recommendations. To build reliable recommender systems, it is crucial to understand how exactly recommendations come about. Unfortunately, neural networks work as black boxes that do not provide explanations of how the recommendations are made. In this paper, we present TransPer, an explanation framework for neural networks. It uses novel, explanation measures based on Layer-Wise Relevance Propagation and can handle heterogeneous data and complex neural network architectures, such as combinations of multiple neural networks into one larger architecture. We apply and evaluate our framework on two real-world online shops. We show that the explanations provided by TransPer help (i) understand prediction quality, (ii) find new ideas on how to improve the neural network, (iii) help the online shops understand their customers, and (iv) meet legal requirements such as the ones mandated by GDPR.}
 }
 
 @inproceedings{10.1145/3459637.3482166,
@@ -162,45 +163,80 @@ isbn="978-3-031-47243-5"
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.findings-acl.237/",
     doi = "10.18653/v1/2024.findings-acl.237",
-    pages = "3987--4001"
+    pages = "3987--4001",
+abstract={Large Language Models (LLMs) exhibit strong In-Context Learning (ICL) capabilities when prompts with demonstrations are used. However, fine-tuning still remains crucial to further enhance their adaptability. Prompt-based fine-tuning proves to be an effective fine-tuning method in low-data scenarios, but high demands on computing resources limit its practicality. We address this issue by introducing a prompt-based parameter-efficient fine-tuning (PEFT) approach. GNNavi leverages insights into ICL’s information flow dynamics, which indicates that label words act in prompts as anchors for information propagation. GNNavi employs a Graph Neural Network (GNN) layer to precisely guide the aggregation and distribution of information flow during the processing of prompts by hardwiring the desired information flow into the GNN. Our experiments on text classification tasks with GPT-2 and Llama2 show GNNavi surpasses standard prompt-based fine-tuning methods in few-shot settings by updating just 0.2% to 0.5% of parameters. We compare GNNavi with prevalent PEFT approaches, such as prefix tuning, LoRA and Adapter in terms of performance and efficiency. Our analysis reveals that GNNavi enhances information flow and ensures a clear aggregation process.}
 }
 
-@inproceedings{explainableL,
-  abbr={KDD'25/XLiDAR},
-  title={Explainable LiDAR 3D Point Cloud Segmentation and Clustering for Detecting Airplane-Generated Wind Turbulence}, 
-  author={Zhan Qu and Shuzhou Yuan and Michael Färber and Marius Brennfleck and Niklas Wartha and Anton Stephan},
-  year={2025},
-  booktitle = {Proceedings of the 2025 2025 ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
-  series = {KDD'25},
-  location = {Toronto, Canada},
+@inproceedings{10.1145/3690624.3709436,
+abbr={KDD'25/XLiDAR},
+author = {Qu, Zhan and Yuan, Shuzhou and F\"{a}rber, Michael and Brennfleck, Marius and Wartha, Niklas and Stephan, Anton},
+title = {Explainable LiDAR 3D Point Cloud Segmentation and Clustering for Detecting Airplane-Generated Wind Turbulence},
+year = {2025},
+isbn = {9798400712456},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3690624.3709436},
+doi = {10.1145/3690624.3709436},
+abstract = {Wake vortices-strong, coherent air turbulences created by aircrafts-pose a significant risk to aviation safety and therefore require accurate and reliable detection methods. In this paper, we present an advanced, explainable machine learning method that utilizes Light Detection and Ranging (LiDAR) data for effective wake vortex detection. Our method leverages a dynamic graph CNN (DGCNN) with semantic segmentation to partition a 3D LiDAR point cloud into meaningful segments. Further refinement is achieved through clustering techniques. A novel feature of our research is the use of a perturbation-based explanation technique, which clarifies the model's decision-making processes for air traffic regulators and controllers, increasing transparency and building trust. Our experimental results, based on measured and simulated LiDAR scans compared against four baseline methods, underscore the effectiveness and reliability of our approach. This combination of semantic segmentation and clustering for real-time wake vortex tracking significantly advances aviation safety measures, ensuring that these are both effective and comprehensible.},
+booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1},
+pages = {2504–2513},
+numpages = {10},
+keywords = {3d point cloud segmentation, explainability, lidar scan, wake vortex detection},
+location = {Toronto ON, Canada},
+series = {KDD '25}
 }
 
-@inproceedings{SusantiKGSP,
-  abbr={ISWC'24/KGSP},
-  author = {Susanti, Yuni and Färber, Michael},
-  title = {Knowledge Graph Structure as Prompt: Improving Small Language Models Capabilities for Knowledge-based Causal Discovery},
-  booktitle = {Proceedings of the 2024 International Semantic Web Conference},
-  series = {ISWC'24},
-  location = {Baltimore, USA},
-  year = {2024}
+@inproceedings{10.1007/978-3-031-77844-5_5,
+author = {Susanti, Yuni and F\"{a}rber, Michael},
+title = {Knowledge Graph Structure as&nbsp;Prompt: Improving Small Language Models Capabilities for&nbsp;Knowledge-Based Causal Discovery},
+year = {2024},
+isbn = {978-3-031-77843-8},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-77844-5_5},
+doi = {10.1007/978-3-031-77844-5_5},
+abstract = {Causal discovery aims to estimate causal structures among variables based on observational data. Large Language Models (LLMs) offer a fresh perspective to tackle the causal discovery problem by reasoning on the metadata associated with variables rather than their actual data values, an approach referred to as knowledge-based causal discovery. In this paper, we investigate the capabilities of Small Language Models (SLMs, defined as LLMs with fewer than 1 billion parameters) with prompt-based learning for knowledge-based causal discovery. Specifically, we present “KG Structure as Prompt”, a novel approach for integrating structural information from a knowledge graph, such as common neighbor nodes and metapaths, into prompt-based learning to enhance the capabilities of SLMs. Experimental results on three types of biomedical and open-domain datasets under few-shot settings demonstrate the effectiveness of our approach, surpassing most baselines and even conventional fine-tuning approaches trained on full datasets. Our findings further highlight the strong capabilities of SLMs: in combination with knowledge graphs and prompt-based learning, SLMs demonstrate the potential to surpass LLMs with larger number of parameters. Our code and datasets are available on GitHub.1()},
+booktitle = {The Semantic Web – ISWC 2024: 23rd International Semantic Web Conference, Baltimore, MD, USA, November 11–15, 2024, Proceedings, Part I},
+pages = {87–106},
+numpages = {20},
+keywords = {causal relation, language model, knowledge graph},
+location = {Hanover, MD, USA}
 }
 
-@inproceedings{popovic2024embedded,
-  abbr={EMNLP'24/Ember},
-  title={Embedded Named Entity Recognition using Probing Classifiers},
-  author={Popovic, Nicholas and F{\"a}rber, Michael},
-  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
-  pages={17830--17850},
-  year={2024}
+@inproceedings{popovic-farber-2024-embedded,
+abbr={EMNLP'24/Ember},
+    title = "Embedded Named Entity Recognition using Probing Classifiers",
+    author = {Popovic, Nicholas  and
+      F{\"a}rber, Michael},
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.988/",
+    doi = "10.18653/v1/2024.emnlp-main.988",
+    pages = "17830--17850",
+    abstract = "Streaming text generation, has become a common way of increasing the responsiveness of language model powered applications such as chat assistants. At the same time, extracting semantic information from generated text is a useful tool for applications such as automated fact checking or retrieval augmented generation. Currently, this requires either separate models during inference, which increases computational cost, or destructive fine-tuning of the language model. Instead, we propose an approach called EMBER which enables streaming named entity recognition in decoder-only language models without fine-tuning them and while incurring minimal additional computational cost at inference time. Specifically, our experiments show that EMBER maintains high token generation rates, with only a negligible decrease in speed of around 1{\%} compared to a 43.64{\%} slowdown measured for a baseline. We make our code and data available online, including a toolkit for training, testing, and deploying efficient token classification models optimized for streaming text generation."
 }
 
-@inproceedings{saier2024hyperpie,
-  abbr={ECIR'24/HyperPIE},
-  title={HyperPIE: Hyperparameter Information Extraction from Scientific Publications},
-  author={Saier, Tarek and Ohta, Mayumi and Asakura, Takuto and F{\"a}rber, Michael},
-  booktitle={European Conference on Information Retrieval},
-  pages={254--269},
-  year={2024},
-  organization={Springer}
+@inproceedings{10.1007/978-3-031-56060-6_17,
+abbr={ECIR'24/HyperPIE},
+author = {Saier, Tarek and Ohta, Mayumi and Asakura, Takuto and F\"{a}rber, Michael},
+title = {HyperPIE: Hyperparameter Information Extraction from&nbsp;Scientific Publications},
+year = {2024},
+isbn = {978-3-031-56059-0},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-56060-6_17},
+doi = {10.1007/978-3-031-56060-6_17},
+abstract = {Automatic extraction of information from publications is key to making scientific knowledge machine-readable at a large scale. The extracted information can, for example, facilitate academic search, decision making, and knowledge graph construction. An important type of information not covered by existing approaches is hyperparameters. In this paper, we formalize and tackle hyperparameter information extraction (HyperPIE) as an entity recognition and relation extraction task. We create a labeled data set covering publications from a variety of computer science disciplines. Using this data set, we train and evaluate BERT-based fine-tuned models as well as five large language models: GPT-3.5, GALACTICA, Falcon, Vicuna, and WizardLM. For fine-tuned models, we develop a relation extraction approach that achieves an improvement of 29\% F1 over a state-of-the-art baseline. For large language models, we develop an approach leveraging YAML output for structured data extraction, which achieves an average improvement of 5.5\% F1 in entity recognition over using JSON. With our best performing model we extract hyperparameter information from a large number of unannotated papers, and analyze patterns across disciplines. All our data and source code is publicly available at .},
+booktitle = {Advances in Information Retrieval: 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24–28, 2024, Proceedings, Part II},
+pages = {254–269},
+numpages = {16},
+keywords = {Information Extraction, Scientific Text, Hyperparameter},
+location = {Glasgow, United Kingdom}
 }
 
