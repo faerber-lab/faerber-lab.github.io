@@ -13,7 +13,7 @@
 - `teaching` page: [pages/teaching.md](_pages/teaching.md)
 - `team` page: [pages/pofiles.md](_pages/profiles.md)
   - For each team member, create a new page in the [pages folder](_pages/). For example, see [pages/about_joe.md](_pages/about_joe.md).
-
+- To include/exclude pages, [config.yml](_config.yml).
 ---
 
 # al-folio
