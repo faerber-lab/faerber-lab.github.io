@@ -6,7 +6,8 @@ nav: true
 nav_order: 7
 ---
 
-#### Prof. Dr.-Ing. Michael Färber
+**Prof. Dr.-Ing. Michael Färber**
+
 - **Email:** [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de)
 - **Phone:** +49 (0)351 463 40900 (Secretary, Thomas Bruderrek)
 - **Office:**  
