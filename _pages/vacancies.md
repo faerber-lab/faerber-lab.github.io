@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-**We're opening a PostDoc position soon**—reach out if you're interested! Potential topics include LLMs, natural language processing, graph neural networks, and knowledge graphs.
+**We're opening a PostDoc position soon**—**reach out early** if you're interested! Potential topics include LLMs, natural language processing, graph neural networks, and knowledge graphs.
 
 International applicants may also apply for funding through DAAD, DFG, Humboldt (there are special calls for female candidates), and others. I am happy to serve as a host and have previously hosted several international researchers. For more information, see the <a href='https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship'>Humboldt Research Fellowship</a>. 
 
