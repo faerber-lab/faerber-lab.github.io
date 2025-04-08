@@ -4,7 +4,7 @@ permalink: /team/
 title: team
 description: Group members, including Postdoc and PhD students.
 nav: true
-nav_order: 7
+nav_order: 3
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
