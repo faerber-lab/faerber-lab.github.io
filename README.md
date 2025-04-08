@@ -15,7 +15,7 @@
 - `teaching` page: [pages/teaching.md](_pages/teaching.md)
 - `team` page: [pages/pofiles.md](_pages/profiles.md)
   - For each team member, create a new page in the [pages folder](_pages/). For example, see [pages/about_joe.md](_pages/about_joe.md).
-- To add a new pages/menu, create a new page in the [pages folder](_pages/). For example, [pages/vacancies.md](_pages/vacancies.md), [pages/teaching.md](_pages/teaching.md), etc.
+- To add a new page/menu, create a new page in the [pages folder](_pages/). For example, [pages/vacancies.md](_pages/vacancies.md), [pages/teaching.md](_pages/teaching.md), etc.
   - To include/exclude pages/top menus, [config.yml](_config.yml).
 ---
 
