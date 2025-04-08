@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.scads.ai'>ScaDS.AI, TU Dresden</a> / 📧 **michael.faerber@tu-dresden.de**.
+subtitle: <a href='https://www.scads.ai'>ScaDS.AI, TU Dresden</a> / 📧 <b>michael.faerber@tu-dresden.de</b>.
 
 profile:
   align: right
