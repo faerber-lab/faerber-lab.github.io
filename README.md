@@ -3,14 +3,14 @@
 - `about` page (front page): [pages/about.md](_pages/about.md)
   - The website title, footer information, the total number of news articles on the front page, etc. are managed in the [config.yml](_config.yml).
   - Social icons are managed in the [data/socials.yml](_data/socials.yml).
-- `news` page: [pages/about.md](_pages/about.md)
-  - To add a new news article, create a new page in the [news folder](_news/). For example, see [_news/1_news.md](_news/1_news.md).
+- `news` page: [pages/news.md](_pages/news.md)
+  - To add a new news article, create a new page in the [news folder](_news/). For example, see [news/1_news.md](_news/1_news.md).
   - The news are ordered based on the datetime.
 - `vacancies` page: [pages/vacancies.md](_pages/vacancies.md)
 - `publications` page: [pages/publications.md](_pages/publications.md)
   - To add a new publication, include the BibTeX information for each paper in the [bibliography/papers.bib](_bibliography/papers.bib).
 - `projects` page: [pages/projects.md](_pages/projects.md)
-  - To create a new project, create a page in the [projects folder](_projects/). For example, see [projects/klartext.md](_projects/klartext.md).
+  - To create a new project, create a project page in the [projects folder](_projects/). For example, see [projects/klartext.md](_projects/klartext.md).
 - `cv` page: [_data/cv.yml](_data/cv.yml)
 - `teaching` page: [pages/teaching.md](_pages/teaching.md)
 - `team` page: [pages/pofiles.md](_pages/profiles.md)
