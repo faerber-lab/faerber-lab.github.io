@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.scads.ai'>ScaDS.AI, TU Dresden</a> / 📧 <b>michael.faerber@tu-dresden.de</b>.
+subtitle: <a href='https://www.scads.ai'>ScaDS.AI, TU Dresden</a> 📧 <b>michael.faerber@tu-dresden.de</b>.
 
 profile:
   align: right
@@ -23,6 +23,6 @@ latest_posts:
   limit: 3  # leave blank to include all blog posts
 ---
 
-Welcome! I’m **Michael Färber**, I lead the _Scalable Software Architectures for Data Analytics_ research group at ScaDS.AI/TU Dresden, Germany. Our work centers on **natural language processing, large language models (LLMs)**, and **knowledge representation**, with extensions into **explainable AI** and **graph machine learning**. For collaboration, feel free to reach out via [email](mailto:michael.faerber@tu-dresden.de) 📧.
+Welcome! I’m **Michael Färber**, I lead the _Scalable Software Architectures for Data Analytics_ research group at ScaDS.AI/TU Dresden, Germany. Our work centers on **natural language processing, large language models (LLMs)**, and **knowledge representation**, with extensions into **explainable AI** and **graph machine learning**. For collaboration, feel free to reach out via [email](mailto:michael.faerber@tu-dresden.de) 📧
 
-We're located at ScaDS.AI Office at _Strehlener Str. 12-14, Dresden_ (<a href='https://maps.app.goo.gl/uFTw5hc9hp35bbWf6'>GMaps</a>). Explore our latest <a href='https://faerber-lab.github.io/vacancies/'>vacancies and open thesis supervision</a> to join our group.
+We're located at ScaDS.AI Office at _Strehlener Str. 12-14, Dresden_ (<a href='https://maps.app.goo.gl/uFTw5hc9hp35bbWf6'>Google Maps</a>). Explore our latest <a href='https://faerber-lab.github.io/vacancies/'>vacancies and open thesis supervision</a> to join our group.
