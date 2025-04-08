@@ -1,9 +1,11 @@
 # faerber-lab (how to update)
 
 - `about` page (front page): [pages/about.md](_pages/about.md)
-  - The website title, footer information, and the total number of news articles on the front page are managed in the [config.yml](_config.yml).
-  - To add a new news article, create a new page in the [news folder](_news/). For example, see [_news/1_news.md](_news/1_news.md).
+  - The website title, footer information, the total number of news articles on the front page, etc. are managed in the [config.yml](_config.yml).
   - Social icons are managed in the [data/socials.yml](_data/socials.yml).
+- `news` page: [pages/about.md](_pages/about.md)
+  - To add a new news article, create a new page in the [news folder](_news/). For example, see [_news/1_news.md](_news/1_news.md).
+  - The news are ordered based on the datetime.
 - `vacancies` page: [pages/vacancies.md](_pages/vacancies.md)
 - `publications` page: [pages/publications.md](_pages/publications.md)
   - To add a new publication, include the BibTeX information for each paper in the [bibliography/papers.bib](_bibliography/papers.bib).
@@ -13,7 +15,8 @@
 - `teaching` page: [pages/teaching.md](_pages/teaching.md)
 - `team` page: [pages/pofiles.md](_pages/profiles.md)
   - For each team member, create a new page in the [pages folder](_pages/). For example, see [pages/about_joe.md](_pages/about_joe.md).
-- To include/exclude pages, [config.yml](_config.yml).
+- To add a new pages/menu, create a new page in the [pages folder](_pages/). For example, [pages/vacancies.md](_pages/vacancies.md), [pages/teaching.md](_pages/teaching.md), etc.
+  - To include/exclude pages/top menus, [config.yml](_config.yml).
 ---
 
 # al-folio
