@@ -11,9 +11,9 @@
   - To add a new publication, include the BibTeX information for each paper in the [bibliography/papers.bib](_bibliography/papers.bib).
 - `projects` page: [pages/projects.md](_pages/projects.md)
   - To create a new project, create a project page in the [projects folder](_projects/). For example, see [projects/klartext.md](_projects/klartext.md).
-- `cv` page: [_data/cv.yml](_data/cv.yml)
+- `cv` page: [data/cv.yml](_data/cv.yml)
 - `teaching` page: [pages/teaching.md](_pages/teaching.md)
-- `team` page: [pages/pofiles.md](_pages/profiles.md)
+- `team` page: [pages/profiles.md](_pages/profiles.md)
   - For each team member, create a new page in the [pages folder](_pages/). For example, see [pages/about_joe.md](_pages/about_joe.md).
 - To add a new page/menu, create a new page in the [pages folder](_pages/). For example, [pages/vacancies.md](_pages/vacancies.md), [pages/teaching.md](_pages/teaching.md), etc.
   - To include/exclude pages/top menus, [config.yml](_config.yml).
