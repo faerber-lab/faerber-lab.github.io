@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-The aim of the project “Klartext” is to use the latest large language models, similar to ChatGPT, to translate extensive content from the websites of ScaDS.AI Dresden/Leipzig and the TUD Dresden University of Technology into plain or simple language and to offer this alongside German and English. This not only serves to reduce language barriers, but also creates significant added value by promoting the inclusion and participation of all citizens in scientific and cultural discourse.
+The aim of the project “Klartext” is to use the latest large language models (e.g., GPT-4), to translate extensive content from the websites of ScaDS.AI Dresden/Leipzig and the TUD Dresden University of Technology into plain or simple language and to offer this alongside German and English. This not only serves to reduce language barriers, but also creates significant added value by promoting the inclusion and participation of all citizens in scientific and cultural discourse.
 
 A key component of the project is to significantly increase the efficiency of translation through the use of artificial intelligence and at the same time ensure consistently high quality results. This is to be achieved through extensive automation and standardization of text generation, whereby the texts are only confirmed or checked by one person before publication. In addition, the “translation” software should be intuitive and open source so that it can be used worldwide. An integrated feedback system should also offer users the opportunity to provide feedback on the translations in order to adapt the AI system and ensure a continuous improvement in translation quality.
 
@@ -25,3 +25,7 @@ Daniel Spiering
 **Partner:**
 Prof. Dr. Alexander Lasch (TUD Dresden University of Technology);
 Claudia Neumann (TUD Dresden University of Technology)
+
+**UPDATES:**
+
+Our demo paper related to Klartext project has been accepted at ECIR 2025! Check out the details in our paper, <a href='https://link.springer.com/chapter/10.1007/978-3-031-88717-8_32'>SimplifyMyText: An LLM-Based System for Inclusive Plain Language Text Simplification </a> {% cite 10.1007/978-3-031-88717-8_32 %}.
