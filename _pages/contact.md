@@ -13,6 +13,6 @@ nav_order: 7
 - **Office:**  
   Room 733  
   Strehlener Str. 12-14, 01069 Dresden  
-  Germany (Google Maps)
+  Germany (<a href='https://maps.app.goo.gl/uFTw5hc9hp35bbWf6'>Google Maps</a>)
 
 ---
