@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-team",
-          title: "team",
-          description: "Group members, including Postdoc and PhD students.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/team/";
-          },
         },{id: "nav-projects",
           title: "projects",
           description: "List of publicly funded research projects.",
@@ -57,6 +50,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-team",
+          title: "team",
+          description: "Group members, including Postdoc and PhD students.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
           },
         },{id: "post-a-post-with-image-galleries",
       
