@@ -1,5 +1,6 @@
 ---
 ---
+
 @article{10.3233/SW-170275,
 abbr={SemWeb'18/LinkedData},
 author = {Zaveri, Amrapali and Kontokostas, Dimitris and Hellmann, Sebastian and Umbrich, J\"{u}rgen and F\"{a}rber, Michael and Bartscherer, Frederic and Menne, Carsten and Rettinger, Achim and Zaveri, Amrapali and Kontokostas, Dimitris and Hellmann, Sebastian and Umbrich, J\"{u}rgen},
@@ -20,6 +21,7 @@ pages = {77–129},
 numpages = {53},
 keywords = {Knowledge graph, linked data quality, data quality metrics, comparison, DBpedia, Freebase, OpenCyc, Wikidata, YAGO}
 }
+
 
 @article{10.1007/s00799-020-00288-2,
 abbr={DigLib'20/CitationRec},
@@ -129,28 +131,6 @@ keywords = {Scholarly data, Fairness, Recommender systems}
   abbr      = {ISWC'23/SemOpenAlex}
 }
 
-@inproceedings{yuan-etal-2024-gnnavi,
-  abbr={ACL'24Finding/GNNavi},
-    title = "{GNN}avi: Navigating the Information Flow in Large Language Models by Graph Neural Network",
-    author = {Yuan, Shuzhou  and
-      Nie, Ercong  and
-      F{\"a}rber, Michael  and
-      Schmid, Helmut  and
-      Schuetze, Hinrich},
-    editor = "Ku, Lun-Wei  and
-      Martins, Andre  and
-      Srikumar, Vivek",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
-    month = aug,
-    year = "2024",
-    address = "Bangkok, Thailand",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.findings-acl.237/",
-    doi = "10.18653/v1/2024.findings-acl.237",
-    pages = "3987--4001",
-abstract={Large Language Models (LLMs) exhibit strong In-Context Learning (ICL) capabilities when prompts with demonstrations are used. However, fine-tuning still remains crucial to further enhance their adaptability. Prompt-based fine-tuning proves to be an effective fine-tuning method in low-data scenarios, but high demands on computing resources limit its practicality. We address this issue by introducing a prompt-based parameter-efficient fine-tuning (PEFT) approach. GNNavi leverages insights into ICL’s information flow dynamics, which indicates that label words act in prompts as anchors for information propagation. GNNavi employs a Graph Neural Network (GNN) layer to precisely guide the aggregation and distribution of information flow during the processing of prompts by hardwiring the desired information flow into the GNN. Our experiments on text classification tasks with GPT-2 and Llama2 show GNNavi surpasses standard prompt-based fine-tuning methods in few-shot settings by updating just 0.2% to 0.5% of parameters. We compare GNNavi with prevalent PEFT approaches, such as prefix tuning, LoRA and Adapter in terms of performance and efficiency. Our analysis reveals that GNNavi enhances information flow and ensures a clear aggregation process.}
-}
-
 @inproceedings{10.1145/3690624.3709436,
 abbr={KDD'25/XLiDAR},
 author = {Qu, Zhan and Yuan, Shuzhou and F\"{a}rber, Michael and Brennfleck, Marius and Wartha, Niklas and Stephan, Anton},
@@ -188,25 +168,6 @@ keywords = {causal relation, language model, knowledge graph},
 location = {Hanover, MD, USA}
 }
 
-@inproceedings{popovic-farber-2024-embedded,
-abbr={EMNLP'24/Ember},
-    title = "Embedded Named Entity Recognition using Probing Classifiers",
-    author = {Popovic, Nicholas  and
-      F{\"a}rber, Michael},
-    editor = "Al-Onaizan, Yaser  and
-      Bansal, Mohit  and
-      Chen, Yun-Nung",
-    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
-    year = "2024",
-    address = "Miami, Florida, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.emnlp-main.988/",
-    doi = "10.18653/v1/2024.emnlp-main.988",
-    pages = "17830--17850",
-    abstract = "Streaming text generation, has become a common way of increasing the responsiveness of language model powered applications such as chat assistants. At the same time, extracting semantic information from generated text is a useful tool for applications such as automated fact checking or retrieval augmented generation. Currently, this requires either separate models during inference, which increases computational cost, or destructive fine-tuning of the language model. Instead, we propose an approach called EMBER which enables streaming named entity recognition in decoder-only language models without fine-tuning them and while incurring minimal additional computational cost at inference time. Specifically, our experiments show that EMBER maintains high token generation rates, with only a negligible decrease in speed of around 1{\%} compared to a 43.64{\%} slowdown measured for a baseline. We make our code and data available online, including a toolkit for training, testing, and deploying efficient token classification models optimized for streaming text generation."
-}
-
 @inproceedings{10.1007/978-3-031-56060-6_17,
 abbr={ECIR'24/HyperPIE},
 author = {Saier, Tarek and Ohta, Mayumi and Asakura, Takuto and F\"{a}rber, Michael},
@@ -225,3 +186,48 @@ keywords = {Information Extraction, Scientific Text, Hyperparameter},
 location = {Glasgow, United Kingdom}
 }
 
+@inproceedings{10.1007/978-3-031-88717-8_32,
+  abbr = {ECIR25/Klartext},
+  author = {F{\"a}rber, Michael and Aghdam, Parisa and Im, Kyuri and Tawfelis, Mario and Ghoshal, Hardik},
+  editor = {Hauff, Claudia and Macdonald, Craig and Jannach, Dietmar and Kazai, Gabriella and Nardini, Franco Maria and Pinelli, Fabio and Silvestri, Fabrizio and Tonellotto, Nicola},
+  title = {SimplifyMyText: An LLM-Based System for Inclusive Plain Language Text Simplification},
+  booktitle = {Advances in Information Retrieval},
+  year = {2025},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  pages = {418--424},
+  abstract = {Text simplification is essential for making complex content accessible to diverse audiences who face comprehension challenges. Yet, the limited availability of simplified materials creates significant barriers to personal and professional growth and hinders social inclusion. Although researchers have explored various methods for automatic text simplification, none fully leverage large language models (LLMs) to offer tailored customization for different target groups and varying levels of simplicity. Moreover, despite its proven benefits for both consumers and organizations, the well-established practice of plain language remains underutilized. In this paper, we introduce https://simplifymytext.org, the first system designed to produce plain language content from multiple input formats, including typed text and file uploads, with flexible customization options for diverse audiences. We employ GPT-4 and Llama-3 and evaluate outputs across multiple metrics. Overall, our work contributes to research on automatic text simplification and highlights the importance of tailored communication in promoting inclusivity.},
+  isbn = {978-3-031-88717-8}
+}
+
+@inproceedings{yuan-etal-2024-gnnavi,
+  abbr = {ACL'24Finding/GNNavi},
+  title = {{GNN}avi: Navigating the Information Flow in Large Language Models by Graph Neural Network},
+  author = {Yuan, Shuzhou and Nie, Ercong and F{\"a}rber, Michael and Schmid, Helmut and Schuetze, Hinrich},
+  editor = {Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  month = {aug},
+  year = {2024},
+  address = {Bangkok, Thailand},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2024.findings-acl.237/},
+  doi = {10.18653/v1/2024.findings-acl.237},
+  pages = {3987--4001},
+  abstract = {Large Language Models (LLMs) exhibit strong In-Context Learning (ICL) capabilities when prompts with demonstrations are used. However, fine-tuning still remains crucial to further enhance their adaptability. Prompt-based fine-tuning proves to be an effective fine-tuning method in low-data scenarios, but high demands on computing resources limit its practicality. We address this issue by introducing a prompt-based parameter-efficient fine-tuning (PEFT) approach. GNNavi leverages insights into ICL’s information flow dynamics, which indicates that label words act in prompts as anchors for information propagation. GNNavi employs a Graph Neural Network (GNN) layer to precisely guide the aggregation and distribution of information flow during the processing of prompts by hardwiring the desired information flow into the GNN. Our experiments on text classification tasks with GPT-2 and Llama2 show GNNavi surpasses standard prompt-based fine-tuning methods in few-shot settings by updating just 0.2% to 0.5% of parameters. We compare GNNavi with prevalent PEFT approaches, such as prefix tuning, LoRA and Adapter in terms of performance and efficiency. Our analysis reveals that GNNavi enhances information flow and ensures a clear aggregation process.}
+}
+
+@inproceedings{popovic-farber-2024-embedded,
+  abbr = {EMNLP'24/Ember},
+  title = {Embedded Named Entity Recognition using Probing Classifiers},
+  author = {Popovic, Nicholas and F{\"a}rber, Michael},
+  editor = {Al-Onaizan, Yaser and Bansal, Mohit and Chen, Yun-Nung},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  month = {nov},
+  year = {2024},
+  address = {Miami, Florida, USA},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2024.emnlp-main.988/},
+  doi = {10.18653/v1/2024.emnlp-main.988},
+  pages = {17830--17850},
+  abstract = {Streaming text generation, has become a common way of increasing the responsiveness of language model powered applications such as chat assistants. At the same time, extracting semantic information from generated text is a useful tool for applications such as automated fact checking or retrieval augmented generation. Currently, this requires either separate models during inference, which increases computational cost, or destructive fine-tuning of the language model. Instead, we propose an approach called EMBER which enables streaming named entity recognition in decoder-only language models without fine-tuning them and while incurring minimal additional computational cost at inference time. Specifically, our experiments show that EMBER maintains high token generation rates, with only a negligible decrease in speed of around 1{\%} compared to a 43.64{\%} slowdown measured for a baseline. We make our code and data available online, including a toolkit for training, testing, and deploying efficient token classification models optimized for streaming text generation.}
+}
