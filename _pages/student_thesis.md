@@ -23,7 +23,7 @@ We offer supervision for student theses on various topics, including (but not li
 12. <a href='https://faerber-lab.github.io/blog/2024/thesis-simplification'>Designing and Executing a Large-Scale User Study on Scientific Text Simplification </a>
 
 
-Prof. Dr.-Ing. **Michael Färber** has supervised over 50 Bachelor and Master theses and welcomes applications from both **English- and German-speaking students**. Many thesis topics are available for study abroad through partner institutions and DAAD funding, with the goal of co-authoring scientific papers based on the thesis.  
+**Prof. Dr.-Ing. Michael Färber** has supervised over 50 Bachelor and Master theses and welcomes applications from both **English- and German-speaking students**. Many exciting thesis topics are available, including opportunities to study abroad through our partner institutions (e.g., in Japan), with the aim of co-authoring scientific papers based on your research. In the past, dedicated DAAD funding possibilities have supported our innovative projects through the IFI framework.
 
 For more details, feel free to reach out!  
 
