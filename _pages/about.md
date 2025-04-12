@@ -23,6 +23,6 @@ latest_posts:
   limit: 3  # leave blank to include all blog posts
 ---
 
-Welcome! I’m **Michael Färber**, I lead the _Scalable Software Architectures for Data Analytics_ research group at ScaDS.AI/TU Dresden, Germany. Our work centers on **natural language processing, large language models (LLMs)**, and **knowledge graphs**, extending into **explainable AI** and **graph machine learning**. For collaboration, feel free to reach out via [email](mailto:michael.faerber@tu-dresden.de) 📧
+Welcome! I’m **Michael Färber**, Full Professor for _Scalable Software Architectures for Data Analytics_ at ScaDS.AI/TU Dresden, Germany. My team and I focus on **natural language processing** (NLP), with a particular emphasis on **large language models** (LLMs), **knowledge graphs**, and **graph machine learning**, including **graph neural networks**. We combine advanced machine learning, neurosymbolic methods, and explainable AI to develop generative AI solutions, integrate citations automatically, verify AI outputs for truthfulness, and simplify texts for diverse audiences. We also develop graph machine learning approaches for knowledge graphs and combine them with large language models. For collaboration, feel free to reach out via [email](mailto:michael.faerber@tu-dresden.de) 📧
 
 We're located at ScaDS.AI Office at _Strehlener Str. 12-14, Dresden_ (<a href='https://maps.app.goo.gl/uFTw5hc9hp35bbWf6'>Google Maps</a>). Explore our latest <a href='https://faerber-lab.github.io/vacancies/'>vacancies and open thesis supervision</a> to join our group.
