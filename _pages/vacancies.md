@@ -7,15 +7,27 @@ nav: true
 nav_order: 1
 ---
 
-**We're opening a PostDoc position soon**—<a href='https://faerber-lab.github.io/contact/'>contact me</a> if you're interested! Potential topics include natural language processing, LLMs, knowledge graphs, and graph neural networks.
+**Open Postdoc Positions**  
+We will be opening a Postdoc position soon. If you’re interested, please [contact me](https://faerber-lab.github.io/contact/)! Potential research topics include natural language processing, large language models (LLMs), knowledge graphs, and graph neural networks.
 
-International applicants may also apply for funding through DAAD, DFG, Humboldt (there are special calls for female candidates), and others. I am happy to serve as a host and have previously hosted several international researchers. For more information, see the <a href='https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship'>Humboldt Research Fellowship</a>. 
+International applicants can also apply for external funding through agencies like DAAD, DFG, and Humboldt (note: there are special calls for female candidates), among others. For more information on research stays—from short-term visits to long-term research stays of up to 2 years—please visit [this page](https://faerber-lab.github.io/research_stays/).
 
-**For PhD positions**, you have several options:
-1. Apply for the NHR call by the September deadline if you plan to start in April 2026, see <a href='https://www.nhr-verein.de/application'>NHR Application</a>.
-2. Applicants from abroad can apply for DAAD or similar grants.
-3. If you're about six months ahead, <a href='https://faerber-lab.github.io/contact/'>contact me</a> and we can work on a proposal to secure funding for a PhD position.
+**Open PhD Positions**  
+While we do not have a public call for PhD positions at the moment, several opportunities are available:
 
-**Student Thesis Supervision**  
+1. **NHR Call:**  
+   If you plan to start your PhD in April 2026, consider applying for the NHR call by the September deadline. This funding, which covers 3 years without teaching obligations, has already supported two of our current PhD students. See the [NHR Application](https://www.nhr-verein.de/application) for further details.
 
-See the <a href='https://faerber-lab.github.io/student-thesis/'>current call for student theses and general supervision information</a>.
+2. **International Grants:**  
+   Applicants from abroad can apply for grants from various funding agencies such as DAAD. DAAD offers research grants for PhD students from nearly all countries of origin, with a full doctoral programme grant in Germany primarily available for candidates from developing and emerging countries. For more information, visit [DAAD Scholarships](https://www.daad.de/en/studying-in-germany/scholarships/). Please note that applications for these grants need to be submitted several months before your planned start date.
+
+3. **Proposal-Driven Funding:**  
+   If you have a rough idea for your PhD topic (or are highly interested in the group's research topics), [contact me](https://faerber-lab.github.io/contact/) and we can work together on a funding proposal (e.g., for DFG Sachbeihilfe). If approved, this proposal could secure a full PhD position with funding for 3 years, including travel support and other expenses. Keep in mind that the review process for such proposals can take six months, so early engagement is recommended.
+
+**Open Student Theses**  
+For current calls regarding student theses and general information on thesis supervision, please see our [student thesis page](https://faerber-lab.github.io/student-thesis/).
+
+**Research Stays**  
+We also welcome researchers at all career stages—from Master and PhD students to postdocs and established scientists—for research stays in our research group. These stays can range, e.g., from 3 to 12 months. For more details, please visit our [research stays page](https://faerber-lab.github.io/research_stays/).
+
+We look forward to welcoming you to our lab!
