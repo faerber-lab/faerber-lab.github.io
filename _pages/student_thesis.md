@@ -28,3 +28,5 @@ We offer supervision for student theses on various topics, including (but not li
 For more details, feel free to reach out!  
 
 📧 **E-Mail**: [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de)  
+
+<a href="https://faerber-lab.github.io/vacancies/">Back to _vacancies_</a>.
