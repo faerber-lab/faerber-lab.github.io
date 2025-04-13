@@ -128,7 +128,7 @@ ninja.data = [{
       
         title: "Large Language Model-enhanced Graph Message Passing Network for Link Prediction",
       
-      description: "open thesis supervision topic",
+      description: "open thesis topic",
       section: "Posts",
       handler: () => {
         
