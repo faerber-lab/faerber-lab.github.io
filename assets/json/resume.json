@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Michael Färber",
-    "label": "Full Professor (W3)",
-    "image": "",
+    "profession": "Full Professor (W3)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Michael_Faerber_2024_700p.jpg",
     "email": "michael.faerber@tu-dresden.de",
     "phone": "+49 (0)351 463 40900",
     "url": "http://scale-scads.ai/",
