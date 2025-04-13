@@ -1,0 +1,10 @@
+{% if site.data.resume.basics.profiles %}
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% for profile in site.data.resume.basics.profiles %}
+      <li class="list-group-item">
+        <strong>{{ profile.network }}:</strong>
+        <a href="{{ profile.url }}" target="_blank" rel="noopener">{{ profile.username }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
