@@ -325,42 +325,212 @@
   "projects": [
     {
       "name": "PESSST",
-      "summary": "Summarizing and Simplifying Scientific Text, KIT KCIST.",
-      "highlights": [],
+      "summary": "Summarizing and Simplifying Scientific Text",
+      "highlights": [
+        "KIT KCIST, €10,000 own funding"
+      ],
       "startDate": "2022-01-01",
       "endDate": "",
       "url": ""
     },
     {
       "name": "Klartext",
-      "summary": "AI-based website translation into plain language, funded by SMWK.",
-      "highlights": [],
+      "summary": "AI-based Translation of Websites Into Plain Language",
+      "highlights": [
+        "SMWK, €22,000 own funding"
+      ],
       "startDate": "2024-09-01",
       "endDate": "2024-12-31",
       "url": "https://scads.ai/research/ai-algorithms-and-methods/understanding-language/projects/klartext/"
     },
     {
       "name": "TruthfulLM",
-      "summary": "Verifying and Ensuring Truthfulness in Large Language Models, funded by BMBF.",
-      "highlights": [],
+      "summary": "Verifying and Ensuring Truthfulness in Large Language Models",
+      "highlights": [
+        "BMBF, €50,000 own funding"
+      ],
       "startDate": "2023-09-01",
       "endDate": "2024-02-29",
       "url": ""
     },
     {
       "name": "WG2Text",
-      "summary": "Knowledge Graph-based Text Generation, funded by Vector Foundation.",
-      "highlights": [],
+      "summary": "Knowledge Graph-based Text Generation",
+      "highlights": [
+        "Vector Foundation, €33,000 own funding"
+      ],
       "startDate": "2023-07-01",
       "endDate": "2024-12-31",
       "url": ""
     },
     {
       "name": "KIWI",
-      "summary": "AI for Detecting Wake Turbulence in LiDAR Scans, funded by BMDV.",
-      "highlights": [],
+      "summary": "Artificial Intelligence to Detect and Characterize Wake Turbulence in LiDAR Scans",
+      "highlights": [
+        "BMDV, €80,000 own funding"
+      ],
       "startDate": "2023-01-01",
       "endDate": "2024-06-30",
+      "url": ""
+    },
+    {
+      "name": "IIDI",
+      "summary": "Intelligent Information Services for Topic-specific Web Portals",
+      "highlights": [
+        "BMBF, €183,000 own funding"
+      ],
+      "startDate": "2021-11-01",
+      "endDate": "2023-10-31",
+      "url": ""
+    },
+    {
+      "name": "ChemKB",
+      "summary": "Chemistry Knowledge Base -- Creating a Knowledge Base for Chemistry as a Basis for Future Scientific Information",
+      "highlights": [
+        "KIT (Strategy Fund), €95,000 own funding"
+      ],
+      "startDate": "2021-07-01",
+      "endDate": "2022-12-31",
+      "url": ""
+    },
+    {
+      "name": "KIGLIS",
+      "summary": "Artificial Intelligence Processes for Optimizing Fiber Optic Networks Using the Example of an Intelligent City",
+      "highlights": [
+        "BMBF, €562,000 own funding"
+      ],
+      "startDate": "2020-11-01",
+      "endDate": "2023-10-31",
+      "url": ""
+    },
+    {
+      "name": "digilog@bw",
+      "summary": "Digitization in Dialogue",
+      "highlights": [
+        "Ministry of Science, Research and Art Baden-Württemberg, €205,000 own funding"
+      ],
+      "startDate": "2019-04-01",
+      "endDate": "2022-12-31",
+      "url": ""
+    },
+    {
+      "name": "KD4RE",
+      "summary": "Knowledge Distillation for Relation Extraction",
+      "highlights": [
+        "BMBF, €35,000 own funding"
+      ],
+      "startDate": "2022-06-01",
+      "endDate": "2022-11-30",
+      "url": ""
+    },
+    {
+      "name": "SIRS",
+      "summary": "Scholarly Information Recommender Systems Using Knowledge Graphs",
+      "highlights": [
+        "DAAD & Ministry of Foreign Affairs, €9,000 own funding"
+      ],
+      "startDate": "2020-01-01",
+      "endDate": "2021-12-31",
+      "url": ""
+    },
+    {
+      "name": "ProData",
+      "summary": "Production-Related Service Systems Based on Big Data Analysis",
+      "highlights": [
+        "BMBF, €527,000 own funding"
+      ],
+      "startDate": "2019-04-01",
+      "endDate": "2021-03-31",
+      "url": ""
+    },
+    {
+      "name": "TransPer",
+      "summary": "Transparent Personalization of E-Commerce",
+      "highlights": [
+        "BMBF (Smart Data Innovation Challenges), €35,000 own funding"
+      ],
+      "startDate": "2020-08-01",
+      "endDate": "2021-01-31",
+      "url": ""
+    },
+    {
+      "name": "DataScore for DORA4KIT",
+      "summary": "Prototype Development of Reward Systems for Students and Researchers",
+      "highlights": [
+        "KIT, €17,000 own funding"
+      ],
+      "startDate": "2020-08-01",
+      "endDate": "2020-12-31",
+      "url": ""
+    },
+    {
+      "name": "AI4Peace",
+      "summary": "Mediating Machines? Opportunities and Challenges of Artificial Intelligence in Peacemaking",
+      "highlights": [
+        "Volkswagen Foundation"
+      ],
+      "startDate": "2020-03-01",
+      "endDate": "2020-12-31",
+      "url": ""
+    },
+    {
+      "name": "Developing an Interlinking Framework",
+      "summary": "",
+      "highlights": [
+        "BMW Group, €71,000 funding"
+      ],
+      "startDate": "2019-06-01",
+      "endDate": "2019-11-30",
+      "url": ""
+    },
+    {
+      "name": "ReCits",
+      "summary": "Recommending Relevant Citations in Text",
+      "highlights": [
+        "University of Freiburg (Innovation Fund), €25,000 own funding"
+      ],
+      "startDate": "2018-04-01",
+      "endDate": "2019-03-31",
+      "url": ""
+    },
+    {
+      "name": "Development of a Knowledge Graph",
+      "summary": "Development of a Knowledge Graph",
+      "highlights": [
+        "BMW Group, €60,000 own funding"
+      ],
+      "startDate": "2017-12-01",
+      "endDate": "2019-02-28",
+      "url": ""
+    },
+    {
+      "name": "Scientification",
+      "summary": "Automatically Enriching Text with Citations and References",
+      "highlights": [
+        "Japan Society for the Promotion of Science (JSPS), €37,000 own funding"
+      ],
+      "startDate": "2017-10-01",
+      "endDate": "2018-09-30",
+      "url": ""
+    },
+    {
+      "name": "Prototypical Development and Evaluation of a Watson-based Information System",
+      "summary": "",
+      "highlights": [
+        "BMW Group, €140,000 own funding"
+      ],
+      "startDate": "2016-01-01",
+      "endDate": "2016-12-31",
+      "url": ""
+    },
+    {
+      "name": "SUITE",
+      "summary": "Semi-Automatic Detection and Knowledge Base-Integration of Novelties from Text Documents",
+      "highlights": [
+        "BMBF (Software Campus), €100,000 own funding"
+      ],
+      "startDate": "2014-04-01",
+      "endDate": "2016-03-31",
       "url": ""
     }
   ]
