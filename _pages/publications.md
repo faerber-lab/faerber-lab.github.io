@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-For the latest list of our publications, visit my <a href='https://scholar.google.de/citations?hl=ja&user=Jb7JUOsAAAAJ&view_op=list_works&sortby=pubdate'>Google Scholar profile</a>.
+For the latest list of our publications, visit my <a href='https://scholar.google.de/citations?user=Jb7JUOsAAAAJ&view_op=list_works&sortby=pubdate'>Google Scholar profile</a>.
 
 {% include bib_search.liquid %}
 
