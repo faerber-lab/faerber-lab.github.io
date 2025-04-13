@@ -16,7 +16,7 @@ In this thesis, the dataset will be constructed in stages: first, by generating 
 
 Motivated students will also have the opportunity to test common LLMs to establish baseline performance on the created dataset. This thesis will offer valuable hands-on experience in data generation and provide the chance to explore cutting-edge research in multimodal machine learning.
 
-[1] Steven J. Lynden, Hailemariam Mehari Yohannes, Kyoung-Sook Kim, Adam Jatowt, Akiyoshi Matono, Haitao Yu, Xin Liu, Yijun Duan: Commonsense Temporal Action Knowledge (CoTAK) Dataset. CIKM 2023: 5361-5365 [PDF]
+[1] Steven J. Lynden, Hailemariam Mehari Yohannes, Kyoung-Sook Kim, Adam Jatowt, Akiyoshi Matono, Haitao Yu, Xin Liu, Yijun Duan: Commonsense Temporal Action Knowledge (CoTAK) Dataset. CIKM 2023: 5361-5365, https://dl.acm.org/doi/abs/10.1145/3583780.3615114
 
 **Contact Person**
 
