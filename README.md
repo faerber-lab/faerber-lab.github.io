@@ -15,6 +15,7 @@
 - `teaching` page: [pages/teaching.md](_pages/teaching.md)
 - `team` page: [pages/profiles.md](_pages/profiles.md)
   - For each team member, create a new page in the [pages folder](_pages/). For example, see [pages/about_joe.md](_pages/about_joe.md).
+  - Link each member page in the [pages/profiles.md](_pages/profiles.md) for them to appear at "team" page.
 - To add a new page/menu, create a new page in the [pages folder](_pages/). For example, [pages/vacancies.md](_pages/vacancies.md), [pages/teaching.md](_pages/teaching.md), etc.
   - Make sure to set "nav: true" to show the page as top menu. The top menus are ordered based on "nav_order".
   - To include/exclude pages/top menus, [config.yml](_config.yml).
