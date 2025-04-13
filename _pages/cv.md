@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-description: Short curriculum vitae.
+description: Curriculum Vitae
 toc:
   sidebar: left
 ---
