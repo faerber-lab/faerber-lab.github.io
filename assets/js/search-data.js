@@ -150,7 +150,7 @@ ninja.data = [{
       
         title: "Creating a Dataset of Complex Temporal Questions for Testing Large Language Models (LLMs)...",
       
-      description: "open thesis supervision topic",
+      description: "open thesis topic",
       section: "Posts",
       handler: () => {
         
