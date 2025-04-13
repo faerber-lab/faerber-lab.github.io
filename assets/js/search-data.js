@@ -194,7 +194,7 @@ ninja.data = [{
       
         title: "GPT-3, BERT &amp; Co. - When to Use Which Language Model?",
       
-      description: "open thesis supervision topic",
+      description: "open thesis topic",
       section: "Posts",
       handler: () => {
         
