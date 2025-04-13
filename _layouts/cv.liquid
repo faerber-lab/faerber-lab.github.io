@@ -93,6 +93,8 @@ layout: default
               {% case data[0] %}
                 {% when 'basics' %}
                   {% include resume/basics.liquid %}
+                {% when 'profiles' %}
+                  {% include resume/profiles.liquid %}
                 {% when 'education' %}
                   {% include resume/education.liquid %}
                 {% when 'work' %}
