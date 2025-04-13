@@ -172,7 +172,7 @@ ninja.data = [{
       
         title: "Creating a Dataset of Textual Descriptions of Planned Actions and Expectations of Entities...",
       
-      description: "open thesis supervision topic",
+      description: "open thesis topic",
       section: "Posts",
       handler: () => {
         
