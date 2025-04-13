@@ -2,6 +2,8 @@
 layout: post
 title: GPT-3, BERT & Co. - When to Use Which Language Model?
 date: 2024-05-01 00:32:13
+tags: [research, ai, llms]
+author: Michael Färber
 description: open thesis topic
 categories: open-thesis
 ---
