@@ -84,7 +84,7 @@ ninja.data = [{
       
         title: "Designing and Executing a Large-Scale User Study on Scientific Text Simplification",
       
-      description: "open thesis supervision topic",
+      description: "open thesis topic",
       section: "Posts",
       handler: () => {
         
