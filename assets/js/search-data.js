@@ -139,7 +139,7 @@ ninja.data = [{
       
         title: "Fusing RDF Knowledge Graphs with Deep Learning for Advanced Recommender Systems",
       
-      description: "open thesis supervision topic",
+      description: "open thesis topic",
       section: "Posts",
       handler: () => {
         
