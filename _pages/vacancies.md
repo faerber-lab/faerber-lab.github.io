@@ -25,7 +25,7 @@ While we do not have a public call for PhD positions at the moment, several oppo
    If you have a rough idea for your PhD topic (or are highly interested in the group's research topics), [contact me](https://faerber-lab.github.io/contact/) and we can work together on a funding proposal (e.g., for DFG Sachbeihilfe). If approved, this proposal could secure a full PhD position with funding for 3 years, including travel support and other expenses. Keep in mind that the review process for such proposals can take six months, so early engagement is recommended.
 
 **Open Student Theses**  
-For current calls regarding student theses and general information on thesis supervision, please see our [student thesis page](https://faerber-lab.github.io/student-thesis/).
+For current calls regarding student theses and general information on thesis supervision, please see our [student thesis page](https://faerber-lab.github.io/student_thesis/).
 
 **Research Stays**  
 We also welcome researchers at all career stages—from Master and PhD students to postdocs and established scientists—for research stays in our research group. These stays can range, e.g., from 3 to 12 months. For more details, please visit our [research stays page](https://faerber-lab.github.io/research_stays/).
