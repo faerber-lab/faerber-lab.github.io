@@ -29,10 +29,10 @@
       "url": "https://scads.ai/",
       "startDate": "2024-04-01",
       "endDate": "",
-      "summary": "Leading the Scalable Software Architectures for Data Analytics group (seven team members, including PhD students and a postdoc).",
       "highlights": [
+        "Leading the Scalable Software Architectures for Data Analytics group (6 PhD students, 1 postdoc)",
         "Appointed at the age of 36",
-        "Department leader for Cognitive AI at ScaDS.AI (since 2025)",
+        "Department leader for Cognitive AI at ScaDS.AI",
         "Elected Member of the Faculty Council of Computer Science, TU Dresden"
       ]
     },
@@ -42,9 +42,9 @@
       "url": "https://websci.aifb.kit.edu/english/",
       "startDate": "2020-10-01",
       "endDate": "2024-03-31",
-      "summary": "Substituted for Prof. Dr. York Sure-Vetter as head of the Web Science research group (AIFB). Led a team of seven PhD students and two postdoctoral researchers.",
       "highlights": [
-        "Oversaw research on Knowledge Graphs, Machine Learning, and NLP",
+        "Substitute for Prof. Dr. York Sure-Vetter as head of the Web Science research group (AIFB); led a team of 7 PhD students and 2 postdocs",
+        "Oversaw research on NLP, Knowledge Graphs, Machine Learning",
         "Managed multiple projects (e.g., ProData, digilog@bw)",
         "Taught large lectures with audiences of up to 600 students"
       ]
@@ -55,8 +55,8 @@
       "url": "https://www.kit.edu/",
       "startDate": "2019-04-01",
       "endDate": "2020-09-30",
-      "summary": "Conducted independent research on Knowledge Graphs, NLP, and ML-related topics. Supervised PhD students and led multiple research projects.",
       "highlights": [
+        "Conducted independent research on Knowledge Graphs, NLP, and ML-related topics",
         "Supervised four PhD students",
         "Taught both in German and English",
         "Served as Principal Investigator in several research projects"
@@ -68,8 +68,8 @@
       "url": "https://www.informatik.uni-freiburg.de/",
       "startDate": "2017-04-01",
       "endDate": "2019-03-31",
-      "summary": "Led research on scholarly recommendation systems and knowledge graph topics. Oversaw collaboration with BMW Group.",
       "highlights": [
+        "Led research on scholarly recommendation systems and knowledge graph topics",
         "Supervised bachelor’s and master’s theses",
         "Gained funding and managed industry collaboration (BMW Group)"
       ]
@@ -80,8 +80,8 @@
       "url": "https://www.kyoto-u.ac.jp/en",
       "startDate": "2017-10-01",
       "endDate": "2018-09-30",
-      "summary": "Awarded a prestigious JSPS fellowship for independent research in information retrieval.",
       "highlights": [
+        "Awarded a prestigious JSPS fellowship for independent research in information retrieval",
         "One of only 15 JSPS fellows awarded worldwide in that period",
         "Co-supervised bachelor’s and master’s students"
       ]
@@ -92,8 +92,9 @@
       "url": "https://www.kit.edu/",
       "startDate": "2012-04-01",
       "endDate": "2017-02-28",
-      "summary": "Conducted research on semantic search for novel information. Involved in multiple BMBF and EU projects (syncTech, xLiMe), and managed the Software Campus project SUITE.",
       "highlights": [
+        "Conducted research on semantic search for novel information",
+        "Involved in multiple BMBF and EU projects (syncTech, xLiMe), managed the Software Campus project SUITE",
         "Supervised 23 theses and led seminar courses",
         "Handled financial controlling for the research group"
       ]
@@ -104,8 +105,8 @@
       "url": "https://www.bloomberg.com/",
       "startDate": "2014-05-01",
       "endDate": "2014-09-30",
-      "summary": "Conducted research on detecting novel events from news and contributed to the Bloomberg NLP framework.",
       "highlights": [
+        "Conducted research on detecting novel events from news and contributed to the Bloomberg NLP framework",
         "Applied NLP solutions to real-world financial news data"
       ]
     }
@@ -122,7 +123,7 @@
       "endDate": "2017-02-28",
       "score": "",
       "courses": [
-        "Thesis topic: Semantic Search for Novel Information"
+        "Thesis: Semantic Search for Novel Information"
       ]
     },
     {
@@ -284,21 +285,7 @@
       "publisher": "",
       "releaseDate": "",
       "url": "https://scholar.google.de/citations?user=Jb7JUOsAAAAJ",
-      "summary": "Over 100 publications, including top-tier conference papers (ACL, EMNLP, NAACL, CIKM, ECML, KDD, ISWC) and journal articles (Semantic Web Journal). h-index: 20; 2,051 citations as of 2025-01-30."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Artificial Intelligence & Data Science",
-      "level": "Expert",
-      "icon": "",
-      "keywords": [
-        "Natural Language Processing (NLP)",
-        "Machine Learning (ML)",
-        "Knowledge Representation",
-        "Neurosymbolic AI",
-        "Explainable AI"
-      ]
+      "summary": "Over 100 publications, including top-tier conference papers (ACL, EMNLP, NAACL, CIKM, ECML, KDD, ISWC) and journal articles."
     }
   ],
   "languages": [
@@ -311,19 +298,6 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "AI Research & Applications",
-      "icon": "",
-      "keywords": [
-        "Knowledge Graphs",
-        "Natural Language Processing",
-        "Data Mining",
-        "Trustworthy AI",
-        "Neurosymbolic Methods"
-      ]
     }
   ],
   "references": [
