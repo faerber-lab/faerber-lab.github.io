@@ -2,7 +2,7 @@
 layout: post
 title: Fusing RDF Knowledge Graphs with Deep Learning for Advanced Recommender Systems
 date: 2024-10-01 00:32:13
-description: open thesis supervision topic
+description: open thesis topic
 categories: open-thesis
 ---
 
@@ -18,6 +18,13 @@ This project seeks to expand AutoRDF2GML, an open-source framework acclaimed for
 
 **What prerequisites do you need?**
 
-Proficiency in Python, with a foundational understanding of RDF, SPARQL, and graph machine learning concepts.
+- Proficiency in Python, with a foundational understanding of RDF, SPARQL, and graph machine learning concepts.
+- An enthusiastic interest in the intersection of semantic web technologies and deep learning.
 
-An enthusiastic interest in the intersection of semantic web technologies and deep learning.
+**Further Reading**
+
+http://autordf2gml.org/
+
+**Contact Person**
+
+Prof. Dr.-Ing. Michael Färber, michael.faerber@tu-dresden.de
