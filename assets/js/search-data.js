@@ -117,7 +117,7 @@ ninja.data = [{
       
         title: "Advanced Multi-Modality Learning in Electronic Health Records for Personalized Medical Recommendations",
       
-      description: "open thesis supervision topic",
+      description: "open thesis topic",
       section: "Posts",
       handler: () => {
         
