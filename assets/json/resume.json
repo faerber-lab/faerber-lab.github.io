@@ -8,19 +8,39 @@
     "url": "http://scale-scads.ai/",
     "summary": "Since April 2024, I have been W3 Full Professor at TU Dresden and the AI Center ScaDS.AI. My research focuses on natural language processing, knowledge representation, and machine learning, including neurosymbolic and explainable AI. I have authored over 100 peer-reviewed publications and secured various third-party funding as a Principal Investigator. Since 2019, I have taught lectures to 600 students and introduced the course “Behind the Secrets of Large Language Models.” Additionally, my B.A. in philosophy supports my interdisciplinary approach.",
     "location": {
-      "address": "Strehlener Str. 12-14",
+      "address": "Strehlener Str. 12-14, Room 733",
       "postalCode": "01069",
       "city": "Dresden",
       "countryCode": "DE",
       "region": "Saxony"
     },
     "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "MichaelFärber",
-        "url": "https://scholar.google.de/citations?user=Jb7JUOsAAAAJ"
-      }
-    ]
+  {
+    "network": "Google Scholar",
+    "username": "Michael Färber",
+    "url": "https://scholar.google.de/citations?user=Jb7JUOsAAAAJ"
+  },
+  {
+    "network": "DBLP",
+    "username": "Michael Färber",
+    "url": "https://dblp.org/pid/129/9499.html"
+  },
+  {
+    "network": "ORCID",
+    "username": "0000-0001-5458-8645",
+    "url": "https://orcid.org/0000-0001-5458-8645"
+  },
+  {
+    "network": "Wikidata",
+    "username": "Q57231890",
+    "url": "https://www.wikidata.org/wiki/Q57231890"
+  },
+  {
+    "network": "GitHub",
+    "username": "michaelfaerber",
+    "url": "https://github.com/michaelfaerber"
+  }
+]
   },
   "work": [
     {
