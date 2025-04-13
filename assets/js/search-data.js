@@ -183,7 +183,7 @@ ninja.data = [{
       
         title: "Alles nur Show? Ein automatischer Vergleich von Nachrichten vor der Bundestagswahl mit dem...",
       
-      description: "open thesis supervision topic",
+      description: "open thesis topic",
       section: "Posts",
       handler: () => {
         
