@@ -2,6 +2,8 @@
 layout: post
 title: Using Quantum Computing in Natural Language Processing
 date: 2024-10-01 00:32:13
+tags: [research, ai]
+author: Michael Färber
 description: open thesis supervision topic
 categories: open-thesis
 ---
@@ -15,15 +17,13 @@ In this thesis, the student is asked to first review state-of-the-art approaches
 **Prerequisites**
 
 The student should have solid programming skills in Python. Furthermore, the student should be motivated to study the basics of quantum computing. However, no specific knowledge in mathematics is required.
- 
+
+**Contact Person**
+Prof. Dr.-Ing. Michael Färber, michael.faerber@tu-dresden.de
 
 
 [0] https://www.youtube.com/watch?v=-y3CBaW50VA
-
 [1] https://arxiv.org/pdf/2102.12846.pdf
-
 [2] https://github.com/CQCL/lambeq
-
 [3] https://arxiv.org/pdf/2206.02171
-
 [4] https://en.wikipedia.org/wiki/Cloud-based_quantum_computing
