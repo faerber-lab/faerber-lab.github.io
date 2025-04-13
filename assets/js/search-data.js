@@ -161,7 +161,7 @@ ninja.data = [{
       
         title: "Creating a Multimodal Dataset of Actions Labeled with their Expected Durations",
       
-      description: "open thesis supervision topic",
+      description: "open thesis topic",
       section: "Posts",
       handler: () => {
         
