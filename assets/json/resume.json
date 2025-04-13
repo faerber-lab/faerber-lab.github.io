@@ -6,7 +6,7 @@
     "email": "michael.faerber@tu-dresden.de",
     "phone": "+49 (0)351 463 40900",
     "url": "http://scale-scads.ai/",
-    "summary": "Since April 2024, I have been a W3 Full Professor leading the Scalable Software Architectures for Data Analytics research group at the AI Center ScaDS.AI (TU Dresden). My research combines Natural Language Processing, Knowledge Representation, and Machine Learning, with a particular focus on neurosymbolic AI and explainable AI. I have published more than 100 publications, have secured significant third-party funding, and am deeply engaged in academic teaching.",
+    "summary": "Since April 2024, I have been W3 Full Professor at TU Dresden and the AI Center ScaDS.AI. My research focuses on natural language processing, knowledge representation, and machine learning, including neurosymbolic and explainable AI. I have authored over 100 peer-reviewed publications and secured various third-party funding as a Principal Investigator. Since 2019, I have taught lectures to 600 students and introduced the course “Behind the Secrets of Large Language Models.” Additionally, my B.A. in philosophy supports my interdisciplinary approach.",
     "location": {
       "address": "Strehlener Str. 12-14",
       "postalCode": "01069",
@@ -30,7 +30,7 @@
       "startDate": "2024-04-01",
       "endDate": "",
       "highlights": [
-        "Leading the Scalable Software Architectures for Data Analytics group (6 PhD students, 1 postdoc)",
+        "Leading the <em>Scalable Software Architectures for Data Analytics</em> group (6 PhD students, 1 postdoc)",
         "Appointed at the age of 36",
         "Department leader for Cognitive AI at ScaDS.AI",
         "Elected Member of the Faculty Council of Computer Science, TU Dresden"
