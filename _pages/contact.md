@@ -1,19 +1,26 @@
 ---
 layout: page
 permalink: /contact/
-title: contact
+title: Contact
 nav: true
 nav_order: 7
 ---
 
+<img src="{{ site.baseurl }}/assets/img/Dresden.jpg" alt="Dresdner Frauenkirche" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
 
-**Prof. Dr.-Ing. Michael Färber**
+## Contact Information
 
-- **Email:** [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de)
-- **Phone:** +49 (0)351 463 40900 (Secretary, Thomas Bruderrek)
-- **Office:**  
+**Prof. Dr.-Ing. Michael Färber**  
+Head of the Cognitive AI Unit of ScaDS.AI
+Full Professor for Scalable Software Architectures for Data Analytics
+ScaDS.AI Dresden / TU Dresden
+
+- 📧 **Email:** [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de)  
+- ☎️ **Phone:** +49 (0)351 463 40900 (Secretary: Thomas Bruderrek)  
+- 🏢 **Office:**  
   ScaDS.AI Office (Room 733)  
-  Strehlener Str. 12-14, 01069 Dresden  
-  Germany (<a href='https://maps.app.goo.gl/uFTw5hc9hp35bbWf6'>Google Maps</a>)
+  Strehlener Straße 12–14  
+  01069 Dresden, Germany  
+  [📍 View on Google Maps](https://maps.app.goo.gl/uFTw5hc9hp35bbWf6)
 
 ---
