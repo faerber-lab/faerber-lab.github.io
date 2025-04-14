@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 description: Overview of teaching activities, course offerings by semester, past courses, and supervision.
 nav: true
 nav_order: 5
