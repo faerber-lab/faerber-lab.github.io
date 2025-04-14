@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-team",
+          title: "team",
+          description: "Research group members, including postdocs and PhD students.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
+          },
         },{id: "nav-publications",
           title: "publications",
           description: "List of Publications",
@@ -29,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/vacancies/";
-          },
-        },{id: "nav-team",
-          title: "team",
-          description: "Group members, including Postdoc and PhD students.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/team/";
           },
         },{id: "nav-projects",
           title: "projects",
