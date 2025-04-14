@@ -18,4 +18,6 @@ Below is the list of courses offered during the **Summer Semester 2024**:
 | Komplexpraktikum Vertrauenswürdige Künstliche Intelligenz               | NF-B-510, INF-B-520, INF-MA-PR        | 0/0/4   |
 | Teamprojekt Vertrauenswerte Künstliche Intelligenz (CMS)                | CMS-LM-AI                           | 0/0/8   |
 
+---
+
 For any administrative questions (e.g., exam inquiries), please contact the secretary, Thomas Bruderrek, at <thomas.bruderrek1@tu-dresden.de>.
