@@ -7,9 +7,7 @@ nav: false
 nav_order: 1
 ---
 
-# Summer Semester 2025 (TU Dresden)
-
-Below is the list of courses offered during the Summer Semester 2025:
+Below is the list of courses offered during the **Summer Semester 2025**:
 
 | **Course Title**                                                         | **Modules**                         | **SWS**  |
 |--------------------------------------------------------------------------|-------------------------------------|----------|
