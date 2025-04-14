@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching Overview
 description: Overview of teaching activities, course offerings by semester, past courses, and supervision.
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 # Teaching Overview
