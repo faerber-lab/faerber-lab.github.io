@@ -6,8 +6,6 @@ nav: true
 nav_order: 7
 ---
 
-## Contact Information
-
 **Prof. Dr.-Ing. Michael Färber**<br />
 Head of the Cognitive AI Unit of ScaDS.AI<br />
 Full Professor for Scalable Software Architectures for Data Analytics<br />
