@@ -10,11 +10,9 @@ nav_order: 7
 
 ## Contact Information
 
-**Prof. Dr.-Ing. Michael Färber**  
-Head of the Cognitive AI Unit of ScaDS.AI
-
-Full Professor for Scalable Software Architectures for Data Analytics
-
+**Prof. Dr.-Ing. Michael Färber**<br />
+Head of the Cognitive AI Unit of ScaDS.AI<br />
+Full Professor for Scalable Software Architectures for Data Analytics<br />
 ScaDS.AI Dresden / TU Dresden
 
 - 📧 **Email:** [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de)  
