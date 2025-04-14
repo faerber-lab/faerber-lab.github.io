@@ -1,3 +1,12 @@
+---
+layout: page
+permalink: /teaching/summer-semester-2024/
+title: Summer Semester 2024
+description: Course offerings for Summer Semester 2024 at TU Dresden.
+nav: false
+nav_order: 1
+---
+
 # Summer Semester 2024 (TU Dresden)
 
 Below is the list of courses offered during the Summer Semester 2024:
