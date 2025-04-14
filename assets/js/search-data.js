@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-vacancies",
+  },{id: "nav-cv",
+          title: "cv",
+          description: "Curriculum Vitae",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-vacancies",
           title: "vacancies",
           description: "Latest openings and available student thesis topics.",
           section: "Navigation",
@@ -36,13 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Curriculum Vitae",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "nav-teaching-overview",
           title: "Teaching Overview",
