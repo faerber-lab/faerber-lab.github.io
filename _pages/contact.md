@@ -6,8 +6,6 @@ nav: true
 nav_order: 7
 ---
 
-<img src="{{ site.baseurl }}/assets/img/Dresden.jpg" alt="Dresdner Frauenkirche" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
-
 ## Contact Information
 
 **Prof. Dr.-Ing. Michael Färber**<br />
@@ -23,4 +21,4 @@ ScaDS.AI Dresden / TU Dresden
   01069 Dresden, Germany  
   [📍 View on Google Maps](https://maps.app.goo.gl/uFTw5hc9hp35bbWf6)
 
----
+<img src="{{ site.baseurl }}/assets/img/Dresden.jpg" alt="Dresdner Frauenkirche" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
