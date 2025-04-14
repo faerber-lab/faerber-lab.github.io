@@ -1,28 +1,39 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Teaching activities and courses materials.
+title: Teaching Overview
+description: Overview of teaching activities, course offerings by semester, past courses, and supervision.
 nav: true
 nav_order: 6
 ---
 
-### SecretLLM: Behind the Secrets of Large Language Models
+# Teaching Overview
 
-**Period**: Winter 2024/2025
+## Semester Course Offerings
 
-This course offers a **practical and in-depth exploration** of large language models (LLMs), which are at the core of modern natural language processing (NLP) systems. Students will gain hands-on experience alongside theoretical insights into LLM architecture, training methodologies, capabilities, and ethical considerations.
+I offer a range of courses that cover advanced topics in Artificial Intelligence, Data Science, and Trustworthy AI:
 
-By the end of this course, students will be able to:
-1. **Understand** the architecture and key components of large language models.
-2. **Analyze** training processes, including data collection, model optimization, and fine-tuning.
-3. **Evaluate** the performance and limitations of LLMs across various NLP tasks.
-4. **Apply** LLMs to real-world applications, such as text generation, summarization, and translation.
-5. **Discuss** the ethical considerations and societal impacts of deploying LLMs.
+- **[Summer Semester 2025 (TU Dresden)](/teaching/summer-semester-2025/)**  
+- **[Winter Semester 2024/2025 (TU Dresden)](/teaching/winter-semester-2024-25/)**  
+- **[Summer Semester 2024 (TU Dresden)](/teaching/summer-semester-2024/)**  
 
-#### **Prerequisites**
-- Prior knowledge of **Introduction to Machine Learning** or an equivalent course.
-- A **basic understanding of neural networks**.
-- **Programming experience in Python**.
+_For more details on course content, materials, enrollment procedures, or research collaborations, please visit the individual semester pages._
 
-This course is offered together with Simon Razniewski
+---
+
+## Past Courses & Teaching Positions
+
+Over the course of my academic career, I have taught a wide range of courses across institutions and disciplines:
+
+- **Deputy Professorship Position:** From October 2020 until March 2023, I had served as a W3 Deputy Full Professor at KIT, where I taught B.Sc. and M.Sc. courses in Business Informatics, Business Engineering, and Computer Science—some with up to 600 students.
+- **Postdoctoral Roles:** I have held teaching positions at KIT, the University of Freiburg, and Kyoto University, delivering lectures and seminars with class sizes ranging from 150 to 600 students.
+- **Ph.D. Student Experience:** During my doctoral studies (2012–2017) at KIT, I led exercises and seminars involving multiple teaching assistants and coordinated small-group supervision.
+
+---
+
+## Supervision & Mentoring
+
+- I have independently supervised over **60 theses** (Bachelor’s, Master’s, and Diploma).  
+  Current open topics can be found on the [student thesis page](/student_thesis/).
+- I currently supervise **6 Ph.D. students** at TU Dresden.  
+  See the [team page](/team/) for more details.
