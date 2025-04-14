@@ -7,9 +7,7 @@ nav: false
 nav_order: 3
 ---
 
-# Winter Semester 2025/2026 (TU Dresden)
-
-We plan to offer again the lecture **SecretLLM – Behind the Secrets of Large Language Models**.  
+For the Winter Semester 2025/26, we plan to offer again the lecture **SecretLLM – Behind the Secrets of Large Language Models**.  
 More details can be found here: _pages/secretLLM.md_
 
 In addition, the following courses are planned to be offered again (subject to confirmation):
