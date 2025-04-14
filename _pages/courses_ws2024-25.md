@@ -7,13 +7,9 @@ nav: false
 nav_order: 2
 ---
 
-# Winter Semester 2024/2025 (TU Dresden)
+In the **Winter Semester 2024/2025**, we feature a newly introduced flagship lecture alongside several advanced project-based courses.
 
-This semester features a newly introduced flagship lecture alongside several advanced project-based courses.
-
-## Featured Lecture (new!)
-
-### **SecretLLM – Behind the Secrets of Large Language Models**
+### Lecture: **SecretLLM – Behind the Secrets of Large Language Models**
 - **Description:** A hands-on, in-depth course exploring the inner workings of large language models (LLMs), including their architectures, training strategies, real-world applications (e.g., text generation, summarization), and ethical implications.
 - **Exam Format:** Project work replaces the written exam.
 - **Prerequisites:** Introductory machine learning, basic neural network knowledge, and solid Python programming skills.
@@ -21,7 +17,7 @@ This semester features a newly introduced flagship lecture alongside several adv
 
 ---
 
-## Additional Courses
+### Additional Courses
 
 | **Course Title**                                                         | **Modules**                         | **SWS**  |
 |--------------------------------------------------------------------------|-------------------------------------|----------|
