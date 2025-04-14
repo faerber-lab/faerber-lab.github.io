@@ -38,7 +38,7 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-teaching",
-          title: "Teaching",
+          title: "teaching",
           description: "Overview of teaching activities, course offerings by semester, past courses, and supervision.",
           section: "Navigation",
           handler: () => {
@@ -52,7 +52,7 @@ ninja.data = [{
             window.location.href = "/vacancies/";
           },
         },{id: "nav-contact",
-          title: "Contact",
+          title: "contact",
           description: "",
           section: "Navigation",
           handler: () => {
