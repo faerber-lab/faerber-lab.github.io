@@ -7,9 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-# Teaching Overview
-
-## Semester Course Offerings
+### Semester Course Offerings
 
 I offer a range of courses that cover advanced topics in Artificial Intelligence, Data Science, and Trustworthy AI:
 
@@ -17,11 +15,9 @@ I offer a range of courses that cover advanced topics in Artificial Intelligence
 - **[Winter Semester 2024/2025 (TU Dresden)](/teaching/winter-semester-2024-25/)**  
 - **[Summer Semester 2024 (TU Dresden)](/teaching/summer-semester-2024/)**  
 
-_For more details on course content, materials, enrollment procedures, or research collaborations, please visit the individual semester pages._
-
 ---
 
-## Past Courses & Teaching Positions
+### Past Courses & Teaching Positions
 
 Over the course of my academic career, I have taught a wide range of courses across institutions and disciplines:
 
@@ -31,7 +27,7 @@ Over the course of my academic career, I have taught a wide range of courses acr
 
 ---
 
-## Supervision & Mentoring
+### Supervision & Mentoring
 
 - I have independently supervised over **60 theses** (Bachelor’s, Master’s, and Diploma).  
   Current open topics can be found on the [student thesis page](/student_thesis/).
