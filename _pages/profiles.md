@@ -2,9 +2,9 @@
 layout: profiles
 permalink: /team/
 title: team
-description: Group members, including Postdoc and PhD students.
+description: Research group members, including postdocs and PhD students.
 nav: true
-nav_order: 3
+nav_order: 2
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
