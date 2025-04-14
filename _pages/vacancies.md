@@ -4,7 +4,7 @@ permalink: /vacancies/
 title: vacancies
 description: Latest openings and available student thesis topics.
 nav: true
-nav_order: 2
+nav_order: 6
 ---
 
 **Open Postdoc Positions**  
