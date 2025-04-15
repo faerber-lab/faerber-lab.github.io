@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /top-publications/
-title: Top Publications
+permalink: /selected-publications/
+title: Selected Publications
 description: Selection of 10 key publications with short summaries.
 nav: false
 nav_order: 2
