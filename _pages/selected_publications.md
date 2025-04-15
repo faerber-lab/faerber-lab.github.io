@@ -7,9 +7,9 @@ nav: false
 nav_order: 2
 ---
 
-## Top 10 Publications
+## Selected Publications
 
-Below you can find my top 10 publications, each with a short summary highlighting its impact.
+Below you can find my selected 10 publications, each with a short summary highlighting its impact.
 A full list of my publications is available <a href='https://faerber-lab.github.io/publications/'>here</a>.
 
 ---
