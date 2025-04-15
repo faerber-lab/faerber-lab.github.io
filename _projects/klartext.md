@@ -10,7 +10,7 @@ related_publications: true
 
 **UPDATES:**
 
-Our demo paper related to Klartext project has been accepted at ECIR 2025! Check out the details in our paper, <a href='https://link.springer.com/chapter/10.1007/978-3-031-88717-8_32'>SimplifyMyText: An LLM-Based System for Inclusive Plain Language Text Simplification </a> {% cite 10.1007/978-3-031-88717-8_32 %}.
+Our demo paper related to Klartext project has been accepted at ECIR 2025! Check out the details in our paper, <a href='https://link.springer.com/chapter/10.1007/978-3-031-88717-8_32'>SimplifyMyText: An LLM-Based System for Inclusive Plain Language Text Simplification </a> {% cite färber2025simplifymytext %}.
 
 ---
 
