@@ -1,7 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-title: # the website title (if blank, full name will be used instead)
+
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Prof. Dr.-Ing.
 middle_name: Michael
 last_name: Färber
