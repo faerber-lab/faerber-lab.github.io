@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We’re opening a PostDoc position soon—<a href='https://faerber-lab.github.io/contact/'>contact me</a> if you’re interested! See <a href='https://faerber-lab.github.io/vacancies/'> our vacancies</a>.
+We’ll be opening a PostDoc position soon—see the details on <a href='{{ site.baseurl }}/vacancies/'>our vacancies page</a>.
