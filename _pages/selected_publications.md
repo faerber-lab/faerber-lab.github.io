@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /selected-publications/
+permalink: /selected_publications/
 title: Selected Publications
 description: Selection of 10 key publications with short summaries.
 nav: false
