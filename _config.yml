@@ -1,9 +1,13 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-title: <span class="text-muted">Prof. Dr.-Ing.</span> Michael Färber # the website title (if blank, full name will be used instead)
-first_name: Michael
-middle_name: #
+# title: <span class="text-muted">Prof. Dr.-Ing.</span> Michael Färber # the website title (if blank, full name will be used instead)
+# first_name: Michael
+# middle_name: #
+# last_name: Färber
+title: # the website title (if blank, full name will be used instead)
+first_name: Prof. Dr.-Ing.
+middle_name: Michael
 last_name: Färber
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
