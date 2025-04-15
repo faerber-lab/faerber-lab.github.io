@@ -1,3 +1,4 @@
+---
 layout: page  
 permalink: /research_stays/  
 title: Research Stays  
