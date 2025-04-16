@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/winter-semester-2024-2025/
+permalink: /teaching/winter-semester-2024-25/
 title: Winter Semester 2024/2025
 description: Course offerings for Winter Semester 2024/2025 at TU Dresden.
 nav: false
