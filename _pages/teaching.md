@@ -12,7 +12,7 @@ nav_order: 5
 I offer a range of courses that cover advanced topics in Artificial Intelligence, Data Science, and Trustworthy AI:
 
 - **[Summer Semester 2025 (TU Dresden)](/teaching/summer-semester-2025/)**  
-- **[Winter Semester 2024/2025 (TU Dresden)](/teaching/winter-semester-2024-2025/)**  
+- **[Winter Semester 2024/2025 (TU Dresden)](/teaching/winter-semester-2024-25/)**  
 - **[Summer Semester 2024 (TU Dresden)](/teaching/summer-semester-2024/)**  
 
 ---
