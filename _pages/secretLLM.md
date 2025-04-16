@@ -2,7 +2,7 @@
 layout: page
 permalink: /secretllm/
 title: teaching
-description: SecretLLM course.
+description: SecretLLM course
 nav: false
 nav_order: 6
 ---
