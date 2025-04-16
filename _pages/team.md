@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /team/
 title: team
-description: Research group members, including postdocs and PhD students.
+description: Core group members, including postdocs and PhD students.
 nav: true
 nav_order: 2
 
