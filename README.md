@@ -3,6 +3,7 @@
 - `about` page (front page): [pages/about.md](_pages/about.md)
   - The website title, footer information, the total number of news articles on the front page, etc. are managed in the [config.yml](_config.yml).
   - Social icons are managed in the [data/socials.yml](_data/socials.yml).
+  - To edit the about page appearance: [layout/about.liquid](_layout/about.liquid)
 - `news` page: [pages/news.md](_pages/news.md)
   - To add a new news article, create a new page in the [news folder](_news/). For example, see [news/1_news.md](_news/1_news.md).
   - The news are ordered based on the datetime.
@@ -19,6 +20,9 @@
 - To add a new page/menu, create a new page in the [pages folder](_pages/). For example, [pages/vacancies.md](_pages/vacancies.md), [pages/teaching.md](_pages/teaching.md), etc.
   - Make sure to set "nav: true" to show the page as top menu. The top menus are ordered based on "nav_order".
   - To include/exclude pages/top menus, [config.yml](_config.yml).
+- The website appearance can be customized from liquid files at [layout folder](_layout/) and [include folder](_include/), e.g.:
+  - about page: [layout/about.liquid](_layout/about.liquid)
+  - header: [include/header.liquid](_include/header.liquid), etc.
 ---
 
 # al-folio
