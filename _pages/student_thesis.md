@@ -18,11 +18,11 @@ We offer supervision for student theses on various topics, including (but not li
 | 5  | [Creating a Multimodal Dataset of Actions Labeled with Their Expected Durations](/blog/2024/thesis-dataset-mmodal) | Multimodality, Dataset Creation |
 | 6  | [Creating a Dataset of Complex Temporal Questions for Testing Large Language Models (LLMs)](/blog/2024/thesis-dataset-temporal) | Dataset Creation, NLP, LLMs |
 | 7  | [Advanced Multi-Modality Learning in Electronic Health Records for Personalized Medical Recommendations](/blog/2024/thesis-mmodal-medical) | Multi-Modality, Health Informatics, Machine Learning |
-| 8  | [Fusing RDF Knowledge Graphs with Deep Learning for Advanced Recommender Systems](https://faerber-lab.github.io/blog/2024/thesis-kg-recsys) | Knowledge Graphs, Deep Learning, Recommender Systems |
-| 9  | [Extending the RDF Knowledge Graph SemOpenAlex.org](https://faerber-lab.github.io/blog/2024/thesis-semopenalex-extend) | Knowledge Graphs |
-| 10 | [Large Language Model-Enhanced Graph Message Passing Network for Link Prediction](https://faerber-lab.github.io/blog/2024/thesis-link-prediction) | Graph Neural Networks, LLMs |
-| 11 | [Stock Market Predictions Through Deep Learning](https://faerber-lab.github.io/blog/2024/thesis-stock-market) | Machine Learning, Financial Analytics |
-| 12 | [Designing and Executing a Large-Scale User Study on Scientific Text Simplification](https://faerber-lab.github.io/blog/2024/thesis-simplification) | NLP, User Studies |
+| 8  | [Fusing RDF Knowledge Graphs with Deep Learning for Advanced Recommender Systems](/blog/2024/thesis-kg-recsys) | Knowledge Graphs, Deep Learning, Recommender Systems |
+| 9  | [Extending the RDF Knowledge Graph SemOpenAlex.org](/blog/2024/thesis-semopenalex-extend) | Knowledge Graphs |
+| 10 | [Large Language Model-Enhanced Graph Message Passing Network for Link Prediction](/blog/2024/thesis-link-prediction) | Graph Neural Networks, LLMs |
+| 11 | [Stock Market Predictions Through Deep Learning](/blog/2024/thesis-stock-market) | Machine Learning, Financial Analytics |
+| 12 | [Designing and Executing a Large-Scale User Study on Scientific Text Simplification](/blog/2024/thesis-simplification) | NLP, User Studies |
 | 13 | [Function-Aware Citation Retrieval and Generation](#) | Citation Retrieval, Text Generation, NLP, LLMs |
 | 14 | [Uncovering the Dark Side of Large Language Models: Bias, Harm, and Toxicity](#) | AI Ethics, Bias, LLMs, NLP |
 | 15 | [LLM Reasoning for Interpolation of Knowledge Gaps in External Contexts for RAG](#) | Retrieval-Augmented Generation, LLM Reasoning, Information Retrieval |
