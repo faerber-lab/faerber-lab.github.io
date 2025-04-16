@@ -9,7 +9,7 @@ nav_order: 2
 
 Below is a curated list of ten of my publications (listed chronologically), each with a short summary highlighting its impact.
 
-A full list of publications is available <a href='https://faerber-lab.github.io/publications/'>here</a>.
+A full list of publications is available <a href='/publications/'>here</a>.
 
 ---
 
@@ -18,7 +18,7 @@ A full list of publications is available <a href='https://faerber-lab.github.io/
 _ISWC 2024_  
 [📄 Read the paper](https://arxiv.org/pdf/2407.18752)  
 
-We introduce a method for extracting causal relationships from text by integrating small language models with knowledge graphs via prompt-based learning. The approach outperforms larger models and fine-tuning methods—more efficiently and at lower cost—highlighting the power of combining knowledge graphs with compact AI models.
+We introduce a method for extracting causal relationships from text by integrating _small_ language models (under 1B parameters) with knowledge graphs via prompt-based learning. The approach outperforms larger models—more efficiently and at lower cost—highlighting the power of combining knowledge graphs with compact AI models.
 
 ---
 
