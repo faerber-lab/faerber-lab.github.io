@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 For the Winter Semester 2025/26, we plan to offer again the lecture **SecretLLM – Behind the Secrets of Large Language Models**.  
-More details can be found here: _pages/secretLLM.md_
+More details can be found here: <a href="/secretLLM/"> SecretLLM course</a>
 
 In addition, the following courses are planned to be offered again (subject to confirmation):
 
