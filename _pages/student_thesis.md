@@ -27,7 +27,7 @@ We offer supervision for student theses on various topics, including (but not li
 | 14 | [Uncovering the Dark Side of Large Language Models: Bias, Harm, and Toxicity](#) | AI Ethics, Bias, LLMs, NLP | Shuzhou Yuan, shuzhou.yuan@tu-dresden.de |
 | 15 | [LLM Reasoning for Interpolation of Knowledge Gaps in External Contexts for RAG](#) | Retrieval-Augmented Generation, LLM Reasoning, Information Retrieval | Tim Schopf, tim.schopf@tu-dresden.de |
 | 16 | [Reinforcement Learning from Human Feedbacks for LLM Reasoning: Cr\*p or Gold?](#) | RLHF, LLM Reasoning, Reinforcement Learning, NLP | Zhan Qu, zhan.qu@kit.edu |
-| 17 | [Explain the Unexplainable: Reinforcement Learning meets Temporal Graph Neural Networks](#) | Temporal Graph Neural Networks, Explainable AI, Reinforcement Learning | Zhan Qu, zhan.qu@kit.eduFärber |
+| 17 | [Explain the Unexplainable: Reinforcement Learning meets Temporal Graph Neural Networks](#) | Temporal Graph Neural Networks, Explainable AI, Reinforcement Learning | Zhan Qu, zhan.qu@kit.edu |
 | 18 | [Explain the invisible: RL meets 3D Point Clouds for Wake Vortex Detection](#) | Reinforcement Learning, 3D Vision, Explainable AI, Aviation Safety | Zhan Qu, zhan.qu@kit.edu |
 | 19 | [Reasoning Language Models go Multimodal](#) | Multimodal, LLM Reasoning, Vision-Language Integration | Nicholas Popovic, nicholas.popovic@tu-dresden.de |
 
