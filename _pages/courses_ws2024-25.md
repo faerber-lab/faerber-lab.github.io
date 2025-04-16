@@ -9,15 +9,15 @@ nav_order: 2
 
 In the **Winter Semester 2024/2025**, we feature a newly introduced flagship lecture alongside several advanced project-based courses.
 
-### Lecture: **SecretLLM – Behind the Secrets of Large Language Models**
+#### Lecture: **SecretLLM – Behind the Secrets of Large Language Models**
 - **Description:** A hands-on, in-depth course exploring the inner workings of large language models (LLMs), including their architectures, training strategies, real-world applications (e.g., text generation, summarization), and ethical implications.
 - **Exam Format:** Project work replaces the written exam.
 - **Prerequisites:** Introductory machine learning, basic neural network knowledge, and solid Python programming skills.
-- More details: _pages/secretLLM.md_
+- More details: <a href="/secretllm/"> SecretLLM course </a>
 
 ---
 
-### Additional Courses
+#### Additional Courses
 
 | **Course Title**                                                         | **Modules**                         | **SWS**  |
 |--------------------------------------------------------------------------|-------------------------------------|----------|
