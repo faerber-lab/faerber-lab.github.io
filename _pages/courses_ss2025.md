@@ -21,9 +21,7 @@ Below is the list of courses offered during the **Summer Semester 2025**:
 ---
 
 **Still looking for a topic?**  
-The topics for the above mentioned courses are equivalent to those listed on our [student thesis page](/student_thesis/). Feel free to select a topic that matches your interests and contact the listed advisor for supervision and further coordination.  
-
-When contacting them, please include a short CV, a transcript of records, and a brief statement about your skills and motivation for choosing that topic.
+The topics for the above mentioned courses are equivalent to those listed on our [student thesis page](/student_thesis/). Feel free to select a topic that matches your interests and contact the listed advisor. When contacting them, please include a short CV, a transcript of records, and a brief statement about your skills and motivation for choosing that topic.
 
 _Note:_ We are particularly looking for students who are interested in turning their work into a scientific publication afterwards.
 
