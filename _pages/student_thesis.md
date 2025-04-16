@@ -32,10 +32,13 @@ We offer supervision for student theses on various topics, including (but not li
 | 19 | [Reasoning Language Models go Multimodal](#) | Multimodal, LLM Reasoning, Vision-Language Integration | nicholas.popovic@tu-dresden.de |
 
 **Important:**  
-We are looking for students who are eager to collaborate on scientific publications based on their thesis work. This collaboration provides enhanced academic credentials, valuable research experience, and improved career prospects—including opportunities for international cooperation.
+We're seeking motivated students interested in turning their thesis work into scientific publications. This is a great opportunity to gain hands-on research experience and strengthen your career prospects—including potential for international collaboration. 
+
+You're welcome to choose a topic that aligns with your interests. Then, reach out to the corresponding contact person and include the following in your email: (1) A brief CV (2) Your transcript of records and (3) A short statement highlighting your skills and your motivation for choosing the topic. We look forward to collaborating with you!
+
 
 **Prof. Dr.-Ing. Michael Färber** has supervised over 50 Bachelor and Master theses and welcomes applications from both **English- and German-speaking students**. Many exciting thesis topics are available, including opportunities to study abroad through our partner institutions (e.g., in Japan), with the aim of co-authoring scientific papers based on your research. In the past, dedicated DAAD funding possibilities have supported our innovative projects through the IFI framework.
 
-For more details, feel free to reach out to the corresponding contact person (mentioned in the topic description)!
+For more details, feel free to reach out to the corresponding contact person!
 
 [Back to _vacancies_](https://faerber-lab.github.io/vacancies/)
