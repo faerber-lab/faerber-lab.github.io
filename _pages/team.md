@@ -28,7 +28,7 @@ profiles:
     more_info: >
       <p>Zhan Qu</p>
   - align: left
-    image: parisa.jpeg
+    image: parisa.jpg
     content: about_parisa.md
     image_circular: false # crops the image to make it circular
     more_info: >
