@@ -12,6 +12,8 @@ We will be opening a postdoc position soon (start date: Summer/Autumn 2025). If 
 
 International applicants can also apply for external funding through agencies such as DAAD, DFG, and Humboldt, among others. For more information on research stays—from short-term visits to long-term stays of up to 2 years—please visit [this page](/research_stays/).
 
+---
+
 #### Open PhD Positions  
 While we do not have a public call for PhD positions at the moment, several opportunities are available:
 
@@ -21,8 +23,12 @@ While we do not have a public call for PhD positions at the moment, several oppo
 
 3. **Proposal-Driven Funding:** If you have a rough idea for your PhD topic (or are simply highly interested in the group’s research areas), [contact me](/contact/) and we can work together on a funding proposal (e.g., for _DFG Sachbeihilfe_). If approved, this could secure a full PhD position (TVL E13) with funding for 3 years, including travel support. Keep in mind that the review process can take up to six months, so early engagement is recommended.
 
+---
+
 #### Open Student Theses  
 For current calls regarding student theses and general information on supervision, please see our [student thesis page](/student_thesis/).
+
+---
 
 #### Research Stays  
 We also welcome researchers at all career stages—from Master’s and PhD students to postdocs and established scientists—for research stays (e.g., between 3 and 12 months) in our research group. For more details, please visit our [research stays page](/research_stays/).
