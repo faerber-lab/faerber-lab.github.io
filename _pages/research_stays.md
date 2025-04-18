@@ -7,14 +7,15 @@ nav: false
 nav_order: 1  
 ---
 
-We are part of both TU Dresden and ScaDS.AI, and welcome researchers at all career stages for on-site research stays in our lab. If you already have funding, feel free to contact Michael Färber to discuss hosting possibilities. If you still require financial support, review the options below—several past research stays in our group have been funded through these programs.  
-**Note:** We cannot investigate the suitability and eligibility of any funding programs for you; please verify these details independently before contacting us.
+We are part of both TU Dresden and ScaDS.AI, and welcome researchers at all career stages for on-site research stays in our lab. If you already have funding, feel free to [contact us](/contact/) to discuss hosting possibilities. If you require financial support, review the options below—several past research stays in our group have been funded through these programs. 
+
+**Note:** We cannot investigate the suitability and eligibility of the funding programs for you; please verify these details independently before contacting us.
 
 We look forward to welcoming you to our group!
 
 ---
 
-#### 1. Master's Students
+#### **Master's Students**
 
 **Typical Length:** 2–6 months (e.g., research internship, short-term project)  
 **Possible Funding Sources (Non-Exclusive):**
@@ -30,7 +31,7 @@ We look forward to welcoming you to our group!
 
 ---
 
-#### 2. PhD Students
+#### **PhD Students**
 
 **Typical Length:** 3–12 months (short or extended research visits)  
 **Possible Funding Sources:**
@@ -46,7 +47,7 @@ We look forward to welcoming you to our group!
 
 ---
 
-#### 3. Postdocs
+#### **Postdocs**
 
 If you completed your PhD within the past 4 years, you may qualify for:
 
@@ -68,7 +69,7 @@ If you completed your PhD within the past 4 years, you may qualify for:
 
 ---
 
-#### 4. Established Researchers
+#### **Established Researchers**
 
 For those with over 4 years of postdoctoral experience—or who are already recognized in your field—consider these programs:
 
@@ -88,6 +89,6 @@ For those with over 4 years of postdoctoral experience—or who are already reco
 
 ---
 
-#### Living in Dresden: DRESDEN-concept Welcome Center
+#### **Living in Dresden: DRESDEN-concept Welcome Center**
 
 For practical support regarding visas, housing, health insurance, language courses, and more, the **[DRESDEN-concept Welcome Center](https://dresden-concept.de/welcome-overview/?lang=en)** is an excellent resource for international researchers. They also offer family support, events, and integration projects.
