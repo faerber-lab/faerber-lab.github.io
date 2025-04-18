@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-### Semester Course Offerings
+#### Semester Course Offerings
 
 I offer a range of courses that cover advanced topics in Artificial Intelligence, Data Science, and Trustworthy AI:
 
@@ -18,7 +18,7 @@ I offer a range of courses that cover advanced topics in Artificial Intelligence
 
 ---
 
-### Past Courses & Teaching Positions
+#### Past Courses & Teaching Positions
 
 Over the course of my academic career, I have taught a wide range of courses across institutions and disciplines:
 
@@ -28,7 +28,7 @@ Over the course of my academic career, I have taught a wide range of courses acr
 
 ---
 
-### Supervision & Mentoring
+#### Supervision & Mentoring
 
 - I have independently supervised over **60 theses** (Bachelor’s, Master’s, and Diploma).  
   Current open topics can be found on the [student thesis page](/student_thesis/).
