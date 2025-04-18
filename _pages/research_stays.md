@@ -15,7 +15,7 @@ We look forward to welcoming you to our group!
 
 ---
 
-#### **Master's Students**
+#### Master's Students
 
 **Typical Length:** 2–6 months (e.g., research internship, short-term project)  
 **Possible Funding Sources (Non-Exclusive):**
@@ -31,7 +31,7 @@ We look forward to welcoming you to our group!
 
 ---
 
-#### **PhD Students**
+#### PhD Students
 
 **Typical Length:** 3–12 months (short or extended research visits)  
 **Possible Funding Sources:**
@@ -47,7 +47,7 @@ We look forward to welcoming you to our group!
 
 ---
 
-#### **Postdocs**
+#### Postdocs
 
 If you completed your PhD within the past 4 years, you may qualify for:
 
@@ -69,7 +69,7 @@ If you completed your PhD within the past 4 years, you may qualify for:
 
 ---
 
-#### **Established Researchers**
+#### Established Researchers
 
 For those with over 4 years of postdoctoral experience—or who are already recognized in your field—consider these programs:
 
@@ -89,6 +89,6 @@ For those with over 4 years of postdoctoral experience—or who are already reco
 
 ---
 
-#### **Living in Dresden: DRESDEN-concept Welcome Center**
+#### Living in Dresden: DRESDEN-concept Welcome Center
 
 For practical support regarding visas, housing, health insurance, language courses, and more, the **[DRESDEN-concept Welcome Center](https://dresden-concept.de/welcome-overview/?lang=en)** is an excellent resource for international researchers. They also offer family support, events, and integration projects.
