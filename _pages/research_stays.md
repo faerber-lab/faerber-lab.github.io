@@ -51,7 +51,7 @@ We look forward to welcoming you to our group!
 
 If you completed your PhD within the past 4 years, you may qualify for:
 
-##### Humboldt Research Fellowship (Postdoc Track)
+**Humboldt Research Fellowship (Postdoc Track)**
 - **Who’s Eligible:**  
   Outstanding researchers who finished their doctorate within the last 4 years, from any discipline or country.
 - **What’s Offered:**  
@@ -59,7 +59,7 @@ If you completed your PhD within the past 4 years, you may qualify for:
 - **When to Apply:**  
   Rolling basis—evaluations focus on the excellence and originality of your proposed project.
 
-##### Georg Forster Research Fellowship (Postdoc Track)
+**Georg Forster Research Fellowship (Postdoc Track)**
 - **Who’s Eligible:**  
   Researchers from **developing or emerging countries** who completed their PhD within the last 4 years, with a focus on research that has a strong societal impact in their home country.
 - **What’s Offered:**  
@@ -73,7 +73,7 @@ If you completed your PhD within the past 4 years, you may qualify for:
 
 For those with over 4 years of postdoctoral experience—or who are already recognized in your field—consider these programs:
 
-##### Humboldt Research Fellowship (Experienced Researchers)
+**Humboldt Research Fellowship (Experienced Researchers)**
 - **Who’s Eligible:**  
   Researchers who completed their doctorate within the last 12 years and have a strong track record of excellence.
 - **What’s Offered:**  
@@ -81,7 +81,7 @@ For those with over 4 years of postdoctoral experience—or who are already reco
 - **When to Apply:**  
   Rolling—evaluated based on scientific excellence, originality, and future potential.
 
-##### Research Awards (e.g., Friedrich Wilhelm Bessel, Humboldt, Georg Forster Research Prizes)
+**Research Awards (e.g., Friedrich Wilhelm Bessel, Humboldt, Georg Forster Research Prizes)**
 - **Who’s Eligible:**  
   Established, internationally recognized scientists with extensive publications and significant research achievements.
 - **What’s Offered:**  
