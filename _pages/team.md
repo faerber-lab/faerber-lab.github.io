@@ -15,47 +15,40 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Tim Schopf</p>
-      <p>Room 732</p>
   - align: left
     image: joe.jpg
     content: about_joe.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Shuzhou Yuan</p>
-      <p>Room 732</p>
   - align: right
     image: zhan.png
     content: about_zhan.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Zhan Qu</p>
-      <p>Room 732</p>
   - align: left
     image: parisa.jpeg
     content: about_parisa.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Parisa Aghdam</p>
-      <p>Room 732</p>
   - align: right
     image: tobias.png
     content: about_tobias.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Tobias Schreieder</p>
-      <p>Room 732</p>
   - align: left
     image: nic.jpg
     content: about_nic.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Nicholas Popovic</p>
-      <p>KIT, Karlsruhe </p>
   - align: right
     image: chen.jpg
     content: about_chen.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Chen Shao</p>
-      <p>KIT, Karlsruhe </p>
 ---
