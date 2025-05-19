@@ -530,7 +530,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/0_start/";
-            },},{id: "news-our-paper-gnnavi-has-been-accepted-at-findings-of-acl-24-and-grasame-at-findings-of-naacl-24-see-you-in-bangkok-and-mexico-city",
+            },},{id: "news-two-papers-have-been-accepted-at-kdd-2025-one-in-the-research-track-and-one-in-the-applied-data-science-track-see-you-in-toronto",
+          title: 'Two papers have been accepted at KDD 2025 — one in the Research...',
+          description: "",
+          section: "News",},{id: "news-our-paper-gnnavi-has-been-accepted-at-findings-of-acl-24-and-grasame-at-findings-of-naacl-24-see-you-in-bangkok-and-mexico-city",
           title: 'Our paper GNNavi has been accepted at Findings of ACL’24, and GraSAME at...',
           description: "",
           section: "News",},{id: "news-ember-has-been-accepted-to-emnlp-2024-as-a-main-conference-paper-additionally-two-papers-autordf2gml-and-kgprompt-have-been-accepted-at-iswc-2024-see-you-in-baltimore",
