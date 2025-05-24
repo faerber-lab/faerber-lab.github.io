@@ -9,7 +9,7 @@ nav_order: 6
 
 #### Open Postdoc Positions  
 We will be opening a postdoc position soon (start date: Summer/Autumn 2025). If you’re interested, please [contact us](/contact/)! Potential research topics include natural language processing, large language models, knowledge graphs, and graph neural networks.
-**UPDATE:** We are opening a [Senior Postdoc position](/vac_spostdoc_2025/).
+**UPDATE:** We are opening a [Senior Postdoc position](/news/7_postdoc_2025/).
 
 International applicants can also apply for external funding through agencies such as DAAD, DFG, and Humboldt, among others. For more information on research stays—from short-term visits to long-term stays of up to 2 years—please visit [this page](/research_stays/).
 
