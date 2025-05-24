@@ -551,7 +551,9 @@ ninja.data = [{
           section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
           title: 'Senior PostDoc position available—apply now to join our team!',
           description: "",
-          section: "News",},{id: "projects-klartext",
+          section: "News",handler: () => {
+              window.location.href = "/news/7_postdoc_2025/";
+            },},{id: "projects-klartext",
           title: 'Klartext',
           description: "AI-based Translation of Websites Into Plain Language",
           section: "Projects",handler: () => {
