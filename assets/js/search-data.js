@@ -525,6 +525,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/testnews/";
             },},{id: "news-starting-as-full-professor-w3-at-scads-ai-tu-dresden",
           title: 'Starting as full professor (W3) at ScaDS.AI / TU Dresden.',
           description: "",
