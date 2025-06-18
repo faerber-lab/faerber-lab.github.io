@@ -11,7 +11,7 @@ related_posts: false
 
 #### Senior Postdoc / Assistant Professor (m/f/d)
 
-The Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at TU Dresden offers a position as Senior Postdoc / Assistant Professor, as follows:
+The [Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI)](https://scads.ai) at TU Dresden offers a position as Senior Postdoc / Assistant Professor, as follows:
 
 - **Assignment**: Professorship for Scalable Software Architectures for Data Analytics (Prof. Dr. Michael Färber)
 - **Research areas:** Natural Language Processing, Large Language Models, Knowledge Graphs, and related fields (e.g., Graph Machine Learning)
