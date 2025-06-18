@@ -13,9 +13,9 @@ nav_order: 6
 
 We are hiring two postdoctoral researchers in the areas of **Large Language Models (LLMs)**, **Natural Language Processing (NLP)**, **Knowledge Graphs**, or **Graph Machine Learning** at ScaDS.AI, TU Dresden.
 
-- [**Senior Postdoc** (comparable to Assistant Professorship, TV-L E14)](../_news/7_postdocE14_2025.md)
+- [**Senior Postdoc** (comparable to Assistant Professorship, TV-L E14) →](../_news/7_postdocE14_2025.md)
 
-- [**Junior Postdoc** (TV-L E13)](../_news/8_postdocE13_2025.md)
+- [**Junior Postdoc** (TV-L E13) →](../_news/8_postdocE13_2025.md)
 
 **Start date:** As soon as possible  
 **Contract duration:** Up to 2 years (extension possible)  
