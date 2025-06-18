@@ -44,5 +44,5 @@ You can also send your application via post to **TU Dresden, ScaDS.AI, Prof. Dr.
 
 Expenses incurred in attending interviews can be reimbursed. Feel free to reach out with questions: [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de)
 
-For full details, see the [Postdoc E14 call](assets/pdf/Call_for_Postdoc_E14_2025.pdf).
+For full details, see the [Postdoc E14 call](/assets/pdf/Call_for_Postdoc_E14_2025.pdf).
 
