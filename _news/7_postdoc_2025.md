@@ -6,16 +6,19 @@ inline: false
 related_posts: false
 ---
 
-The Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI Dresden) offers a position as  
 
 ---
 
-#### Senior Postdoc / Research Associate (m/f/d)
+#### Senior Postdoc / Assistant Professor (m/f/d)
 
-**starting at the next possible date in full time for a period of up to two years, with the option of extension.** The period of employment is governed by the Fixed Term Research Contracts Act (Wissenschaftszeitvertragsgesetz-WissZeitVG). A shorter contract term is possible by arrangement.
+The Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at TU Dresden offers a position as Senior Postdoc / Assistant Professor, as follows:
 
-- **Remuneration:** Remuneration will be based on the employee’s qualifications: those who meet the criteria for salary group E 14 TV-L will be classified accordingly. If only the formal requirements for salary group E 13 TV-L are fulfilled, classification will be in E 13 TV-L.
+- **Assignment**: Professorship for Scalable Software Architectures for Data Analytics (Prof. Dr. Michael Färber)
 - **Research areas:** Natural Language Processing, Large Language Models, Knowledge Graphs, and related fields (e.g., Graph Machine Learning)
+
+- 📍 **Location**: ScaDS.AI, TU Dresden, Germany
+- 🕒 **Start Date**: As soon as possible | 📄 Contract: Up to 2 years (extension possible). A shorter contract term is possible by arrangement.
+- 💶 **Remuneration**: TV-L E14 
 
 **Tasks:**
 - Initiating, coordinating, and writing research grant proposals
@@ -33,5 +36,10 @@ The Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI Dre
 - Excellent communication skills in English, both written and spoken 
 - Preferred qualification: Prior postdoctoral research experience
 
-**How to Apply:**
-Please submit your detailed application including the usual documents (e.g., Cover letter, CV, other supporting documents) with the subject "ScaDS.AI Färber E14" to 📧 [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de). Feel free contact me if you need further information.
+📬 **Apply Now** (deadline: August 1st, 2025)
+
+Send your application in a single PDF file (CV, cover letter, other supporting documents) by August 1st, 2025 via TUD SecureMail Portal (https://securemail.tu-dresden.de) to jobs-scads.ai@tu-dresden.de, quoting the job number „ScaDS.AI Färber E14”.
+
+You can also send your application via post to **TU Dresden, ScaDS.AI, Prof. Dr.-Ing. Michael Färber, Strehlener Str. 12-14, 01069 Dresden**. Please submit copies only, as your application will not be returned to you. 
+
+Expenses incurred in attending interviews can be reimbursed. Feel free to reach out with questions! 
