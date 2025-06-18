@@ -16,9 +16,9 @@ The Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at
 - **Assignment**: Professorship for Scalable Software Architectures for Data Analytics (Prof. Dr. Michael Färber)
 - **Research areas:** Natural Language Processing, Large Language Models, Knowledge Graphs, and related fields (e.g., Graph Machine Learning)
 
-- 📍 **Location**: ScaDS.AI, TU Dresden, Germany
-- 🕒 **Start Date**: As soon as possible | 📄 Contract: Up to 2 years (extension possible). A shorter contract term is possible by arrangement.
-- 💶 **Remuneration**: TV-L E14 
+- **Location**: ScaDS.AI, TU Dresden, Germany
+- **Start Date**: As soon as possible; the initial contract is for up to 2 years (extension possible). A shorter contract term can be arranged if desired.
+- **Remuneration**: TV-L E14 
 
 **Tasks:**
 - Initiating, coordinating, and writing research grant proposals
