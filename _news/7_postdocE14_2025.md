@@ -17,7 +17,7 @@ Within my research group at the Center for Scalable Data Analytics and Artificia
 - **Research areas:** Natural Language Processing, Large Language Models, Knowledge Graphs, and related fields (e.g., Graph Machine Learning)
 - **Location**: ScaDS.AI, TU Dresden, Germany
 - **Start date**: As soon as possible; the initial contract is for up to 2 years (extension possible). A shorter contract term can be arranged if desired.
-- **Remuneration**: TV-L E14
+- **Remuneration**: TV-L E14 (100%)
 - **Habilitation**: Possible upon request
 
 **Tasks:**
