@@ -11,7 +11,7 @@ related_posts: false
 
 Within my research group at the Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at TU Dresden, the following position is available: 
 
-#### Junior Postdoc / Assistant Professor (m/f/d) -- Deadline: August 1, 2025
+#### (Junior) Postdoc (m/f/d) -- Deadline: August 1, 2025
 
 
 - **Assignment**: Professorship for Scalable Software Architectures for Data Analytics (Prof. Dr. Michael Färber)
