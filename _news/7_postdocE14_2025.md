@@ -36,9 +36,9 @@ The Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at
 - Excellent communication skills in English, both written and spoken 
 - Preferred qualification: Prior postdoctoral research experience
 
-📬 **Apply Now** (deadline: August 1st, 2025)
+📬 **Apply Now (deadline: August 1st, 2025)**
 
-Send your application in a single PDF file (CV, cover letter, other supporting documents) by August 1st, 2025 via TUD SecureMail Portal (https://securemail.tu-dresden.de) to jobs-scads.ai@tu-dresden.de, quoting the job number „ScaDS.AI Färber E14”.
+Send your application in a single PDF file (CV, cover letter, other supporting documents) by **August 1st, 2025** via TUD SecureMail Portal (https://securemail.tu-dresden.de) to jobs-scads.ai@tu-dresden.de, quoting the job number „**ScaDS.AI Färber E14**”.
 
 You can also send your application via post to **TU Dresden, ScaDS.AI, Prof. Dr.-Ing. Michael Färber, Strehlener Str. 12-14, 01069 Dresden**. Please submit copies only, as your application will not be returned to you. 
 
