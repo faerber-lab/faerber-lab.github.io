@@ -9,9 +9,10 @@ related_posts: false
 
 ---
 
+Within my research group at the Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at TU Dresden, the following position is available: 
+
 #### Junior Postdoc / Assistant Professor (m/f/d)
 
-The [Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI)](https://scads.ai) at TU Dresden offers a position as Junior Postdoc, as follows:
 
 - **Assignment**: Professorship for Scalable Software Architectures for Data Analytics (Prof. Dr. Michael Färber)
 - **Research areas:** Natural Language Processing, Large Language Models, Knowledge Graphs, and related fields (e.g., Graph Machine Learning)
