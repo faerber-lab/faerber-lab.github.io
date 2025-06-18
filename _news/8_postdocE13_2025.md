@@ -16,9 +16,9 @@ The Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at
 - **Assignment**: Professorship for Scalable Software Architectures for Data Analytics (Prof. Dr. Michael Färber)
 - **Research areas:** Natural Language Processing, Large Language Models, Knowledge Graphs, and related fields (e.g., Graph Machine Learning)
 
-- 📍 **Location**: ScaDS.AI, TU Dresden, Germany
-- 🕒 **Start Date**: As soon as possible | 📄 Contract: Up to 2 years (extension possible). A shorter contract term is possible by arrangement.
-- 💶 **Remuneration**: TV-L E13 
+- **Location**: ScaDS.AI, TU Dresden, Germany
+- **Start Date**: As soon as possible; the initial contract is for up to 2 years (extension possible). A shorter contract term can be arranged if desired.
+- **Remuneration**: TV-L E13 
 
 **Tasks:**
 - Conducting independent research in the above research areas, with the goal of publishing and presenting at top-tier (CORE A) conferences and journals.
@@ -34,9 +34,9 @@ The Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at
 - A strong passion for publishing scientific research and applying for research grants
 - Excellent written and spoken English skills
   
-📬 **Apply Now** (deadline: August 1st, 2025)
+📬 **Apply Now (deadline: August 1st, 2025)**
 
-Send your application in a single PDF file (CV, cover letter, other supporting documents) by August 1st, 2025 via TUD SecureMail Portal (https://securemail.tu-dresden.de) to jobs-scads.ai@tu-dresden.de, quoting the job number „**ScaDS.AI Färber E13**”.
+Send your application in a single PDF file (CV, cover letter, other supporting documents) by **August 1st, 2025** via TUD SecureMail Portal (https://securemail.tu-dresden.de) to jobs-scads.ai@tu-dresden.de, quoting the job number „**ScaDS.AI Färber E13**”.
 
 You can also send your application via post to **TU Dresden, ScaDS.AI, Prof. Dr.-Ing. Michael Färber, Strehlener Str. 12-14, 01069 Dresden**. Please submit copies only, as your application will not be returned to you. 
 
