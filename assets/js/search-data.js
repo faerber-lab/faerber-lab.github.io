@@ -557,7 +557,7 @@ ninja.data = [{
           title: 'Senior PostDoc position available—apply now to join our team!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/7_postdoc_2025/";
+              window.location.href = "/news/7_postdocE14_2025/";
             },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
           title: 'Junior PostDoc position available—apply now to join our team!',
           description: "",
