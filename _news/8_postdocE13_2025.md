@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Junior PostDoc position available—apply now to join our team!
-date: 2025-06-18 20:00:00+0100
+date: 2025-06-18 20:00:00 +0000
 inline: false
 related_posts: false
 ---
