@@ -39,6 +39,6 @@ Send your application in a single PDF file (CV, cover letter, other supporting d
 
 You can also send your application via post to **TU Dresden, ScaDS.AI, Prof. Dr.-Ing. Michael Färber, Strehlener Str. 12-14, 01069 Dresden**. Please submit copies only, as your application will not be returned to you. 
 
-Expenses incurred in attending interviews can be reimbursed. Feel free to reach out with questions! 
+Expenses incurred in attending interviews can be reimbursed. Feel free to reach out with questions: [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de)
 
 For full details, see the [Postdoc E13 call](assets/pdf/Call_for_Postdoc_E13_2025.pdf).
