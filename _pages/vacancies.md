@@ -7,7 +7,9 @@ nav: true
 nav_order: 6
 ---
 
-#### Open Postdoc Positions  
+<h4 style="border-left: 4px solid #2a6592; padding-left: 12px; color: #2a6592; font-weight: 600;">
+  Open Postdoc Positions
+</h4>
 
 We are hiring two postdoctoral researchers in the areas of **Large Language Models (LLMs)**, **Natural Language Processing (NLP)**, **Knowledge Graphs**, or **Graph Machine Learning** at ScaDS.AI, TU Dresden.
 
