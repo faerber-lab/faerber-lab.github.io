@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
 <h4 style="border-left: 4px solid #2a6592; padding-left: 12px; color: #2a6592; font-weight: 600;">
-  Open Postdoc Positions
+  Open Postdoc Positions (Application deadline: August 1st, 2025)
 </h4>
 
 We are hiring two postdoctoral researchers in the areas of **Large Language Models (LLMs)**, **Natural Language Processing (NLP)**, **Knowledge Graphs**, or **Graph Machine Learning** at ScaDS.AI, TU Dresden.
@@ -18,8 +18,7 @@ We are hiring two postdoctoral researchers in the areas of **Large Language Mode
 - [**Junior Postdoc** (TV-L E13) →](../_news/8_postdocE13_2025.md)
 
 **Start date:** As soon as possible  
-**Contract duration:** Up to 2 years (extension possible)  
-**Application deadline:** **August 1st, 2025**  
+**Contract duration:** up to 2 years (extension possible)  
 
 Please send your application to [jobs-scads.ai@tu-dresden.de](mailto:jobs-scads.ai@tu-dresden.de).  
 For inquiries, contact [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de).
