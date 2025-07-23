@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Faerber-Lab. -- Michael Färber # the website title (if blank, full name will be used instead)
+title: Michael Färber's Research Group # the website title (if blank, full name will be used instead)
 first_name: Michael
 middle_name: 
 last_name: Färber
@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Website of Michael Faerber's Research Group.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>/<a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-keywords: Michael Färber, ScaDS.AI, TU Dresden, Michael Faerber, LLMs, knowledge graphs, TUD # add your own keywords or leave empty
+keywords: Michael Färber, ScaDS.AI, TU Dresden, Michael Faerber, Michael Färber, LLMs, knowledge graphs, TUD # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)⚛️
 
