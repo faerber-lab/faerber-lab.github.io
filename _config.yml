@@ -9,7 +9,7 @@ last_name: Färber
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Website of Michael Faerber's Research Group.
+  Michael Faerber's Research Group.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>/<a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: Michael Färber, ScaDS.AI, TU Dresden, Michael Faerber, Michael Färber, LLMs, knowledge graphs, TUD # add your own keywords or leave empty
