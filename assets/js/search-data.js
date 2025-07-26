@@ -245,17 +245,6 @@ ninja.data = [{
           window.location.href = "/blog/2023/videos/";
         
       },
-    },{id: "post-a-post-with-giscus-comments",
-      
-        title: "a post with giscus comments",
-      
-      description: "an example of a blog post with giscus comments",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/giscus-comments/";
-        
-      },
     },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
