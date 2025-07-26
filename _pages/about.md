@@ -23,6 +23,6 @@ latest_posts:
   limit: 3  # leave blank to include all blog posts
 ---
 
-Welcome! I’m **Michael Färber**, Full Professor and head of the Cognitive AI Unit at **ScaDS.AI/TU Dresden**, Germany. Our research focuses on **natural language processing** (NLP), particularly at the intersection of **large language models** (LLMs), **knowledge graphs**, and **graph neural networks**. Check out our latest <a href="/publications/">publications</a> to see what we’ve been working on. For collaboration, feel free to reach out via [email](mailto:michael.faerber@tu-dresden.de) 📧
+Welcome! I’m **Michael Färber**, Full Professor and head of the Cognitive AI Unit at **ScaDS.AI/TU Dresden**, Germany. Our research focuses on natural language processing (NLP), particularly at the intersection of large language models (LLMs), knowledge graphs, and graph neural networks. Check out our latest <a href="/publications/">publications</a> to see what we’ve been working on. For collaboration, feel free to reach out via [email](mailto:michael.faerber@tu-dresden.de) 📧
 
 Explore our latest <a href='/vacancies/'>openings </a> and <a href='/student_thesis/'>thesis topics</a> to join our group.
