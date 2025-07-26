@@ -267,17 +267,6 @@ ninja.data = [{
           window.location.href = "/blog/2024/advanced-images/";
         
       },
-    },{id: "post-a-post-with-vega-lite",
-      
-        title: "a post with vega lite",
-      
-      description: "this is what included vega lite code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/vega-lite/";
-        
-      },
     },{id: "post-a-post-with-geojson",
       
         title: "a post with geojson",
@@ -298,17 +287,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/echarts/";
-        
-      },
-    },{id: "post-a-post-with-chart-js",
-      
-        title: "a post with chart.js",
-      
-      description: "this is what included chart.js code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/chartjs/";
         
       },
     },{id: "post-a-post-with-tikzjax",
