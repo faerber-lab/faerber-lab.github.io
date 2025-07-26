@@ -289,6 +289,28 @@ ninja.data = [{
           window.location.href = "/blog/2024/echarts/";
         
       },
+    },{id: "post-a-post-with-chart-js",
+      
+        title: "a post with chart.js",
+      
+      description: "this is what included chart.js code could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/chartjs/";
+        
+      },
+    },{id: "post-a-post-with-tikzjax",
+      
+        title: "a post with TikZJax",
+      
+      description: "this is what included TikZ code could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2023/tikzjax/";
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
