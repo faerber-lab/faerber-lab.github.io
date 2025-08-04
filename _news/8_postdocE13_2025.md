@@ -12,7 +12,7 @@ related_posts: false
 
 Within my research group at the Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at TU Dresden, the following position is available: 
 
-#### (Junior) Postdoc (m/f/d) -- Deadline: August 1, 2025
+#### (Junior) Postdoc (m/f/d) -- Deadline: August 10, 2025
 
 
 - **Assignment**: Professorship for Scalable Software Architectures for Data Analytics (Prof. Dr. Michael Färber)
@@ -35,7 +35,7 @@ Within my research group at the Center for Scalable Data Analytics and Artificia
 - A strong passion for publishing scientific research and applying for research grants
 - Excellent written and spoken English skills
   
-**Apply Now (deadline: August 1, 2025)**
+**Apply Now (deadline: August 10, 2025)**
 
 Send your application in a single PDF file (CV, cover letter, other supporting documents) by **August 1, 2025** via the [TUD SecureMail Portal](https://securemail.tu-dresden.de) or directly by email to [jobs-scads.ai@tu-dresden.de](mailto:jobs-scads.ai@tu-dresden.de), quoting the job number "**ScaDS.AI Färber E13**".
 
