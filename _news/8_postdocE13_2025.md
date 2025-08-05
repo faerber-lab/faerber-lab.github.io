@@ -37,7 +37,7 @@ Within my research group at the Center for Scalable Data Analytics and Artificia
   
 **Apply Now (deadline: August 10, 2025)**
 
-Send your application in a single PDF file (CV, cover letter, other supporting documents) by **August 1, 2025** via the [TUD SecureMail Portal](https://securemail.tu-dresden.de) or directly by email to [jobs-scads.ai@tu-dresden.de](mailto:jobs-scads.ai@tu-dresden.de), quoting the job number "**ScaDS.AI Färber E13**".
+Send your application in a single PDF file (CV, cover letter, other supporting documents) by **August 10, 2025** via the [TUD SecureMail Portal](https://securemail.tu-dresden.de) or directly by email to [jobs-scads.ai@tu-dresden.de](mailto:jobs-scads.ai@tu-dresden.de), quoting the job number "**ScaDS.AI Färber E13**".
 
 You can also send your application via post to **TU Dresden, ScaDS.AI, Prof. Dr.-Ing. Michael Färber, Strehlener Str. 12-14, 01069 Dresden**. Please submit copies only, as your application will not be returned to you. 
 
