@@ -221,8 +221,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/7_postdocE14_2025/";
-            },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team-deadline-extended-10-8-2025",
-          title: 'Junior PostDoc position available—apply now to join our team! (deadline extended 10/8/2025)',
+            },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
+          title: 'Junior PostDoc position available—apply now to join our team!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/8_postdocE13_2025/";
