@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Senior PostDoc position available—apply now to join our team!
+title: Senior PostDoc position available—apply now to join our team! (deadline extended 10/8/2025)
 permalink: /news/7_postdocE14_2025/
 date: 2025-06-18 20:00:00 +0000
 inline: false
