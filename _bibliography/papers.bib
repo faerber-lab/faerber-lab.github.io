@@ -1,3 +1,25 @@
+@inproceedings{XLLM-ACL2025,
+	author = {Nicholas Popovič, Ashish Kangen, Tim Schopf, Michael Färber},
+	title = {In-Context Learning for Information Extraction using Fully Synthetic Demonstrations},
+	booktitle = {XLLM@ACL},
+	year = {2025},
+	abstract = {Large, high-quality annotated corpora remain scarce in document-level entity and relation extraction in zero-shot or few-shot settings. In this paper, we present a fully automatic, LLM-based pipeline for synthetic data generation and in-context learning for document-level entity and relation extraction. In contrast to existing approaches that rely on manually annotated demonstrations or direct zero-shot inference, our method combines synthetic data generation with retrieval-based in-context learning, using a reasoning-optimized language model. This allows us to build a high-quality demonstration database without manual annotation and to dynamically retrieve relevant examples at inference time. Based on our approach we produce a synthetic dataset of over 5k Wikipedia abstracts with approximately 59k entities and 30k relation triples. Finally, we evaluate in-context learning performance on the DocIE shared task, extracting entities and relations from long documents in a zero-shot setting. We find that in-context joint entity and relation extraction at document-level remains a challenging task, even for state-of-the-art large language models.},
+	keywords = {relation extraction, IE, LLMs},
+	location = {Vienna, Austria},
+	pdf = {publications/DocIE_XLLM-ACL2025.pdf}
+}
+
+@inproceedings{SDP-ACL2025,
+	author = {Tim Schopf, Juraj Vladika, Michael Färber, Florian Matthes},
+	title = {Natural Language Inference Fine-tuning for Scientific Hallucination Detection},
+	booktitle = {SDP@ACL},
+	year = {2025},
+	abstract = {Modern generative Large Language Models (LLMs) are capable of generating text that sounds coherent and convincing, but are also prone to producing hallucinations, facts that contradict the world knowledge. Even in the case of Retrieval-Augmented Generation (RAG) systems, where relevant context is first retrieved and passed in the input, the generated facts can contradict or not be verifiable by the provided references. This has motivated SciHal 2025, a shared task that focuses on the detection of hallucinations for scientific content. The two subtasks focused on: (1) predicting whether a claim from a generated LLM answer is entailed, contradicted, or unverifiable by the used references; (2) predicting a fine-grained category of erroneous claims. Our best performing approach used an ensemble of fine-tuned encoder-only ModernBERT and DeBERTa-v3 models for classification. Out of nine competing teams, our approach achieved the first place in sub-task 1 and the second place in sub-task 2.},
+	keywords = {LLMs, hallucination, NLI},
+	location = {Vienna, Austria},
+	pdf = {publications/NLI_Scholarly-Hallucination-Detection_SDP-ACL2025.pdf}
+}
+
 @inproceedings{10.1145/2983323.2983324,
 	author = {Zhang, Lei and F\"{a}rber, Michael and Rettinger, Achim},
 	title = {XKnowSearch! Exploiting Knowledge Bases for Entity-based Cross-lingual Information Retrieval},
@@ -20,9 +42,8 @@
 @inproceedings{Susanti2025PathToCausality,
 	title        = {Paths to Causality: Finding Informative Subgraphs within Knowledge Graphs for Knowledge-Based Causal Discovery},
 	author       = {Yuni Susanti and Michael Färber},
-	booktitle    = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+	booktitle    = {KDD},
 	year         = {2025},
-	pages        = {To appear},
 	address      = {Toronto, Canada},
 	doi          = {10.1145/3711896.3737076},
 	abstract     = {Inferring causal relationships between variable pairs is crucial for understanding multivariate interactions in complex systems. Knowledge-based causal discovery—which involves inferring causal relationships by reasoning over the metadata of variables (e.g., names or textual context)—offers a compelling alternative to traditional methods that rely on observational data. However, existing methods using Large Language Models (LLMs) often produce unstable and inconsistent results, compromising their reliability for causal inference. To address this, we introduce a novel approach that integrates Knowledge Graphs (KGs) with LLMs to enhance knowledge-based causal discovery. Our approach identifies informative metapath-based subgraphs within KGs and further refines their selection using Learning-to-Rank models. The top-ranked subgraphs are then incorporated into zero-shot prompts, improving the effectiveness of LLMs in inferring the causal relationship. Extensive experiments on biomedical and open-domain datasets demonstrate that our method outperforms most baselines by up to 44.8 points in F1 scores, evaluated across diverse LLMs and KGs. Our code and datasets are available on GitHub.},
@@ -333,11 +354,13 @@
 	title        = {Revisiting Projection-based Data Transfer for Cross-Lingual Named Entity Recognition in Low-Resource Languages},
 	author       = {Andrei Politov and Oleh Shkalikov and René Jäkel and Michael Färber},
 	year         = 2025,
-	booktitle    = {NoDaLiDa/Baltic-HLT'25},
+	booktitle    = {NoDaLiDa/Baltic-HLT},
 	url          = {https://arxiv.org/abs/2501.18750},
 	abstract     = {Cross-lingual Named Entity Recognition (NER) leverages knowledge transfer between languages to identify and classify named entities, making it particularly useful for low-resource languages. We show that the data-based cross-lingual transfer method is an effective technique for cross-lingual NER and can outperform multilingual language models for low-resource languages. This paper introduces two key enhancements to the annotation projection step in cross-lingual NER for low-resource languages. First, we explore refining word alignments using back-translation to improve accuracy. Second, we present a novel formalized projection approach of matching source entities with extracted target candidates. Through extensive experiments on two datasets spanning 57 languages, we demonstrated that our approach surpasses existing projection-based methods in low-resource settings. These findings highlight the robustness of projection-based data transfer as an alternative to model-based methods for cross-lingual named entity recognition in low-resource languages.},
-	pdf = {publications/XNER_NoDaLiDA2025.pdf}
+	pdf = {publications/XNER_NoDaLiDA2025.pdf},
+	location    = {Tallinn, Estonia}
 }
+
 @inproceedings{DBLP:conf/clef/ZhangRFT13,
 	title        = {A Comparative Evaluation of Cross-Lingual Text Annotation Techniques},
 	author       = {Lei Zhang and Achim Rettinger and Michael F{\"{a}}rber and Marko Tadic},
@@ -1111,7 +1134,9 @@
 	address      = {Merida, Mexico},
 	doi          = {10.1145/3616855.3635693},
 	url          = {https://dl.acm.org/doi/abs/10.1145/3616855.3635693},
-	abstract     = {We present a system designed to automatically extract and summarize future-related information of a queried entity from news articles.}
+	abstract     = {In today's rapidly evolving world, maintaining a comprehensiveoverview of the future landscape is essential for staying competitive and making informed decisions. However, given the largevolume of daily news, manually obtaining a thorough overview ofan entity’s future prospects is quite challenging. To address this, wepresent a system designed to automatically extract and summarizefuture-related information of a queried entity from news articles. Our approach utilizes a novel and publicly accessible multi-sourcedataset comprising 6,800 annotated sentences to fine-tune a language model to identify future-related sentences. We then use topicmodeling to extract the main topics from the data and rank themby relevance as well as present them on an interactive timeline. User evaluations have shown that the timelines and summariesour system produces are useful. The system is available as a webapplication at: https://chronicle2050.regevson.com.},
+	keywords     = {future, demo, timeline},
+	pdf          = {publications/Future-Timelines_WSDM2024.pdf}
 }
 @inproceedings{DBLP:conf/emnlp/Popovic024,
 	title        = {Embedded Named Entity Recognition using Probing Classifiers},
@@ -1122,11 +1147,11 @@
 	publisher    = {Association for Computational Linguistics},
 	pages        = {17830--17850},
 	url          = {https://aclanthology.org/2024.emnlp-main.988},
-	editor       = {Yaser Al{-}Onaizan and Mohit Bansal and Yun{-}Nung Chen},
-	timestamp    = {Thu, 14 Nov 2024 17:20:55 +0100},
 	biburl       = {https://dblp.org/rec/conf/emnlp/Popovic024.bib},
-	abstract     = {Streaming text generation has become a common way of increasing the responsiveness of language model powered applications, such as chat assistants. At the same time, extracting semantic information from generated text is a useful tool for applications such as automated fact checking or retrieval augmented generation. Currently, this requires either separate models during inference, which increases computational cost, or destructive fine-tuning of the language model. Instead, we propose an approach called EMBER which enables streaming named entity recognition in decoder-only language models without fine-tuning them and while incurring minimal additional computational cost at inference time. Specifically, our experiments show that EMBER maintains high token generation rates, with only a negligible decrease in speed of around 1% compared to a 43.64% slowdown measured for a baseline. We make our code and data available online1, including a toolkit2 for training, testing, and deploying efficient token classification models optimized for streaming text generation.}
+	abstract     = {Streaming text generation has become a common way of increasing the responsiveness of language model powered applications, such as chat assistants. At the same time, extracting semantic information from generated text is a useful tool for applications such as automated fact checking or retrieval augmented generation. Currently, this requires either separate models during inference, which increases computational cost, or destructive fine-tuning of the language model. Instead, we propose an approach called EMBER which enables streaming named entity recognition in decoder-only language models without fine-tuning them and while incurring minimal additional computational cost at inference time. Specifically, our experiments show that EMBER maintains high token generation rates, with only a negligible decrease in speed of around 1% compared to a 43.64% slowdown measured for a baseline. We make our code and data available online1, including a toolkit2 for training, testing, and deploying efficient token classification models optimized for streaming text generation.},
+	pdf          = {publication/EMBER_EMNLP2024.pdf}
 }
+
 @inproceedings{DBLP:conf/kbclm/RogulskyP024,
 	title        = {The Effects of Hallucinations in Synthetic Training Data for Relation Extraction},
 	author       = {Steven Rogulsky and Nicholas Popovic and Michael F{\"{a}}rber},
@@ -1134,12 +1159,10 @@
 	booktitle    = {KBC-LM@ISWC},
 	location     = {Baltimore, USA},
 	publisher    = {CEUR-WS.org},
-	volume       = 3853,
 	url          = {https://ceur-ws.org/Vol-3853/paper4.pdf},
-	editor       = {Simon Razniewski and Jan{-}Christoph Kalo and Sneha Singhania and Jeff Z. Pan and Tuan{-}Phong Nguyen and Bohui Zhang},
-	timestamp    = {Wed, 11 Dec 2024 17:19:17 +0100},
 	biburl       = {https://dblp.org/rec/conf/kbclm/RogulskyP024.bib},
-	abstract     = {Relation extraction is crucial for constructing knowledge graphs, with large high-quality datasets serving as the foundation for training, fine-tuning, and evaluating models. Generative data augmentation (GDA) is a common approach to expand such datasets. However, this approach often introduces hallucinations, such as spurious facts, whose impact on relation extraction remains underexplored. In this paper, we examine the effects of hallucinations on the performance of relation extraction on the document and sentence levels. Our empirical study reveals that hallucinations considerably compromise the ability of models to extract relations from text, with recall reductions between 19.1% and 39.2%. We identify that relevant hallucinations impair the model’s performance, while irrelevant hallucinations have a minimal impact. Additionally, we develop methods for the detection of hallucinations to improve data quality and model performance. Our approaches successfully classify texts as either ’hallucinated’ or ’clean,’ achieving high F1-scores of 83.8% and 92.2%. These methods not only assist in removing hallucinations but also help in estimating their prevalence within datasets, which is crucial for selecting high-quality data. Overall, our work confirms the profound impact of relevant hallucinations on the effectiveness of relation extraction models.}
+	abstract     = {Relation extraction is crucial for constructing knowledge graphs, with large high-quality datasets serving as the foundation for training, fine-tuning, and evaluating models. Generative data augmentation (GDA) is a common approach to expand such datasets. However, this approach often introduces hallucinations, such as spurious facts, whose impact on relation extraction remains underexplored. In this paper, we examine the effects of hallucinations on the performance of relation extraction on the document and sentence levels. Our empirical study reveals that hallucinations considerably compromise the ability of models to extract relations from text, with recall reductions between 19.1% and 39.2%. We identify that relevant hallucinations impair the model’s performance, while irrelevant hallucinations have a minimal impact. Additionally, we develop methods for the detection of hallucinations to improve data quality and model performance. Our approaches successfully classify texts as either ’hallucinated’ or ’clean,’ achieving high F1-scores of 83.8% and 92.2%. These methods not only assist in removing hallucinations but also help in estimating their prevalence within datasets, which is crucial for selecting high-quality data. Overall, our work confirms the profound impact of relevant hallucinations on the effectiveness of relation extraction models.},
+	pdf          = {publications/Hallucinations_KBC-LM_ISWC2024.pdf}
 }
 @inproceedings{DBLP:conf/semweb/SusantiF24,
 	title        = {Knowledge Graph Structure as Prompt: Improving Small Language Models Capabilities for Knowledge-Based Causal Discovery},
@@ -1148,14 +1171,13 @@
 	booktitle    = {ISWC},
 	location     = {Baltimore, MD, USA},
 	publisher    = {Springer},
-	volume       = 15231,
 	pages        = {87--106},
 	doi          = {10.1007/978-3-031-77844-5\_5},
 	url          = {https://doi.org/10.1007/978-3-031-77844-5\_5},
-	editor       = {Gianluca Demartini and Katja Hose and Maribel Acosta and Matteo Palmonari and Gong Cheng and Hala Skaf{-}Molli and Nicolas Ferranti and Daniel Hern{\'{a}}ndez and Aidan Hogan},
-	timestamp    = {Sun, 22 Dec 2024 15:48:26 +0100},
 	biburl       = {https://dblp.org/rec/conf/semweb/SusantiF24.bib},
-	abstract     = {Causal discovery aims to estimate causal structures among variables based on observational data. Large Language Models (LLMs) offer a fresh perspective to tackle the causal discovery problem by reasoning on the metadata associated with variables rather than their actual data values, an approach referred to as knowledge-based causal discovery. In this paper, we investigate the capabilities of Small Language Models (SLMs, defined as LLMs with fewer than 1 billion parameters) with prompt-based learning for knowledge-based causal discovery. Specifically, we present “KG Structure as Prompt”, a novel approach for integrating structural information from a knowledge graph, such as common neighbor nodes and metapaths, into prompt-based learning to enhance the capabilities of SLMs. Experimental results on three types of biomedical and open-domain datasets under few-shot settings demonstrate the effectiveness of our approach, surpassing most baselines and even conventional fine-tuning approaches trained on full datasets. Our findings further highlight the strong capabilities of SLMs: in combination with knowledge graphs and prompt-based learning, SLMs demonstrate the potential to surpass LLMs with larger number of parameters. Our code and datasets are available on GitHub.}
+	abstract     = {Causal discovery aims to estimate causal structures among variables based on observational data. Large Language Models (LLMs) offer a fresh perspective to tackle the causal discovery problem by reasoning on the metadata associated with variables rather than their actual data values, an approach referred to as knowledge-based causal discovery. In this paper, we investigate the capabilities of Small Language Models (SLMs, defined as LLMs with fewer than 1 billion parameters) with prompt-based learning for knowledge-based causal discovery. Specifically, we present “KG Structure as Prompt”, a novel approach for integrating structural information from a knowledge graph, such as common neighbor nodes and metapaths, into prompt-based learning to enhance the capabilities of SLMs. Experimental results on three types of biomedical and open-domain datasets under few-shot settings demonstrate the effectiveness of our approach, surpassing most baselines and even conventional fine-tuning approaches trained on full datasets. Our findings further highlight the strong capabilities of SLMs: in combination with knowledge graphs and prompt-based learning, SLMs demonstrate the potential to surpass LLMs with larger number of parameters. Our code and datasets are available on GitHub.},
+	keywords     = {causal discovery, LLM, KG},
+	pdf          = {publications/KG_Structure_Prompt_ISWC2024.pdf}
 }
 @inproceedings{DBLP:conf/semweb/FarberLS24,
 	title        = {AutoRDF2GML: Facilitating {RDF} Integration in Graph Machine Learning},
@@ -1164,15 +1186,15 @@
 	booktitle    = {ISWC},
 	location     = {Baltimore, MD, USA},
 	publisher    = {Springer},
-	volume       = 15233,
 	pages        = {115--133},
 	doi          = {10.1007/978-3-031-77847-6\_7},
 	url          = {https://doi.org/10.1007/978-3-031-77847-6\_7},
-	editor       = {Gianluca Demartini and Katja Hose and Maribel Acosta and Matteo Palmonari and Gong Cheng and Hala Skaf{-}Molli and Nicolas Ferranti and Daniel Hern{\'{a}}ndez and Aidan Hogan},
-	timestamp    = {Wed, 08 Jan 2025 21:12:57 +0100},
 	biburl       = {https://dblp.org/rec/conf/semweb/FarberLS24.bib},
-	abstract     = {In this paper, we introduce AutoRDF2GML, a framework designed to convert RDF data into data representations tailored for graph machine learning tasks. AutoRDF2GML enables, for the first time, the creation of both content-based features—i.e., features based on RDF datatype properties—and topology-based features—i.e., features based on RDF object properties. Characterized by automated feature extraction, AutoRDF2GML makes it possible even for users less familiar with RDF and SPARQL to generate data representations ready for graph machine learning tasks, such as link prediction, node classification, and graph classification. Furthermore, we present four new benchmark datasets for graph machine learning, created from large RDF knowledge graphs using our framework. These datasets serve as valuable resources for evaluating graph machine learning approaches, such as graph neural networks. Overall, our framework effectively bridges the gap between the Graph Machine Learning and Semantic Web communities, paving the way for RDF-based machine learning applications.}
+	abstract     = {In this paper, we introduce AutoRDF2GML, a framework designed to convert RDF data into data representations tailored for graph machine learning tasks. AutoRDF2GML enables, for the first time, the creation of both content-based features—i.e., features based on RDF datatype properties—and topology-based features—i.e., features based on RDF object properties. Characterized by automated feature extraction, AutoRDF2GML makes it possible even for users less familiar with RDF and SPARQL to generate data representations ready for graph machine learning tasks, such as link prediction, node classification, and graph classification. Furthermore, we present four new benchmark datasets for graph machine learning, created from large RDF knowledge graphs using our framework. These datasets serve as valuable resources for evaluating graph machine learning approaches, such as graph neural networks. Overall, our framework effectively bridges the gap between the Graph Machine Learning and Semantic Web communities, paving the way for RDF-based machine learning applications.},
+	keywords     = {GraphML, RDF},
+	pdf          = {publications/AutoRDF2GML_ISWC24.pdf}
 }
+
 @inproceedings{DBLP:conf/acl/YuanN0SS24,
 	title        = {GNNavi: Navigating the Information Flow in Large Language Models by Graph Neural Network},
 	author       = {Shuzhou Yuan and Ercong Nie and Michael F{\"{a}}rber and Helmut Schmid and Hinrich Sch{\"{u}}tze},
@@ -1186,8 +1208,10 @@
 	editor       = {Lun{-}Wei Ku and Andre Martins and Vivek Srikumar},
 	timestamp    = {Tue, 24 Sep 2024 10:55:54 +0200},
 	biburl       = {https://dblp.org/rec/conf/acl/YuanN0SS24.bib},
-	abstract     = {Large Language Models (LLMs) exhibit strong In-Context Learning (ICL) capabilities when prompts with demonstrations are used. However, fine-tuning still remains crucial to further enhance their adaptability. Prompt-based fine-tuning proves to be an effective fine-tuning method in low-data scenarios, but high demands on computing resources limit its practicality. We address this issue by introducing a prompt-based parameter-efficient finetuning (PEFT) approach. GNNAVI leverages insights into ICL’s information flow dynamics, which indicates that label words act in prompts as anchors for information propagation. GNNAVI employs a Graph Neural Network (GNN) layer to precisely guide the aggregation and distribution of information flow during the processing of prompts by hardwiring the desired information flow into the GNN. Our experiments on text classification tasks with GPT-2 and Llama2 show GNNAVI surpasses standard prompt-based fine-tuning methods in few-shot settings by updating just 0.2% to 0.5% of parameters. We compare GNNAVI with prevalent PEFT approaches, such as prefix tuning, LoRA and Adapter in terms of performance and efficiency. Our analysis reveals that GNNAVI enhances information flow and ensures a clear aggregation process.}
+	abstract     = {Large Language Models (LLMs) exhibit strong In-Context Learning (ICL) capabilities when prompts with demonstrations are used. However, fine-tuning still remains crucial to further enhance their adaptability. Prompt-based fine-tuning proves to be an effective fine-tuning method in low-data scenarios, but high demands on computing resources limit its practicality. We address this issue by introducing a prompt-based parameter-efficient finetuning (PEFT) approach. GNNAVI leverages insights into ICL’s information flow dynamics, which indicates that label words act in prompts as anchors for information propagation. GNNAVI employs a Graph Neural Network (GNN) layer to precisely guide the aggregation and distribution of information flow during the processing of prompts by hardwiring the desired information flow into the GNN. Our experiments on text classification tasks with GPT-2 and Llama2 show GNNAVI surpasses standard prompt-based fine-tuning methods in few-shot settings by updating just 0.2% to 0.5% of parameters. We compare GNNAVI with prevalent PEFT approaches, such as prefix tuning, LoRA and Adapter in terms of performance and efficiency. Our analysis reveals that GNNAVI enhances information flow and ensures a clear aggregation process.},
+	pdf          = {publications/GNNavi_ACL2024.pdf}
 }
+
 @inproceedings{DBLP:conf/naacl/YuanF24,
 	title        = {GraSAME: Injecting Token-Level Structural Information to Pretrained Language Models via Graph-guided Self-Attention Mechanism},
 	author       = {Shuzhou Yuan and Michael F{\"{a}}rber},
@@ -1198,11 +1222,12 @@
 	pages        = {920--933},
 	doi          = {10.18653/V1/2024.FINDINGS-NAACL.58},
 	url          = {https://doi.org/10.18653/v1/2024.findings-naacl.58},
-	editor       = {Kevin Duh and Helena G{\'{o}}mez{-}Adorno and Steven Bethard},
-	timestamp    = {Mon, 03 Mar 2025 21:19:07 +0100},
 	biburl       = {https://dblp.org/rec/conf/naacl/YuanF24.bib},
-	abstract     = {Pretrained Language Models (PLMs) benefit from external knowledge stored in graph structures for various downstream tasks. However, bridging the modality gap between graph structures and text remains a significant challenge. Traditional methods like linearizing graphs for PLMs lose vital graph connectivity, whereas Graph Neural Networks (GNNs) require cumbersome processes for integration into PLMs. In this work, we propose a novel graphguided self-attention mechanism, GraSAME. GraSAME seamlessly incorporates token-level structural information into PLMs without necessitating additional alignment or concatenation efforts. As an end-to-end, lightweight multimodal module, GraSAME follows a multitask learning strategy and effectively bridges the gap between graph and textual modalities, facilitating dynamic interactions between GNNs and PLMs. Our experiments on the graph-to-text generation task demonstrate that GraSAME outperforms baseline models and achieves results comparable to state-of-the-art (SOTA) models on WebNLG datasets. Furthermore, compared to SOTA models, GraSAME eliminates the need for extra pre-training tasks to adjust graph inputs and reduces the number of trainable parameters by over 100 million}
+	abstract     = {Pretrained Language Models (PLMs) benefit from external knowledge stored in graph structures for various downstream tasks. However, bridging the modality gap between graph structures and text remains a significant challenge. Traditional methods like linearizing graphs for PLMs lose vital graph connectivity, whereas Graph Neural Networks (GNNs) require cumbersome processes for integration into PLMs. In this work, we propose a novel graphguided self-attention mechanism, GraSAME. GraSAME seamlessly incorporates token-level structural information into PLMs without necessitating additional alignment or concatenation efforts. As an end-to-end, lightweight multimodal module, GraSAME follows a multitask learning strategy and effectively bridges the gap between graph and textual modalities, facilitating dynamic interactions between GNNs and PLMs. Our experiments on the graph-to-text generation task demonstrate that GraSAME outperforms baseline models and achieves results comparable to state-of-the-art (SOTA) models on WebNLG datasets. Furthermore, compared to SOTA models, GraSAME eliminates the need for extra pre-training tasks to adjust graph inputs and reduces the number of trainable parameters by over 100 million},
+	keywords    = {PEFT, LLM, GNN},
+	pdf         = {publications/GraSAME_NAACL2024.pdf}
 }
+
 @inproceedings{DBLP:conf/icwe/FarberZW24,
 	title        = {KITspotlight: {A} System for Spotlighting Researchers in the Media},
 	author       = {Michael F{\"{a}}rber and Benjamin Zagoruiko and Markus Wambach},
@@ -1213,12 +1238,13 @@
 	volume       = 14629,
 	pages        = {385--388},
 	doi          = {10.1007/978-3-031-62362-2\_29},
-	url          = {https://doi.org/10.1007/978-3-031-62362-2\_29},
-	editor       = {Kostas Stefanidis and Kari Syst{\"{a}} and Maristella Matera and Sebastian Heil and Haridimos Kondylakis and Elisa Quintarelli},
 	timestamp    = {Thu, 04 Jul 2024 22:05:21 +0200},
 	biburl       = {https://dblp.org/rec/conf/icwe/FarberZW24.bib},
-	abstract     = {}
+	abstract     = {Academic institutions, such as universities, heavily rely on public relations and are therefore interested in media monitoring. However, tracking mentions of their researchers in news articles presents challenges, such as identifying affiliated personnel and their departments, and aggregating the extracted information. In this paper, we introduce KITspotlight, a novel system that automatically identifies researchers of the Karlsruhe Institute of Technology (KIT) in newspaper articles, associates these individuals with their departments, and presents this information visually. KITspotlight is tailored for department heads, administrative staff, and individual researchers, focusing either on the institution’s overall public visibility or on an individual researcher’s media presence. Based on an analysis of 2,280 articles over 12 months, our system provides a model for monitoring academic personnel at any research institution.},
+	keywords     = {demo, KIT, media},
+	pdf          = {publications/KITspotlight_ICWE2024.pdf}
 }
+
 @inproceedings{DBLP:conf/eacl/MaNYSFKS24,
 	title        = {ToPro: Token-Level Prompt Decomposition for Cross-Lingual Sequence Labeling Tasks},
 	author       = {Bolei Ma and Ercong Nie and Shuzhou Yuan and Helmut Schmid and Michael F{\"{a}}rber and Frauke Kreuter and Hinrich Sch{\"{u}}tze},
@@ -1228,11 +1254,11 @@
 	publisher    = {Association for Computational Linguistics},
 	pages        = {2685--2702},
 	url          = {https://aclanthology.org/2024.eacl-long.164},
-	editor       = {Yvette Graham and Matthew Purver},
-	timestamp    = {Tue, 02 Apr 2024 16:32:10 +0200},
 	biburl       = {https://dblp.org/rec/conf/eacl/MaNYSFKS24.bib},
-	abstract     = {Prompt-based methods have been successfully applied to multilingual pretrained language models for zero-shot cross-lingual understanding. However, most previous studies primarily focused on sentence-level classification tasks, and only a few considered token-level labeling tasks such as Named Entity Recognition (NER) and Part-of-Speech (POS) tagging. In this paper, we propose Token-Level Prompt Decomposition (TOPRO), which facilitates the prompt-based method for token-level sequence labeling tasks. The TOPRO method decomposes an input sentence into single tokens and applies one prompt template to each token. Our experiments on multilingual NER and POS tagging datasets demonstrate that TOPRO-based fine-tuning outperforms Vanilla fine-tuning and Prompt-Tuning in zero-shot cross-lingual transfer, especially for languages that are typologically different from the source language English. Our method also attains state-of-theart performance when employed with the mT5 model. Besides, our exploratory study in multilingual large language models shows that TOPRO performs much better than the current in-context learning method. Overall, the performance improvements show that TOPRO could potentially serve as a novel and simple benchmarking method for sequence labeling tasks}
+	abstract     = {Prompt-based methods have been successfully applied to multilingual pretrained language models for zero-shot cross-lingual understanding. However, most previous studies primarily focused on sentence-level classification tasks, and only a few considered token-level labeling tasks such as Named Entity Recognition (NER) and Part-of-Speech (POS) tagging. In this paper, we propose Token-Level Prompt Decomposition (TOPRO), which facilitates the prompt-based method for token-level sequence labeling tasks. The TOPRO method decomposes an input sentence into single tokens and applies one prompt template to each token. Our experiments on multilingual NER and POS tagging datasets demonstrate that TOPRO-based fine-tuning outperforms Vanilla fine-tuning and Prompt-Tuning in zero-shot cross-lingual transfer, especially for languages that are typologically different from the source language English. Our method also attains state-of-theart performance when employed with the mT5 model. Besides, our exploratory study in multilingual large language models shows that TOPRO performs much better than the current in-context learning method. Overall, the performance improvements show that TOPRO could potentially serve as a novel and simple benchmarking method for sequence labeling tasks},
+	pdf          = {publications/ToPro_EACL2024.pdf}
 }
+
 @inproceedings{DBLP:conf/ecir/SaierOAF24,
 	title        = {HyperPIE: Hyperparameter Information Extraction from Scientific Publications},
 	author       = {Tarek Saier and Mayumi Ohta and Takuto Asakura and Michael F{\"{a}}rber},
@@ -1240,15 +1266,14 @@
 	booktitle    = {ECIR},
 	location     = {Glasgow, UK},
 	publisher    = {Springer},
-	volume       = 14609,
 	pages        = {254--269},
 	doi          = {10.1007/978-3-031-56060-6\_17},
 	url          = {https://doi.org/10.1007/978-3-031-56060-6\_17},
-	editor       = {Nazli Goharian and Nicola Tonellotto and Yulan He and Aldo Lipani and Graham McDonald and Craig Macdonald and Iadh Ounis},
-	timestamp    = {Mon, 15 Apr 2024 08:25:15 +0200},
 	biburl       = {https://dblp.org/rec/conf/ecir/SaierOAF24.bib},
-	abstract     = {}
+	abstract = {Automatic extraction of information from publications is key to making scientific knowledge machine readable at a large scale. The extracted information can, for example, facilitate academic search, decision making, and knowledge graph construction. An important type of information not covered by existing approaches is hyperparameters. In this paper, we formalize and tackle hyperparameter information extraction (HyperPIE) as an entity recognition and relation extraction task. We create a labeled data set covering publications from a variety of computer science disciplines. Using this data set, we train and evaluate BERT-based fine-tuned models as well as five large language models: GPT-3.5, GALACTICA, Falcon, Vicuna, and WizardLM. For fine-tuned models, we develop a relation extraction approach that achieves an improvement of 29\% F1 over a state-of-the-art baseline. For large language models, we develop an approach leveraging YAML output for structured data extraction, which achieves an average improvement of 5.5\% F1 in entity recognition over using JSON. With our best performing model we extract hyperparameter information from a large number of unannotated papers, and analyze patterns across disciplines. All our data and source code is publicly available at \url{https://github.com/IllDepence/hyperpie}.},
+	pdf       = {publications/HyperPIE_ECIR2024.pdf}
 }
+
 @inproceedings{DBLP:conf/ofc/ShaoGLLFKR24,
 	title        = {A Novel Machine Learning-based Equalizer for a Downstream 100G {PAM-4} {PON}},
 	author       = {Chen Shao and Elias G. Giacoumidis and Shi Li and Jialei Li and Michael F{\"{a}}rber and Tobias K{\"{a}}fer and Andr{\'{e}} Richter},
@@ -1260,7 +1285,9 @@
 	url          = {https://ieeexplore.ieee.org/document/10526945},
 	timestamp    = {Thu, 06 Jun 2024 22:22:55 +0200},
 	biburl       = {https://dblp.org/rec/conf/ofc/ShaoGLLFKR24.bib},
-	abstract     = {}
+	abstract     = {A frequency-calibrated SCINet (FC-SCINet) equalizer is proposed for downstream 100G PON with 28.7 dB path loss. At 5 km, FC-SCINet improves the BER by 88.87\% compared to FFE and a 3-layer DNN with 10.57\% lower complexity.},
+	keywords     = {Physics, PON},
+	pdf          = {publications/SCINet_OFC2024.pdf}
 }
 @inproceedings{aue2025predicting,
 	title        = {Predicting Company ESG Ratings from News Articles Using Multivariate Time-series Analysis},
@@ -1269,26 +1296,38 @@
 	booktitle    = {TempWeb@WWW},
 	location     = {Sydney, Australia},
 	url          = {https://arxiv.org/abs/2212.11765},
-	abstract     = {In recent years, corporate environmental, social, and governance (ESG) engagement has received significant public attention. As mandatory ESG reporting is increasingly adopted and investors place greater emphasis on sustainability in their decisions, the demand for transparent and reliable ESG ratings is growing. However, existing automatic approaches to ESG rating prediction remain limited. Many rely on traditional machine learning methods like random forests or social network analysis, rather than leveraging incoming news article streams and large multivariate time series data, which, for the first time, enables capturing the dynamic relationships between topics, sentiments, and events. In this paper, we propose a novel approach to predicting ESG ratings from news articles by uniquely combining multivariate time series construction with advanced deep learning techniques. We create an extensive dataset of 3.7 million news articles spanning three years and covering 3,000 U.S. companies, providing a robust foundation for training and evaluating our approach. Our approach achieves high accuracy and outperforms existing approaches, underscoring its potential as a scalable, data-driven solution for ESG rating prediction.}
+	abstract     = {In recent years, corporate environmental, social, and governance (ESG) engagement has received significant public attention. As mandatory ESG reporting is increasingly adopted and investors place greater emphasis on sustainability in their decisions, the demand for transparent and reliable ESG ratings is growing. However, existing automatic approaches to ESG rating prediction remain limited. Many rely on traditional machine learning methods like random forests or social network analysis, rather than leveraging incoming news article streams and large multivariate time series data, which, for the first time, enables capturing the dynamic relationships between topics, sentiments, and events. In this paper, we propose a novel approach to predicting ESG ratings from news articles by uniquely combining multivariate time series construction with advanced deep learning techniques. We create an extensive dataset of 3.7 million news articles spanning three years and covering 3,000 U.S. companies, providing a robust foundation for training and evaluating our approach. Our approach achieves high accuracy and outperforms existing approaches, underscoring its potential as a scalable, data-driven solution for ESG rating prediction.},
+	biburl       = {https://dblp.org/rec/conf/www/AueJ025.bib},
+	keywords     = {ESG, rating},
+	pdf          = {publications/ESG_Rating_WWW2025.pdf}
 }
+
 @inproceedings{färber2025simplifymytext,
 	title        = {SimplifyMyText: An LLM-Based System for Inclusive Plain Language Text Simplification},
 	author       = {Michael Färber and Parisa Aghdam and Kyuri Im and Mario Tawfelis and Hardik Ghoshal},
 	year         = 2025,
 	booktitle    = {ECIR},
 	location     = {Lucca,Italy},
+	keywords     = {text simplification, IR, LLM},
+	biburl       = {https://dblp.org/rec/conf/ecir/FarberAITG25.bib},
 	url          = {https://link.springer.com/chapter/10.1007/978-3-031-88717-8_32},
-	abstract     = {Details on the system and its evaluation are not available in the provided sources.}
+	abstract     = {Text simplification is essential for making complex content accessible to diverse audiences who face comprehension challenges. Yet, the limited availability of simplified materials creates significant barriers to personal and professional growth and hinders social inclusion. Although researchers have explored various methods for automatic text simplification, none fully leverage large language models (LLMs) to offer tailored customization for different target groups and varying levels of simplicity. Moreover, despite its proven benefits for both consumers and organizations, the well-established practice of plain language remains underutilized. In this paper, we introduce https://simplifymytext.org, the first system designed to produce plain language content from multiple input formats, including typed text and file uploads, with flexible customization options for diverse audiences. We employ GPT-4 and Llama-3 and evaluate outputs across multiple metrics. Overall, our work contributes to research on automatic text simplification and highlights the importance of tailored communication in promoting inclusivity.},
+	pdf          = {publications/SimplifyMyText_ECIR2025.pdf}
 }
+
 @inproceedings{Qu2025ExplainableLiDAR,
 	title        = {Explainable LiDAR 3D Point Cloud Segmentation and Clustering for Detecting Airplane-Generated Wind Turbulence},
 	author       = {Zhan Qu and Shuzhou Yuan and Michael Färber and Marius Brennfleck and Niklas Wartha and Anton Stephan},
 	year         = 2025,
 	booktitle    = {KDD},
+        pages        = {2504--2513},
 	location     = {Toronto, Canada},
 	url          = {https://arxiv.org/abs/2503.00518},
-	abstract     = {In this paper, we present an advanced, explainable machine learning method that utilizes Light Detection and Ranging (LiDAR) data for effective wake vortex detection.}
+	abstract     = {Wake vortices—strong, coherent air turbulences created by aircrafts—pose a significant risk to aviation safety and therefore require accurate and reliable detection methods. In this paper, we present an advanced, explainable machine learning method that utilizes Light Detection and Ranging (LiDAR) data for effective wake vortex detection. Our method leverages a dynamic graph CNN (DGCNN) with semantic segmentation to partition a 3D LiDAR point cloud into meaningful segments. Further refinement is achieved through clustering techniques. A novel feature of our research is the use of a perturbation-based explanation technique, which clarifies the model’s decision-making processes for air traffic regulators and controllers, increasing transparency and building trust. Our experimental results, based on measured and simulated LiDAR scans compared against four baseline methods, underscore the effectiveness and reliability of our approach. This combination of semantic segmentation and clustering for real-time wake vortex tracking significantly advances aviation safety measures, ensuring that these are both effective and comprehensible.},
+	pdf          = {publications/KIWI_KDD_ADS_2025.pdf},
+	biburl       = {https://dblp.org/rec/conf/kdd/QuY0BWS25.bib}
 }
+
 @phdthesis{DBLP:phd/dnb/Farber17,
 	title        = {Semantic search for novel information},
 	author       = {Michael F{\"{a}}rber},
@@ -1299,6 +1338,7 @@
 	biburl       = {https://dblp.org/rec/phd/dnb/Farber17.bib},
 	abstract     = {}
 }
+
 @article{DBLP:journals/semweb/FarberBMR18,
 	title        = {Linked data quality of DBpedia, Freebase, OpenCyc, Wikidata, and {YAGO}},
 	author       = {Michael F{\"{a}}rber and Frederic Bartscherer and Carsten Menne and Achim Rettinger},
@@ -1330,13 +1370,17 @@
 	url          = {https://github.com/IllDepence/contextgraph},
 	abstract     = {We propose CoCon, a large scholarly data set reflecting the combined use of research artifacts in academic publications. The data set enables holistic analyses and provides a link prediction task for 'combined research artifact use prediction'.}
 }
-@misc{gruber2024complextempqa,
-	title        = {COMPLEXTEMPQA: A Large-Scale Dataset for Complex Temporal Question Answering},
+@inproceedings{gruber2024complextempqa,
+	title        = {ComplexTempQA: A 100m Dataset for Complex Temporal Question Answering},
 	author       = {Raphael Gruber and Abdelrahman Abdallah and Michael Färber and Adam Jatowt},
-	year         = 2024,
-	url          = {https://github.com/DataScienceUIBK/ComplexTempQA},
-	abstract     = {COMPLEXTEMPQA is a dataset of over 100 million temporal question-answer pairs. It introduces a taxonomy of temporal QA types and is designed to evaluate and train LLMs on complex temporal reasoning tasks.}
+	booktitle    = {EMNLP},
+	location     = {Suzhou, China},
+	year         = 2025,
+	url = {https://arxiv.org/abs/2406.04866},
+	abstract     = {We introduce ComplexTempQA,a large-scale dataset consisting of over 100 million question-answer pairs designed to tackle the challenges in temporal question answering. ComplexTempQA significantly surpasses existing benchmarks in scale and scope. Utilizing Wikipedia and Wikidata, the dataset covers questions spanning over two decades and offers an unmatched scale. We introduce a new taxonomy that categorizes questions as attributes, comparisons, and counting questions, revolving around events, entities, and time periods, respectively. A standout feature of ComplexTempQA is the high complexity of its questions, which demand reasoning capabilities for answering such as across-time comparison, temporal aggregation, and multi-hop reasoning involving temporal event ordering and entity recognition. Additionally, each question is accompanied by detailed metadata, including specific time scopes, allowing for comprehensive evaluation of temporal reasoning abilities of large language models.},
+	pdf          = {publications/ComplexTempQA_EMNLP2025.pdf}
 }
+
 @inproceedings{yuan2023evaluating,
 	title        = {Evaluating Generative Models for Graph-to-Text Generation},
 	author       = {Shuzhou Yuan and Michael Färber},
@@ -1358,7 +1402,8 @@
 	author       = {Chen Shao and Elias Giacoumidis and Patrick Matalla and Jialei Li and Shi Li and Sebastian Randel and Andre Richter and Michael Färber and Tobias Käfer},
 	year         = 2024,
 	url          = {https://arxiv.org/abs/2405.02609},
-	abstract     = {This work presents FConvNet, a Fourier Convolution-based Network for equalization in upstream PON. It outperforms traditional equalizers in bit-error-rate and power efficiency, demonstrating potential for high-speed optical networks.}
+	abstract     = {This work presents FConvNet, a Fourier Convolution-based Network for equalization in upstream PON. It outperforms traditional equalizers in bit-error-rate and power efficiency, demonstrating potential for high-speed optical networks.},
+	pdf          = {publications/PONs_ECOC2024.pdf}
 }
 @inproceedings{borkowski2023otdr,
 	title        = {AI-based OTDR Event Detection, Classification and Assignment to ODN Branches in Passive Optical Networks},
@@ -1404,27 +1449,39 @@
 	url          = {https://www.researchgate.net/publication/311771440},
 	abstract     = {This paper presents X-LiSA, an infrastructure for multilingual and cross-lingual semantic annotation, and XKnowSearch!, a system for entity-based semantic search. These tools utilize large knowledge bases to improve cross-lingual access to information and semantic search through disambiguation and translation of keyword queries.}
 }
+
 @misc{yuan2025gtex,
 	title        = {Graph-Guided Textual Explanation Generation Framework},
 	author       = {Shuzhou Yuan and Jingyi Sun and Ran Zhang and Michael Färber and Steffen Eger and Pepa Atanasova and Isabelle Augenstein},
 	year         = 2025,
+	booktitle    = {EMNLP},
+	location     = {Suzhou, China},
 	url          = {https://arxiv.org/abs/2412.12318},
-	abstract     = {We propose G-Tex, a framework for generating faithful natural language explanations guided by highlight explanations. The framework uses a graph neural network to align explanation generation with the model's reasoning process. Experiments show improved faithfulness and quality.}
+	abstract     = {Natural language explanations (NLEs) are commonly used to provide plausible free-text explanations of a model's reasoning about its predictions. However, recent work has questioned their faithfulness, as they may not accurately reflect the model’s internal reasoning process regarding its predicted answer. In contrast, highlight explanations--input fragments critical for the model's predicted answers--exhibit measurable faithfulness. Building on this foundation, we propose G-Tex, a Graph-Guided Textual Explanation Generation framework designed to enhance the faithfulness of NLEs. Specifically, highlight explanations are first extracted as faithful cues reflecting the model's reasoning logic toward answer prediction. They are subsequently encoded through a graph neural network layer to guide the NLE generation, which aligns the generated explanations with the model’s underlying reasoning toward the predicted answer. Experiments on T5 and BART using three reasoning datasets show that G-Tex improves NLE faithfulness by up to 12.18% compared to baseline methods. Additionally, G-Tex generates NLEs with greater semantic and lexical similarity to human-written ones. Human evaluations show that G-Tex can decrease redundant content and enhance the overall quality of NLEs. Our work presents a novel method for explicitly guiding NLE generation to enhance faithfulness, serving as a foundation for addressing broader criteria in NLE and generated text.},
+	keywords     = {GNN, LLM, Graph, Interpretability, XAI}
 }
+
 @misc{qu2024greedycody,
-	title        = {Greedy and CoDy: Counterfactual Explainers for Dynamic Graphs},
+	title        = {CoDy: Counterfactual Explainers for Dynamic Graphs},
+	booktitle    = {ICML},
+	location     = {Vancouver, Canada},
 	author       = {Zhan Qu and Daniel Gomm and Michael Färber},
-	year         = 2024,
+	year         = 2025,
 	url          = {https://arxiv.org/abs/2403.16846},
-	abstract     = {We introduce GreeDy and CoDy, two novel counterfactual explanation methods for temporal graph neural networks. CoDy uses Monte Carlo Tree Search to efficiently explore counterfactuals and shows superior performance over baseline methods in various datasets.}
+	abstract     = {Temporal Graph Neural Networks (TGNNs) are widely used to model dynamic systems where relationships and features evolve over time. Although TGNNs demonstrate strong predictive capabilities in these domains, their complex architectures pose significant challenges for explainability. Counterfactual explanation methods provide a promising solution by illustrating how modifications to input graphs can influence model predictions. To address this challenge, we present CoDy—Counterfactual Explainer for Dynamic Graphs—a model-agnostic, instance-level explanation approach that identifies counterfactual subgraphs to interpret TGNN predictions. CoDy employs a search algorithm that combines Monte Carlo Tree Search with heuristic selection policies, efficiently exploring a vast search space of potential explanatory subgraphs by leveraging spatial, temporal, and local event impact information. Extensive experiments against state-of-the-art factual and counterfactual baselines demonstrate CoDy's effectiveness, with improvements of 16% in AUFSC+ over the strongest baseline. Our code is available at: https://github.com/daniel-gomm/CoDy},
+	pdf          = {publications/CoDy_ICML2025.pdf}
 }
+
 @misc{yuan2025hallucinations,
 	title        = {Hallucinations Can Improve Large Language Models in Drug Discovery},
 	author       = {Shuzhou Yuan and Michael Färber},
 	year         = 2025,
 	url          = {https://arxiv.org/abs/2501.13824},
-	abstract     = {This paper hypothesizes and demonstrates that hallucinations in LLMs can enhance their performance in drug discovery tasks. Experiments show hallucinated molecule descriptions improve classification accuracy, particularly with GPT-4o and Llama-3.}
+	abstract     = {Hallucinations in large language models (LLMs), plausible but factually inaccurate text, are often viewed as undesirable. However, recent work suggests that such outputs may hold creative potential. In this paper, we investigate whether hallucinations can improve LLMs on molecule property prediction, a key task in early-stage drug discovery. We prompt LLMs to generate natural language descriptions from molecular SMILES strings and incorporate these often hallucinated descriptions into downstream classification tasks. Evaluating seven instruction-tuned LLMs across five datasets, we find that hallucinations significantly improve predictive accuracy for some models. Notably, Falcon3-Mamba-7B outperforms all baselines when hallucinated text is included, while hallucinations generated by GPT-4o consistently yield the greatest gains between models. We further identify and categorize over 18,000 beneficial hallucinations, with structural misdescriptions emerging as the most impactful type, suggesting that hallucinated statements about molecular structure may increase model confidence. Ablation studies show that larger models benefit more from hallucinations, while temperature has a limited effect. Our findings challenge conventional views of hallucination as purely problematic and suggest new directions for leveraging hallucinations as a useful signal in scientific modeling tasks like drug discovery.},
+	keywords    = {hallucinations, LLMs, drug discovery},
+	pdf         = {publications/Hallucinations_DrugDiscovery.pdf}
 }
+
 @inproceedings{bogdoll2023influence,
 	title        = {Impact, Attention, Influence: Early Assessment of Autonomous Driving Datasets},
 	author       = {Daniel Bogdoll and Jonas Hendl and Felix Schreyer and Nishanth Gowda and Michael Färber and J. Marius Zöllner},
@@ -1433,13 +1490,16 @@
 	url          = {https://arxiv.org/abs/2301.02200},
 	abstract     = {This scientometric study proposes an Influence Score for early evaluation of autonomous driving datasets. It examines metadata and citation relations to predict dataset impact and guides dataset selection and design.}
 }
+
 @misc{barman2025lpm,
 	title        = {Large Physics Models: Towards a Collaborative Approach with Large Language Models and Foundation Models},
 	author       = {Kristian G. Barman and Sascha Caron and Emily Sullivan and Henk W. de Regt and Roberto Ruiz de Austri and Mieke Boon and Michael Färber and Stefan Fröse and Faegheh Hasibi and Andreas Ipp and Rukshak Kapoor and Gregor Kasieczka and Daniel Kostić and Michael Krämer and Tobias Golling and Luis G. Lopez and Jesus Marco and Sydney Otten and Pawel Pawlowski and Pietro Vischia and Erik Weber and Christoph Weniger},
 	year         = 2025,
-	booktitle    = {arXiv preprint arXiv:2501.05382},
 	url          = {https://arxiv.org/abs/2501.05382},
-	abstract     = {This paper outlines a roadmap for the development and evaluation of Large Physics Models (LPMs), tailored foundation models for physics. LPMs are proposed to integrate symbolic reasoning, physics-specific data processing, and interdisciplinary collaboration, enhancing research through development, evaluation, and philosophical reflection.}
+	abstract     = {This paper outlines a roadmap for the development and evaluation of Large Physics Models (LPMs), tailored foundation models for physics. LPMs are proposed to integrate symbolic reasoning, physics-specific data processing, and interdisciplinary collaboration, enhancing research through development, evaluation, and philosophical reflection.},
+	keywords    = {LLM, physics, foundation models},
+	pdf         = {publications/Large_Physics_Models_2025.pdf}
+	
 }
 @article{shao2024mloptical,
 	title        = {Machine Learning in Short-Reach Optical Systems: A Comprehensive Survey},
@@ -1447,8 +1507,10 @@
 	year         = 2024,
 	booktitle    = {Photonics},
 	url          = {https://doi.org/10.3390/photonics11070613},
-	abstract     = {This survey reviews the application of machine learning in short-reach optical systems. It categorizes ML techniques into traditional, convolutional, transformer-based, and Fourier-based models, highlighting their potential in tasks like equalization, fault detection, and bandwidth prediction, with a focus on PONs and hardware efficiency.}
+	abstract     = {This survey reviews the application of machine learning in short-reach optical systems. It categorizes ML techniques into traditional, convolutional, transformer-based, and Fourier-based models, highlighting their potential in tasks like equalization, fault detection, and bandwidth prediction, with a focus on PONs and hardware efficiency.},
+	pdf          = {publications/Survey_Photonics2024.pdf}
 }
+
 @misc{faerber2023diversity,
 	title        = {Measuring Variety, Balance, and Disparity: An Analysis of Media Coverage of the 2021 German Federal Election},
 	author       = {Michael Färber and Jannik Schwade and Adam Jatowt},
@@ -1457,21 +1519,30 @@
 	url          = {https://arxiv.org/abs/2308.03531},
 	abstract     = {This paper introduces a framework to assess news diversity based on variety, balance, and disparity. Using over 26,000 headlines from the 2021 German election, it applies topic modeling and proposes a novel metric for disparity, contributing to automated media diversity analysis.}
 }
-@misc{neidiger2024chemkb,
+@article{neidiger2024chemkb,
 	title        = {Implementation of an Open Chemistry Knowledge Base with a Semantic Wiki},
 	author       = {Charlotte Neidiger and Tarek Saier and Kai Kühn and Victor Larignon and Michael Färber and Claudia Bizzarri and Helena Šimek Tosino and Laura Holzhauer and Michael Erdmann and An Nguyen and Dean Harvey and Pierre Tremouilhac and Claudia Kramer and Daniel Hansch and Nicole Jung and Stefan Bräse},
 	year         = 2024,
-	booktitle    = {ChemRxiv Preprint},
-	url          = {https://doi.org/10.26434/chemrxiv-2024-5dkhm},
-	abstract     = {This work presents a Semantic MediaWiki-based platform to integrate chemical research data. The system enables collaborative input and structured representation of chemical knowledge, focusing on the domain of photocatalytic CO2 reduction and promoting open science practices.}
+  	journal      = {J. Cheminformatics},
+  	volume       = {17},
+  	number       = {1},
+  	pages        = {99},
+	doi          = {10.26434/chemrxiv-2024-5dkhm},
+	biburl       = {https://dblp.org/rec/journals/jcheminf/NeidigerSKLFBTHENHTKHSA25.bib}
+	abstract     = {We present a concept for an open chemistry knowledge base that integrates research results into a collaboratively usable platform. To achieve this, we enhanced Semantic MediaWiki (SMW) with tools for capturing chemical structures in machine-readable formats and with data forms and models for standardized input and organization. These extensions enable effective comparison and contextual analysis of research within an expandable Wiki environment. The approach was demonstrated in the domain of CO2 reduction in homogeneous photocatalytic systems. Our work shows how subject-specific knowledge in chemistry can be collaboratively collected and managed by integrating cheminformatic tools into SMW, thereby providing a systematic, open alternative to commercial systems.},
+	pdf         = {publications/ChemKB_Cheminformatics2025.pdf}
 }
+
 @misc{stein2024quantum,
 	title        = {Incorporating Quantum Advantage in Quantum Circuit Generation through Genetic Programming},
 	author       = {Christoph Stein and Michael Färber},
 	year         = 2024,
 	url          = {https://arxiv.org/abs/2501.09682},
-	abstract     = {This paper proposes two novel fitness functions for genetic algorithms that explicitly incorporate quantum advantage. Evaluated on the Bernstein-Vazirani and Unstructured Database Search Problems, the methods improve convergence and produce circuits comparable to expert designs, advancing quantum circuit generation.}
+	abstract     = {Designing efficient quantum circuits that leverage quantum advantage compared to classical computing has become increasingly critical. Genetic algorithms have shown potential in generating such circuits through artificial evolution. However, integrating quantum advantage into the fitness function of these algorithms remains unexplored. In this paper, we aim to enhance the efficiency of quantum circuit design by proposing two novel approaches for incorporating quantum advantage metrics into the fitness function of genetic algorithms.1 We evaluate our approaches based on the Bernstein-Vazirani Problem and the Unstructured Database Search Problem as test cases. The results demonstrate that our approaches not only improve the convergence speed of the genetic algorithm but also produce circuits comparable to expert-designed solutions. Our findings suggest that automated quantum circuit design using genetic algorithms that incorporate a measure of quantum advantage is a promising approach to accelerating the development of quantum algorithms.},
+	keywords     = {quantum computing},
+	pdf          = {publications/Quantum_Genetic_Programming_2024.pdf}
 }
+
 @incollection{faerber2021meaning,
 	title        = {Theories of Meaning for the Internet of Things},
 	author       = {Michael Färber and Yulia Svetashova and Andreas Harth},
@@ -1495,8 +1566,10 @@
 	author       = {Shuzhou Yuan and Ercong Nie and Bolei Ma and Michael Färber},
 	year         = 2024,
 	booktitle    = {IJCNN},
+	location     = {Rome, Italy},
 	url          = {https://arxiv.org/abs/2402.11700},
-	abstract     = {This paper investigates reducing the size of large language models (LLMs) by layer pruning. Surprisingly, removing layers can preserve or even improve performance in classification tasks, reducing model size significantly.}
+	abstract     = {This paper investigates reducing the size of large language models (LLMs) by layer pruning. Surprisingly, removing layers can preserve or even improve performance in classification tasks, reducing model size significantly.},
+	pdf          = {publications/SlimLLM_IJCNN2024.pdf}
 }
 @inproceedings{shapiro2022sequence,
 	title        = {Sequence Labeling for Citation Field Extraction from Cyrillic Script References},
