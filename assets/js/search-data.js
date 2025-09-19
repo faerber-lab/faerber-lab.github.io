@@ -226,7 +226,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/8_postdocE13_2025/";
-            },},{id: "projects-klartext",
+            },},{id: "news-three-papers-have-been-accepted-at-emnlp-2025-see-you-in-suzhou-china",
+          title: 'Three papers have been accepted at EMNLP 2025 ! See you in Suzhou,...',
+          description: "",
+          section: "News",},{id: "projects-klartext",
           title: 'Klartext',
           description: "AI-based Translation of Websites Into Plain Language",
           section: "Projects",handler: () => {
