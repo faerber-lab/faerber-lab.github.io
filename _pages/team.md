@@ -10,11 +10,11 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: tim.webp
-    content: about_tim.md
+    image: nic.jpg
+    content: about_nic.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Tim Schopf</p>
+      <p>Nicholas Popovic</p>
   - align: left
     image: joe.jpg
     content: about_joe.md
@@ -28,27 +28,33 @@ profiles:
     more_info: >
       <p>Zhan Qu</p>
   - align: left
-    image: parisa.jpg
-    content: about_parisa.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Parisa Aghdam</p>
-  - align: right
-    image: tobias.png
-    content: about_tobias.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Tobias Schreieder</p>
-  - align: left
-    image: nic.jpg
-    content: about_nic.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Nicholas Popovic</p>
-  - align: right
     image: chen.jpg
     content: about_chen.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Chen Shao</p>
+  - align: right
+    image: parisa.jpg
+    content: about_parisa.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Parisa Aghdam</p>
+  - align: left
+    image: tobias.png
+    content: about_tobias.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Tobias Schreieder</p>
+  - align: right
+    image: tim.webp
+    content: about_tim.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Tim Schopf</p>
+ - align: left
+    image: joa.pns
+    content: about_joa.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>AFM Mohimenul Joaa</p>
 ---
