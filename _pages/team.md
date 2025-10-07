@@ -51,10 +51,11 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Tim Schopf</p>
- - align: left
+  - align: left
     image: joa.pns
     content: about_joa.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>AFM Mohimenul Joaa</p>
+
 ---
