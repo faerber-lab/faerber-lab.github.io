@@ -52,7 +52,7 @@ profiles:
     more_info: >
       <p>Tim Schopf</p>
   - align: left
-    image: joa.pns
+    image: joa.png
     content: about_joa.md
     image_circular: false # crops the image to make it circular
     more_info: >
