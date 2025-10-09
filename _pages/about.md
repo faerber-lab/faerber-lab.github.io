@@ -23,6 +23,6 @@ latest_posts:
   limit: 3  # leave blank to include all blog posts
 ---
 
-Welcome! I’m **Michael Färber**, Full Professor and head of the Cognitive AI Unit at ScaDS.AI, TU Dresden, Germany. We focus on AI research that prioritizes trustworthiness and alignment with human values. Particularly, our research lies at the intersection of natural language processing (e.g., LLMs), graph-based machine learning, and structured knowledge representation (e.g., knowledge graphs). Check out our latest <a href="/publications/">publications</a> to see what we’ve been working on. For collaboration, feel free to reach out via [email](mailto:michael.faerber@tu-dresden.de) 📧
+Welcome! I’m **Michael Färber**, a full professor at ScaDS.AI, TU Dresden, Germany. Our group focuses on advancing AI research that prioritizes trustworthiness and alignment with human values. We work at the intersection of natural language processing (NLP)—particularly large language models (LLMs)—graph-based machine learning, and structured knowledge representation, including knowledge graphs. In addition to core AI research, we actively explore applications in scholarly domains, such as scientific literature analysis, large-scale knowledge curation, and intelligent research assistance. For collaboration, feel free to reach out via [email](mailto:michael.faerber@tu-dresden.de) 📧
 
 Explore our latest <a href='/vacancies/'>openings </a> and <a href='/student_thesis/'>thesis topics</a> to join our group.
