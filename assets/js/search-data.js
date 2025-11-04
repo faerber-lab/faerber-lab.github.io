@@ -216,13 +216,13 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-have-been-accepted-at-kdd-2025-one-in-the-research-track-and-one-in-the-applied-data-science-track-see-you-in-toronto",
           title: 'Two papers have been accepted at KDD 2025 — one in the Research...',
           description: "",
-          section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team-deadline-extended-10-8-2025",
-          title: 'Senior PostDoc position available—apply now to join our team! (deadline extended 10/8/2025)',
+          section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
+          title: 'Senior PostDoc position available; apply now to join our team!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/7_postdocE14_2025/";
             },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
-          title: 'Junior PostDoc position available, apply now to join our team!',
+          title: 'Junior PostDoc position available; apply now to join our team!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/8_postdocE13_2025/";
