@@ -39,6 +39,5 @@ Within my research group at the Center for Scalable Data Analytics and Artificia
 
 **Apply Now**
 
-**Apply Now**
 Send your application in a single PDF file (CV, cover letter, other supporting documents) via email to [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de), quoting job number "**ScaDS.AI Färber E14**".
 Feel free to reach out with any questions.
