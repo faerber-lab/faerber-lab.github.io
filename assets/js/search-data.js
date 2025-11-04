@@ -221,18 +221,18 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/7_postdocE14_2025/";
-            },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
-          title: 'Junior PostDoc position available; apply now to join our team!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/8_postdocE13_2025/";
             },},{id: "news-i-gave-a-keynote-on-llms-and-knowledge-graphs-for-science-from-papers-to-insights-at-semantics-2025-see-you-in-vienna",
           title: 'I gave a keynote on “LLMs and Knowledge Graphs for Science: From Papers...',
           description: "",
           section: "News",},{id: "news-three-papers-have-been-accepted-at-emnlp-2025-see-you-in-suzhou-china",
           title: 'Three papers have been accepted at EMNLP 2025 ! See you in Suzhou,...',
           description: "",
-          section: "News",},{id: "projects-klartext",
+          section: "News",},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
+          title: 'Junior PostDoc position available; apply now to join our team!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/8_postdocE13_2025/";
+            },},{id: "projects-klartext",
           title: 'Klartext',
           description: "AI-based Translation of Websites Into Plain Language",
           section: "Projects",handler: () => {
