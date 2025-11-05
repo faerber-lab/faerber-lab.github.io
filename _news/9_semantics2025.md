@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a keynote on "_LLMs and Knowledge Graphs for Science: From Papers to Insights_" at <a href='https://2025-eu.semantics.cc/'>Semantics 2025</a>. See you in Vienna!
+I gave a keynote on "_LLMs and Knowledge Graphs for Science_" at <a href='https://2025-eu.semantics.cc/'>Semantics 2025</a>!
