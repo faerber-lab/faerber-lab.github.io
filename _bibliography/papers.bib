@@ -428,7 +428,7 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 }
 
 @article{DBLP:journals/scientometrics/FarberT24,
-	title        = {Analyzing the impact of companies on {AI} research based on publications},
+	title        = {Analyzing the Impact of Companies on {AI} Research Based on Publications},
 	author       = {Michael F{\"{a}}rber and Lazaros Tampakis},
 	year         = 2023,
 	journal      = {Scientometrics},
@@ -437,10 +437,8 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {31--63},
 	doi          = {10.1007/S11192-023-04867-3},
 	url          = {https://doi.org/10.1007/s11192-023-04867-3},
-	timestamp    = {Sun, 19 Jan 2025 13:57:07 +0100},
-	biburl       = {https://dblp.org/rec/journals/scientometrics/FarberT24.bib},
-	abstract     = {},
-	pdf = {publications/AI_Impact_Scientometrics2023.pdf}
+    abstract     = {Artificial Intelligence (AI) is one of the most momentous technologies of our time. Thus, it is of major importance to know which stakeholders influence AI research. Besides researchers at universities and colleges, researchers in companies have hardly been considered in this context. In this article, we consider how the influence of companies on AI research can be made measurable on the basis of scientific publishing activities. We compare academic- and company-authored AI publications published in the last decade and use scientometric data from multiple scholarly databases to look for differences across these groups and to disclose the top contributing organizations. While the vast majority of publications is still produced by academia, we find that the citation count an individual publication receives is significantly higher when it is (co-)authored by a company. Furthermore, using a variety of altmetric indicators, we notice that publications with company participation receive considerably more attention online. Finally, we place our analysis results in a broader context and present targeted recommendations to safeguard a harmonious balance between academia and industry in the realm of AI research.},
+	pdf          = {publications/AI_Impact_Scientometrics2023.pdf}
 }
 @inproceedings{politov2025revisiting,
 	title        = {Revisiting Projection-based Data Transfer for Cross-Lingual Named Entity Recognition in Low-Resource Languages},
@@ -1171,53 +1169,39 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	booktitle    = {K-CAP},
 	doi          = {10.1145/3587259.3627556},
 	url          = {https://dl.acm.org/doi/10.1145/3587259.3627556},
-	abstract     = {In this paper, we propose a framework for combining entity linking methods, allowing multiple systems and their components to be used in combination to achieve optimal performance.}
+	abstract  = {Named entity recognition and disambiguation, often referred to as entity linking systems, refers to the task of automatically identifying knowledge graph entities in text documents. While a variety of entity linking systems based on very different approaches exist, these systems implicitly share certain processing steps in their pipeline. Despite this fact, they have been mainly used as stand-alone solutions. In this paper, we propose a framework for combining entity linking methods. This allows multiple entity linking systems and especially their components to be used in combination to an unlimited extent, thus allowing to achieve the best possible performance. In addition, the framework allows user-developed entity linking systems or components to be easily tested and automatically evaluated against other systems without having to set up other systems first. Essentially, our framework is knowledge graph agnostic and entity linking systems can be compared across knowledge graphs. Furthermore, our framework enables entity linking method or component recommendation, supporting the goal of achieving the best performance in a given context. We demonstrate that non-domain-expert users are able to deploy the framework within minutes and integrate unknown homebrew systems into it in less than an hour. Our framework is fully open source and available on GitHub along with Docker containers and tutorials (including Jupyter Notebooks).},
+    pdf = {publications/EL_K-CAP2023.pdf},
+    keywords = {entity linking}
 }
-@inproceedings{DBLP:conf/semweb/0001L23,
-	title        = {Linked Papers With Code: The Latest in Machine Learning as an {RDF} Knowledge Graph},
-	author       = {Michael F{\"{a}}rber and David Lamprecht},
-	year         = 2023,
-	booktitle    = {ISWC},
-	location     = {Athens, Greece},
-	publisher    = {CEUR-WS.org},
-	volume       = 3632,
-	url          = {https://ceur-ws.org/Vol-3632/ISWC2023\_paper\_467.pdf},
-	editor       = {Irini Fundulaki and Kouji Kozaki and Daniel Garijo and Jos{\'{e}} Manu{\'{e}}l G{\'{o}}mez{-}P{\'{e}}rez},
-	timestamp    = {Wed, 07 Feb 2024 16:02:39 +0100},
-	biburl       = {https://dblp.org/rec/conf/semweb/0001L23.bib},
-	abstract     = {}
-}
+
 @inproceedings{DBLP:conf/compsac/FaragoFP23,
 	title        = {A Full-fledged Commit Message Quality Checker Based on Machine Learning},
 	author       = {David Farag{\'{o}} and Michael F{\"{a}}rber and Christian Petrov},
 	year         = 2023,
 	booktitle    = {COMPSAC},
 	location     = {Torino, Italy},
-	publisher    = {{IEEE}},
 	pages        = {788--799},
 	doi          = {10.1109/COMPSAC57700.2023.00108},
 	url          = {https://doi.org/10.1109/COMPSAC57700.2023.00108},
-	editor       = {Hossain Shahriar and Yuuichi Teranishi and Alfredo Cuzzocrea and Moushumi Sharmin and Dave Towey and A. K. M. Jahangir Alam Majumder and Hiroki Kashiwazaki and Ji{-}Jiang Yang and Michiharu Takemoto and Nazmus Sakib and Ryohei Banno and Sheikh Iqbal Ahamed},
-	timestamp    = {Mon, 03 Mar 2025 21:00:52 +0100},
-	biburl       = {https://dblp.org/rec/conf/compsac/FaragoFP23.bib},
-	abstract     = {}
+	abstract  = {Commit messages (CMs) are an essential part of version control. By providing important context regarding what has changed and why, they strongly support software maintenance and evolution. However, writing good CMs is difficult and often neglected by developers. So far, there is no tool suitable for practice that automatically assesses how well a CM is written, including its meaning and context. Since this task is challenging, we ask the research question: how well can commit message quality, including semantics and context, be measured with machine learning methods? By considering all rules from the most popular CM quality guideline, creating datasets for those rules, and training and evaluating state-of-the-art machine learning models to check these rules, we can answer the research question with: sufficiently well for practice, with the lowest F1 score of 82.9\% for the most challenging task. We develop a full-fledged open-source framework that checks all these CM quality rules. It is useful for research (e.g., automatic CM generation), but most importantly for software practitioners to raise the quality of CMs and thus the maintainability and evolution speed of their software.},
+    keywords     = {Commit Messages, Software Engineering, Software Quality},
+    pdf = {publications/Commit-Message-Quality-Checker_COMPSAC2023.pdf}
 }
-@inproceedings{DBLP:conf/ecir/PickelmannFJ23,
+
+@inproceedings{Readability2023,
 	title        = {Ablesbarkeitsmesser: {A} System for Assessing the Readability of German Text},
 	author       = {Florian Pickelmann and Michael F{\"{a}}rber and Adam Jatowt},
 	year         = 2023,
 	booktitle    = {ECIR},
 	location     = {Dublin, Ireland},
-	publisher    = {Springer},
-	volume       = 13982,
 	pages        = {288--293},
 	doi          = {10.1007/978-3-031-28241-6\_28},
 	url          = {https://doi.org/10.1007/978-3-031-28241-6\_28},
-	editor       = {Jaap Kamps and Lorraine Goeuriot and Fabio Crestani and Maria Maistro and Hideo Joho and Brian Davis and Cathal Gurrin and Udo Kruschwitz and Annalina Caputo},
-	timestamp    = {Mon, 26 Jun 2023 20:47:14 +0200},
-	biburl       = {https://dblp.org/rec/conf/ecir/PickelmannFJ23.bib},
-	abstract     = {}
+    abstract  = {While several approaches have been proposed for estimating the readability of English texts, there is much less work for other languages. In this paper, we present an online service, available at https://readability-check.org/, that provides five well-established statistical methods and two machine learning models for measuring the readability of texts in German. For the machine learning methods, we train two BERT models. To bring all the measures together, we provide an interactive website that allows users to evaluate the readability of German texts at the sentence level. Our research can be useful for anyone who wants to know whether the text content at hand is easy or difficult and therefore can be used in certain situations or rather needs to be adapted and improved. In education, for example, it can help to assess the suitability of a particular teaching material for a particular grade.},
+    keywords  = {Readability, German Language Processing, Text Difficulty, Text Assessment},
+    pdf = {publications/Readability_ECIR2023.pdf}
 }
+
 @inproceedings{regev2024future,
 	title        = {Future Timelines: Extraction and Visualization of Future-related Content From News Articles},
 	author       = {Juwal Regev and Adam Jatowt and Michael Färber},
@@ -1459,7 +1443,9 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	year         = 2023,
 	booktitle    = {JCDL},
 	url          = {https://github.com/IllDepence/contextgraph},
-	abstract     = {We propose CoCon, a large scholarly data set reflecting the combined use of research artifacts in academic publications. The data set enables holistic analyses and provides a link prediction task for 'combined research artifact use prediction'.}
+    abstract  = {In the wake of information overload in academia, methodologies and systems for search, recommendation, and prediction to aid researchers in identifying relevant research are actively studied and developed. Existing work, however, is limited in terms of granularity, focusing only on the level of papers or a single type of artifact, such as data sets. To enable more holistic analyses and systems dealing with academic publications and their content, we propose CoCon, a large scholarly data set reflecting the combined use of research artifacts, contextualized in academic publications' full-text. Our data set comprises 35 k artifacts (data sets, methods, models, and tasks) and 340 k publications. We additionally formalize a link prediction task for "combined research artifact use prediction" and provide code to utilize analyses of and the development of ML applications on our data. All data and code is publicly available at https://github.com/IllDepence/contextgraph.},
+     keywords  = {Scholarly Data, Research Artifacts, Knowledge Graphs, Dataset},
+    pdf = {publications/CoCon_JCDL2023.pdf}
 }
 
 @inproceedings{yuan2023evaluating,
@@ -1467,9 +1453,13 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	author       = {Shuzhou Yuan and Michael Färber},
 	year         = 2023,
 	booktitle    = {RANLP},
-	url          = {https://github.com/ShuzhouYuan/Eval_G2T_GenModels},
-	abstract     = {This study evaluates generative models like GPT-3 and ChatGPT for graph-to-text generation in a zero-shot setting. The models are tested on AGENDA and WebNLG datasets, and their performance is compared with finetuned LLMs. While fluent outputs are achieved, challenges remain in handling semantic relationships and hallucination issues.}
+	url          = {https://aclanthology.org/anthology-files/pdf/ranlp/2023.ranlp-1.133.pdf},
+    abstract  = {Large language models (LLMs) have been widely employed for graph-to-text generation tasks. However, the process of finetuning LLMs requires significant training resources and annotation work. In this paper, we explore the capability of generative models to generate descriptive text from graph data in a zero-shot setting. Specifically, we evaluate GPT-3 and ChatGPT on two graph-to-text datasets and compare their performance with that of finetuned LLM models such as T5 and BART. Our results demonstrate that generative models are capable of generating fluent and coherent text, achieving BLEU scores of 10.57 and 11.08 for the AGENDA and WebNLG datasets, respectively. However, our error analysis reveals that generative models still struggle with understanding the semantic relations between entities, and they also tend to generate text with hallucinations or irrelevant information. As part of the error analysis, we utilize BERT to detect machine-generated text and achieve high macro-F1 scores. We have made the text generated by generative models publicly available.},
+    keywords  = {Graph-to-Text Generation, Large Language Models, Zero-Shot Learning, GPT-3, ChatGPT, T5, BART, Text Generation},
+    location = {Varna, Bulgaria},
+    pdf = {publications/Graph2Text_RANLP2023.pdf}
 }
+
 @inproceedings{nguyen2022explaining,
 	title        = {Explaining Convolutional Neural Networks by Tagging Filters},
 	author       = {Anna Nguyen and Daniel Hagenmayer and Tobias Weller and Michael Färber},
@@ -1491,15 +1481,6 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
   keywords     = {Fourier Convolution Network, FConvNet, PON, PAM4, Equalization, Passive Optical Network, Optical Communications}
 }
 
-@inproceedings{borkowski2023otdr,
-	title        = {AI-based OTDR Event Detection, Classification and Assignment to ODN Branches in Passive Optical Networks},
-	author       = {Robert Borkowski and Michael Färber and R. Bonk and others},
-	year         = 2023,
-	booktitle    = {ECOC},
-	doi          = {10.1049/icp.2023.2469},
-	url          = {https://www.researchgate.net/publication/379299950},
-	abstract     = {This paper presents an AI-based approach for OTDR event detection, classification, and assignment to ODN branches in PONs. The method improves fault detection and maintenance efficiency in optical access networks.}
-}
 @inproceedings{faerber2018babelfy,
 	title        = {Annotating Domain-Specific Texts with Babelfy: A Case Study},
 	author       = {Michael Färber and Kristian Noullet and Boulos El Asmar},
@@ -1508,6 +1489,7 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	url          = {https://www.researchgate.net/publication/328030249},
 	abstract     = {This case study evaluates the performance of Babelfy for annotating domain-specific German texts. Results show that Babelfy achieves about 85% annotation accuracy, suggesting its viability for industrial applications.}
 }
+
 @inproceedings{jatowt2023hint,
 	title        = {Automatic Hint Generation},
 	author       = {Adam Jatowt and Calvin Gehrer and Michael Färber},
@@ -1515,9 +1497,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	booktitle    = {ICTIR},
 	location     = {Taipei, Taiwan},
 	doi          = {10.1145/3578337.3605119},
-	url          = {https://www.researchgate.net/publication/371971143},
-	abstract     = {This paper introduces a new task: automatic hint generation to support learning and reasoning. A Wikipedia-based approach is proposed and evaluated, showing improved user performance compared to baseline hints.}
+	url          = {https://dl.acm.org/doi/pdf/10.1145/3578337.3605119},
+    abstract  = {At times when answers to user questions are readily and easily available (at essentially zero cost), it is important for humans to maintain their knowledge and strong reasoning capabilities. We believe that in many cases providing hints rather than final answers should be sufficient and beneficial for users as it requires thinking and stimulates learning as well as remembering processes. We propose in this paper a novel task of automatic hint generation that supports users in finding the correct answers to their questions without the need of looking the answers up. As the first attempt towards this new task, we design and implement an approach that uses Wikipedia to automatically provide hints for any input question-answer pair. We then evaluate our approach with a user group of 10 persons and demonstrate that the generated hints help users successfully answer more questions than when provided with baseline hints.},
+   pdf = {publications/Hint_Generation_ICTIR2023.pdf}
 }
+
 @inproceedings{elasmar2021aware,
 	title        = {AWARE: An Ontology for Situational Awareness of Autonomous Vehicles in Manufacturing},
 	author       = {Boulos El Asmar and Syrine Chelly and Michael Färber},
@@ -1564,7 +1548,9 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	year         = 2023,
 	booktitle    = {ICCRE},
 	url          = {https://arxiv.org/abs/2301.02200},
-	abstract     = {This scientometric study proposes an Influence Score for early evaluation of autonomous driving datasets. It examines metadata and citation relations to predict dataset impact and guides dataset selection and design.}
+    abstract  = {Autonomous Driving (AD), the area of robotics with the greatest potential impact on society, has gained a lot of momentum in the last decade. As a result, the number of datasets in AD has increased rapidly. Creators and users of datasets can benefit from a better understanding of developments in the field. While scientometric analysis has been conducted in other fields, it rarely revolves around datasets. Thus, the impact, attention, and influence of datasets on autonomous driving remains a rarely investigated field. In this work, we provide a scientometric analysis for over 200 datasets in AD. We perform a rigorous evaluation of relations between available metadata and citation counts based on linear regression. Subsequently, we propose an Influence Score to assess a dataset already early on without the need for a track-record of citations, which is only available with a certain delay.},
+    pdf    = {publications/AD_Datasets_ICCRE2023.pdf},
+    keywords = {autonomous driving}
 }
 
 @article{barman2025lpm,
@@ -1592,14 +1578,16 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
   keywords     = {Short-Reach Optical Systems, Optical Communications, PON, Equalization, Transformer Models, Fourier Neural Networks}
 }
 
-@misc{faerber2023diversity,
+@article{faerber2023diversity,
 	title        = {Measuring Variety, Balance, and Disparity: An Analysis of Media Coverage of the 2021 German Federal Election},
 	author       = {Michael Färber and Jannik Schwade and Adam Jatowt},
 	year         = 2023,
-	booktitle    = {arXiv preprint arXiv:2308.03531},
 	url          = {https://arxiv.org/abs/2308.03531},
-	abstract     = {This paper introduces a framework to assess news diversity based on variety, balance, and disparity. Using over 26,000 headlines from the 2021 German election, it applies topic modeling and proposes a novel metric for disparity, contributing to automated media diversity analysis.}
+	abstract     = {This paper introduces a framework to assess news diversity based on variety, balance, and disparity. Using over 26,000 headlines from the 2021 German election, it applies topic modeling and proposes a novel metric for disparity, contributing to automated media diversity analysis.},
+    pdf          = {publications/GoogleNewsDiversity_arxiv2023.pdf},
+    keywords = {News Diversity, Recommender Systems, Media Bias}
 }
+
 @article{neidiger2024chemkb,
 	title        = {Implementation of an Open Chemistry Knowledge Base with a Semantic Wiki},
 	author       = {Charlotte Neidiger and Tarek Saier and Kai Kühn and Victor Larignon and Michael Färber and Claudia Bizzarri and Helena Šimek Tosino and Laura Holzhauer and Michael Erdmann and An Nguyen and Dean Harvey and Pierre Tremouilhac and Claudia Kramer and Daniel Hansch and Nicole Jung and Stefan Bräse},
@@ -1631,8 +1619,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	booktitle    = {Language, Cognition, and Mind},
 	doi          = {10.1007/978-3-030-69823-2_3},
 	url          = {https://doi.org/10.1007/978-3-030-69823-2_3},
-	abstract     = {This chapter explores foundational issues in knowledge representation for the Internet of Things, combining insights from epistemology, semantic theories, and computer science. It highlights the limitations of traditional ontologies and proposes a more dynamic, grounded, and intersubjective approach.}
+    abstract  = {In this chapter, we consider the theoretical foundations for representing knowledge in the Internet of Things context. Specifically, we consider (1) the model-theoretic semantics (i.e., extensional semantics), (2) the possible-world semantics (i.e., intensional semantics), (3) the situation semantics, and (4) the cognitive/distributional semantics. Given the peculiarities of the Internet of Things, we pay particular attention to (a) perception (i.e., how to establish a connection to the world), (b) intersubjectivity (i.e., how to align world representations), and (c) the dynamics of world knowledge (i.e., how to model events). We come to the conclusion that each of the semantic theories helps in modeling specific aspects, but does not sufficiently address all three aspects simultaneously.},
+    pdf          = {publications/TheoriesOfMeaning_CoI2021.pdf},
+    keywords    = {theory, philosophy}
 }
+
 @inproceedings{faerber2023vocabexpander,
 	title        = {Vocab-Expander: A System for Creating Domain-Specific Vocabularies Based on Word Embeddings},
 	author       = {Michael Färber and Nicholas Popovic},
@@ -1640,8 +1631,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	booktitle    = {RANLP},
 	doi          = {10.48550/arXiv.2308.03519},
 	url          = {https://arxiv.org/abs/2308.03519},
-	abstract     = {VOCAB-EXPANDER is an online tool for building domain-specific vocabularies using word embeddings and ConceptNet. It supports tasks in innovation management, education, and interdisciplinary communication through term expansion and graph-based visualization.}
+	abstract     = {VOCAB-EXPANDER is an online tool for building domain-specific vocabularies using word embeddings and ConceptNet. It supports tasks in innovation management, education, and interdisciplinary communication through term expansion and graph-based visualization.},
+    pdf = {publications/Vocab-X_RANLP2023.pdf},
+    keywords     = {word embeddings, demo, text mining, NLP}
 }
+
 @inproceedings{yuan2024whyheavy,
 	title        = {Why Lift So Heavy? Slimming Large Language Models by Cutting Off the Layers},
 	author       = {Shuzhou Yuan and Ercong Nie and Bolei Ma and Michael Färber},
