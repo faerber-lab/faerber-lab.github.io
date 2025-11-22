@@ -1,3 +1,78 @@
+@inproceedings{Qu2026PoeTone,
+  author    = {Zhan Qu and Shuzhou Yuan and Michael F{\"a}rber},
+  title     = {PoeTone: A Framework for Constrained Generation of Structured Chinese Songci with LLMs},
+  abstract  = {This paper presents a systematic investigation into the constrained generation capabilities of large language models (LLMs) in producing Songci, a classical Chinese poetry form characterized by strict structural, tonal, and rhyme constraints defined by Cipai templates. We first develop a comprehensive, multi-faceted evaluation framework that includes: (i) a formal conformity score, (ii) automated quality assessment using LLMs, (iii) human evaluation, and (iv) classification-based probing tasks. Using this framework, we evaluate the generative performance of 18 LLMs, including 3 proprietary models and 15 open-source models across four families, under five prompting strategies: zero-shot, one-shot, completion-based, instruction-tuned, and chain-of-thought. Finally, we propose a Generate-Critic architecture in which the evaluation framework functions as an automated critic. Leveraging the critic's feedback as a reward signal, we fine-tune three lightweight open-source LLMs via supervised fine-tuning (SFT), resulting in improvements of up to 5.88% in formal conformity. Our findings offer new insights into the generative strengths and limitations of LLMs in producing culturally significant and formally constrained literary texts.},
+  booktitle = {AAAI},
+  year      = {2026},
+  address   = {Singapore, Singapore},
+  url       = {https://doi.org/10.48550/arXiv.2508.02515},
+  pdf = {publications/PoeTone_AAAI2026.pdf}
+}
+
+@inproceedings{Besrour2025SQuAI,
+  author    = {Ines Besrour and Jingbo He and Tobias Schreieder and Michael F{\"a}rber},
+  title     = {SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation},
+  booktitle = {CIKM},
+  year      = {2025},
+  url       = {https://dl.acm.org/doi/pdf/10.1145/3746252.3761471},
+  abstract  = {We present SQuAI, a scalable and trustworthy multi-agent retrieval-augmented generation (RAG) framework for scientific question answering (QA) with large language models (LLMs). SQuAI addresses key limitations of existing RAG systems in the scholarly domain, where complex, open-domain questions demand accurate answers, explicit claims with citations, and retrieval across millions of scientific documents. Built on over 2.3 million full-text papers from arXiv.org, SQuAI employs four collaborative agents to decompose complex questions into sub-questions, retrieve targeted evidence via hybrid sparse-dense retrieval, and adaptively filter documents to improve contextual relevance. To ensure faithfulness and traceability, SQuAI integrates in-line citations for each generated claim and provides supporting sentences from the source documents. Our system improves faithfulness, answer relevance, and contextual relevance by up to +0.088 (12\%) over a strong RAG baseline. We further release a benchmark of 1,000 scientific question-answer-evidence triplets to support reproducibility. With transparent reasoning, verifiable citations, and domain-wide scalability, SQuAI demonstrates how multi-agent RAG enables more trustworthy scientific QA with LLMs.},
+  pdf = {publications/SQuAI_CIKM2025.pdf}
+}
+
+@inproceedings{Shao2025RealE,
+  author    = {Chen Shao and Yue Wang and Zhenyi Zhu and Zhanbo Huang and Sebastian P{\"u}tz and Benjamin Sch{\"a}fer and Tobias K{\"a}fer and Michael F{\"a}rber},
+  title     = {Real-E: A Foundation Benchmark for Advancing Robust and Generalizable Electricity Forecasting},
+  booktitle = {CIKM},
+  year      = {2025},
+  address   = {Seoul, South Korea},
+  url       = {https://doi.org/10.48550/arXiv.2509.05768},
+  abstract  = {Energy forecasting is vital for grid reliability and operational efficiency. Although recent advances in time series forecasting have led to progress, existing benchmarks remain limited in spatial and temporal scope and lack multi-energy features. This raises concerns about their reliability and applicability in real-world deployment. To address this, we present the Real-E dataset, covering over 74 power stations across 30+ European countries over a 10-year span with rich metadata. Using Real-E, we conduct an extensive data analysis and benchmark over 20 baselines across various model types. We introduce a new metric to quantify shifts in correlation structures and show that existing methods struggle on our dataset, which exhibits more complex and non-stationary correlation dynamics. Our findings highlight key limitations of current methods and offer a strong empirical basis for building more robust forecasting models.},
+  pdf = {publications/Real-E_CIKM2025.pdf}
+}
+
+@inproceedings{Yuan2025HatefulPersona,
+  author    = {Shuzhou Yuan and Ercong Nie and Mario Tawfelis and Helmut Schmid and Hinrich Sch{\"u}tze and Michael F{\"a}rber},
+  title     = {Hateful Person or Hateful Model? Investigating the Role of Personas in Hate Speech Detection by Large Language Models},
+  booktitle = {PALS@EMNLP},
+  year      = {2025},
+  url       = {https://doi.org/10.48550/arXiv.2506.08593},
+  abstract  = {Hate speech detection is a socially sensitive and inherently subjective task, with judgments often varying based on personal traits. While prior work has examined how socio-demographic factors influence annotation, the impact of personality traits on Large Language Models (LLMs) remains largely unexplored. In this paper, we present the first comprehensive study on the role of persona prompts in hate speech classification, focusing on MBTI-based traits. A human annotation survey confirms that MBTI dimensions significantly affect labeling behavior. Extending this to LLMs, we prompt four open-source models with MBTI personas and evaluate their outputs across three hate speech datasets. Our analysis uncovers substantial persona-driven variation, including inconsistencies with ground truth, inter-persona disagreement, and logit-level biases. These findings highlight the need to carefully define persona prompts in LLM-based annotation workflows, with implications for fairness and alignment with human values.},
+  pdf = {publications/PersonaHate_EMNLP2025.pdf}
+}
+
+@inproceedings{gruber2024complextempqa,
+	title        = {ComplexTempQA: A 100m Dataset for Complex Temporal Question Answering},
+	author       = {Raphael Gruber and Abdelrahman Abdallah and Michael Färber and Adam Jatowt},
+	booktitle    = {EMNLP},
+	location     = {Suzhou, China},
+	year         = 2025,
+	url = {https://arxiv.org/abs/2406.04866},
+	abstract     = {We introduce ComplexTempQA, a large-scale dataset consisting of over 100 million question-answer pairs designed to tackle the challenges in temporal question answering. ComplexTempQA significantly surpasses existing benchmarks in scale and scope. Utilizing Wikipedia and Wikidata, the dataset covers questions spanning over two decades and offers an unmatched scale. We introduce a new taxonomy that categorizes questions as attributes, comparisons, and counting questions, revolving around events, entities, and time periods, respectively. A standout feature of ComplexTempQA is the high complexity of its questions, which demand reasoning capabilities for answering such as across-time comparison, temporal aggregation, and multi-hop reasoning involving temporal event ordering and entity recognition. Additionally, each question is accompanied by detailed metadata, including specific time scopes, allowing for comprehensive evaluation of temporal reasoning abilities of large language models.},
+	pdf          = {publications/ComplexTempQA_EMNLP2025.pdf}
+}
+
+@inproceedings{Popovic2025JEDI,
+  author    = {Nicholas Popovi{\v c} and Michael F{\"a}rber},
+  title     = {Extractive Fact Decomposition for Interpretable Natural Language Inference in One Forward Pass},
+  booktitle = EMNLP},
+  year      = {2025},
+  address   = {Suzhou, China},
+  url       = {https://aclanthology.org/2025.emnlp-main.1615.pdf},
+  abstract  = {Recent works in Natural Language Inference (NLI) and related tasks, such as automated fact-checking, employ atomic fact decomposition to enhance interpretability and robustness. For this, existing methods rely on resource-intensive generative large language models (LLMs) to perform decomposition. We propose JEDI, an encoder-only architecture that jointly performs extractive atomic fact decomposition and interpretable inference without requiring generative models during inference. To facilitate training, we produce a large corpus of synthetic rationales covering multiple NLI benchmarks. Experimental results demonstrate that JEDI achieves competitive accuracy in distribution and significantly improves robustness out of distribution and in adversarial settings over models based solely on extractive rationale supervision. Our findings show that interpretability and robust generalization in NLI can be realized using encoder-only architectures and synthetic rationales.},
+  pdf = {publications/JEDI_EMNLP2025.pdf}
+}
+
+@inproceedings{Yuan2025GTRex,
+  author    = {Shuzhou Yuan and Jingyi Sun and Ran Zhang and Michael F{\"a}rber and Steffen Eger and Pepa Atanasova and Isabelle Augenstein},
+  title     = {Graph-Guided Textual Explanation Generation Framework},
+  booktitle = {EMNLP},
+  year      = {2025},
+  address   = {Suzhou, China},
+  url       = {https://aclanthology.org/2025.emnlp-main.1494.pdf},
+  abstract  = {Natural language explanations (NLEs) are commonly used to provide plausible free-text explanations of a model’s reasoning about its predictions. However, recent work has questioned their faithfulness, as they may not accurately reflect the model’s internal reasoning process regarding its predicted answer. In contrast, highlight explanations--input fragments critical for the model’s predicted answers--exhibit measurable faithfulness. Building on this foundation, we propose G-TEx, a Graph-Guided Textual Explanation Generation framework designed to enhance the faithfulness of NLEs. Specifically, highlight explanations are first extracted as faithful cues reflecting the model’s reasoning logic toward answer prediction. They are subsequently encoded through a graph neural network layer to guide the NLE generation, which aligns the generated explanations with the model’s underlying reasoning toward the predicted answer. Experiments on both encoder-decoder and decoder-only models across three reasoning datasets demonstrate that G-TEx improves NLE faithfulness by up to 12.18\% compared to baseline methods. Additionally, G-TEx generates NLEs with greater semantic and lexical similarity to human-written ones. Human evaluations show that G-TEx can decrease redundant content and enhance the overall quality of NLEs. Our work presents a novel method for explicitly guiding NLE generation to enhance faithfulness, serving as a foundation for addressing broader criteria in NLE and generated text.},
+  pdf = {publications/GTRex_EMNLP2025.pdf}
+}
+
 @inproceedings{XLLM-ACL2025,
 	author = {Nicholas Popovič, Ashish Kangen, Tim Schopf, Michael Färber},
 	title = {In-Context Learning for Information Extraction using Fully Synthetic Demonstrations},
@@ -77,7 +152,7 @@
 	timestamp    = {Mon, 16 Sep 2019 14:45:39 +0200},
 	biburl       = {https://dblp.org/rec/journals/ws/ZhangTRFMD17.bib},
 	abstract     = {},
-        pdf          = {publications/xLiMe-System_JWS2017.pdf}
+    pdf          = {publications/xLiMe-System_JWS2017.pdf}
 }
 @article{DBLP:journals/semweb/FarberMH18,
 	title        = {A Linked Data wrapper for CrunchBase},
@@ -1369,16 +1444,6 @@
 	booktitle    = {JCDL},
 	url          = {https://github.com/IllDepence/contextgraph},
 	abstract     = {We propose CoCon, a large scholarly data set reflecting the combined use of research artifacts in academic publications. The data set enables holistic analyses and provides a link prediction task for 'combined research artifact use prediction'.}
-}
-@inproceedings{gruber2024complextempqa,
-	title        = {ComplexTempQA: A 100m Dataset for Complex Temporal Question Answering},
-	author       = {Raphael Gruber and Abdelrahman Abdallah and Michael Färber and Adam Jatowt},
-	booktitle    = {EMNLP},
-	location     = {Suzhou, China},
-	year         = 2025,
-	url = {https://arxiv.org/abs/2406.04866},
-	abstract     = {We introduce ComplexTempQA,a large-scale dataset consisting of over 100 million question-answer pairs designed to tackle the challenges in temporal question answering. ComplexTempQA significantly surpasses existing benchmarks in scale and scope. Utilizing Wikipedia and Wikidata, the dataset covers questions spanning over two decades and offers an unmatched scale. We introduce a new taxonomy that categorizes questions as attributes, comparisons, and counting questions, revolving around events, entities, and time periods, respectively. A standout feature of ComplexTempQA is the high complexity of its questions, which demand reasoning capabilities for answering such as across-time comparison, temporal aggregation, and multi-hop reasoning involving temporal event ordering and entity recognition. Additionally, each question is accompanied by detailed metadata, including specific time scopes, allowing for comprehensive evaluation of temporal reasoning abilities of large language models.},
-	pdf          = {publications/ComplexTempQA_EMNLP2025.pdf}
 }
 
 @inproceedings{yuan2023evaluating,
