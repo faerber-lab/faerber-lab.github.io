@@ -343,10 +343,11 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	author       = {Michael Färber and David Lamprecht},
 	year         = 2023,
 	booktitle    = {ISWC},
-	address      = {Athens, Greece},
+	location      = {Athens, Greece},
 	url          = {https://arxiv.org/abs/2310.20475},
-	abstract     = {In this paper, we introduce Linked Papers With Code (LPWC), an RDF knowledge graph that provides comprehensive, current information about almost 400,000 machine learning publications.},
-	pdf = {publications/LPWC_ISWC2023.pdf}
+    abstract  = {In this paper, we introduce Linked Papers With Code (LPWC), an RDF knowledge graph that provides comprehensive, current information about almost 400,000 machine learning publications. This includes the tasks addressed, the datasets utilized, the methods implemented, and the evaluations conducted, along with their results. Compared to its non-RDF-based counterpart Papers With Code, LPWC not only translates the latest advancements in machine learning into RDF format, but also enables novel ways for scientific impact quantification and scholarly key content recommendation. LPWC is openly accessible at this URL and is licensed under CC-BY-SA 4.0. As a knowledge graph in the Linked Open Data cloud, we offer LPWC in multiple formats, from RDF dump files to a SPARQL endpoint for direct web queries, as well as a data source with resolvable URIs and links to the data sources SemOpenAlex, Wikidata, and DBLP. Additionally, we supply knowledge graph embeddings, enabling LPWC to be readily applied in machine learning applications.},
+	pdf = {publications/LPWC_ISWC2023.pdf},
+    keywords  = {Knowledge Graphs, RDF, Machine Learning, Scholarly Data, Linked Open Data, Knowledge Graph Embeddings,Papers With Code, LPWC}
 }
 @inproceedings{faerber2023semopenalex,
 	title        = {SemOpenAlex: The Scientific Landscape in 26 Billion RDF Triples},
@@ -358,6 +359,7 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	abstract     = {We present SemOpenAlex, an extensive RDF knowledge graph that contains over 26 billion triples about scientific publications and their associated entities.},
 	pdf = {publications/SemOpenAlex_ISWC2023.pdf}
 }
+
 @article{DBLP:journals/scientometrics/FarberCY23,
 	title        = {Biases in scholarly recommender systems: impact, prevalence, and mitigation},
 	author       = {Michael F{\"{a}}rber and Melissa Coutinho and Shuzhou Yuan},
@@ -1222,7 +1224,7 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	address      = {Merida, Mexico},
 	doi          = {10.1145/3616855.3635693},
 	url          = {https://dl.acm.org/doi/abs/10.1145/3616855.3635693},
-	abstract     = {In today's rapidly evolving world, maintaining a comprehensiveoverview of the future landscape is essential for staying competitive and making informed decisions. However, given the largevolume of daily news, manually obtaining a thorough overview ofan entity’s future prospects is quite challenging. To address this, wepresent a system designed to automatically extract and summarizefuture-related information of a queried entity from news articles. Our approach utilizes a novel and publicly accessible multi-sourcedataset comprising 6,800 annotated sentences to fine-tune a language model to identify future-related sentences. We then use topicmodeling to extract the main topics from the data and rank themby relevance as well as present them on an interactive timeline. User evaluations have shown that the timelines and summariesour system produces are useful. The system is available as a webapplication at: https://chronicle2050.regevson.com.},
+	abstract     = {In today's rapidly evolving world, maintaining a comprehensive overview of the future landscape is essential for staying competitive and making informed decisions. However, given the largevolume of daily news, manually obtaining a thorough overview ofan entity’s future prospects is quite challenging. To address this, wepresent a system designed to automatically extract and summarizefuture-related information of a queried entity from news articles. Our approach utilizes a novel and publicly accessible multi-sourcedataset comprising 6,800 annotated sentences to fine-tune a language model to identify future-related sentences. We then use topicmodeling to extract the main topics from the data and rank themby relevance as well as present them on an interactive timeline. User evaluations have shown that the timelines and summariesour system produces are useful. The system is available as a webapplication at: https://chronicle2050.regevson.com.},
 	keywords     = {future, demo, timeline},
 	pdf          = {publications/Future-Timelines_WSDM2024.pdf}
 }
@@ -1235,8 +1237,8 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {17830--17850},
 	url          = {https://aclanthology.org/2024.emnlp-main.988},
 	abstract     = {Streaming text generation has become a common way of increasing the responsiveness of language model powered applications, such as chat assistants. At the same time, extracting semantic information from generated text is a useful tool for applications such as automated fact checking or retrieval augmented generation. Currently, this requires either separate models during inference, which increases computational cost, or destructive fine-tuning of the language model. Instead, we propose an approach called EMBER which enables streaming named entity recognition in decoder-only language models without fine-tuning them and while incurring minimal additional computational cost at inference time. Specifically, our experiments show that EMBER maintains high token generation rates, with only a negligible decrease in speed of around 1% compared to a 43.64% slowdown measured for a baseline. We make our code and data available online1, including a toolkit2 for training, testing, and deploying efficient token classification models optimized for streaming text generation.},
-	pdf          = {publication/EMBER_EMNLP2024.pdf},
-keywords = {Named Entity Recognition, Probing Classifiers, Streaming Text Generation, Language Models}
+	pdf          = {publications/EMBER_EMNLP2024.pdf},
+    keywords = {Named Entity Recognition, Probing Classifiers, Streaming Text Generation, Language Models}
 }
 
 @inproceedings{DBLP:conf/kbclm/RogulskyP024,
@@ -1474,14 +1476,19 @@ keywords = {Named Entity Recognition, Probing Classifiers, Streaming Text Genera
 	url          = {https://www.researchgate.net/publication/366634803},
 	abstract     = {This paper presents a method for explaining convolutional neural networks (CNNs) by tagging filters. The approach enhances the interpretability of CNNs and provides a clearer understanding of how filter activations relate to input features.}
 }
-@misc{shao2024equalization,
-	title        = {Advanced Equalization in 112 Gb/s Upstream PON Using a Novel Fourier Convolution-based Network},
-	author       = {Chen Shao and Elias Giacoumidis and Patrick Matalla and Jialei Li and Shi Li and Sebastian Randel and Andre Richter and Michael Färber and Tobias Käfer},
-	year         = 2024,
-	url          = {https://arxiv.org/abs/2405.02609},
-	abstract     = {This work presents FConvNet, a Fourier Convolution-based Network for equalization in upstream PON. It outperforms traditional equalizers in bit-error-rate and power efficiency, demonstrating potential for high-speed optical networks.},
-	pdf          = {publications/PONs_ECOC2024.pdf}
+
+@inproceedings{shao2024equalization,
+  title        = {Advanced Equalization in 112 Gb/s Upstream PON Using a Novel Fourier Convolution-based Network},
+  author       = {Chen Shao and Elias Giacoumidis and Patrick Matalla and Jialei Li and Shi Li and Sebastian Randel and Andre Richter and Michael Färber and Tobias Käfer},
+  year         = {2024},
+  booktitle    = {ECOC},
+  location     = {Frankfurt, Germany},
+  url          = {https://arxiv.org/abs/2405.02609},
+  abstract     = {This work presents FConvNet, a Fourier Convolution-based Network for equalization in upstream PON. It outperforms traditional equalizers in bit-error-rate and power efficiency, demonstrating potential for high-speed optical networks.},
+  pdf          = {publications/PONs_ECOC2024.pdf},
+  keywords     = {Fourier Convolution Network, FConvNet, PON, PAM4, Equalization, Passive Optical Network, Optical Communications}
 }
+
 @inproceedings{borkowski2023otdr,
 	title        = {AI-based OTDR Event Detection, Classification and Assignment to ODN Branches in Passive Optical Networks},
 	author       = {Robert Borkowski and Michael Färber and R. Bonk and others},
@@ -1568,14 +1575,19 @@ keywords = {Named Entity Recognition, Probing Classifiers, Streaming Text Genera
 	pdf         = {publications/Large_Physics_Models_2025.pdf}
 }
 
-@article{shao2024mloptical,
-	title        = {Machine Learning in Short-Reach Optical Systems: A Comprehensive Survey},
-	author       = {Chen Shao and Elias Giacoumidis and Syed Moktacim Billah and Shi Li and Jialei Li and Prashasti Sahu and André Richter and Michael Faerber and Tobias Kaefer},
-	year         = 2024,
-	booktitle    = {Photonics},
-	url          = {https://doi.org/10.3390/photonics11070613},
-	abstract     = {This survey reviews the application of machine learning in short-reach optical systems. It categorizes ML techniques into traditional, convolutional, transformer-based, and Fourier-based models, highlighting their potential in tasks like equalization, fault detection, and bandwidth prediction, with a focus on PONs and hardware efficiency.},
-	pdf          = {publications/Survey_Photonics2024.pdf}
+@article{SurveyPhotonics2024,
+  title        = {Machine Learning in Short-Reach Optical Systems: A Comprehensive Survey},
+  author       = {Chen Shao and Elias Giacoumidis and Syed Moktacim Billah and Shi Li and Jialei Li and Prashasti Sahu and Andr{\'{e}} Richter and Michael Färber and Tobias Käfer},
+  year         = {2024},
+  journal      = {Photonics},
+  volume       = {11},
+  number       = {7},
+  pages        = {613},
+  doi          = {10.3390/photonics11070613},
+  url          = {https://doi.org/10.3390/photonics11070613},
+  abstract     = {This survey reviews the application of machine learning in short-reach optical systems. It categorizes ML techniques into traditional, convolutional, transformer-based, and Fourier-based models, highlighting their potential in tasks like equalization, fault detection, and bandwidth prediction, with a focus on PONs and hardware efficiency.},
+  pdf          = {publications/Survey_Photonics2024.pdf},
+  keywords     = {Short-Reach Optical Systems, Optical Communications, PON, Equalization, Transformer Models, Fourier Neural Networks}
 }
 
 @misc{faerber2023diversity,
@@ -1635,9 +1647,11 @@ keywords = {Named Entity Recognition, Probing Classifiers, Streaming Text Genera
 	booktitle    = {IJCNN},
 	location     = {Rome, Italy},
 	url          = {https://arxiv.org/abs/2402.11700},
-	abstract     = {This paper investigates reducing the size of large language models (LLMs) by layer pruning. Surprisingly, removing layers can preserve or even improve performance in classification tasks, reducing model size significantly.},
-	pdf          = {publications/SlimLLM_IJCNN2024.pdf}
+	abstract = {Large Language Models (LLMs) exhibit exceptional capabilities across a wide range of natural language processing tasks. However, their immense size poses challenges for storage, training, and inference due to the billions of parameters introduced through deep layer stacking. While methods such as pruning and distillation can reduce model size, they frequently compromise performance. In this work, we systematically investigate the impact of reducing the number of layers in LLMs. Surprisingly, we find that even significantly shallower models maintain comparable or sometimes superior performance, particularly in prompt-based fine-tuning for text classification. In several cases, single-layer models outperform their fully layered counterparts. These results provide important insights for designing more efficient LLMs that mitigate size constraints while preserving performance, opening new avenues for resource-efficient large-scale language modeling.},
+	pdf          = {publications/SlimLLM_IJCNN2024.pdf},
+	keywords = {Large Language Models, Layer Reduction, Model Compression, Efficient NLP}
 }
+
 @inproceedings{shapiro2022sequence,
 	title        = {Sequence Labeling for Citation Field Extraction from Cyrillic Script References},
 	author       = {Igor Shapiro and Tarek Saier and Michael Färber},
