@@ -333,10 +333,9 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	pages        = {51--98},
 	doi          = {10.1162/QSS\_A\_00183},
 	url          = {https://doi.org/10.1162/qss\_a\_00183},
-	timestamp    = {Mon, 28 Aug 2023 21:40:48 +0200},
-	biburl       = {https://dblp.org/rec/journals/qss/FarberA22.bib},
-	abstract     = {},
-	pdf = {publications/MAKG+_QSS2022.pdf}
+    abstract  = {Although several large knowledge graphs have been proposed in the scholarly field, such graphs are limited with respect to several data quality dimensions such as accuracy and coverage. In this article, we present methods for enhancing the Microsoft Academic Knowledge Graph (MAKG), a recently published large-scale knowledge graph containing metadata about scientific publications and associated authors, venues, and affiliations. Based on a qualitative analysis of the MAKG, we address three aspects. First, we adopt and evaluate unsupervised approaches for large-scale author name disambiguation. Second, we develop and evaluate methods for tagging publications by their discipline and by keywords, facilitating enhanced search and recommendation of publications and associated entities. Third, we compute and evaluate embeddings for all 239 million publications, 243 million authors, 49,000 journals, and 16,000 conference entities in the MAKG based on several state-of-the-art embedding techniques. Finally, we provide statistics for the updated MAKG. Our final MAKG is publicly available at https://makg.org and can be used for the search or recommendation of scholarly entities, as well as enhanced scientific impact quantification.},
+	pdf = {publications/MAKG+_QSS2022.pdf},
+    keywords = {MAKG, author name disambiguation}
 }
 @inproceedings{faerber2023linked,
 	title        = {Linked Papers With Code: The Latest in Machine Learning as an RDF Knowledge Graph},
@@ -1058,12 +1057,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	publisher    = {CEUR-WS.org},
 	volume       = 3254,
 	url          = {https://ceur-ws.org/Vol-3254/paper361.pdf},
-	editor       = {Anastasia Dimou and Armin Haller and Anna Lisa Gentile and Petar Ristoski},
-	timestamp    = {Fri, 10 Mar 2023 16:23:09 +0100},
-	biburl       = {https://dblp.org/rec/conf/semweb/0001L22.bib},
-	abstract     = {}
+    abstract  = {Modeling AI systems’ characteristics of energy consumption and their sustainability level as an extension of the FAIR data principles has been considered only rudimentarily. In this paper, we propose the Green AI Ontology for modeling the energy consumption and other environmental aspects of AI models. We evaluate our ontology based on competency questions. Our ontology is available at https://w3id.org/Green-AI-Ontology and can be used in a variety of scenarios, ranging from comprehensive research data management to strategic controlling of institutions and environmental efforts in politics.},
+    pdf = {publications/GreenAI_ISWC2022.pdf}
 }
-@inproceedings{DBLP:conf/jcdl/SaierL022,
+
+@inproceedings{BlockingJCDL2022,
 	title        = {A Blocking-Based Approach to Enhance Large-Scale Reference Linking},
 	author       = {Tarek Saier and Meng Luan and Michael F{\"{a}}rber},
 	year         = 2022,
@@ -1072,26 +1070,24 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	volume       = 3220,
 	pages        = {16--25},
 	url          = {https://ceur-ws.org/Vol-3220/paper2.pdf},
-	editor       = {Tobias Backes and Anastasiia Iurshina and Philipp Mayr},
-	timestamp    = {Sun, 12 Nov 2023 02:15:25 +0100},
-	biburl       = {https://dblp.org/rec/conf/jcdl/SaierL022.bib},
-	abstract     = {}
+    abstract  = {Analyses and applications based on bibliographic references are of ever increasing importance. However, reference linking methods described in the literature are only able to link around half of the references in papers. To improve the quality of reference linking in large scholarly data sets, we propose a blocking-based reference linking approach that utilizes a rich set of reference fields (title, author, journal, year, etc.) and is independent of a target collection of paper records to be linked to. We evaluate our approach on a corpus of 300,000 references. Relative to the original data, we achieve a 90\% increase in papers linked through references, a five-fold increase in bibliographic coupling, and a nine-fold increase in in-text citations covered. The newly established links are of high quality (85\% F1).},
+    pdf = {publications/Blocking_JCDL2022.pdf},
+    keywords = {blocking, MAKG, Scholarly Data}
 }
+
 @inproceedings{DBLP:conf/jcdl/Nishioka0S22,
-	title        = {How does author affiliation affect preprint citation count?: analyzing citation bias at the institution and country level},
+	title        = {How Does Author Affiliation Affect Preprint Citation Count? Analyzing Citation Bias at the Institution and Country Level},
 	author       = {Chifumi Nishioka and Michael F{\"{a}}rber and Tarek Saier},
 	year         = 2022,
 	booktitle    = {JCDL},
 	location     = {Cologne, Germany},
-	publisher    = {{ACM}},
 	pages        = {28:1--28:8},
 	doi          = {10.1145/3529372.3530953},
 	url          = {https://doi.org/10.1145/3529372.3530953},
-	editor       = {Akiko Aizawa and Thomas Mandl and Zeljko Carevic and Annika Hinze and Philipp Mayr and Philipp Schaer},
-	timestamp    = {Sun, 12 Nov 2023 02:15:25 +0100},
-	biburl       = {https://dblp.org/rec/conf/jcdl/Nishioka0S22.bib},
-	abstract     = {}
+    abstract     = {Citing is an important aspect of scientific discourse and essential for quantifying the scientific impact of researchers. Previous works observed that citations are made not only based on scholarly contributions but also based on non-scholarly attributes, such as the affiliation or gender of authors, thereby producing citation bias. Existing research, however, has not analyzed preprints with respect to citation bias, even though they play an increasingly important role in modern scholarly communication. In this paper, we investigate whether preprints are affected by citation bias with respect to author affiliation. We measure citation bias for bioRxiv preprints and their publisher versions at the institution and country levels, using the Lorenz curve and Gini coefficient. This allows us to mitigate the effects of confounding factors and examine whether affiliation-related citation biases have an increased effect on preprint citations. We observe consistently higher Gini coefficients for preprints than for publisher versions. Thus, we can confirm that citation bias exists and is more severe for preprints. As preprints continue to rise in importance, affiliation-based citation bias becomes a relevant topic not only for authors (e.g., when deciding what to cite) but also for stakeholders who use citations for scientific impact quantification, such as funding agencies evaluating researchers based on citation counts.},
+    pdf          = {publications/CitationBias_JCDL2022.pdf}
 }
+
 @inproceedings{DBLP:conf/naacl/Popovic022,
 	title        = {Few-Shot Document-Level Relation Extraction},
 	author       = {Nicholas Popovic and Michael F{\"{a}}rber},
