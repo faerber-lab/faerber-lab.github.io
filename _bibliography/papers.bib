@@ -4,7 +4,7 @@
   abstract  = {This paper presents a systematic investigation into the constrained generation capabilities of large language models (LLMs) in producing Songci, a classical Chinese poetry form characterized by strict structural, tonal, and rhyme constraints defined by Cipai templates. We first develop a comprehensive, multi-faceted evaluation framework that includes: (i) a formal conformity score, (ii) automated quality assessment using LLMs, (iii) human evaluation, and (iv) classification-based probing tasks. Using this framework, we evaluate the generative performance of 18 LLMs, including 3 proprietary models and 15 open-source models across four families, under five prompting strategies: zero-shot, one-shot, completion-based, instruction-tuned, and chain-of-thought. Finally, we propose a Generate-Critic architecture in which the evaluation framework functions as an automated critic. Leveraging the critic's feedback as a reward signal, we fine-tune three lightweight open-source LLMs via supervised fine-tuning (SFT), resulting in improvements of up to 5.88% in formal conformity. Our findings offer new insights into the generative strengths and limitations of LLMs in producing culturally significant and formally constrained literary texts.},
   booktitle = {AAAI},
   year      = {2026},
-  address   = {Singapore, Singapore},
+  location   = {Singapore, Singapore},
   url       = {https://doi.org/10.48550/arXiv.2508.02515},
   pdf = {publications/PoeTone_AAAI2026.pdf},
 keywords = {LLMs, constrained generation, Chinese poetry, Songci}
@@ -14,6 +14,7 @@ keywords = {LLMs, constrained generation, Chinese poetry, Songci}
   author    = {Ines Besrour and Jingbo He and Tobias Schreieder and Michael F{\"a}rber},
   title     = {SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation},
   booktitle = {CIKM},
+location = {Seoul, South Korea},
   year      = {2025},
   url       = {https://dl.acm.org/doi/pdf/10.1145/3746252.3761471},
   abstract  = {We present SQuAI, a scalable and trustworthy multi-agent retrieval-augmented generation (RAG) framework for scientific question answering (QA) with large language models (LLMs). SQuAI addresses key limitations of existing RAG systems in the scholarly domain, where complex, open-domain questions demand accurate answers, explicit claims with citations, and retrieval across millions of scientific documents. Built on over 2.3 million full-text papers from arXiv.org, SQuAI employs four collaborative agents to decompose complex questions into sub-questions, retrieve targeted evidence via hybrid sparse-dense retrieval, and adaptively filter documents to improve contextual relevance. To ensure faithfulness and traceability, SQuAI integrates in-line citations for each generated claim and provides supporting sentences from the source documents. Our system improves faithfulness, answer relevance, and contextual relevance by up to +0.088 (12\%) over a strong RAG baseline. We further release a benchmark of 1,000 scientific question-answer-evidence triplets to support reproducibility. With transparent reasoning, verifiable citations, and domain-wide scalability, SQuAI demonstrates how multi-agent RAG enables more trustworthy scientific QA with LLMs.},
@@ -26,7 +27,7 @@ keywords = {scientific QA, RAG, multi-agent systems, citations, LLMs}
   title     = {Real-E: A Foundation Benchmark for Advancing Robust and Generalizable Electricity Forecasting},
   booktitle = {CIKM},
   year      = {2025},
-  address   = {Seoul, South Korea},
+  location   = {Seoul, South Korea},
   url       = {https://doi.org/10.48550/arXiv.2509.05768},
   abstract  = {Energy forecasting is vital for grid reliability and operational efficiency. Although recent advances in time series forecasting have led to progress, existing benchmarks remain limited in spatial and temporal scope and lack multi-energy features. This raises concerns about their reliability and applicability in real-world deployment. To address this, we present the Real-E dataset, covering over 74 power stations across 30+ European countries over a 10-year span with rich metadata. Using Real-E, we conduct an extensive data analysis and benchmark over 20 baselines across various model types. We introduce a new metric to quantify shifts in correlation structures and show that existing methods struggle on our dataset, which exhibits more complex and non-stationary correlation dynamics. Our findings highlight key limitations of current methods and offer a strong empirical basis for building more robust forecasting models.},
   pdf = {publications/Real-E_CIKM2025.pdf},
@@ -61,7 +62,7 @@ keywords = {hate speech, personas, MBTI, bias, LLM behavior}
   title     = {Extractive Fact Decomposition for Interpretable Natural Language Inference in One Forward Pass},
   booktitle = {EMNLP},
   year      = {2025},
-  address   = {Suzhou, China},
+  location   = {Suzhou, China},
   url       = {https://aclanthology.org/2025.emnlp-main.1615.pdf},
   abstract  = {Recent works in Natural Language Inference (NLI) and related tasks, such as automated fact-checking, employ atomic fact decomposition to enhance interpretability and robustness. For this, existing methods rely on resource-intensive generative large language models (LLMs) to perform decomposition. We propose JEDI, an encoder-only architecture that jointly performs extractive atomic fact decomposition and interpretable inference without requiring generative models during inference. To facilitate training, we produce a large corpus of synthetic rationales covering multiple NLI benchmarks. Experimental results demonstrate that JEDI achieves competitive accuracy in distribution and significantly improves robustness out of distribution and in adversarial settings over models based solely on extractive rationale supervision. Our findings show that interpretability and robust generalization in NLI can be realized using encoder-only architectures and synthetic rationales.},
   pdf       = {publications/JEDI_EMNLP2025.pdf},
@@ -1525,18 +1526,7 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	abstract     = {This paper presents X-LiSA, an infrastructure for multilingual and cross-lingual semantic annotation, and XKnowSearch!, a system for entity-based semantic search. These tools utilize large knowledge bases to improve cross-lingual access to information and semantic search through disambiguation and translation of keyword queries.}
 }
 
-@misc{yuan2025gtex,
-	title        = {Graph-Guided Textual Explanation Generation Framework},
-	author       = {Shuzhou Yuan and Jingyi Sun and Ran Zhang and Michael Färber and Steffen Eger and Pepa Atanasova and Isabelle Augenstein},
-	year         = 2025,
-	booktitle    = {EMNLP},
-	location     = {Suzhou, China},
-	url          = {https://arxiv.org/abs/2412.12318},
-	abstract     = {Natural language explanations (NLEs) are commonly used to provide plausible free-text explanations of a model's reasoning about its predictions. However, recent work has questioned their faithfulness, as they may not accurately reflect the model’s internal reasoning process regarding its predicted answer. In contrast, highlight explanations--input fragments critical for the model's predicted answers--exhibit measurable faithfulness. Building on this foundation, we propose G-Tex, a Graph-Guided Textual Explanation Generation framework designed to enhance the faithfulness of NLEs. Specifically, highlight explanations are first extracted as faithful cues reflecting the model's reasoning logic toward answer prediction. They are subsequently encoded through a graph neural network layer to guide the NLE generation, which aligns the generated explanations with the model’s underlying reasoning toward the predicted answer. Experiments on T5 and BART using three reasoning datasets show that G-Tex improves NLE faithfulness by up to 12.18% compared to baseline methods. Additionally, G-Tex generates NLEs with greater semantic and lexical similarity to human-written ones. Human evaluations show that G-Tex can decrease redundant content and enhance the overall quality of NLEs. Our work presents a novel method for explicitly guiding NLE generation to enhance faithfulness, serving as a foundation for addressing broader criteria in NLE and generated text.},
-	keywords     = {GNN, LLM, Graph, Interpretability, XAI}
-}
-
-@misc{qu2024greedycody,
+@inproceedings{Qu2025CoDy,
 	title        = {CoDy: Counterfactual Explainers for Dynamic Graphs},
 	booktitle    = {ICML},
 	location     = {Vancouver, Canada},
@@ -1544,7 +1534,8 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	year         = 2025,
 	url          = {https://arxiv.org/abs/2403.16846},
 	abstract     = {Temporal Graph Neural Networks (TGNNs) are widely used to model dynamic systems where relationships and features evolve over time. Although TGNNs demonstrate strong predictive capabilities in these domains, their complex architectures pose significant challenges for explainability. Counterfactual explanation methods provide a promising solution by illustrating how modifications to input graphs can influence model predictions. To address this challenge, we present CoDy—Counterfactual Explainer for Dynamic Graphs—a model-agnostic, instance-level explanation approach that identifies counterfactual subgraphs to interpret TGNN predictions. CoDy employs a search algorithm that combines Monte Carlo Tree Search with heuristic selection policies, efficiently exploring a vast search space of potential explanatory subgraphs by leveraging spatial, temporal, and local event impact information. Extensive experiments against state-of-the-art factual and counterfactual baselines demonstrate CoDy's effectiveness, with improvements of 16% in AUFSC+ over the strongest baseline. Our code is available at: https://github.com/daniel-gomm/CoDy},
-	pdf          = {publications/CoDy_ICML2025.pdf}
+	pdf          = {publications/CoDy_ICML2025.pdf},
+    keywords     = {Temporal Graph Neural Networks, Dynamic Graphs, Explainable AI, Counterfactual Explanations, Graph Explanations}
 }
 
 @misc{yuan2025hallucinations,
