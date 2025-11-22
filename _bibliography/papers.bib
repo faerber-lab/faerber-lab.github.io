@@ -6,7 +6,8 @@
   year      = {2026},
   address   = {Singapore, Singapore},
   url       = {https://doi.org/10.48550/arXiv.2508.02515},
-  pdf = {publications/PoeTone_AAAI2026.pdf}
+  pdf = {publications/PoeTone_AAAI2026.pdf},
+keywords = {LLMs, constrained generation, Chinese poetry, Songci}
 }
 
 @inproceedings{Besrour2025SQuAI,
@@ -16,7 +17,8 @@
   year      = {2025},
   url       = {https://dl.acm.org/doi/pdf/10.1145/3746252.3761471},
   abstract  = {We present SQuAI, a scalable and trustworthy multi-agent retrieval-augmented generation (RAG) framework for scientific question answering (QA) with large language models (LLMs). SQuAI addresses key limitations of existing RAG systems in the scholarly domain, where complex, open-domain questions demand accurate answers, explicit claims with citations, and retrieval across millions of scientific documents. Built on over 2.3 million full-text papers from arXiv.org, SQuAI employs four collaborative agents to decompose complex questions into sub-questions, retrieve targeted evidence via hybrid sparse-dense retrieval, and adaptively filter documents to improve contextual relevance. To ensure faithfulness and traceability, SQuAI integrates in-line citations for each generated claim and provides supporting sentences from the source documents. Our system improves faithfulness, answer relevance, and contextual relevance by up to +0.088 (12\%) over a strong RAG baseline. We further release a benchmark of 1,000 scientific question-answer-evidence triplets to support reproducibility. With transparent reasoning, verifiable citations, and domain-wide scalability, SQuAI demonstrates how multi-agent RAG enables more trustworthy scientific QA with LLMs.},
-  pdf = {publications/SQuAI_CIKM2025.pdf}
+  pdf = {publications/SQuAI_CIKM2025.pdf},
+keywords = {scientific QA, RAG, multi-agent systems, citations, LLMs}
 }
 
 @inproceedings{Shao2025RealE,
@@ -27,7 +29,8 @@
   address   = {Seoul, South Korea},
   url       = {https://doi.org/10.48550/arXiv.2509.05768},
   abstract  = {Energy forecasting is vital for grid reliability and operational efficiency. Although recent advances in time series forecasting have led to progress, existing benchmarks remain limited in spatial and temporal scope and lack multi-energy features. This raises concerns about their reliability and applicability in real-world deployment. To address this, we present the Real-E dataset, covering over 74 power stations across 30+ European countries over a 10-year span with rich metadata. Using Real-E, we conduct an extensive data analysis and benchmark over 20 baselines across various model types. We introduce a new metric to quantify shifts in correlation structures and show that existing methods struggle on our dataset, which exhibits more complex and non-stationary correlation dynamics. Our findings highlight key limitations of current methods and offer a strong empirical basis for building more robust forecasting models.},
-  pdf = {publications/Real-E_CIKM2025.pdf}
+  pdf = {publications/Real-E_CIKM2025.pdf},
+keywords = {energy forecasting, time series}
 }
 
 @inproceedings{Yuan2025HatefulPersona,
@@ -37,7 +40,8 @@
   year      = {2025},
   url       = {https://doi.org/10.48550/arXiv.2506.08593},
   abstract  = {Hate speech detection is a socially sensitive and inherently subjective task, with judgments often varying based on personal traits. While prior work has examined how socio-demographic factors influence annotation, the impact of personality traits on Large Language Models (LLMs) remains largely unexplored. In this paper, we present the first comprehensive study on the role of persona prompts in hate speech classification, focusing on MBTI-based traits. A human annotation survey confirms that MBTI dimensions significantly affect labeling behavior. Extending this to LLMs, we prompt four open-source models with MBTI personas and evaluate their outputs across three hate speech datasets. Our analysis uncovers substantial persona-driven variation, including inconsistencies with ground truth, inter-persona disagreement, and logit-level biases. These findings highlight the need to carefully define persona prompts in LLM-based annotation workflows, with implications for fairness and alignment with human values.},
-  pdf = {publications/PersonaHate_EMNLP2025.pdf}
+  pdf = {publications/PersonaHate_EMNLP2025.pdf},
+keywords = {hate speech, personas, MBTI, bias, LLM behavior}
 }
 
 @inproceedings{gruber2024complextempqa,
@@ -48,7 +52,8 @@
 	year         = 2025,
 	url = {https://arxiv.org/abs/2406.04866},
 	abstract     = {We introduce ComplexTempQA, a large-scale dataset consisting of over 100 million question-answer pairs designed to tackle the challenges in temporal question answering. ComplexTempQA significantly surpasses existing benchmarks in scale and scope. Utilizing Wikipedia and Wikidata, the dataset covers questions spanning over two decades and offers an unmatched scale. We introduce a new taxonomy that categorizes questions as attributes, comparisons, and counting questions, revolving around events, entities, and time periods, respectively. A standout feature of ComplexTempQA is the high complexity of its questions, which demand reasoning capabilities for answering such as across-time comparison, temporal aggregation, and multi-hop reasoning involving temporal event ordering and entity recognition. Additionally, each question is accompanied by detailed metadata, including specific time scopes, allowing for comprehensive evaluation of temporal reasoning abilities of large language models.},
-	pdf          = {publications/ComplexTempQA_EMNLP2025.pdf}
+	pdf          = {publications/ComplexTempQA_EMNLP2025.pdf},
+    keywords = {temporal QA, dataset, multi-hop reasoning, Wikidata, temporal reasoning}
 }
 
 @inproceedings{Popovic2025JEDI,
@@ -59,7 +64,8 @@
   address   = {Suzhou, China},
   url       = {https://aclanthology.org/2025.emnlp-main.1615.pdf},
   abstract  = {Recent works in Natural Language Inference (NLI) and related tasks, such as automated fact-checking, employ atomic fact decomposition to enhance interpretability and robustness. For this, existing methods rely on resource-intensive generative large language models (LLMs) to perform decomposition. We propose JEDI, an encoder-only architecture that jointly performs extractive atomic fact decomposition and interpretable inference without requiring generative models during inference. To facilitate training, we produce a large corpus of synthetic rationales covering multiple NLI benchmarks. Experimental results demonstrate that JEDI achieves competitive accuracy in distribution and significantly improves robustness out of distribution and in adversarial settings over models based solely on extractive rationale supervision. Our findings show that interpretability and robust generalization in NLI can be realized using encoder-only architectures and synthetic rationales.},
-  pdf = {publications/JEDI_EMNLP2025.pdf}
+  pdf = {publications/JEDI_EMNLP2025.pdf},
+  keywords = {NLI, interpretability, fact decomposition, encoder-only}
 }
 
 @inproceedings{Yuan2025GTRex,
@@ -70,7 +76,8 @@
   address   = {Suzhou, China},
   url       = {https://aclanthology.org/2025.emnlp-main.1494.pdf},
   abstract  = {Natural language explanations (NLEs) are commonly used to provide plausible free-text explanations of a model’s reasoning about its predictions. However, recent work has questioned their faithfulness, as they may not accurately reflect the model’s internal reasoning process regarding its predicted answer. In contrast, highlight explanations--input fragments critical for the model’s predicted answers--exhibit measurable faithfulness. Building on this foundation, we propose G-TEx, a Graph-Guided Textual Explanation Generation framework designed to enhance the faithfulness of NLEs. Specifically, highlight explanations are first extracted as faithful cues reflecting the model’s reasoning logic toward answer prediction. They are subsequently encoded through a graph neural network layer to guide the NLE generation, which aligns the generated explanations with the model’s underlying reasoning toward the predicted answer. Experiments on both encoder-decoder and decoder-only models across three reasoning datasets demonstrate that G-TEx improves NLE faithfulness by up to 12.18\% compared to baseline methods. Additionally, G-TEx generates NLEs with greater semantic and lexical similarity to human-written ones. Human evaluations show that G-TEx can decrease redundant content and enhance the overall quality of NLEs. Our work presents a novel method for explicitly guiding NLE generation to enhance faithfulness, serving as a foundation for addressing broader criteria in NLE and generated text.},
-  pdf = {publications/GTRex_EMNLP2025.pdf}
+  pdf = {publications/GTRex_EMNLP2025.pdf},
+keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 }
 
 @inproceedings{XLLM-ACL2025,
@@ -92,7 +99,8 @@
 	abstract = {Modern generative Large Language Models (LLMs) are capable of generating text that sounds coherent and convincing, but are also prone to producing hallucinations, facts that contradict the world knowledge. Even in the case of Retrieval-Augmented Generation (RAG) systems, where relevant context is first retrieved and passed in the input, the generated facts can contradict or not be verifiable by the provided references. This has motivated SciHal 2025, a shared task that focuses on the detection of hallucinations for scientific content. The two subtasks focused on: (1) predicting whether a claim from a generated LLM answer is entailed, contradicted, or unverifiable by the used references; (2) predicting a fine-grained category of erroneous claims. Our best performing approach used an ensemble of fine-tuned encoder-only ModernBERT and DeBERTa-v3 models for classification. Out of nine competing teams, our approach achieved the first place in sub-task 1 and the second place in sub-task 2.},
 	keywords = {LLMs, hallucination, NLI},
 	location = {Vienna, Austria},
-	pdf = {publications/NLI_Scholarly-Hallucination-Detection_SDP-ACL2025.pdf}
+	pdf = {publications/NLI_Scholarly-Hallucination-Detection_SDP-ACL2025.pdf},
+    keywords = {hallucination detection, NLI, scientific text, LLMs}
 }
 
 @inproceedings{10.1145/2983323.2983324,
@@ -122,7 +130,8 @@
 	address      = {Toronto, Canada},
 	doi          = {10.1145/3711896.3737076},
 	abstract     = {Inferring causal relationships between variable pairs is crucial for understanding multivariate interactions in complex systems. Knowledge-based causal discovery—which involves inferring causal relationships by reasoning over the metadata of variables (e.g., names or textual context)—offers a compelling alternative to traditional methods that rely on observational data. However, existing methods using Large Language Models (LLMs) often produce unstable and inconsistent results, compromising their reliability for causal inference. To address this, we introduce a novel approach that integrates Knowledge Graphs (KGs) with LLMs to enhance knowledge-based causal discovery. Our approach identifies informative metapath-based subgraphs within KGs and further refines their selection using Learning-to-Rank models. The top-ranked subgraphs are then incorporated into zero-shot prompts, improving the effectiveness of LLMs in inferring the causal relationship. Extensive experiments on biomedical and open-domain datasets demonstrate that our method outperforms most baselines by up to 44.8 points in F1 scores, evaluated across diverse LLMs and KGs. Our code and datasets are available on GitHub.},
-	pdf          = {publications/Paths_to_Causality_KDD2025.pdf}
+	pdf          = {publications/Paths_to_Causality_KDD2025.pdf},
+    keywords = {causal discovery, knowledge graphs, LLMs, metapaths, ranking}
 }
 
 @article{DBLP:journals/program/Farber16,
@@ -167,7 +176,8 @@
 	timestamp    = {Mon, 16 Sep 2019 14:49:00 +0200},
 	biburl       = {https://dblp.org/rec/journals/semweb/FarberMH18.bib},
 	abstract     = {},
-        pdf          = {publications/CrunchBaseWrapper_SWJ2017.pdf}
+        pdf          = {publications/CrunchBaseWrapper_SWJ2017.pdf},
+    keywords = {Linked Data, APIs, RDF, companies, data integration}
 }
 @article{DBLP:journals/semweb/FarberBMR18,
 	title        = {Linked data quality of DBpedia, Freebase, OpenCyc, Wikidata, and {YAGO}},
