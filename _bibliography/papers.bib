@@ -1088,35 +1088,33 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
     pdf          = {publications/CitationBias_JCDL2022.pdf}
 }
 
-@inproceedings{DBLP:conf/naacl/Popovic022,
+@inproceedings{FSDLRE2022,
 	title        = {Few-Shot Document-Level Relation Extraction},
 	author       = {Nicholas Popovic and Michael F{\"{a}}rber},
 	year         = 2022,
 	booktitle    = {NAACL},
-	location     = {Seattle, WA, United States},
-	publisher    = {Association for Computational Linguistics},
+	location     = {Seattle, WA, USA},
 	pages        = {5733--5746},
 	doi          = {10.18653/V1/2022.NAACL-MAIN.421},
 	url          = {https://doi.org/10.18653/v1/2022.naacl-main.421},
-	editor       = {Marine Carpuat and Marie{-}Catherine de Marneffe and Iv{\'{a}}n Vladimir Meza Ru{\'{\i}}z},
-	timestamp    = {Mon, 28 Aug 2023 21:17:01 +0200},
-	biburl       = {https://dblp.org/rec/conf/naacl/Popovic022.bib},
-	abstract     = {}
+    abstract = {We present FREDo, a few-shot document-level relation extraction (FSDLRE) benchmark. As opposed to existing benchmarks which are built on sentence-level relation extraction corpora, we argue that document-level corpora provide more realism, particularly regarding none-of-the-above (NOTA) distributions. Therefore, we propose a set of FSDLRE tasks and construct a benchmark based on two existing supervised learning data sets, DocRED and sciERC. We adapt the state-of-the-art sentence-level method MNAV to the document-level and develop it further for improved domain adaptation. We find FSDLRE to be a challenging setting with interesting new characteristics such as the ability to sample NOTA instances from the support set. The data, code, and trained models are available online.},
+    keywords = {relation extraction, NLP},
+    pdf = {publications/FSDLRE_NAACL2022.pdf}
 }
-@inproceedings{DBLP:conf/semeval/PopovicL022,
+
+@inproceedings{SemEval2022,
 	title        = {AIFB-WebScience at SemEval-2022 Task 12: Relation Extraction First - Using Relation Extraction to Identify Entities},
 	author       = {Nicholas Popovic and Walter Laurito and Michael F{\"{a}}rber},
 	year         = 2022,
 	booktitle    = {SemEval@NAACL},
-	publisher    = {Association for Computational Linguistics},
 	pages        = {1687--1694},
 	doi          = {10.18653/V1/2022.SEMEVAL-1.232},
 	url          = {https://doi.org/10.18653/v1/2022.semeval-1.232},
-	editor       = {Guy Emerson and Natalie Schluter and Gabriel Stanovsky and Ritesh Kumar and Alexis Palmer and Nathan Schneider and Siddharth Singh and Shyam Ratan},
-	timestamp    = {Tue, 21 Mar 2023 21:02:22 +0100},
-	biburl       = {https://dblp.org/rec/conf/semeval/PopovicL022.bib},
-	abstract     = {}
+    abstract  = {In this paper, we present an end-to-end joint entity and relation extraction approach based on transformer-based language models. We apply the model to the task of linking mathematical symbols to their descriptions in LaTeX documents. In contrast to existing approaches, which perform entity and relation extraction in sequence, our system incorporates information from relation extraction into entity extraction. This means that the system can be trained even on data sets where only a subset of all valid entity spans is annotated. We provide an extensive evaluation of the proposed system and its strengths and weaknesses. Our approach, which can be scaled dynamically in computational complexity at inference time, produces predictions with high precision and reaches 3rd place in the leaderboard of SemEval-2022 Task 12. For inputs in the domain of physics and math, it achieves high relation extraction macro F1 scores of 95.43\% and 79.17\%, respectively. The code used for training and evaluating our models is available at: https://github.com/nicpopovic/RE1st.},
+    pdf = {publications/RE1st_SemEval2022.pdf},
+    keywords = {relation extraction, NLP}
 }
+
 @inproceedings{DBLP:conf/birws/00010PSN22,
 	title        = {Which Publications' Metadata Are in Which Bibliographic Databases? {A} System for Exploration},
 	author       = {Michael F{\"{a}}rber and Christoph Braun and Nicholas Popovic and Tarek Saier and Kristian Noullet},
