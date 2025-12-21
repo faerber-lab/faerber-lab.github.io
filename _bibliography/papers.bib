@@ -253,49 +253,42 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	abstract     = {},
         pdf          = {publications/unarXive_Scientometrics2020.pdf}
 }
-@article{DBLP:journals/qss/FarberL21,
-	title        = {The data set knowledge graph: Creating a linked open data source for data sets},
+@article{FarberL21,
+	title        = {The Data Set Knowledge Graph: Creating a Linked Open Data Source for Data Sets},
 	author       = {Michael F{\"{a}}rber and David Lamprecht},
 	year         = 2021,
 	journal      = {Quant. Science Studies},
 	volume       = 2,
 	number       = 4,
 	pages        = {1324--1355},
-	timestamp    = {Mon, 28 Aug 2023 21:40:48 +0200},
-	biburl       = {https://dblp.org/rec/journals/qss/FarberL21.bib},
-	abstract     = {},
-	pdf = {publications/DSKG_QSS2021.pdf}
+    abstract     = {Several scholarly knowledge graphs have been proposed to model and analyze the academic landscape; however, despite the remarkable increase in available data sets in recent years, existing knowledge graphs primarily focus on associated entities such as publications rather than on data sets themselves, and publicly available data set knowledge graphs do not systematically contain links to the publications in which data sets are mentioned. In this paper, we present an approach for constructing an RDF knowledge graph that fulfills these criteria. Our data set knowledge graph, DSKG, is publicly available and contains metadata of data sets across all scientific disciplines. To ensure high data quality, we identify suitable raw data set collections, establish links between data sets and publications modeled in the Microsoft Academic Knowledge Graph that mention these data sets, and address author name ambiguity by developing and evaluating an author name disambiguation method that enriches the knowledge graph with links to ORCID. Overall, the knowledge graph contains more than 2,000 data sets with associated properties and 814,000 links to 635,000 scientific publications, enabling a variety of use cases including advanced data set search systems and new ways of measuring and rewarding data set provisioning.},
+	pdf          = {publications/DSKG_QSS2021.pdf}
 }
-@article{DBLP:journals/corr/abs-2111-05097,
+
+@article{abs-2111-05097,
 	title        = {Cross-Lingual Citations in English Papers: {A} Large-Scale Analysis of Prevalence, Usage, and Impact},
 	author       = {Tarek Saier and Michael F{\"{a}}rber and Tornike Tsereteli},
 	year         = 2021,
 	journal      = {International Journal on Digital Libraries},
-	volume       = {abs/2111.05097},
 	url          = {https://arxiv.org/abs/2111.05097},
-	eprinttype   = {arXiv},
-	eprint       = {2111.05097},
-	timestamp    = {Wed, 10 Nov 2021 16:07:30 +0100},
-	biburl       = {https://dblp.org/rec/journals/corr/abs-2111-05097.bib},
-	abstract     = {},
-	pdf = {publications/Cross-lingual_Citations_IJDL2021.pdf}
+    abstract     = {Citation information in scholarly data is an important source of insight into the reception of publications and scholarly discourse, yet the outcomes of citation analyses and the applicability of citation-based machine learning approaches heavily depend on data completeness. A key shortcoming of current scholarly data is the frequent exclusion of non-English publications or the absence of language metadata, which has limited the study of cross-lingual citations. In this paper, we present an analysis of cross-lingual citations based on over one million English-language papers spanning three scientific disciplines and three decades, examining differences across cited languages and disciplines, temporal trends, and the usage characteristics and impact of cross-lingual citations. Our findings include an increasing rate of citations to Chinese-language publications, a predominance of citations to local non-English languages, and consistency in citation intent between cross-lingual and monolingual citations. To facilitate further research, we make the collected data and source code publicly available.},
+	pdf          = {publications/Cross-lingual_Citations_IJDL2021.pdf}
 }
-@article{DBLP:journals/ir/WangJFY21,
-	title        = {Improving question answering for event-focused questions in temporal collections of news articles},
+
+@article{WangJFY21,
+	title        = {Improving Question Answering for Event-focused Questions in Temporal Collections of News Articles},
 	author       = {Jiexin Wang and Adam Jatowt and Michael F{\"{a}}rber and Masatoshi Yoshikawa},
 	year         = 2021,
-	journal      = {Inf. Retr. J.},
+	journal      = {Information Retrieval Journal},
 	volume       = 24,
 	number       = 1,
 	pages        = {29--54},
-	doi          = {10.1007/S10791-020-09387-9},
 	url          = {https://doi.org/10.1007/s10791-020-09387-9},
-	timestamp    = {Mon, 26 Jun 2023 20:57:16 +0200},
-	biburl       = {https://dblp.org/rec/journals/ir/WangJFY21.bib},
-	abstract     = {},
-	pdf = {publications/ImprovingQA_IRJ2021.pdf}
+    abstract     = {Temporal collections of news articles contain large numbers of accurate and time-aligned documents that are valuable for understanding past events, yet access to such archives remains difficult for average users due to their size and complexity. This work addresses the task of machine reading at scale on long-term news archives, motivated by the observation that questions over news collections are typically event-centric and exhibit strong temporal characteristics. We propose a large-scale question answering model specifically designed for long-term news article collections, incorporating a dedicated module for re-ranking articles using temporal information from multiple perspectives. Experimental results demonstrate that the proposed model outperforms existing question answering systems, primarily due to the temporal re-ranking module’s ability to identify more relevant documents.},
+	pdf          = {publications/ImprovingQA_IRJ2021.pdf}
 }
-@article{DBLP:journals/corr/abs-2112-00160,
+
+@article{abs-2112-00160,
 	title        = {Towards Full-Fledged Argument Search: {A} Framework for Extracting and Clustering Arguments from Unstructured Text},
 	author       = {Michael F{\"{a}}rber and Anna Steyer},
 	year         = 2021,
@@ -304,12 +297,11 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	url          = {https://arxiv.org/abs/2112.00160},
 	eprinttype   = {arXiv},
 	eprint       = {2112.00160},
-	timestamp    = {Tue, 07 Dec 2021 12:15:54 +0100},
-	biburl       = {https://dblp.org/rec/journals/corr/abs-2112-00160.bib},
-	abstract     = {},
-	pdf = {publications/Towards_Full-Fledged_Argument_Search_arXiv2021.pdf}
+    abstract     = {Argument search aims at identifying arguments in natural language texts, a task that has traditionally been addressed through a combination of keyword search and sentence- or document-level argument identification. However, existing frameworks often cover only specific components of argument search and fail to address key challenges, including argument–query matching for differently framed topics, identification of multi-sentence arguments, and topical clustering of retrieved arguments. In this paper, we propose a unified framework to overcome these limitations by combining keyword search with precomputed topic clusters for argument–query matching, introducing a novel sentence-level sequence-labeling approach for multi-sentence argument identification, and presenting aggregated arguments through topic-aware argument clustering. Experiments on several real-world debate data sets show that density-based clustering algorithms such as HDBSCAN are well suited for argument–query matching, that our BiLSTM-based sequence-labeling approach achieves a macro F1 score of 0.71, and that while fine-grained subtopic clustering of arguments remains challenging, it is a promising direction for further exploration.},
+	pdf          = {publications/Towards_Full-Fledged_Argument_Search_arXiv2021.pdf}
 }
-@article{DBLP:journals/corr/abs-2112-00859,
+
+@article{abs-2112-00859,
 	title        = {Are Investors Biased Against Women? Analyzing How Gender Affects Startup Funding in Europe},
 	author       = {Michael F{\"{a}}rber and Alexander Klein},
 	year         = 2021,
@@ -318,11 +310,10 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	url          = {https://arxiv.org/abs/2112.00859},
 	eprinttype   = {arXiv},
 	eprint       = {2112.00859},
-	timestamp    = {Tue, 07 Dec 2021 12:15:54 +0100},
-	biburl       = {https://dblp.org/rec/journals/corr/abs-2112-00859.bib},
-	abstract     = {},
-	pdf = {publications/Are_Investors_Biased_Against_Women_arXiv2021.pdf}
+    abstract     = {Raising capital from investors is a central challenge for startups, making it crucial for founders to understand whether and how gender bias affects early-stage funding decisions. While prior gender studies have predominantly focused on the US market, this paper provides a more comprehensive analysis of gender bias in European early-stage startup funding. We examine European startups listed on Crunchbase using Semantic Web technologies and analyze the relationship between the share of female founders in a founding team and the amount of funding raised. Our results show that a higher relative share of female founders has a negative impact on funding amounts and that founder characteristics influence funding outcomes differently based on gender. Furthermore, we find that gender bias is less pronounced for serial founders with prior entrepreneurial experience, as female founders benefit three times more than male founders from having previously founded a startup. Overall, our findings indicate that gender bias exists and should be considered in the context of startup funding.},
+	pdf          = {publications/CrunchBias_2021.pdf}
 }
+
 @article{DBLP:journals/qss/FarberA22,
 	title        = {The Microsoft Academic Knowledge Graph enhanced: Author name disambiguation, publication classification, and embeddings},
 	author       = {Michael F{\"{a}}rber and Lin Ao},
@@ -919,15 +910,13 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	year         = 2021,
 	booktitle    = {CIKM},
 	location     = {Virtual Event, Queensland, Australia},
-	publisher    = {{ACM}},
 	pages        = {3014--3018},
 	doi          = {10.1145/3459637.3482166},
 	url          = {https://doi.org/10.1145/3459637.3482166},
-	editor       = {Gianluca Demartini and Guido Zuccon and J. Shane Culpepper and Zi Huang and Hanghang Tong},
-	timestamp    = {Mon, 28 Aug 2023 21:17:21 +0200},
-	biburl       = {https://dblp.org/rec/conf/cikm/0001L21.bib},
-	abstract     = {}
+   abstract      = {The rapidly growing number of available datasets makes it increasingly difficult for researchers and practitioners to identify the most relevant datasets for a given research problem, a challenge that existing keyword-based dataset search engines address only imperfectly. In this paper, we propose a system that recommends suitable datasets directly from research problem descriptions, formulating the task as a domain-specific text classification problem. In a comprehensive offline evaluation using state-of-the-art models and large-scale data comprising 88,000 paper abstracts and 265,000 citation contexts as problem descriptions, our approach achieves an F1 score of 0.75. Additionally, a user study in real-world settings shows that users are satisfied in 88% of all test cases. These results indicate promising future directions for dataset recommendation systems.},
+    pdf          = {publications/DataRec_CIKM2021.pdf}
 }
+
 @inproceedings{DBLP:conf/recsys/0001L21,
 	title        = {DataHunter: {A} System for Finding Datasets Based on Scientific Problem Descriptions},
 	author       = {Michael F{\"{a}}rber and Ann{-}Kathrin Leisinger},
@@ -938,11 +927,10 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {749--752},
 	doi          = {10.1145/3460231.3478882},
 	url          = {https://doi.org/10.1145/3460231.3478882},
-	editor       = {Humberto Jes{\'{u}}s Corona Pamp{\'{\i}}n and Martha A. Larson and Martijn C. Willemsen and Joseph A. Konstan and Julian J. McAuley and Jean Garcia{-}Gathright and Bouke Huurnink and Even Oldridge},
-	timestamp    = {Mon, 28 Aug 2023 21:17:53 +0200},
-	biburl       = {https://dblp.org/rec/conf/recsys/0001L21.bib},
-	abstract     = {}
+    abstract     = {The steadily increasing number of datasets makes it difficult for researchers and practitioners across scientific disciplines to identify the most relevant datasets for a given research problem, a limitation that existing keyword-based dataset search engines struggle to overcome for complex queries. In this paper, we present the system at http://data-hunter.io, which recommends suitable datasets based on research problem descriptions. The system leverages fastText for text representation and classification, the Data Set Knowledge Graph (DSKG) containing metadata for nearly 1,700 unique datasets, and 88,000 paper abstracts as research problem descriptions for model training. Overall, our results demonstrate that dataset recommendation supports data provisioning and reuse in line with the FAIR principles and that dataset recommendation constitutes a promising direction for future research.},
+    pdf          = {publications/DataHunter_RecSys2021.pdf}
 }
+
 @inproceedings{DBLP:conf/pkdd/NguyenKHF21,
 	title        = {Quantifying Explanations of Neural Networks in E-Commerce Based on {LRP}},
 	author       = {Anna Nguyen and Franz Krause and Daniel Hagenmayer and Michael F{\"{a}}rber},
@@ -953,11 +941,10 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {251--267},
 	doi          = {10.1007/978-3-030-86517-7\_16},
 	url          = {https://doi.org/10.1007/978-3-030-86517-7\_16},
-	editor       = {Yuxiao Dong and Nicolas Kourtellis and Barbara Hammer and Jos{\'{e}} Antonio Lozano},
-	timestamp    = {Wed, 28 Jun 2023 16:19:42 +0200},
-	biburl       = {https://dblp.org/rec/conf/pkdd/NguyenKHF21.bib},
-	abstract     = {}
+    abstract     = {Neural networks are widely used in e-commerce, particularly for product recommendation, yet their black-box nature makes it difficult to understand how recommendations are generated, which hinders trust and reliability. In this paper, we present TransPer, an explanation framework for neural networks that introduces novel explanation measures based on Layer-Wise Relevance Propagation and supports heterogeneous data as well as complex architectures composed of multiple interconnected neural networks. We apply and evaluate TransPer in two real-world online shop scenarios and show that the resulting explanations help to assess prediction quality, derive ideas for improving the neural network, gain deeper insights into customer behavior, and satisfy legal requirements such as those mandated by the GDPR.},
+    pdf          = {publications/QuantifyingExplanations_ECML2021.pdf}
 }
+
 @inproceedings{DBLP:conf/esws/NoulletPF21,
 	title        = {CLiT: Combining Linking Techniques for Everyone},
 	author       = {Kristian Noullet and Samuel Printz and Michael F{\"{a}}rber},
@@ -1454,8 +1441,9 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	author       = {Anna Nguyen and Daniel Hagenmayer and Tobias Weller and Michael Färber},
 	year         = 2022,
 	booktitle    = {AIMLAI@CIKM},
-	url          = {https://www.researchgate.net/publication/366634803},
-	abstract     = {This paper presents a method for explaining convolutional neural networks (CNNs) by tagging filters. The approach enhances the interpretability of CNNs and provides a clearer understanding of how filter activations relate to input features.}
+	url          = {https://ceur-ws.org/Vol-3318/short21.pdf},
+    pdf          = {publications/FilTag_AIMLAI2022.pdf},
+	abstract = {Convolutional neural networks (CNNs) have achieved astonishing performance on various image classification tasks, but it is difficult for humans to understand how a classification comes about. Recent literature proposes methods to explain the classification process to humans, which mostly focus on visualizing feature maps and filter weights and are not very intuitive for non-experts. In this paper, we propose \textsc{FilTag}, an approach to effectively explain CNNs even to non-experts. The idea is that if images of a class frequently activate a convolutional filter, that filter will be tagged with that class. Based on this tagging, individual image classifications can then be intuitively explained using the tags of the filters that the input image activates. Finally, we show that the tags are useful in analyzing classification errors caused by noisy input images and that the tags can be further processed by machines.}
 }
 
 @inproceedings{shao2024equalization,
@@ -1652,6 +1640,7 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	author       = {Igor Shapiro and Tarek Saier and Michael Färber},
 	year         = 2022,
 	booktitle    = {SDU@AAAI},
-	url          = {https://www.researchgate.net/publication/366634946},
-	abstract     = {This paper presents a dataset and multilingual BERT-based model for citation field extraction from Cyrillic script references. The model significantly outperforms existing tools and contributes to multilingual scholarly data processing.}
+	url          = {https://ceur-ws.org/Vol-3164/paper9.pdf},
+	abstract     = {abstract = {Extracting structured data from bibliographic references is a crucial task for the creation of scholarly databases. While approaches, tools, and evaluation data sets for this task exist, there is a distinct lack of support for languages other than English and scripts other than the Latin alphabet, excluding a significant portion of scientific literature written in Cyrillic script languages. To address this problem, we introduce a new multilingual and multidisciplinary data set of over 100,000 labeled reference strings covering multiple Cyrillic languages, including over 700 manually labeled references with the remainder generated synthetically. Using random samples of varying size from this data, we train multiple high-performing sequence labeling BERT models and demonstrate the usability of the proposed data set. We further showcase a multilingual BERT model trained on the synthetic data and evaluated on the manually labeled references, achieving an F1 score of 0.93 and significantly outperforming a retrained state-of-the-art model evaluated on the same data.},
+    pdf          = {publications/Cyrillic_Citation_Field_Extraction_SDU-AAAI2022.pdf}
 }
