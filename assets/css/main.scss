@@ -23,3 +23,9 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Publication venue highlighting
+.periodical .pub-venue {
+  color: #1a73e8;
+  font-weight: 500;
+}
