@@ -209,6 +209,7 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	abstract     = {},
         pdf          = {publications/Which_KG_arXiv2018.pdf}
 }
+
 @article{DBLP:journals/corr/abs-1907-08671,
 	title        = {Linked Crunchbase: {A} Linked Data {API} and {RDF} Data Set About Innovative Companies},
 	author       = {Michael F{\"{a}}rber},
@@ -216,12 +217,12 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	journal      = {CoRR},
 	volume       = {abs/1907.08671},
 	url          = {http://arxiv.org/abs/1907.08671},
+    doi          = {10.48550/arXiv.1907.08671}
 	eprinttype   = {arXiv},
 	eprint       = {1907.08671},
-	timestamp    = {Mon, 05 Aug 2019 17:00:40 +0200},
 	biburl       = {https://dblp.org/rec/journals/corr/abs-1907-08671.bib},
-	abstract     = {},
-        pdf          = {publications/Crunchbase_arXiv2019.pdf}
+    abstract     = {Crunchbase is an online platform that aggregates information about startups and technology companies, including attributes and relationships among companies, people, and investments. A large portion of the data contained in Crunchbase is not available from other sources, making it a unique resource. In this paper, we present an approach for bringing Crunchbase data to the Web of Data, enabling its use in a machine-readable RDF format. We first describe the development and hosting of a Linked Data API for Crunchbase, including the integration of \texttt{sameAs} links to external data sources. We then outline our method for crawling RDF data via this API to construct a custom Crunchbase RDF knowledge graph. The resulting dataset comprises over 347 million triples, including 781{,}000 people, 659{,}000 organizations, and 343{,}000 investments. The Crunchbase Linked Data API is publicly available at \url{http://linked-crunchbase.org/}.},
+    pdf          = {publications/Crunchbase_arXiv2019.pdf}
 }
 
 @article{DBLP:journals/jodl/FarberJ20,
@@ -622,10 +623,8 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {113--129},
 	doi          = {10.1007/978-3-030-30796-7\_8},
 	url          = {https://doi.org/10.1007/978-3-030-30796-7\_8},
-	editor       = {Chiara Ghidini and Olaf Hartig and Maria Maleshkova and Vojtech Sv{\'{a}}tek and Isabel F. Cruz and Aidan Hogan and Jie Song and Maxime Lefran{\c{c}}ois and Fabien Gandon},
-	timestamp    = {Mon, 26 Sep 2022 12:21:56 +0200},
 	biburl       = {https://dblp.org/rec/conf/semweb/Farber19.bib},
-	abstract     = {},
+    abstract = {In this paper, we present the Microsoft Academic Knowledge Graph (MAKG), a large-scale RDF dataset comprising over eight billion triples that describe scientific publications and related entities, including authors, institutions, journals, and fields of study. The dataset is released under the Open Data Commons Attribution License (ODC-By). By providing the data both as RDF dump files and as a data source within the Linked Open Data cloud—featuring resolvable URIs and links to external data sources—we make a substantial body of scholarly data available on the Web of Data. In addition, we provide entity embeddings for all 210 million publications represented in the graph. The MAKG supports a wide range of use cases, particularly in the domain of digital libraries, such as (1) entity-centric exploration of publications, researchers, and affiliations; (2) data integration tasks using RDF as a common data model and interlinking with other datasets; and (3) large-scale data analysis and knowledge discovery over scholarly data.},
 	pdf          = {publications/MAKG_ISWC2019.pdf}
 }
 
@@ -638,10 +637,8 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	publisher    = {CEUR-WS.org},
 	volume       = 2380,
 	url          = {https://ceur-ws.org/Vol-2380/paper\_227.pdf},
-	editor       = {Linda Cappellato and Nicola Ferro and David E. Losada and Henning M{\"{u}}ller},
-	timestamp    = {Fri, 10 Mar 2023 16:23:41 +0100},
 	biburl       = {https://dblp.org/rec/conf/clef/0001QA19.bib},
-	abstract     = {},
+    abstract = {In this paper, we present an approach for identifying Twitter bots based on the textual content of their tweets using a convolutional neural network. We experiment with various word embedding methods, including both pretrained embeddings and embeddings learned directly from the training data, as well as with different convolutional neural network architectures, and systematically compare their performance. When evaluated on the official test set of the CLEF~2019 Bots Profiling Subtask for the English language, our best-performing model achieves an accuracy of 90.34\%. These results indicate that convolutional neural networks constitute a promising machine learning technique for Twitter bot detection.},
 	pdf          = {publications/TwitterBots_CLEF2019.pdf}
 }
 
@@ -656,10 +653,8 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {380--383},
 	doi          = {10.1007/978-3-030-30760-8\_38},
 	url          = {https://doi.org/10.1007/978-3-030-30760-8\_38},
-	editor       = {Antoine Doucet and Antoine Isaac and Koraljka Golub and Trond Aalberg and Adam Jatowt},
-	timestamp    = {Mon, 26 Jun 2023 20:46:07 +0200},
 	biburl       = {https://dblp.org/rec/conf/ercimdl/FarberS19.bib},
-	abstract     = {},
+    abstract = {Citations have previously been classified based on their textual contexts with respect to criteria such as worthiness, function, polarity, and importance. To the best of our knowledge, however, citations have not yet been automatically classified according to their grammatical role, that is, whether a citation (1) is grammatically integrated into the sentence, (2) is placed directly after an occurrence of author names, (3) supports a concept, (4) supports a claim, or (5) is inappropriate due to incomplete or noisy context. We argue that identifying such classes of citation contexts is beneficial for various tasks, including improved citation recommendation and scientific impact quantification. In this paper, we introduce this classification scheme and propose a machine-learning-based approach for automatically assigning citation contexts to these classes. Our evaluation shows that classification performance differs substantially across the various citation types.},
 	pdf          = {publications/CitationUsage_TPDL2019.pdf}
 }
 
@@ -669,14 +664,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	year         = 2019,
 	booktitle    = {BIRNDL@SIGIR},
 	location     = {Paris, France},
-	publisher    = {CEUR-WS.org},
 	volume       = 2414,
 	pages        = {123--129},
 	url          = {https://ceur-ws.org/Vol-2414/paper13.pdf},
 	editor       = {Muthu Kumar Chandrasekaran and Philipp Mayr},
-	timestamp    = {Fri, 10 Mar 2023 16:22:17 +0100},
-	biburl       = {https://dblp.org/rec/conf/sigir/NishiokaF19.bib},
-	abstract     = {},
+    abstract = {Citation data of scientific publications is essential for a variety of purposes, including research evaluation and the construction of digital library collections. In this paper, we analyze the extent to which citation data of scholarly publications is openly available. Our analysis is based on the intersection of Crossref metadata and an Unpaywall snapshot as the publication dataset, and the COCI dataset as the source of open citation data. We show that citation data is openly available for 24.2\% of publications, while it is closed for 16.6\%. Furthermore, we find that the proportion of publications with open citation data has increased over time. Our results indicate that publishing a paper as open access does not influence whether its citation data is openly available. However, publications appearing in journals listed in the Directory of Open Access Journals (DOAJ) tend to have a higher share of openly available citation data compared to publications from other journals.},
 	pdf          = {publications/OpenCitations_SIGIR2019.pdf}
 }
 
@@ -686,14 +678,10 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	year         = 2019,
 	booktitle    = {SBD@SIGMOD},
 	location     = {Amsterdam, The Netherlands},
-	publisher    = {{ACM}},
 	pages        = {3:1--3:6},
 	doi          = {10.1145/3323878.3325804},
 	url          = {https://doi.org/10.1145/3323878.3325804},
-	editor       = {Sven Groppe and Le Gruenwald},
-	timestamp    = {Tue, 01 Jun 2021 15:22:37 +0200},
-	biburl       = {https://dblp.org/rec/conf/sigmod/AyalaKAC0PSTL19.bib},
-	abstract     = {},
+    abstract     = {To leverage mature database technologies, RDF stores are often built on top of relational databases, with SPARQL queries translated into SQL. Scalability can be achieved by executing query processing over large RDF datasets in a distributed manner using shared-nothing computer clusters. In this paper, we investigate the impact of relational schema design when SPARQL queries are mapped to Apache Spark SQL. We consider several schema designs, including a single triple table, predicate-partitioned tables, a single wide table covering all properties, and a set of tables derived from an application model specification, referred to as a domain-dependent schema. For each approach, the corresponding tables are stored in the distributed file system HDFS using the columnar storage format Parquet. Experiments conducted with standard benchmarks show that the single wide property table approach, despite its simplicity, outperforms the other designs. Additional experiments further demonstrate that this approach remains advantageous even when repartitioning by key (RDF subject) is applied prior to query execution.},
 	pdf          = {publications/SPARQL_Schemata_SIGMOD2019.pdf}
 }
 
@@ -707,10 +695,7 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {438--439},
 	doi          = {10.1109/JCDL.2019.00108},
 	url          = {https://doi.org/10.1109/JCDL.2019.00108},
-	editor       = {Maria Bonn and Dan Wu and J. Stephen Downie and Alaine Martaus},
-	timestamp    = {Mon, 26 Jun 2023 20:45:02 +0200},
-	biburl       = {https://dblp.org/rec/conf/jcdl/0001NJ19.bib},
-	abstract     = {},
+    abstract    = {In this paper, we present a system for exploring temporal trends of scientific concepts. The concepts are extracted by identifying noun phrases and entities from all computer science publications available on arXiv.org. The system enables users to examine time series for a large number of concepts and to identify both positively and negatively trending concepts over time. By applying clustering techniques and visualizations for cluster analysis, the system further reveals groups of concepts that exhibit similar usage patterns across different periods. This system supports exploratory analyses for researchers across scientific disciplines and provides a useful tool for scholars in bibliometrics and scientometrics to study the evolution of scientific concepts.},
 	pdf          = {publications/ScholarSight_JCDL2019.pdf}
 }
 
@@ -720,14 +705,10 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	year         = 2019,
 	booktitle    = {SemEval@NAACL-HLT 2019},
 	location     = {Minneapolis, MN, USA},
-	publisher    = {Association for Computational Linguistics},
 	pages        = {1032--1036},
 	doi          = {10.18653/V1/S19-2180},
 	url          = {https://doi.org/10.18653/v1/s19-2180},
-	editor       = {Jonathan May and Ekaterina Shutova and Aur{\'{e}}lie Herbelot and Xiaodan Zhu and Marianna Apidianaki and Saif M. Mohammad},
-	timestamp    = {Mon, 18 Dec 2023 11:22:01 +0100},
-	biburl       = {https://dblp.org/rec/conf/semeval/FarberQA19.bib},
-	abstract     = {},
+    abstract = {In this paper, we present an approach for classifying news articles as biased, that is, hyperpartisan, or unbiased using a convolutional neural network. We experiment with various word embedding methods, including both pretrained embeddings and embeddings learned from the training data, as well as with different convolutional neural network architectures, and compare their performance. When evaluated on the official test set of SemEval~2019 Task~4, our best-performing model achieves relatively low precision and accuracy, but attains the highest recall among all 42 participating teams.},
 	pdf          = {publications/BiasedNews_SemEval2019.pdf}
 }
 
@@ -737,14 +718,10 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	year         = 2019,
 	booktitle    = {BIR@ECIR},
 	location     = {Cologne, Germany},
-	publisher    = {CEUR-WS.org},
 	volume       = 2345,
 	pages        = {14--26},
 	url          = {https://ceur-ws.org/Vol-2345/paper2.pdf},
-	editor       = {Guillaume Cabanac and Ingo Frommholz and Philipp Mayr},
-	timestamp    = {Sun, 12 Nov 2023 02:08:10 +0100},
-	biburl       = {https://dblp.org/rec/conf/ecir/SaierF19.bib},
-	abstract     = {},
+    abstract     = {In recent years, a variety of research paper–based tasks, such as paper recommendation, as well as citation-based tasks, including citation recommendation and citation context-based document summarization, have been proposed. The evaluation of methods for these tasks and their applicability in real-world settings strongly depend on the underlying datasets. However, existing datasets suffer from several limitations. In this paper, we introduce a new dataset derived from all publications across all scientific disciplines available on arXiv.org. In addition to providing the full plain text of papers, in-text citations are annotated using global identifiers, and cited publications are linked to the Microsoft Academic Graph wherever possible. The resulting dataset comprises over one million documents and 29.2 million citation contexts. Freely available for research purposes, this dataset supports more reliable evaluation of research paper–based and citation context–based approaches and also serves as a foundation for novel methods to analyze scientific publications.},
 	pdf          = {publications/unarXive_ECIR2019.pdf}
 }
 
@@ -754,19 +731,15 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	year         = 2019,
 	booktitle    = {BIR@ECIR},
 	location     = {Cologne, Germany},
-	publisher    = {CEUR-WS.org},
 	volume       = 2345,
 	pages        = {132--139},
 	url          = {https://ceur-ws.org/Vol-2345/paper12.pdf},
-	editor       = {Guillaume Cabanac and Ingo Frommholz and Philipp Mayr},
-	timestamp    = {Mon, 26 Jun 2023 20:47:14 +0200},
-	biburl       = {https://dblp.org/rec/conf/ecir/FarberJ19.bib},
-	abstract     = {},
+    abstract     = {Science evolves rapidly, and prior work has primarily investigated the evolution of coarse-grained research topics. To the best of our knowledge, however, no large-scale analysis of temporal trends of fine-grained scientific concepts based on full-text publications has been conducted. In this paper, we extract noun phrases as fine-grained concepts from the full texts of all computer science papers available on arXiv.org. We then identify positive and negative temporal trends using simple linear regression, the Mann--Kendall test, and the Theil--Sen estimator. Our experimental results show that the Mann--Kendall test yields particularly meaningful trend detection outcomes, whereas the Theil--Sen estimator and simple linear regression often identify non-scientific concepts as trending. The presented findings are relevant for both general researchers and scholars in bibliometrics and scientometrics who are interested in analyzing the evolution of scientific concepts.},
 	pdf          = {publications/TrendsConcepts_BIR2019.pdf}
 }
 
 @inproceedings{DBLP:conf/ecir/FarberSJ19,
-	title	= {PaperHunter: A System for Exploring Papers and Citation Contexts},
+	title	      = {PaperHunter: A System for Exploring Papers and Citation Contexts},
 	author       = {Michael F{\"{a}}rber and Ashwath Sampath and Adam Jatowt},
 	year         = 2019,
 	booktitle    = {ECIR},
@@ -774,13 +747,10 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	publisher    = {Springer},
 	volume       = 11438,
 	pages        = {246--250},
-	doi 	= {10.1007/978-3-030-15719-7_33},
-	url = {https://doi.org/10.1007/978-3-030-15719-7_33},
-	editor       = {Leif Azzopardi and Benno Stein and Norbert Fuhr and Philipp Mayr and Claudia Hauff and Djoerd Hiemstra},
-	timestamp    = {Mon, 28 Aug 2023 21:17:41 +0200},
-	biburl       = {https://dblp.org/rec/conf/ecir/FarberSJ19.bib},
-	abstract     = {},
-	pdf          = {publications/PaperHunter_ECIR2019.pdf}
+	doi          = {10.1007/978-3-030-15719-7_33},
+	url          = {https://doi.org/10.1007/978-3-030-15719-7_33},
+    abstract     = {In this paper, we present a system that enables researchers to search for scientific papers and in-text citations in a novel manner. In particular, the system allows users to retrieve the textual contexts in which publications are cited, referred to as citation contexts, by specifying either the cited paper’s title or the cited author’s name. To support qualitative assessment of citations, the system provides information on citation polarity, indicating whether a cited work is discussed in a positive, neutral, or negative manner. The system is built on the full corpus of computer science papers available on arXiv.org and can be used both by computer science researchers to reflect on how their work is perceived within the scientific community and by scholars conducting citation analysis research.},
+	pdf          = {publications/PaperHunter_Demo_ECIR2019.pdf}
 }
 
 @inproceedings{DBLP:conf/jcdl/000120,
