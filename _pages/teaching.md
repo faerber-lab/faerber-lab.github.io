@@ -65,8 +65,7 @@ If you are looking for research assistant / HiWi openings (or other positions), 
 
 #### Administrative Questions
 
-For study-program related questions (e.g., formal requirements, forms, deadlines), this is typically in the responsibility of the student.  
-If needed, please clarify directly with the relevant **TU Dresden student examination office (Prüfungsamt)** (or the equivalent office at your home university).
+For study-program related questions (e.g., formal requirements, forms, deadlines), this is typically in the responsibility of the student. If needed, please clarify directly with the relevant **TU Dresden student examination office (Prüfungsamt)** (or the equivalent office at your home university).
 
 For **requests to the secretary**, please see the **[contact page](/contact/)**.
 
