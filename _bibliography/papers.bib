@@ -10,6 +10,21 @@
   keywords = {LLMs, constrained generation, Chinese poetry, Songci}
 }
 
+@inproceedings{PolitovSJ025,
+  author       = {Andrei Politov and
+                  Oleh Shkalikov and
+                  Ren{\'{e}} J{\"{a}}kel and
+                  Michael F{\"{a}}rber},
+  title        = {Revisiting Projection-based Data Transfer for Cross-Lingual Named Entity Recognition in Low-Resource Languages},
+  booktitle    = {NoDaLiDa},
+  location     = {Tallinn, Estonia},
+  pages        = {499--507},
+  year         = {2025},
+  url          = {https://aclanthology.org/2025.nodalida-1.54/},
+  abstract     = {Cross-lingual Named Entity Recognition (NER) exploits knowledge transfer across languages to identify and classify named entities, making it particularly valuable for low-resource languages. In this paper, we show that data-based cross-lingual transfer is an effective strategy for cross-lingual NER and can outperform multilingual language models in low-resource settings. We introduce two key enhancements to the annotation projection step. First, we refine word alignments by leveraging back-translation to improve projection accuracy. Second, we propose a novel, formalized projection method that matches source-language entities with candidate entities extracted in the target language. Through extensive experiments on two datasets covering 57 languages, we demonstrate that our approach consistently outperforms existing projection-based methods for low-resource languages. These results highlight the robustness and effectiveness of projection-based data transfer as a strong alternative to model-based approaches for cross-lingual named entity recognition in low-resource scenarios.},
+  pdf          = {publications/XNER_NoDaLiDA2025.pdf}
+}
+
 @inproceedings{Claim2source,
   title     = {Claim2Source at CheckThat! 2025: Zero-Shot Style Transfer for Scientific Claim-Source Retrieval},
   author    = {Schreieder, Tobias and F{\"a}rber, Michael},
@@ -1542,6 +1557,23 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
     abstract  = {Autonomous Driving (AD), the area of robotics with the greatest potential impact on society, has gained a lot of momentum in the last decade. As a result, the number of datasets in AD has increased rapidly. Creators and users of datasets can benefit from a better understanding of developments in the field. While scientometric analysis has been conducted in other fields, it rarely revolves around datasets. Thus, the impact, attention, and influence of datasets on autonomous driving remains a rarely investigated field. In this work, we provide a scientometric analysis for over 200 datasets in AD. We perform a rigorous evaluation of relations between available metadata and citation counts based on linear regression. Subsequently, we propose an Influence Score to assess a dataset already early on without the need for a track-record of citations, which is only available with a certain delay.},
     pdf    = {publications/AD_Datasets_ICCRE2023.pdf},
     keywords = {autonomous driving}
+}
+
+@article{DBLP:journals/corr/abs-2509-04982,
+  author       = {Julius Neumann and
+                  Robert Lange and
+                  Yuni Susanti and
+                  Michael F{\"{a}}rber},
+  title        = {Optimizing Small Transformer-Based Language Models for Multi-Label Sentiment Analysis in Short Texts},
+  journal      = {CoRR},
+  volume       = {abs/2509.04982},
+  year         = {2025},
+  url          = {https://doi.org/10.48550/arXiv.2509.04982},
+  doi          = {10.48550/ARXIV.2509.04982},
+  eprinttype    = {arXiv},
+  eprint       = {2509.04982},
+  abstract     = {Sentiment classification on short-text datasets poses substantial challenges, including class imbalance, limited training data, and the inherent subjectivity of sentiment labels. These issues are further amplified by the lack of contextual information in short texts, which increases ambiguity and data sparsity and complicates effective model learning. In this paper, we evaluate the effectiveness of small Transformer-based models, specifically BERT and RoBERTa with fewer than one billion parameters, for multi-label sentiment classification in short-text scenarios. We investigate three key factors influencing performance: (1) continued domain-specific pre-training, (2) data augmentation via automatically generated examples, with a focus on generative data augmentation, and (3) architectural variations of the classification head. Our experimental results show that data augmentation consistently improves classification performance, whereas continued pre-training on augmented data can introduce noise and degrade accuracy. In addition, we find that modifications to the classification head provide only marginal performance gains. Overall, our findings offer practical guidance for optimizing BERT-based models under resource constraints and for refining modeling strategies for sentiment classification on short-text datasets.},
+  pdf          = {publications/Sentiment_LDD-ECAI2025.pdf}
 }
 
 @article{barman2025lpm,
