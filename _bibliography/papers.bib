@@ -223,8 +223,9 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	abstract     = {},
         pdf          = {publications/Crunchbase_arXiv2019.pdf}
 }
+
 @article{DBLP:journals/jodl/FarberJ20,
-	title        = {Citation recommendation: approaches and datasets},
+	title        = {Citation Recommendation: Approaches and Datasets},
 	author       = {Michael F{\"{a}}rber and Adam Jatowt},
 	year         = 2020,
 	journal      = {Int. J. Digit. Libr.},
@@ -233,13 +234,12 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	pages        = {375--405},
 	doi          = {10.1007/S00799-020-00288-2},
 	url          = {https://doi.org/10.1007/s00799-020-00288-2},
-	timestamp    = {Tue, 01 Jun 2021 15:21:15 +0200},
-	biburl       = {https://dblp.org/rec/journals/jodl/FarberJ20.bib},
-	abstract     = {},
-        pdf          = {publications/CiteRecSurvey_IJDL2020.pdf}
+   abstract      = {Citation recommendation addresses the task of recommending relevant citations for a given text. Owing to the rapid growth of published scientific literature on the one hand and the necessity of citing the most appropriate works when authoring scientific texts on the other hand, citation recommendation has emerged as an important research area. In recent years, numerous approaches and evaluation datasets have been proposed. However, to the best of our knowledge, no comprehensive literature survey has explicitly focused on citation recommendation. In this article, we provide a thorough introduction to automatic citation recommendation research. We then present an overview of existing approaches and datasets, identifying their differences and commonalities across multiple dimensions. Finally, we discuss evaluation methods, highlight general challenges in evaluation, and outline ways to address them. While we restrict our survey to citation recommendation for scientific publications, as this document type has been studied most extensively, many of the observations and discussions are also applicable to other text types, such as news articles and encyclopedic content.},
+    pdf          = {publications/CiteRecSurvey_IJDL2020.pdf}
 }
+
 @article{DBLP:journals/scientometrics/SaierF20,
-	title        = {unarXive: a large scholarly data set with publications' full-text, annotated in-text citations, and links to metadata},
+	title        = {unarXive: A Large Scholarly Dataset With Publications’ Full Text, Annotated In-Text Citations, and Links to Metadata},
 	author       = {Tarek Saier and Michael F{\"{a}}rber},
 	year         = 2020,
 	journal      = {Scientometrics},
@@ -248,11 +248,11 @@ keywords = {explainability, NLE, graph neural networks, faithfulness, LLM}
 	pages        = {3085--3108},
 	doi          = {10.1007/S11192-020-03382-Z},
 	url          = {https://doi.org/10.1007/s11192-020-03382-z},
-	timestamp    = {Tue, 01 Jun 2021 10:00:02 +0200},
 	biburl       = {https://dblp.org/rec/journals/scientometrics/SaierF20.bib},
-	abstract     = {},
-        pdf          = {publications/unarXive_Scientometrics2020.pdf}
+    abstract     = {In recent years, scholarly datasets have been employed for a wide range of tasks, including paper recommendation, citation recommendation, citation context analysis, and citation context-based document summarization. The evaluation of methods for these tasks, as well as their applicability in real-world settings, critically depends on the underlying datasets. However, existing scholarly datasets exhibit several limitations. In this paper, we introduce a new dataset comprising all publications from all scientific disciplines available on arXiv.org. In addition to providing the full plain text of papers, in-text citations are annotated using global identifiers. Moreover, both citing and cited publications are linked to the Microsoft Academic Graph, enabling access to rich bibliographic metadata. The resulting dataset contains over one million documents and 29.2 million citation contexts. Freely available for research purposes, this dataset supports more robust evaluation of paper-based and citation context-based approaches and also enables novel analyses of in-text citations, as demonstrated prototypically in this work.},
+    pdf          = {publications/unarXive_Scientometrics2020.pdf}
 }
+
 @article{FarberL21,
 	title        = {The Data Set Knowledge Graph: Creating a Linked Open Data Source for Data Sets},
 	author       = {Michael F{\"{a}}rber and David Lamprecht},
@@ -793,11 +793,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {491--492},
 	doi          = {10.1145/3383583.3398578},
 	url          = {https://doi.org/10.1145/3383583.3398578},
-	editor       = {Ruhua Huang and Dan Wu and Gary Marchionini and Daqing He and Sally Jo Cunningham and Preben Hansen},
-	timestamp    = {Thu, 25 Apr 2024 15:20:40 +0200},
 	biburl       = {https://dblp.org/rec/conf/jcdl/000120.bib},
-	abstract     = {}
+    abstract      = {Linking to code repositories, such as those hosted on GitHub, has become increasingly common in scientific publications, particularly in computer science. However, the actual quality, maintenance, and usage of these repositories have so far remained largely unexplored. In this paper, we present the first comprehensive analysis of all GitHub code repositories referenced in scientific papers, using the Microsoft Academic Graph as the underlying data source. We analyze both the repositories and their associated publications across multiple dimensions. Our results show that the numbers of stars and forks across repositories follow a power-law distribution. In most cases, only a single author of a paper actively contributes to the corresponding repository. Repository documentation is typically concise, consisting of only a few sentences, and the source code is predominantly written in Python. The publications linking to code repositories, as well as their authors, are primarily associated with the artificial intelligence research community.},
+    pdf          = {publications/GitHub_JCDL2020.pdf}
 }
+
 @inproceedings{DBLP:conf/jcdl/0001S20,
 	title        = {HybridCite: {A} Hybrid Model for Context-Aware Citation Recommendation},
 	author       = {Michael F{\"{a}}rber and Ashwath Sampath},
@@ -808,11 +808,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {117--126},
 	doi          = {10.1145/3383583.3398534},
 	url          = {https://doi.org/10.1145/3383583.3398534},
-	editor       = {Ruhua Huang and Dan Wu and Gary Marchionini and Daqing He and Sally Jo Cunningham and Preben Hansen},
-	timestamp    = {Thu, 25 Apr 2024 15:20:40 +0200},
 	biburl       = {https://dblp.org/rec/conf/jcdl/0001S20.bib},
-	abstract     = {}
+    abstract     = {Citation recommendation systems seek to suggest relevant references either for an entire paper or for a specific text passage, referred to as a citation context. Recommending citations at the level of citation contexts, known as local citation recommendation, is the focus of this paper. We first develop citation recommendation approaches based on embeddings, topic modeling, and information retrieval techniques. To the best of our knowledge, we then combine the best-performing methods for the first time into a semi-genetic hybrid citation recommender system. We evaluate both the individual approaches and the hybrid model in offline experiments using several datasets, including the Microsoft Academic Graph (MAG) as well as MAG combined with arXiv and ACL. In addition, we conduct an online user study to assess the proposed methods. Our results demonstrate that a hybrid model integrating embedding-based and information retrieval–based components substantially outperforms its individual components as well as other baseline approaches.},
+    pdf          = {publications/}HybridCite_JCDL2020.pdf} 
 }
+
 @inproceedings{DBLP:conf/icwe/0001SB20,
 	title        = {Who's Behind That Website? Classifying Websites by the Degree of Commercial Intent},
 	author       = {Michael F{\"{a}}rber and Benjamin Scheer and Frederic Bartscherer},
@@ -824,11 +824,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {130--145},
 	doi          = {10.1007/978-3-030-50578-3\_10},
 	url          = {https://doi.org/10.1007/978-3-030-50578-3\_10},
-	editor       = {M{\'{a}}ria Bielikov{\'{a}} and Tommi Mikkonen and Cesare Pautasso},
-	timestamp    = {Sun, 25 Jul 2021 11:48:52 +0200},
 	biburl       = {https://dblp.org/rec/conf/icwe/0001SB20.bib},
-	abstract     = {}
+    abstract     = {Web hosting companies aim to provide customized customer services and therefore seek to identify the commercial intent of websites. Determining whether a website is operated by an individual, a company, a non-profit organization, or a public institution is a challenging classification task, as website content is often sparse or limited. In this paper, we present a novel approach for identifying the commercial intent of websites using a combination of supervised and unsupervised machine learning techniques. Based on a large real-world dataset, we evaluate our model in terms of effectiveness and efficiency and find that a multilayer perceptron achieves the best performance.},
+    pdf          = {publications/Website-Classification_ICWE2020.pdf}
 }
+
 @inproceedings{DBLP:conf/lrec/LimJFY20,
 	title        = {Annotating and Analyzing Biased Sentences in News Articles using Crowdsourcing},
 	author       = {Sora Lim and Adam Jatowt and Michael F{\"{a}}rber and Masatoshi Yoshikawa},
@@ -838,12 +838,12 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	publisher    = {European Language Resources Association},
 	pages        = {1478--1484},
 	url          = {https://aclanthology.org/2020.lrec-1.184/},
-	editor       = {Nicoletta Calzolari and Fr{\'{e}}d{\'{e}}ric B{\'{e}}chet and Philippe Blache and Khalid Choukri and Christopher Cieri and Thierry Declerck and Sara Goggi and Hitoshi Isahara and Bente Maegaard and Joseph Mariani and H{\'{e}}l{\`{e}}ne Mazo and Asunci{\'{o}}n Moreno and Jan Odijk and Stelios Piperidis},
-	timestamp    = {Mon, 26 Jun 2023 20:41:48 +0200},
 	biburl       = {https://dblp.org/rec/conf/lrec/LimJFY20.bib},
-	abstract     = {}
+    abstract     = {The spread and consumption of biased news has become a significant societal concern. Researchers from various fields, including social sciences and media studies, have proposed methods to address media bias, often leveraging techniques from natural language processing and machine learning to automatically identify biased content. However, progress in this area has been hindered by the lack of publicly available datasets, particularly those providing fine-grained bias annotations at the sentence level. In this paper, we introduce a novel news bias dataset designed to support the development and evaluation of methods for detecting subtle bias in news articles and for analyzing the characteristics of biased sentences. The dataset comprises 966 sentences from 46 English-language news articles covering four distinct events and includes sentence-level bias annotations. To ensure scalability, the annotations were obtained via crowdsourcing. Our dataset enables detailed analyses of news bias and serves as a benchmark for developing and evaluating bias detection methods, as well as a resource for related research areas such as fake news detection.},
+    pdf          = {publications/NewsBias_LREC2020.pdf}
 }
-@inproceedings{DBLP:conf/lrec/NoulletMF20,
+
+@inproceedings{NoulletMF20,
 	title        = {{KORE} 50^{DYWC}: An Evaluation Data Set for Entity Linking Based on DBpedia, YAGO, Wikidata, and Crunchbase},
 	author       = {Kristian Noullet and Rico Mix and Michael F{\"{a}}rber},
 	year         = 2020,
@@ -852,11 +852,10 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	publisher    = {European Language Resources Association},
 	pages        = {2389--2395},
 	url          = {https://aclanthology.org/2020.lrec-1.291/},
-	editor       = {Nicoletta Calzolari and Fr{\'{e}}d{\'{e}}ric B{\'{e}}chet and Philippe Blache and Khalid Choukri and Christopher Cieri and Thierry Declerck and Sara Goggi and Hitoshi Isahara and Bente Maegaard and Joseph Mariani and H{\'{e}}l{\`{e}}ne Mazo and Asunci{\'{o}}n Moreno and Jan Odijk and Stelios Piperidis},
-	timestamp    = {Fri, 06 Aug 2021 00:40:05 +0200},
-	biburl       = {https://dblp.org/rec/conf/lrec/NoulletMF20.bib},
-	abstract     = {}
+    abstract     = {Named entity recognition and disambiguation (NERD) constitutes a major research area in natural language processing. A common approach to addressing this task relies on Semantic Web technologies and structured data formats, which facilitate information extraction and enable the construction of knowledge graphs. To properly evaluate NERD systems, high-quality gold standard datasets are required. While numerous evaluation datasets exist, they are predominantly based on Wikipedia or DBpedia. In this work, we extend the widely used gold standard dataset KORE 50 to support NERD evaluation not only for DBpedia, but also for YAGO, Wikidata, and Crunchbase. The resulting dataset, KORE~50$^{DYWC}$, enables a substantially broader evaluation landscape. In particular, it allows for the assessment of the knowledge-graph agnosticity of NERD systems across multiple knowledge graphs, which, to the best of our knowledge, has not previously been possible at this scale.},
+    pdf          = {publications/KORE50-DYWC_LREC2020.pdf}
 }
+
 @inproceedings{DBLP:conf/ecir/WangJ0Y20,
 	title        = {Answering Event-Related Questions over Long-Term News Article Archives},
 	author       = {Jiexin Wang and Adam Jatowt and Michael F{\"{a}}rber and Masatoshi Yoshikawa},
@@ -868,11 +867,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {774--789},
 	doi          = {10.1007/978-3-030-45439-5\_51},
 	url          = {https://doi.org/10.1007/978-3-030-45439-5\_51},
-	editor       = {Joemon M. Jose and Emine Yilmaz and Jo{\~{a}}o Magalh{\~{a}}es and Pablo Castells and Nicola Ferro and M{\'{a}}rio J. Silva and Fl{\'{a}}vio Martins},
-	timestamp    = {Wed, 16 Mar 2022 23:55:03 +0100},
 	biburl       = {https://dblp.org/rec/conf/ecir/WangJ0Y20.bib},
-	abstract     = {}
+    abstract  = {Long-term news article archives constitute valuable resources for understanding past events, as they provide detailed information about occurrences at specific points in time. To better exploit such heritage collections, this work addresses the task of large-scale question answering over long-term news archives. Questions posed to these archives are often event-related and typically exhibit strong temporal characteristics. They can be broadly categorized into two types: those containing explicit temporal expressions and those that are only implicitly associated with particular time periods. We focus on the latter category, as such questions are more challenging to answer, and propose a retriever–reader model augmented with an additional module that reranks articles by leveraging temporal information from multiple perspectives. Experimental results on a carefully constructed test set demonstrate that our approach outperforms existing question answering systems, primarily due to the enhanced document retrieval enabled by the temporal reranking module.},
+    pdf          = {publications/QA_ECIR2020.pdf}
 }
+
 @inproceedings{DBLP:conf/ecir/Saier020,
 	title        = {Semantic Modelling of Citation Contexts for Context-Aware Citation Recommendation},
 	author       = {Tarek Saier and Michael F{\"{a}}rber},
@@ -884,11 +883,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {220--233},
 	doi          = {10.1007/978-3-030-45439-5\_15},
 	url          = {https://doi.org/10.1007/978-3-030-45439-5\_15},
-	editor       = {Joemon M. Jose and Emine Yilmaz and Jo{\~{a}}o Magalh{\~{a}}es and Pablo Castells and Nicola Ferro and M{\'{a}}rio J. Silva and Fl{\'{a}}vio Martins},
-	timestamp    = {Wed, 16 Mar 2022 23:55:03 +0100},
 	biburl       = {https://dblp.org/rec/conf/ecir/Saier020.bib},
-	abstract     = {}
+    abstract     = {The rapid pace at which new research is being published makes it increasingly infeasible for scholars to read and assess all potentially relevant work. To address this challenge, automated processing of scientific publications—such as semantic modeling to support digital handling and the development of information filtering systems—has become an active research area. In this paper, we investigate the benefits of semantically modeling citation contexts for citation recommendation. To this end, we develop semantic representations of citation contexts based on entities and claim structures. We evaluate the effectiveness and conceptual validity of the proposed models through a large-scale offline evaluation on multiple datasets and complement this analysis with a user study. Our results show that the semantic models outperform a non-semantic baseline and effectively capture the types of information they are designed to represent.},
+    pdf          = {publications/SemCiteRec_ECIR2020.pdf}
 }
+
 @inproceedings{DBLP:conf/birws/FarberKS20,
 	title        = {Neural Citation Recommendation: {A} Reproducibility Study},
 	author       = {Michael F{\"{a}}rber and Timo Klein and Joan Sigloch},
@@ -899,11 +898,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	volume       = 2591,
 	pages        = {66--74},
 	url          = {https://ceur-ws.org/Vol-2591/paper-07.pdf},
-	editor       = {Guillaume Cabanac and Ingo Frommholz and Philipp Mayr},
-	timestamp    = {Fri, 10 Mar 2023 16:23:22 +0100},
 	biburl       = {https://dblp.org/rec/conf/birws/FarberKS20.bib},
-	abstract     = {}
+   abstract = {Context-aware citation recommendation aims to reduce the manual effort of searching for relevant references by automatically suggesting suitable papers as citations for a given input text. In this paper, we investigate the reproducibility of a state-of-the-art approach to context-aware citation recommendation, namely the Neural Citation Network (NCN) proposed by Ebesu and Fang. We reimplement the network and evaluate it on both RefSeer, the dataset used in the original work, and arXiv CS as an additional dataset. Furthermore, we analyze the impact of different neural network hyperparameters on the performance of the NCN and demonstrate how they can be tuned to improve results. Through this study, we contribute to increased transparency in citation recommendation research and support the development of more effective neural network–based models and evaluation practices.},
+pdf   = {publications/CiteRec_Repro_BIR2020.pdf}
 }
+
 @inproceedings{DBLP:conf/cikm/0001L21,
 	title        = {Recommending Datasets for Scientific Problem Descriptions},
 	author       = {Michael F{\"{a}}rber and Ann{-}Kathrin Leisinger},
@@ -945,52 +944,44 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
     pdf          = {publications/QuantifyingExplanations_ECML2021.pdf}
 }
 
-@inproceedings{DBLP:conf/esws/NoulletPF21,
-	title        = {CLiT: Combining Linking Techniques for Everyone},
+@inproceedings{NoulletPF21,
+	title        = {Combining Linking Techniques for Everyone},
 	author       = {Kristian Noullet and Samuel Printz and Michael F{\"{a}}rber},
 	year         = 2021,
 	booktitle    = {ESWC},
-	publisher    = {Springer},
-	volume       = 12739,
 	pages        = {88--92},
 	doi          = {10.1007/978-3-030-80418-3\_16},
 	url          = {https://doi.org/10.1007/978-3-030-80418-3\_16},
-	editor       = {Ruben Verborgh and Anastasia Dimou and Aidan Hogan and Claudia d'Amato and Ilaria Tiddi and Arne Br{\"{o}}ring and Simon Maier and Femke Ongenae and Riccardo Tommasini and Mehwish Alam},
-	timestamp    = {Mon, 28 Aug 2023 21:17:38 +0200},
-	biburl       = {https://dblp.org/rec/conf/esws/NoulletPF21.bib},
-	abstract     = {}
+    abstract     = {While the path in the field of Entity Linking (EL) has been long and has brought forth a plethora of approaches over the years, many of these are exceedingly difficult to execute for purposes of detailed analysis. In many cases, implementations are available, but are far from being a plug-and-play experience. We present Combining Linking Techniques (CLiT), a framework aimed at executing individual linking techniques as well as complex combinations thereof, with a strong focus on reusability, reproducibility, and comparability of existing systems. Furthermore, we introduce protocols for exchanging sub-pipeline-level information with existing and novel systems, enabling improved out-of-the-box compatibility. Among other use cases, our framework can be employed to consolidate multiple systems in combination with meta-learning approaches and to increase support for backward compatibility of existing benchmark annotation systems.},
+    pdf          = {publications/CLiT_ESWC2021.pdf}
 }
+
 @inproceedings{DBLP:conf/bias/0001B21,
 	title        = {Media Bias Everywhere? {A} Vision for Dealing with the Manipulation of Public Opinion},
 	author       = {Michael F{\"{a}}rber and Frederic Bartscherer},
 	year         = 2021,
-	booktitle    = {BIAS},
+	booktitle    = {BIAS@ECIR},
 	location     = {Lucca, Italy},
-	publisher    = {Springer},
-	volume       = 1418,
 	pages        = {9--13},
 	doi          = {10.1007/978-3-030-78818-6\_2},
 	url          = {https://doi.org/10.1007/978-3-030-78818-6\_2},
-	editor       = {Ludovico Boratto and Stefano Faralli and Mirko Marras and Giovanni Stilo},
-	timestamp    = {Tue, 13 Jul 2021 13:28:01 +0200},
-	biburl       = {https://dblp.org/rec/conf/bias/0001B21.bib},
-	abstract     = {}
+    abstract     = {This paper addresses the question of how artificial intelligence can be used to detect media bias within the broader context of manipulation and mood-making. We identify three fields of action that emerge from applying machine learning to the analysis of media bias: evaluation principles for media bias, information presentation of media bias, and transparency in media bias evaluation. Practical applications of our findings arise both in professional settings for journalists and publishers and in the everyday lives of citizens. First, automated analysis can be used to analyze texts in real time and promote more balanced reporting. Second, an intuitive web browser application can reveal existing bias in news texts in a way that is accessible to citizens. Finally, in educational contexts, pupils can experience media bias and the use of artificial intelligence in practice, thereby fostering media literacy.},
+    pdf          = {publications/BiasVisionPaper_BIAS2021.pdf}
 }
+
 @inproceedings{DBLP:conf/www/0001ZCCD21,
 	title        = {C-Rex: {A} Comprehensive System for Recommending In-Text Citations with Explanations},
 	author       = {Michael F{\"{a}}rber and Vinzenz Zinecker and Isabela Bragaglia Cartus and Sebastian Celis and Maria Duma},
 	year         = 2021,
 	booktitle    = {Sci-K@WWW},
 	location     = {Virtual Event, Ljubljana, Slovenia},
-	publisher    = {{ACM} / {IW3C2}},
 	pages        = {441--445},
 	doi          = {10.1145/3442442.3451366},
 	url          = {https://doi.org/10.1145/3442442.3451366},
-	editor       = {Jure Leskovec and Marko Grobelnik and Marc Najork and Jie Tang and Leila Zia},
-	timestamp    = {Sun, 19 Jan 2025 13:10:27 +0100},
-	biburl       = {https://dblp.org/rec/conf/www/0001ZCCD21.bib},
-	abstract     = {}
+    abstract     = {Finding suitable citations for scientific publications can be challenging and time-consuming. To address this issue, context-aware citation recommendation approaches have been developed that recommend publications as candidates for in-text citations. In this paper, we present C-Rex, a web-based demonstration system available at http://c-rex.org for context-aware citation recommendation based on the Neural Citation Network and millions of publications from the Microsoft Academic Graph. Our system is one of the first online context-aware citation recommendation systems and the first to incorporate not only a deep learning–based recommendation approach but also explanation components to help users better understand why papers were recommended. In our offline evaluation, our model performs similarly to the one presented in the original paper and can serve as a basic framework for further implementations. In our online evaluation, we found that providing explanations for recommendations increased users’ satisfaction.},
+    pdf          = {publications/C-Rex_Sci-K-WWW2021.pdf}    
 }
+
 @inproceedings{DBLP:conf/ecir/JatowtHFCY21,
 	title        = {Exploding {TV} Sets and Disappointing Laptops: Suggesting Interesting Content in News Archives Based on Surprise Estimation},
 	author       = {Adam Jatowt and I{-}Chen Hung and Michael F{\"{a}}rber and Ricardo Campos and Masatoshi Yoshikawa},
@@ -1001,40 +992,34 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	pages        = {254--269},
 	doi          = {10.1007/978-3-030-72113-8\_17},
 	url          = {https://doi.org/10.1007/978-3-030-72113-8\_17},
-	editor       = {Djoerd Hiemstra and Marie{-}Francine Moens and Josiane Mothe and Raffaele Perego and Martin Potthast and Fabrizio Sebastiani},
-	timestamp    = {Tue, 01 Jun 2021 15:21:30 +0200},
-	biburl       = {https://dblp.org/rec/conf/ecir/JatowtHFCY21.bib},
-	abstract     = {}
+    abstract     = {Many archival collections have recently been digitized and made available to a wide audience. However, the documents they contain often have limited appeal for ordinary users, as the content may appear obsolete or uninteresting. Archival document collections can become more attractive if suitable content is recommended to users. This work proposes a new research direction, termed Archival Content Suggestion, which aims to discover interesting content from long-term document archives that preserve information about societal history and heritage. To achieve this goal, we introduce two unsupervised approaches for automatically identifying interesting sentences from news article archives. Our methods detect interesting content by comparing information written in the past with information created in the present, thereby exploiting a surprise effect. Experiments on the New York Times corpus demonstrate that our approaches effectively retrieve interesting content.},
+    pdf          = {publications/Exploding_TV_ECIR2020.pdf}
 }
+
 @inproceedings{DBLP:conf/ecir/NguyenOF21,
 	title        = {Right for the Right Reasons: Making Image Classification Intuitively Explainable},
 	author       = {Anna Nguyen and Adrian Oberf{\"{o}}ll and Michael F{\"{a}}rber},
 	year         = 2021,
 	booktitle    = {ECIR},
 	location     = {Virtual Event},
-	publisher    = {Springer},
 	volume       = 12657,
 	pages        = {327--333},
 	doi          = {10.1007/978-3-030-72240-1\_32},
 	url          = {https://doi.org/10.1007/978-3-030-72240-1\_32},
-	editor       = {Djoerd Hiemstra and Marie{-}Francine Moens and Josiane Mothe and Raffaele Perego and Martin Potthast and Fabrizio Sebastiani},
-	timestamp    = {Tue, 01 Jun 2021 15:21:30 +0200},
-	biburl       = {https://dblp.org/rec/conf/ecir/NguyenOF21.bib},
-	abstract     = {}
+    abstract     = {The effectiveness of Convolutional Neural Networks (CNNs) in image classification has been well established. To make classification decisions understandable to humans, various methods for visualizing classification evidence have been developed in recent years. These explanations reveal that images are sometimes classified correctly but for the wrong reasons, that is, based on incidental evidence rather than the actual objects of interest. Ideally, images should be classified correctly for the right reasons, namely based on the relevant evidence. To this end, we propose a new explanation quality metric, termed ObAlEx, which measures object-aligned explanations in image classification. By combining object detection approaches, explanation methods, and the ObAlEx metric, we quantify the extent to which CNNs focus on the actual evidence. Furthermore, we demonstrate that additional training of CNNs can improve this focus without reducing classification accuracy.},
+    pdf          = {publications/Right4Right_ECIR2021.pdf}
 }
+
 @inproceedings{DBLP:conf/aaai/FarberAS21,
 	title        = {Identifying Used Methods and Datasets in Scientific Publications},
 	author       = {Michael F{\"{a}}rber and Alexander Albers and Felix Sch{\"{u}}ber},
 	year         = 2021,
 	booktitle    = {SDU@AAAI},
-	publisher    = {CEUR-WS.org},
-	volume       = 2831,
 	url          = {https://ceur-ws.org/Vol-2831/paper19.pdf},
-	editor       = {Amir Pouran Ben Veyseh and Franck Dernoncourt and Thien Huu Nguyen and Walter Chang and Leo Anthony Celi},
-	timestamp    = {Fri, 10 Mar 2023 16:22:15 +0100},
-	biburl       = {https://dblp.org/rec/conf/aaai/FarberAS21.bib},
-	abstract     = {}
+    abstract     = {Although it has become common to assess publications and researchers based on citation counts (e.g., using the h-index), measuring the impact of scientific methods and datasets has so far received limited attention. This is largely due to the fact that information about the usage of methods and datasets is typically not stated explicitly by authors but is instead embedded within the text of publications. In this paper, we propose an approach for identifying methods and datasets in scientific texts that have actually been used by the authors. Our approach first detects dataset and method mentions using a domain-specific named entity recognition technique with minimal human interaction. It then classifies these mentions as used or non-used based on their textual context. The resulting labels are aggregated at the document level and integrated into the Microsoft Academic Knowledge Graph to enrich publication metadata. Experiments on the Microsoft Academic Graph demonstrate that both method and dataset mentions can be accurately identified and correctly classified with respect to their usage. Overall, our approach supports method and dataset recommendation, enhanced paper recommendation, and scientific impact quantification, and can be extended to identify mentions of arbitrary entity types (e.g., tasks).},
+    pdf          = {publications/Identifying_Methods_and_Datasets_SDU-AAAI-2021.pdf}
 }
+
 @inproceedings{DBLP:conf/semweb/0001L22,
 	title        = {The Green {AI} Ontology: An Ontology for Modeling the Energy Consumption of {AI} Models},
 	author       = {Michael F{\"{a}}rber and David Lamprecht},
@@ -1404,6 +1389,7 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	biburl       = {https://dblp.org/rec/journals/semweb/FarberBMR18.bib},
 	bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+
 @inproceedings{krause2021bootstrapping,
 	title        = {Bootstrapping Multilingual Metadata Extraction: A Showcase in Cyrillic},
 	author       = {Johan Krause and Igor Shapiro and Tarek Saier and Michael Färber},
@@ -1411,8 +1397,10 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	booktitle    = {SDP@NAACL},
 	doi          = {10.18653/v1/2021.sdp-1.8},
 	url          = {https://www.researchgate.net/publication/352365459},
-	abstract     = {Applications based on scholarly data are of ever increasing importance. This results in disadvantages for areas where high-quality data and compatible systems are not available, such as Cyrillic-script regions. This work showcases techniques for bootstrapping multilingual metadata extraction.}
+	abstract     = {Applications based on scholarly data are of ever increasing importance. This results in disadvantages for areas where high-quality data and compatible systems are not available, such as Cyrillic-script regions. This work showcases techniques for bootstrapping multilingual metadata extraction.},
+    pdf          = {publications/Cyrillic_SDP2021.pdf}
 }
+
 @inproceedings{saier2023cocon,
 	title        = {CoCon: A Data Set on Combined Contextualized Research Artifact Use},
 	author       = {Tarek Saier and Youxiang Dong and Michael Färber},
@@ -1484,9 +1472,11 @@ keywords = {International Collaboration, Co-authorship, Citation Impact, China, 
 	author       = {Boulos El Asmar and Syrine Chelly and Michael Färber},
 	year         = 2021,
 	booktitle    = {CSKG@AAAI},
-	url          = {https://w3id.org/AWARE/ontology},
-	abstract     = {AWARE is an ontology designed to represent situational awareness for autonomous transport robots in manufacturing. It integrates perceptions, decision logic, and environment context to support autonomy and reasoning.}
+	url          = {https://usc-isi-i2.github.io/AAAI21workshop/papers/ElAsmar_CSKGsAAAI-21.pdf}
+   abstract      = {With the development of autonomous vehicles, recent research has increasingly focused on the semantic representation of robotic proprioceptive and exteroceptive perceptions, that is, the perception of the robot’s own body and of the external world. Such semantic representations can be queried by reasoning systems to enable what may be referred to as machine awareness. While this aligns with the general goal of artificial intelligence to leverage commonsense knowledge, it particularly relates to challenges in knowledge representation and knowledge elicitation. In this work, we present an ontology for representing background knowledge that grounds the cognitive capabilities of autonomous transport robots. Existing ontologies from the domains of robotics and the Internet of Things are integrated into our approach. We further demonstrate the applicability and extensibility of the proposed ontology in the context of autonomous and automated vehicles deployed in an automobile manufacturing plant. Our robotic situational awareness ontology provides a foundation for organizing and controlling robots in future smart factories and illustrates how situational awareness supports the coexistence of smart autonomous agents.},
+   pdf           = {publications/AWARE-Ontology_CSKG-AAAI2021.pdf}
 }
+
 @inproceedings{zhang2016xlisa,
 	title        = {Exploiting Knowledge Bases for Multilingual and Cross-lingual Semantic Annotation and Search},
 	author       = {Lei Zhang and Michael Färber and Andreas Thalhammer and Aditya Mogadala and Achim Rettinger},
