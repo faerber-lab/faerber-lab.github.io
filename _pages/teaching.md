@@ -27,20 +27,21 @@ Teaching in my group is research-driven and closely connected to our work in:
 
 ---
 
-#### Semester course offerings
+#### Semester Course Offerings at TU Dresden
 
 Each semester page contains the concrete course list and links to course pages:
 
-- **[Winter Semester 2025/2026 (TU Dresden)](/teaching/winter-semester-2025-26/)** 
-- **[Summer Semester 2025 (TU Dresden)](/teaching/summer-semester-2025/)**  
-- **[Winter Semester 2024/2025 (TU Dresden)](/teaching/winter-semester-2024-25/)**  
-- **[Summer Semester 2024 (TU Dresden)](/teaching/summer-semester-2024/)**  
+- **[Summer Semester 2026](/teaching/summer-semester-2026/)**  
+- **[Winter Semester 2025/2026](/teaching/winter-semester-2025-26/)** 
+- **[Summer Semester 2025](/teaching/summer-semester-2025/)**  
+- **[Winter Semester 2024/2025](/teaching/winter-semester-2024-25/)**  
+- **[Summer Semester 2024](/teaching/summer-semester-2024/)**  
 
 If you mainly look for the LLM lecture, start here: **[/secretllm/](/secretllm/)**
 
 ---
 
-#### Theses & student projects
+#### Theses & Student Projects
 
 - I have independently supervised over **60 theses** (Bachelor’s, Master’s, and Diploma).  
   Current open topics can be found on the **[student thesis page](/student_thesis/)**.
@@ -64,7 +65,7 @@ If you are looking for research assistant / HiWi openings (or other positions), 
 
 ---
 
-#### Administrative questions
+#### Administrative Questions
 
 For study-program related questions (e.g., formal requirements, forms, deadlines), this is typically in the responsibility of the student.  
 If needed, please clarify directly with the relevant **TU Dresden student examination office (Prüfungsamt)** (or the equivalent office at your home university).
@@ -73,7 +74,7 @@ For **requests to the secretary**, please see the **[contact page](/contact/)**.
 
 ---
 
-#### Past courses & teaching positions
+#### Past Courses & Teaching Positions
 
 Over the course of my academic career, I have taught a wide range of courses across institutions and disciplines:
 
