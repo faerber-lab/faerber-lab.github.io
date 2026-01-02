@@ -7,30 +7,79 @@ nav: true
 nav_order: 5
 ---
 
-#### Semester Course Offerings
+#### Teaching in our group
 
-I offer a range of courses that cover advanced topics in Artificial Intelligence, Data Science, and Trustworthy AI:
+Teaching in my group is research-driven and closely connected to our work in:
+
+- **Scholarly/Scientific LLMs** (RAG, citation-aware & verifiable generation)
+- **Knowledge graphs & structured knowledge**
+- **Graph machine learning & hybrid neuro-symbolic methods**
+- **Trustworthy AI** (robustness, evaluation, bias & explainability)
+
+---
+
+#### Why join our courses / thesis topics?
+
+- **Research-first, publication-oriented:** real research questions (no toy assignments), often aligned with current lab directions (see [/projects/](/projects/)). The default goal is a **joint research publication** (see [/publications/](/publications/) and [/news/](/news/)); many student projects in our group have already led to papers.
+- **Research-grade artifacts:** reproducible code, strong baselines, and rigorous evaluation (incl. ablations / error analysis where meaningful).
+- **Visibility and outreach:** strong outcomes are presented via talks/demos and communicated publicly; when suitable, we also aim for broader outreach.
+- **Close mentoring:** supervision slots are limited; we therefore prioritize strong fit and clear commitment.
+
+---
+
+#### Semester course offerings
+
+Each semester page contains the concrete course list and links to course pages:
 
 - **[Winter Semester 2025/2026 (TU Dresden)](/teaching/winter-semester-2025-26/)** 
 - **[Summer Semester 2025 (TU Dresden)](/teaching/summer-semester-2025/)**  
 - **[Winter Semester 2024/2025 (TU Dresden)](/teaching/winter-semester-2024-25/)**  
 - **[Summer Semester 2024 (TU Dresden)](/teaching/summer-semester-2024/)**  
 
+If you mainly look for the LLM lecture, start here: **[/secretllm/](/secretllm/)**
+
 ---
 
-#### Past Courses & Teaching Positions
+#### Theses & student projects
+
+- I have independently supervised over **60 theses** (Bachelor’s, Master’s, and Diploma).  
+  Current open topics can be found on the **[student thesis page](/student_thesis/)**.
+- I currently supervise **6 Ph.D. students** at TU Dresden.  
+  See the **[team page](/team/)** for more details.
+
+I am also open to supervising highly motivated students from **other German universities** (and international students).  
+Please ensure that any formal requirements (registration rules, examiner requirements, deadlines) are clarified with your home institution.
+
+**How to contact us (quick checklist):**  
+Please email the topic’s contact person with:
+- short CV
+- transcript of records (and, if applicable: transcript of your bachelor’s)
+- short statement (a few sentences) highlighting your skills, motivation for the topic, and your planned thesis starting date
+- if applicable: PDF of your bachelor’s thesis  
+- optional: GitHub/portfolio or a pointer to relevant past projects
+
+If you already have your own topic idea, feel free to send a short (max. 1 page) sketch; we can align it with our research directions.
+
+If you are looking for research assistant / HiWi openings (or other positions), please see **[/vacancies/](/vacancies/)**.
+
+---
+
+#### Administrative questions
+
+For study-program related questions (e.g., formal requirements, forms, deadlines), this is typically in the responsibility of the student.  
+If needed, please clarify directly with the relevant **TU Dresden student examination office (Prüfungsamt)** (or the equivalent office at your home university).
+
+For **requests to the secretary**, please see the **[contact page](/contact/)**.
+
+---
+
+#### Past courses & teaching positions
 
 Over the course of my academic career, I have taught a wide range of courses across institutions and disciplines:
 
-- **Deputy Professorship Position:** From October 2020 until March 2023, I had served as a W3 Deputy Full Professor at KIT, where I taught B.Sc. and M.Sc. courses in Business Informatics, Business Engineering, and Computer Science—some with up to 600 students.
-- **Postdoctoral Roles:** I have held teaching positions at KIT, the University of Freiburg, and Kyoto University, delivering lectures and seminars with class sizes ranging from 150 to 600 students.
-- **Ph.D. Student Experience:** During my doctoral studies (2012–2017) at KIT, I led exercises and seminars involving multiple teaching assistants and coordinated small-group supervision.
-
----
-
-#### Supervision & Mentoring
-
-- I have independently supervised over **60 theses** (Bachelor’s, Master’s, and Diploma).  
-  Current open topics can be found on the [student thesis page](/student_thesis/).
-- I currently supervise **6 Ph.D. students** at TU Dresden.  
-  See the [team page](/team/) for more details.
+- **KIT — W3 Deputy Full Professor (Oct 2020 – Mar 2023):**  
+  Taught B.Sc. and M.Sc. courses in Business Informatics, Business Engineering, and Computer Science — including large-scale courses with up to **600 students**.
+- **Postdoctoral teaching (KIT / University of Freiburg / Kyoto University):**  
+  Delivered lectures and seminars with class sizes ranging from **150 to 600 students**.
+- **Ph.D. teaching experience (KIT, 2012 – 2017):**  
+  Led exercises and seminars involving multiple teaching assistants and coordinated small-group supervision.
