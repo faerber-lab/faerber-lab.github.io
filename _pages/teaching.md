@@ -7,8 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-#### Teaching in our group
-
 Teaching in my group is research-driven and closely connected to our work in:
 
 - **Scholarly/Scientific LLMs** (RAG, citation-aware & verifiable generation)
@@ -21,7 +19,7 @@ Teaching in my group is research-driven and closely connected to our work in:
 #### Why join our courses / thesis topics?
 
 - **Research-first, publication-oriented:** real research questions (no toy assignments), often aligned with current lab directions (see [/projects/](/projects/)). The default goal is a **joint research publication** (see [/publications/](/publications/) and [/news/](/news/)); many student projects in our group have already led to papers.
-- **Research-grade artifacts:** reproducible code, strong baselines, and rigorous evaluation (incl. ablations / error analysis where meaningful).
+- **Research-grade artifacts:** reproducible code, strong baselines, and rigorous evaluation (incl. ablations / error analysis).
 - **Visibility and outreach:** strong outcomes are presented via talks/demos and communicated publicly; when suitable, we also aim for broader outreach.
 - **Close mentoring:** supervision slots are limited; we therefore prioritize strong fit and clear commitment.
 
