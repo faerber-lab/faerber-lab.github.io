@@ -2,40 +2,39 @@
 layout: page
 permalink: /student_thesis/
 title: Student Thesis Supervision
-description: Latest student thesis topics.
+description: Current student thesis topics and how to apply.
 nav: false
 nav_order: 1
 ---
 
-We offer supervision for student theses on various topics, including (but not limited to) the following areas of research:
+We supervise student theses with a **research-first, publication-oriented** mindset. The current topics are described (incl. contact person) on the linked ScaDS.AI pages below.
 
-| No. | Topic Title | Field(s) | Contact |
-| --- | ----------- | -------- | ------- |
-| 1  | [GPT-3, BERT & Co.: When to Use Which Language Model?](/blog/2024/thesis-which-llm/) | Large Language Models, NLP | Michael Färber |
-| 2  | [Using Quantum Computing in Natural Language Processing](/blog/2024/thesis-quantum-nlp) | Quantum Computing, NLP | Michael Färber |
-| 3  | [Alles nur Show? Ein automatischer Vergleich von Nachrichten vor der Bundestagswahl mit dem Koalitionsvertrag mittels Natural Language Processing](/blog/2024/thesis-alles) | NLP, Text Analysis, Political Communication | Michael Färber |
-| 4  | [Creating a Dataset of Textual Descriptions of Planned Actions and Expectations of Entities](/blog/2024/thesis-dataset-actions) | Dataset Creation, NLP | Michael Färber |
-| 5  | [Creating a Multimodal Dataset of Actions Labeled with Their Expected Durations](/blog/2024/thesis-dataset-mmodal) | Multimodality, Dataset Creation | Michael Färber |
-| 6  | [Creating a Dataset of Complex Temporal Questions for Testing Large Language Models (LLMs)](/blog/2024/thesis-dataset-temporal) | Dataset Creation, NLP, LLMs | Michael Färber |
-| 7  | [Advanced Multi-Modality Learning in Electronic Health Records for Personalized Medical Recommendations](/blog/2024/thesis-mmodal-medical) | Multi-Modality, Health Informatics, Machine Learning | Michael Färber |
-| 8  | [Fusing RDF Knowledge Graphs with Deep Learning for Advanced Recommender Systems](/blog/2024/thesis-kg-recsys) | Knowledge Graphs, Deep Learning, Recommender Systems | Michael Färber |
-| 9  | [Extending the RDF Knowledge Graph SemOpenAlex.org](/blog/2024/thesis-semopenalex-extend) | Knowledge Graphs | Michael Färber |
-| 10 | [Large Language Model-Enhanced Graph Message Passing Network for Link Prediction](/blog/2024/thesis-link-prediction) | Graph Neural Networks, LLMs | Michael Färber |
-| 11 | [Stock Market Predictions Through Deep Learning](/blog/2024/thesis-stock-market) | Machine Learning, Financial Analytics | Michael Färber |
-| 12 | [Designing and Executing a Large-Scale User Study on Scientific Text Simplification](/blog/2024/thesis-simplification) | NLP, User Studies | Michael Färber |
-| 13 | [Function-Aware Citation Retrieval and Generation](#) | Citation Retrieval, Text Generation, NLP, LLMs | tobias.schreieder@tu-dresden.de |
-| 14 | [Uncovering the Dark Side of Large Language Models: Bias, Harm, and Toxicity](#) | AI Ethics, Bias, LLMs, NLP | shuzhou.yuan@tu-dresden.de |
-| 15 | [LLM Reasoning for Interpolation of Knowledge Gaps in External Contexts for RAG](#) | Retrieval-Augmented Generation, LLM Reasoning, Information Retrieval | tim.schopf@tu-dresden.de |
-| 16 | [Reinforcement Learning from Human Feedbacks for LLM Reasoning: Cr\*p or Gold?](#) | RLHF, LLM Reasoning, Reinforcement Learning, NLP | zhan.qu@kit.edu |
-| 17 | [Explain the Unexplainable: Reinforcement Learning meets Temporal Graph Neural Networks](#) | Temporal Graph Neural Networks, Explainable AI, Reinforcement Learning | zhan.qu@kit.edu |
-| 18 | [Explain the invisible: RL meets 3D Point Clouds for Wake Vortex Detection](#) | Reinforcement Learning, 3D Vision, Explainable AI, Aviation Safety | zhan.qu@kit.edu |
-| 19 | [Reasoning Language Models go Multimodal](#) | Multimodal, LLM Reasoning, Vision-Language Integration | nicholas.popovic@tu-dresden.de |
+| No. | Topic | Field(s) | Contact |
+| --- | ----- | -------- | ------- |
+| 1 | [LLM-Augmented Knowledge Graph Search & Question Answering with MCP Servers on SemOpenAlex](https://scads.ai/theses/llm-augmented-knowledge-graph-search-question-answering-with-mcp-servers-on-semopenalex/) | Scholarly LLMs, RAG/QA, Knowledge Graphs | [Michael Färber](mailto:michael.faerber@tu-dresden.de); [A F M Mohimenul Joaa](mailto:a_f_m_mohimenul.joaa@mailbox.tu-dresden.de) |
+| 2 | [Transforming Court Decisions into Plain Language with Generative AI](https://scads.ai/theses/transforming-court-decisions-into-plain-language-with-generative-ai/) | NLP, Text Simplification, Legal AI | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 3 | [Advanced Multimodal Learning for Electronic Health Records: Toward Comprehensive and Interpretable Clinical Intelligence](https://scads.ai/theses/advanced-multimodal-learning-for-electronic-health-records-toward-comprehensive-and-interpretable-clinical-intelligence/) | Multimodal ML, Health / EHR | [Zhan Qu](mailto:zhan.qu@tu-dresden.de) |
+| 4 | [LLMs for Scientific Discovery: Designing AI Systems That Generate New Scientific Theories](https://scads.ai/theses/llms-for-scientific-discovery-designing-ai-systems-that-generate-new-scientific-theories/) | Scholarly LLMs, Scientific Discovery | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 5 | [Building Creative Large Language Models](https://scads.ai/theses/building-creative-large-language-models/) | LLMs, Generative AI | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 6 | [AI-Moderated Political Debates: Simulating Democratic Discourse with Multi-Agent LLM Systems](https://scads.ai/theses/ai-moderated-political-debates-simulating-democratic-discourse-with-multi-agent-llm-systems/) | Multi-agent LLMs, NLP | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 7 | [Detecting and Mitigating Hate Speech with Large Language Models: Evaluating Strategies and Ethical Considerations](https://scads.ai/theses/detecting-and-mitigating-hate-speech-with-large-language-models-evaluating-strategies-and-ethical-considerations/) | LLMs, Safety, Ethics | [Shuzhou Yuan](mailto:shuzhou.yuan@tu-dresden.de) |
+| 8 | [GPT-3, BERT & Co.: When to use which language model?](https://scads.ai/theses/gpt-3-bert-co-when-to-use-which-language-model/) | LLMs, NLP, Evaluation | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 9 | [Using Quantum Computing in Natural Language Processing](https://scads.ai/theses/using-quantum-computing-in-natural-language-processing/) | Quantum Computing, NLP | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 10 | [Fusing RDF Knowledge Graphs with Deep Learning for Advanced Recommender Systems](https://scads.ai/theses/fusing-rdf-knowledge-graphs-with-deep-learning-for-advanced-recommender-systems/) | Knowledge Graphs (RDF), Graph ML | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 11 | [Extending the RDF Knowledge Graph SemOpenAlex.org](https://scads.ai/theses/extending-the-rdf-knowledge-graph-semopenalex-org/) | Knowledge Graphs (RDF), SemOpenAlex | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 12 | [Stock Market Predictions through Deep Learning](https://scads.ai/theses/stock-market-predictions-through-deep-learning/) | Machine Learning, Finance | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
 
-**Important:**  
-We're seeking motivated students interested in turning their research into scientific publications. You're welcome to choose a topic that aligns with your interests. Then, reach out to the corresponding contact person and include the following in your email: (1) CV (2) Transcript of records (3) A short statement highlighting your skills and motivation for choosing the topic. 
+---
 
-We look forward to collaborating with you!
+**Important (how to apply):**  
+Please choose a topic and email the listed contact person. To keep the process efficient, please include:
 
-**Prof. Dr.-Ing. Michael Färber** has supervised over 50 Bachelor and Master theses and welcomes applications from both **English- and German-speaking students**. Many exciting thesis topics are available, including opportunities to study abroad through our partner institutions (e.g., in Japan), with the aim of co-authoring scientific papers based on your research. In the past, dedicated DAAD funding possibilities have supported our innovative projects through the IFI framework. For more details, feel free to [reach out](/contact/) 📧
+- short CV  
+- transcript of records (and, if applicable: transcript of your bachelor’s)  
+- short statement (a few sentences) highlighting your skills, motivation for the topic, and your planned thesis starting date  
+- if applicable: PDF of your bachelor’s thesis  
+- optional but helpful: GitHub/portfolio or a pointer to relevant past projects  
+
+We are also open to supervising highly motivated students from *other German universities* (and international students). Please ensure that any formal requirements (e.g., examiner requirements) are clarified with your home institution.
 
 [Back to _vacancies_](/vacancies/)
