@@ -239,6 +239,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/8_postdocE13_2025/";
+            },},{id: "projects-aicom",
+          title: 'AICOM',
+          description: "Corporate Knowledge Graph Assistant for evidence-grounded enterprise communication",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aicom/";
             },},{id: "projects-evidenz",
           title: 'EVIDENZ',
           description: "Evidence-based text generation with LLMs (citations, retrieval, traceability)",
