@@ -15,6 +15,8 @@ For contact details, please see **[/contact/](/contact/)**. For urgent requests,
 
 Languages: German / English
 
+**Press kit downloads:** **[/press-kit/](/press-kit/)**
+
 ---
 
 #### Topics I can comment on (examples)
