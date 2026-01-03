@@ -246,7 +246,7 @@ ninja.data = [{
               window.location.href = "/projects/evidenz/";
             },},{id: "projects-klartext",
           title: 'Klartext',
-          description: "AI-based Translation of Websites Into Plain Language",
+          description: "AI-based Translation of Websites Into Plain / Easy Language",
           section: "Projects",handler: () => {
               window.location.href = "/projects/klartext/";
             },},{id: "projects-llm4edu",
