@@ -24,6 +24,6 @@ ScaDS.AI Dresden / TU Dresden
   01069 Dresden, Germany  
   [📍 View on Google Maps](https://maps.app.goo.gl/uFTw5hc9hp35bbWf6)
 
-_Note for visitors:_ Access to the 7th floor is restricted. If the door is locked, please use the telephone at the entrance to ring the secretary (**preferred**) or me (phone numbers are posted next to the telephone).
+_Note for visitors:_ Access to the 7th floor is restricted. If the door is locked, please use the telephone at the entrance to ring the secretary (*preferred*) or me (phone numbers are posted next to the telephone).
 
 <img src="{{ site.baseurl }}/assets/img/Dresden.jpg" alt="Dresdner Frauenkirche" loading="lazy" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
