@@ -246,7 +246,7 @@ ninja.data = [{
               window.location.href = "/projects/aicom/";
             },},{id: "projects-evidenz",
           title: 'EVIDENZ',
-          description: "Evidence-based text generation with LLMs (citations, retrieval, traceability)",
+          description: "Evidence-based Text Generation with LLMs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/evidenz/";
             },},{id: "projects-klartext",
