@@ -1,33 +1,45 @@
 ---
 layout: page
 title: Klartext
-description: AI-based Translation of Websites Into Plain Language
+description: AI-based Translation of Websites Into Plain / Easy Language
 img: assets/img/9.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-**UPDATES:**
+Klartext builds an AI-assisted workflow to translate web content into *plain / easy language* (Leichte/Einfache Sprache).  
+The focus is on making the websites of ScaDS.AI and TU Dresden more accessible, without turning the process into a manual, page-by-page rewrite.
 
-Our demo paper related to Klartext project has been accepted at ECIR 2025! Check out the details in our paper, <a href='https://link.springer.com/chapter/10.1007/978-3-031-88717-8_32'>SimplifyMyText: An LLM-Based System for Inclusive Plain Language Text Simplification </a> {% cite färber2025simplifymytext %}.
+## Updates
+
+Our demo paper related to Klartext has been published and presented at ECIR 2025:  
+[SimplifyMyText: An LLM-Based System for Inclusive Plain Language Text Simplification](https://link.springer.com/chapter/10.1007/978-3-031-88717-8_32) {% cite färber2025simplifymytext %}
+
+## What we do
+
+Klartext combines modern language models with a practical publishing workflow:
+
+- We extract and normalize website content into a clean text representation that can be translated reliably at scale.
+- We generate plain/easy-language versions with LLMs and keep a human-in-the-loop step for confirmation and quality checks before publication.
+- We build an intuitive, lightweight tool (open source) that supports continuous improvements through user feedback and iterative refinement.
+
+The project is designed as a pilot with a clear path towards broader adoption across further TU Dresden web content.
+
+## Why it matters
+
+A significant number of people struggle with complex written language, including individuals with reading difficulties, cognitive impairments, or limited proficiency in German. At the same time, public and scientific institutions increasingly communicate through websites — and these sites are often not accessible to everyone.
+
+Plain/easy-language versions reduce barriers and enable broader participation in scientific and cultural discourse. However, producing and maintaining such content manually is expensive and does not scale well. Klartext therefore targets the practical gap: high-quality plain-language content, created efficiently and maintained sustainably with an AI-assisted workflow.
+
+## Get involved
+
+- Students: thesis / HiWi opportunities — see [/student_thesis/](/student_thesis/) (or reach out to the team below).
+- Media: for expert interviews on inclusive AI, text simplification, and AI-assisted public communication, see [/media/](/media/).
 
 ---
 
-The aim of the project “Klartext” is to use the latest large language models (e.g., GPT-4), to translate extensive content from the websites of ScaDS.AI Dresden/Leipzig and the TUD Dresden University of Technology into plain or simple language and to offer this alongside German and English. This not only serves to reduce language barriers, but also creates significant added value by promoting the inclusion and participation of all citizens in scientific and cultural discourse.
-
-A key component of the project is to significantly increase the efficiency of translation through the use of artificial intelligence and at the same time ensure consistently high quality results. This is to be achieved through extensive automation and standardization of text generation, whereby the texts are only confirmed or checked by one person before publication. In addition, the “translation” software should be intuitive and open source so that it can be used worldwide. An integrated feedback system should also offer users the opportunity to provide feedback on the translations in order to adapt the AI system and ensure a continuous improvement in translation quality.
-
-**Problem:**
-It is estimated that between 10 and 17 million people in Germany live with reading difficulties of various kinds. This group includes several million functional illiterates as well as people with reading and writing disorders and mental disabilities. In recent years, the number of non-native speakers has also increased significantly. All of these people could benefit enormously from texts written in “plain language”. However, despite the obvious need, there are still only a few small websites that provide content in plain language throughout. Even websites of state institutions lack such a service, as this involves additional effort and a lack of suitable tools for easy provision.
-
-**Lead:**
-Prof. Dr.-Ing. Michael Färber
-
-**Team Members:**
-Gina Valentin;
-Daniel Spiering
-
-**Partner:**
-Prof. Dr. Alexander Lasch (TUD Dresden University of Technology);
-Claudia Neumann (TUD Dresden University of Technology)
+Lead: Michael Färber  
+Team: Gina Valentin; Daniel Spiering  
+Partners: Prof. Dr. Alexander Lasch; Claudia Neumann  
+Start: 09/2025 · Duration: 4 months
