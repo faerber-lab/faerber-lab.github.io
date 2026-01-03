@@ -4,6 +4,7 @@ permalink: /press-kit/
 title: press kit
 description: Downloadable media assets (headshots, bios, attribution).
 nav: false
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
 #### Press kit downloads
