@@ -51,6 +51,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
+        },{id: "nav-media",
+          title: "media",
+          description: "Press information and expert interviews.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/media/";
+          },
         },{id: "post-stock-market-predictions-through-deep-learning",
       
         title: "Stock Market Predictions through Deep Learning",
