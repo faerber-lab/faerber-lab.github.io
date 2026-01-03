@@ -2,7 +2,7 @@
 layout: page
 title: EVIDENZ
 description: Evidence-based text generation with LLMs (citations, retrieval, traceability)
-img: assets/img/Logo_EVIDENZ.jpg
+img: assets/img/4.jpg
 importance: 3
 category: work
 related_publications: true
