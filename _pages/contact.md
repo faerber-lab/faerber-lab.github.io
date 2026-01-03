@@ -12,11 +12,18 @@ Full Professor for Scalable Software Architectures for Data Analytics<br />
 ScaDS.AI Dresden / TU Dresden
 
 - 📧 **Email:** [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de)  
-- ☎️ **Phone:** +49 (0)351 463 40900 (Secretary: Thomas Bruderrek)  
+- 🗓️ **Meetings:** by appointment. You are also welcome to contact me by phone.
+- 📰 **Media/press inquiries:** very welcome (I have given expert interviews, e.g., for *Sächsische Zeitung* and *dpa*).  
+  Please include your outlet, topic, and deadline (subject prefix “Press: ...” is helpful).
+- ☎️ **Phone (general inquiries):** +49 (0)351 463 40900 (Secretary: **Angèle Helies** — English / German / French)  
+- ☎️ **Phone (direct):** +49 (0)351 463-38743  
 - 🏢 **Office:**  
-  ScaDS.AI Office (Room 733)  
-  Strehlener Straße 12–14  
+  ScaDS.AI
+  Room 733
+  Strehlener Straße 14  
   01069 Dresden, Germany  
   [📍 View on Google Maps](https://maps.app.goo.gl/uFTw5hc9hp35bbWf6)
 
-<img src="{{ site.baseurl }}/assets/img/Dresden.jpg" alt="Dresdner Frauenkirche" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+_Note for visitors:_ Access to the 7th floor is restricted. If the door is locked, please use the telephone at the entrance to ring the secretary (**preferred**) or me (phone numbers are posted next to the telephone).
+
+<img src="{{ site.baseurl }}/assets/img/Dresden.jpg" alt="Dresdner Frauenkirche" loading="lazy" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
