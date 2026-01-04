@@ -1,4 +1,4 @@
-{%- assign ds = site.data.datasets -%}
+{%- assign ds = site.data.datasets | sort: "year" | reverse -%}
 {%- assign lim = include.limit | default: 999 -%}
 {%- assign boxed = include.boxed | default: "false" -%}
 
