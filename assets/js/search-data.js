@@ -58,6 +58,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/media/";
           },
+        },{id: "nav-talks",
+          title: "talks",
+          description: "Keynotes, invited talks, and selected recorded lectures.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "post-stock-market-predictions-through-deep-learning",
       
         title: "Stock Market Predictions through Deep Learning",
