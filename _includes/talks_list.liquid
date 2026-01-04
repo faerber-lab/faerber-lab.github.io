@@ -1,0 +1,23 @@
+{%- assign talks = site.data.talks | sort: "date" | reverse -%}
+
+<ul class="mb-0">
+{%- for t in talks -%}
+  <li class="mb-2">
+    <span class="text-muted">{{ t.date | date: "%m/%Y" }}</span>
+    {%- if t.kind and t.kind != "" -%}
+      <span class="text-muted"> · {{ t.kind }}</span>
+    {%- endif -%}
+    <br />
+    <strong>{{ t.title }}</strong>
+    {%- if t.event and t.event != "" -%}
+      <span class="text-muted"> · {{ t.event }}</span>
+    {%- endif -%}
+    {%- if t.location and t.location != "" -%}
+      <span class="text-muted"> · {{ t.location }}</span>
+    {%- endif -%}
+    {%- if t.url and t.url != "" -%}
+      <span class="text-muted"> · <a href="{{ t.url }}">link</a></span>
+    {%- endif -%}
+  </li>
+{%- endfor -%}
+</ul>
