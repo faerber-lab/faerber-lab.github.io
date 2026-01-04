@@ -4,7 +4,7 @@
 {%- assign boxed = include.boxed | default: "true" -%}
 
 {%- if boxed == "true" -%}
-<div class="p-3 my-3 border rounded bg-light">
+<div class="p-3 my-3 border rounded bg-light bg-opacity-50">
 {%- endif -%}
 
 {%- if data and data.papers and data.papers.size > 0 -%}
