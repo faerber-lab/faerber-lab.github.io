@@ -17,6 +17,8 @@ For contact details, please see **[/contact/](/contact/)**. For urgent requests,
 Press kit downloads (photos, bio, attribution): **[/press-kit/](/press-kit/)**  
 Languages: German / English
 
+More talks (keynotes / invited talks): **[/talks/](/talks/)**.
+
 ---
 
 #### Common media angles (ready-to-use)
