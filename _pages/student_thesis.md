@@ -9,6 +9,11 @@ nav_order: 1
 
 We supervise student theses with a **research-first, publication-oriented** mindset. The current topics are described (incl. contact person) on the linked ScaDS.AI pages below.
 
+{% include student_outcomes_compact.liquid limit_papers=4 limit_artifacts=4 %}
+
+More examples: **[/student-outcomes/](/student-outcomes/)**.
+
+
 | No. | Topic | Field(s) | Contact |
 | --- | ----- | -------- | ------- |
 | 1 | [LLM-Augmented Knowledge Graph Search & Question Answering with MCP Servers on SemOpenAlex](https://scads.ai/theses/llm-augmented-knowledge-graph-search-question-answering-with-mcp-servers-on-semopenalex/) | Scholarly LLMs, RAG/QA, Knowledge Graphs | [Michael Färber](mailto:michael.faerber@tu-dresden.de); [A F M Mohimenul Joaa](mailto:a_f_m_mohimenul.joaa@mailbox.tu-dresden.de) |
