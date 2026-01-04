@@ -1,53 +1,78 @@
 {%- assign data = site.data.student_outcomes -%}
-{%- assign lp = include.limit_papers | default: 3 -%}
-{%- assign la = include.limit_artifacts | default: 3 -%}
+{%- assign lp = include.limit_papers | default: 4 -%}
+{%- assign la = include.limit_artifacts | default: 4 -%}
+{%- assign boxed = include.boxed | default: "true" -%}
+
+{%- if boxed == "true" -%}
+<div class="p-3 my-3 border rounded bg-light">
+{%- endif -%}
 
 {%- if data and data.papers and data.papers.size > 0 -%}
-<strong>Student-led papers (selected):</strong>
-<ul>
-  {%- for p in data.papers limit: lp -%}
-    {%- if p.url contains '://' -%}
+  <strong>Student-led papers (selected):</strong>
+  <ul class="mb-3">
+    {%- for p in data.papers limit: lp -%}
       {%- assign href = p.url -%}
-    {%- else -%}
-      {%- assign href = p.url | relative_url -%}
-    {%- endif -%}
-    <li>
-      <a href="{{ href }}">{{ p.title }}</a>
-      {%- if p.venue or p.year -%}
-        — {{ p.venue }}{% if p.year %} {{ p.year }}{% endif %}
+      {%- unless href contains '://' -%}
+        {%- assign href = p.url | relative_url -%}
+      {%- endunless -%}
+
+      {%- assign venue_year = "" -%}
+      {%- if p.venue and p.venue != "" -%}
+        {%- assign venue_year = p.venue -%}
       {%- endif -%}
-      {%- if p.students and p.students.size > 0 -%}
-        (students: {{ p.students | join: ", " }})
+
+      {%- if p.year and p.year != "" -%}
+        {%- assign year_str = p.year | append: "" -%}
+        {%- unless venue_year contains year_str -%}
+          {%- if venue_year != "" -%}
+            {%- assign venue_year = venue_year | append: " " | append: year_str -%}
+          {%- else -%}
+            {%- assign venue_year = year_str -%}
+          {%- endif -%}
+        {%- endunless -%}
       {%- endif -%}
-      {%- if p.blurb and p.blurb != "" -%}
-        — {{ p.blurb }}
-      {%- endif -%}
-    </li>
-  {%- endfor -%}
-</ul>
+
+      <li class="mb-1">
+        <a href="{{ href }}">{{ p.title }}</a>
+        {%- if venue_year != "" -%}
+          <span class="text-muted"> — {{ venue_year }}</span>
+        {%- endif -%}
+        {%- if p.students and p.students.size > 0 -%}
+          <span class="text-muted"> · students: {{ p.students | join: ", " }}</span>
+        {%- endif -%}
+        {%- if p.blurb and p.blurb != "" -%}
+          <span class="text-muted"> — {{ p.blurb }}</span>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
 {%- endif -%}
 
 {%- if data and data.artifacts and data.artifacts.size > 0 -%}
-<strong>Open artifacts (selected):</strong>
-<ul>
-  {%- for a in data.artifacts limit: la -%}
-    {%- if a.url contains '://' -%}
+  <strong>Open artifacts (selected):</strong>
+  <ul class="mb-0">
+    {%- for a in data.artifacts limit: la -%}
       {%- assign href = a.url -%}
-    {%- else -%}
-      {%- assign href = a.url | relative_url -%}
-    {%- endif -%}
-    <li>
-      <a href="{{ href }}">{{ a.title }}</a>
-      {%- if a.kind and a.kind != "" -%}
-        — {{ a.kind }}
-      {%- endif -%}
-      {%- if a.students and a.students.size > 0 -%}
-        (students: {{ a.students | join: ", " }})
-      {%- endif -%}
-      {%- if a.blurb and a.blurb != "" -%}
-        — {{ a.blurb }}
-      {%- endif -%}
-    </li>
-  {%- endfor -%}
-</ul>
+      {%- unless href contains '://' -%}
+        {%- assign href = a.url | relative_url -%}
+      {%- endunless -%}
+
+      <li class="mb-1">
+        <a href="{{ href }}">{{ a.title }}</a>
+        {%- if a.kind and a.kind != "" -%}
+          <span class="text-muted"> — {{ a.kind }}</span>
+        {%- endif -%}
+        {%- if a.students and a.students.size > 0 -%}
+          <span class="text-muted"> · students: {{ a.students | join: ", " }}</span>
+        {%- endif -%}
+        {%- if a.blurb and a.blurb != "" -%}
+          <span class="text-muted"> — {{ a.blurb }}</span>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
+{%- if boxed == "true" -%}
+</div>
 {%- endif -%}
