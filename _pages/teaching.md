@@ -23,6 +23,10 @@ Teaching in my group is research-driven and closely connected to our work in:
 - **Visibility and outreach:** strong outcomes are presented via talks/demos and communicated publicly; when suitable, we also aim for broader outreach.
 - **Close mentoring:** supervision slots are limited; we therefore prioritize strong fit and clear commitment.
 
+{% include student_outcomes_compact.liquid limit_papers=4 limit_artifacts=4 %}
+
+More examples: **[/outcomes/](/outcomes/)**.
+
 ---
 
 #### Semester Course Offerings at TU Dresden
