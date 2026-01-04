@@ -25,7 +25,7 @@ Teaching in my group is research-driven and closely connected to our work in:
 
 {% include student_outcomes_compact.liquid limit_papers=4 limit_artifacts=4 %}
 
-More examples: **[/outcomes/](/outcomes/)**.
+More examples: **[/student-outcomes/](/student-outcomes/)**.
 
 ---
 
