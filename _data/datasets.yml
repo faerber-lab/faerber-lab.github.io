@@ -1,0 +1,228 @@
+# _data/datasets.yml
+# Selected datasets / knowledge graphs / resources from our group (curated).
+# Fields:
+# - title: name of the dataset/resource
+# - kind: Dataset | Knowledge Graph | Embeddings | GML Dataset | Software
+# - what: one-line description (keep crisp)
+# - year: release year (approx. OK)
+# - license: short license string (leave empty if unclear)
+# - tags: short tags for filtering / grouping
+# - links: list of relevant URLs (homepage, Zenodo/DOI, paper, code, etc.)
+
+- title: "SemOpenAlex"
+  kind: "Knowledge Graph"
+  what: "Massive scholarly RDF knowledge graph (publications, authors, venues, concepts)."
+  year: 2023
+  license: "CC0"
+  tags: ["Scholarly Data", "RDF", "Knowledge Graph"]
+  links:
+    - label: "Homepage"
+      url: "https://semopenalex.org/"
+    - label: "Paper (arXiv)"
+      url: "https://arxiv.org/abs/2308.03671"
+    - label: "Embeddings (Zenodo v1)"
+      url: "https://doi.org/10.5281/zenodo.7912776"
+
+- title: "Linked Papers With Code (LPWC)"
+  kind: "Knowledge Graph"
+  what: "RDF KG for ~400k ML papers incl. tasks, datasets, methods, evaluations, and results."
+  year: 2024
+  license: "CC BY 4.0"
+  tags: ["Machine Learning", "RDF", "Knowledge Graph"]
+  links:
+    - label: "Homepage"
+      url: "https://linkedpaperswithcode.com/"
+    - label: "Zenodo (RDF KG snapshot)"
+      url: "https://doi.org/10.5281/zenodo.13881433"
+    - label: "Paper (arXiv)"
+      url: "https://arxiv.org/abs/2310.20475"
+    - label: "Code (pipeline)"
+      url: "https://github.com/davidlamprecht/linkedpaperswithcode"
+
+- title: "Data Set Knowledge Graph (DSKG)"
+  kind: "Knowledge Graph"
+  what: "RDF KG of datasets linked to publications that mention them."
+  year: 2021
+  license: ""
+  tags: ["Datasets", "RDF", "Knowledge Graph"]
+  links:
+    - label: "Homepage"
+      url: "https://dskg.org/"
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.4478921"
+
+- title: "unarXive (open subset)"
+  kind: "Dataset"
+  what: "Structured full-text corpus from arXiv (open subset: permissively licensed papers)."
+  year: 2023
+  license: "See arXiv licenses"
+  tags: ["Scholarly Full Text", "NLP", "Citations"]
+  links:
+    - label: "Homepage"
+      url: "https://unarxive.org/"
+    - label: "Zenodo (open subset)"
+      url: "https://doi.org/10.5281/zenodo.7752615"
+    - label: "Zenodo (full version)"
+      url: "https://doi.org/10.5281/zenodo.7752754"
+    - label: "Paper (arXiv)"
+      url: "https://arxiv.org/abs/2303.14957"
+    - label: "Code"
+      url: "https://github.com/IllDepence/unarXive"
+
+- title: "Microsoft Academic Knowledge Graph (MAKG)"
+  kind: "Knowledge Graph"
+  what: "Massive RDF knowledge graph of scholarly metadata."
+  year: 2021
+  license: ""
+  tags: ["Scholarly Data", "RDF", "Knowledge Graph"]
+  links:
+    - label: "Homepage"
+      url: "https://makg.org/"
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.4617285"
+    - label: "Paper (ISWC'19, author copy)"
+      url: "/assets/pdf/publications/MAKG_ISWC2019.pdf"
+
+- title: "FAIRnets"
+  kind: "Knowledge Graph"
+  what: "RDF dataset with metadata about neural networks (FAIRnets KG + search)."
+  year: 2019
+  license: "CC BY 4.0"
+  tags: ["Neural Networks", "Metadata", "RDF", "Knowledge Graph"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.3885249"
+    - label: "Search system"
+      url: "https://km.aifb.kit.edu/services/fairnets/"
+
+- title: "HF-NLP10K"
+  kind: "Dataset"
+  what: "Structured dataset of 10,000+ Hugging Face NLP models with enriched metadata."
+  year: 2025
+  license: "CC BY 4.0"
+  tags: ["Hugging Face", "Model Metadata", "LLMs"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.15682522"
+
+- title: "SemRepo"
+  kind: "Knowledge Graph"
+  what: "RDF KG of ~200k GitHub repos linked to scientific papers (incl. SPARQL endpoint + ontology)."
+  year: 2025
+  license: "CC BY 4.0"
+  tags: ["Open Science", "GitHub", "RDF", "Knowledge Graph"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.15399468"
+    - label: "Homepage"
+      url: "https://semrepo.org/"
+
+- title: "Graph Machine Learning Dataset LPWC"
+  kind: "GML Dataset"
+  what: "Heterogeneous graph ML benchmark derived from LPWC (papers/datasets/tasks/methods + features)."
+  year: 2023
+  license: "CC BY-SA 4.0"
+  tags: ["Graph ML", "Benchmark", "LPWC"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.10299366"
+
+- title: "Graph Machine Learning Dataset SOA-SW"
+  kind: "GML Dataset"
+  what: "Heterogeneous graph ML benchmark derived from SemOpenAlex-SemanticWeb."
+  year: 2023
+  license: "CC0"
+  tags: ["Graph ML", "Benchmark", "SemOpenAlex"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.10299429"
+
+- title: "RDF Knowledge Graph SemOpenAlex-SemanticWeb"
+  kind: "Knowledge Graph"
+  what: "Subset of SemOpenAlex focusing on the Semantic Web community (with embeddings)."
+  year: 2023
+  license: ""
+  tags: ["RDF", "Knowledge Graph", "SemOpenAlex"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.10299132"
+
+- title: "Graph Machine Learning Dataset AIFB (AIFB-GML)"
+  kind: "GML Dataset"
+  what: "Heterogeneous graph ML dataset derived from the AIFB RDF KG (AutoRDF2GML)."
+  year: 2024
+  license: "CC BY 4.0"
+  tags: ["Graph ML", "Benchmark", "RDF"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.10989596"
+
+- title: "Graph Machine Learning Dataset LinkedMDB (LinkedMDB-GML)"
+  kind: "GML Dataset"
+  what: "Heterogeneous graph ML dataset derived from the LinkedMDB RDF KG (AutoRDF2GML)."
+  year: 2024
+  license: "CC BY 4.0"
+  tags: ["Graph ML", "Benchmark", "RDF"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.11072438"
+
+- title: "A Multidimensional Dataset for Analyzing and Detecting News Bias (Crowdsourcing)"
+  kind: "Dataset"
+  what: "Sentence- and article-level bias annotations for news (Ukraine crisis; multi-dimensional labels)."
+  year: 2020
+  license: "CC BY-NC 4.0"
+  tags: ["NLP", "Media Bias", "Crowdsourcing"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.3885351"
+
+- title: "BreXLiMe"
+  kind: "Dataset"
+  what: "Semantically enriched cross-media dataset for Brexit (news, social media, TV; multilingual)."
+  year: 2020
+  license: ""
+  tags: ["Linked Data", "NLP", "Media", "Brexit"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.3661402"
+
+- title: "xLiD-Lexica"
+  kind: "Dataset"
+  what: "Cross-lingual Linked Data lexica (RDF) for multilingual/cross-lingual information access."
+  year: 2014
+  license: ""
+  tags: ["Linked Data", "NLP", "Cross-lingual"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.3544852"
+
+- title: "Data for Cyrillic Reference Parsing"
+  kind: "Dataset"
+  what: "Synthetic + manually annotated references for citation field extraction in Cyrillic scripts."
+  year: 2021
+  license: ""
+  tags: ["NLP", "Citations", "Low-resource"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.5801913"
+
+- title: "Crunchbase in RDF (dataset snapshot, Oct 2015)"
+  kind: "Dataset"
+  what: "RDF dataset snapshot of Crunchbase (jobs, websites, organizations, people, products, acquisitions)."
+  year: 2016
+  license: "CC BY-NC 4.0 / CC BY 4.0 (historic snapshot; see record note)"
+  tags: ["Linked Data", "Knowledge Graph", "Startups"]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.5281/zenodo.3270904"
+
+- title: "Crunchbase in RDF (Linked Data API / source code)"
+  kind: "Software"
+  what: "Source code for a Linked Data API (wrapper) for Crunchbase."
+  year: 2018
+  license: "CC BY 4.0"
+  tags: ["Linked Data", "API", "Knowledge Graph"]
+  links:
+    - label: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.2160359"
