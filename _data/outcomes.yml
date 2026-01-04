@@ -1,0 +1,184 @@
+# _data/outcomes.yml
+# Selected student-involved publications and artifacts (examples).
+
+papers:
+  - title: "SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation"
+    venue: "CIKM 2025 (demo)"
+    year: 2025
+    url: "https://arxiv.org/abs/2510.15682"
+    students:
+      - "Ines Besrour (M.Sc.)"
+      - "Jingbo He (M.Sc.)"
+    blurb: "Multi-agent RAG framework for scientific QA with inline citations and supporting evidence."
+
+  - title: "ComplexTempQA: A 100m Dataset for Complex Temporal Question Answering"
+    venue: "EMNLP 2025"
+    year: 2025
+    url: "https://aclanthology.org/2025.emnlp-main.463/"
+    students:
+      - "Raphael Gruber (M.Sc.)"
+    blurb: "100M-scale benchmark for complex temporal question answering (Wikipedia/Wikidata)."
+
+  - title: "In-Context Learning for Information Extraction using Fully Synthetic Demonstrations"
+    venue: "XLLM@ACL 2025"
+    year: 2025
+    url: "https://arxiv.org/abs/2507.05997"
+    students:
+      - "Ashish Kangen (M.Sc.)"
+    blurb: "Synthetic demonstration generation + retrieval-based in-context learning for document-level IE."
+
+  - title: "SimplifyMyText: An LLM-Based System for Inclusive Plain Language Text Simplification"
+    venue: "ECIR 2025"
+    year: 2025
+    url: "https://arxiv.org/abs/2504.14223"
+    students:
+      - "Kyuri Im (M.Sc.)"
+    blurb: "LLM-based system for plain-language simplification with configurable audiences and input formats."
+
+  - title: "CoDy: Counterfactual Explainers for Dynamic Graphs"
+    venue: "ICML 2025"
+    year: 2025
+    url: "https://openreview.net/forum?id=FE9QN8d536&noteId=WKlQyq8iA9"
+    students:
+      - "Daniel Gomm (M.Sc.)"
+    blurb: "Counterfactual explanations for temporal/dynamic graph neural networks."
+
+  - title: "Hateful Person or Hateful Model? Investigating the Role of Personas in Hate Speech Detection by Large Language Models"
+    venue: "PALS@EMNLP 2025"
+    year: 2025
+    url: "https://arxiv.org/abs/2506.08593"
+    students:
+      - "Mario Tawfelis (M.Sc.)"
+    blurb: "How persona prompts affect LLM fairness in hate-speech detection."
+
+  - title: "Optimizing Small Transformer-Based Language Models for Multi-Label Sentiment Analysis in Short Texts"
+    venue: "2025 (workshop/preprint)"
+    year: 2025
+    url: "https://arxiv.org/abs/2509.04982"
+    students:
+      - "Julius Neumann (M.Sc.)"
+      - "Robert Lange (M.Sc.)"
+    blurb: "How to optimize small Transformers for short-text multi-label sentiment under limited context."
+
+  - title: "Future Timelines: Extraction and Visualization of Future-related Content From News Articles"
+    venue: "WSDM 2024"
+    year: 2024
+    url: "/assets/pdf/publications/Future-Timelines_WSDM2024.pdf"
+    students:
+      - "Juwal Regev (M.Sc.)"
+    blurb: "Extract and summarize future-related statements from news, then present them on an interactive timeline."
+
+  - title: "Benefits of international collaboration in computer science: a case study of China, the European Union, and the United States"
+    venue: "Scientometrics"
+    year: 2024
+    url: "https://link.springer.com/article/10.1007/s11192-023-04902-3"
+    students:
+      - "Alberto Gómez-Espés (M.Sc.)"
+    blurb: "Scientometric study of collaboration patterns and citation impact across regions."
+
+  - title: "The Effects of Hallucinations in Synthetic Training Data for Relation Extraction"
+    venue: "KBC-LM@ISWC 2024"
+    year: 2024
+    url: "https://ceur-ws.org/Vol-3853/paper4.pdf"
+    students:
+      - "Steven Rogulsky (M.Sc.)"
+    blurb: "Empirical analysis of how hallucinated synthetic data affects relation extraction performance."
+
+  - title: "AutoRDF2GML: Facilitating RDF Integration in Graph Machine Learning"
+    venue: "ISWC 2024"
+    year: 2024
+    url: "/assets/pdf/publications/AutoRDF2GML_ISWC24.pdf"
+    students:
+      - "David Lamprecht (M.Sc.)"
+    blurb: "Framework to transform RDF into ready-to-use heterogeneous graphs for machine learning."
+
+  - title: "Biases in Scholarly Recommender Systems: Impact, Prevalence, and Mitigation"
+    venue: "Scientometrics"
+    year: 2023
+    url: "/assets/pdf/publications/ScholarBias_Scientometrics2023.pdf"
+    students:
+      - "Melissa Coutinho (B.Sc.)"
+    blurb: "Survey and framework for understanding and mitigating bias in scholarly recommendation."
+
+  - title: "Linked Papers With Code: The Latest in Machine Learning as an RDF Knowledge Graph"
+    venue: "ISWC 2023"
+    year: 2023
+    url: "/assets/pdf/publications/LPWC_ISWC2023.pdf"
+    students:
+      - "David Lamprecht (M.Sc.)"
+    blurb: "RDF knowledge graph modeling Papers With Code at scale."
+
+  - title: "Recommending Datasets for Scientific Problem Descriptions"
+    venue: "CIKM 2021"
+    year: 2021
+    url: "https://dl.acm.org/doi/10.1145/3459637.3482166"
+    students:
+      - "Ann-Kathrin Leisinger (B.Sc.)"
+    blurb: "Dataset recommendation from problem descriptions using academic text evidence."
+
+artifacts:
+  - title: "SQuAI (code)"
+    kind: "Code"
+    url: "https://github.com/faerber-lab/SQuAI"
+    students:
+      - "Ines Besrour (M.Sc.)"
+      - "Jingbo He (M.Sc.)"
+    blurb: "Multi-agent RAG system for scientific QA with citations."
+
+  - title: "SQuAI (demo)"
+    kind: "Demo"
+    url: "https://squai.scads.ai/"
+    students:
+      - "Ines Besrour (M.Sc.)"
+      - "Jingbo He (M.Sc.)"
+    blurb: "Interactive demo of scientific QA with traceable sources."
+
+  - title: "ComplexTempQA (dataset + code)"
+    kind: "Dataset"
+    url: "https://github.com/DataScienceUIBK/ComplexTempQA"
+    students:
+      - "Raphael Gruber (M.Sc.)"
+    blurb: "Repository for the 100M-scale temporal QA benchmark."
+
+  - title: "CoDy (code)"
+    kind: "Code"
+    url: "https://github.com/daniel-gomm/CoDy"
+    students:
+      - "Daniel Gomm (M.Sc.)"
+    blurb: "Reference implementation for counterfactual explanations on dynamic graphs."
+
+  - title: "SimplifyMyText (system)"
+    kind: "Demo"
+    url: "https://simplifymytext.org/"
+    students:
+      - "Kyuri Im (M.Sc.)"
+    blurb: "Plain-language text simplification system."
+
+  - title: "Short-text sentiment Transformers (code)"
+    kind: "Code"
+    url: "https://github.com/faerber-lab/shorttext-sentiment-transformers"
+    students:
+      - "Julius Neumann (M.Sc.)"
+      - "Robert Lange (M.Sc.)"
+    blurb: "Optimizing small Transformers for short-text sentiment."
+
+  - title: "AutoRDF2GML (code)"
+    kind: "Code"
+    url: "https://github.com/davidlamprecht/AutoRDF2GML"
+    students:
+      - "David Lamprecht (M.Sc.)"
+    blurb: "Code for transforming RDF into graph ML representations."
+
+  - title: "Linked Papers With Code (code)"
+    kind: "Code"
+    url: "https://github.com/davidlamprecht/linkedpaperswithcode"
+    students:
+      - "David Lamprecht (M.Sc.)"
+    blurb: "Code pipeline for the LPWC knowledge graph."
+
+  - title: "Linked Papers With Code (data snapshot)"
+    kind: "Dataset"
+    url: "https://zenodo.org/records/13881433"
+    students:
+      - "David Lamprecht (M.Sc.)"
+    blurb: "Archived dataset snapshot for LPWC."
