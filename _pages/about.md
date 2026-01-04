@@ -28,3 +28,5 @@ Welcome! I’m **Michael Färber**, a full professor at ScaDS.AI, TU Dresden, Ge
 In addition to core AI research, we actively explore applications in scientific domains, such as large-scale information extraction, knowledge curation, and AI-assisted scientific discovery. For collaboration, feel free to reach out via [email](mailto:michael.faerber@tu-dresden.de) 📧
 
 Explore our latest <a href='/vacancies/'>openings </a> and <a href='/student_thesis/'>thesis topics</a> to join our group.
+
+See als our **[/datasets/](/datasets/)**.
