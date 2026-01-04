@@ -11,7 +11,7 @@ We supervise student theses with a **research-first, publication-oriented** mind
 
 {% include student_outcomes_compact.liquid limit_papers=4 limit_artifacts=4 %}
 
-More examples: **[/student-outcomes/](/student-outcomes/)**.
+<div class="mt-1"><small>More examples: <a href="/student-outcomes/">/student-outcomes/</a></small></div>
 
 
 | No. | Topic | Field(s) | Contact |
