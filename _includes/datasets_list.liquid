@@ -1,0 +1,78 @@
+{%- assign ds = site.data.datasets -%}
+{%- assign lim = include.limit | default: 999 -%}
+{%- assign boxed = include.boxed | default: "false" -%}
+
+{%- if boxed == "true" -%}
+<div class="p-3 my-3 border rounded bg-light bg-opacity-25">
+{%- endif -%}
+
+<ul class="mb-0">
+{%- for d in ds limit: lim -%}
+
+  {%- comment -%}Pick a primary link for the title (prefer "Homepage", otherwise first link){%- endcomment -%}
+  {%- assign primary = nil -%}
+  {%- if d.links and d.links.size > 0 -%}
+    {%- assign primary = d.links[0] -%}
+    {%- for l in d.links -%}
+      {%- if l.label == "Homepage" -%}
+        {%- assign primary = l -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- assign href_primary = "" -%}
+  {%- if primary and primary.url and primary.url != "" -%}
+    {%- assign href_primary = primary.url -%}
+    {%- unless href_primary contains '://' -%}
+      {%- assign href_primary = href_primary | relative_url -%}
+    {%- endunless -%}
+  {%- endif -%}
+
+  <li class="mb-3">
+    <strong>
+      {%- if href_primary != "" -%}
+        <a href="{{ href_primary }}">{{ d.title }}</a>
+      {%- else -%}
+        {{ d.title }}
+      {%- endif -%}
+    </strong>
+
+    {%- if d.kind or d.year -%}
+      <span class="text-muted">
+        — {%- if d.kind -%}{{ d.kind }}{%- endif -%}{%- if d.kind and d.year -%}, {%- endif -%}{%- if d.year -%}{{ d.year }}{%- endif -%}
+      </span>
+    {%- endif -%}
+
+    {%- if d.tags and d.tags.size > 0 -%}
+      <span class="text-muted"> · {{ d.tags | join: ", " }}</span>
+    {%- endif -%}
+
+    {%- if d.what and d.what != "" -%}
+      <br /><span class="text-muted">{{ d.what }}</span>
+    {%- endif -%}
+
+    {%- if d.license and d.license != "" -%}
+      <br /><small class="text-muted">License: {{ d.license }}</small>
+    {%- endif -%}
+
+    {%- if d.links and d.links.size > 0 -%}
+      <br /><small class="text-muted">
+        Links:
+        {%- for l in d.links -%}
+          {%- assign href = l.url -%}
+          {%- unless href contains '://' -%}
+            {%- assign href = href | relative_url -%}
+          {%- endunless -%}
+          <a href="{{ href }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}
+        {%- endfor -%}
+      </small>
+    {%- endif -%}
+  </li>
+
+{%- endfor -%}
+</ul>
+
+{%- if boxed == "true" -%}
+</div>
+{%- endif -%}
