@@ -1,0 +1,45 @@
+# _data/media_mentions.yml
+# Press coverage and public outreach (selected).
+# type: press | feature | public_outreach
+
+- date: 2025-07-18
+  type: press
+  outlet: "WELT"
+  title: "Energie: Wenn ChatGPT und Co. eigene Atomkraftwerke brauchen"
+  url: "https://www.welt.de/wissenschaft/article256389960/Energieverbrauch-KI-Wenn-ChatGPT-und-Co-eigene-Atomkraftwerke-brauchen.html"
+  note: "Quoted as AI expert (TU Dresden) on energy demand of LLMs."
+
+- date: 2025-07-10
+  type: press
+  outlet: "GEO"
+  title: "Klimakiller oder Retter? Über Künstliche Intelligenzen und den Hunger nach Strom"
+  url: "https://www.geo.de/wissen/klimakiller-oder-retter--ueber-kuenstliche-intelligenzen-und-den-hunger-nach-strom-35882488.html"
+  note: "Quoted as AI expert (TU Dresden) on energy use and LLMs."
+
+- date: 2022-06-30
+  type: public_outreach
+  outlet: "ZKM | Zentrum für Kunst und Medien Karlsruhe"
+  title: "#meetdigilog — Der Einfluss von Unternehmen auf die KI-Forschung anhand von Publikationen"
+  url: "https://zkm.de/de/veranstaltung/2022/06/meetdigilog"
+  note: "Online talk/discussion (digilog@bw)."
+
+- date: 2021-03-18
+  type: public_outreach
+  outlet: "ZKM | Zentrum für Kunst und Medien Karlsruhe"
+  title: "Digiloglounge Digital — Mit Künstlicher Intelligenz gegen Stimmungsmache"
+  url: "https://zkm.de/de/media/videos/digiloglounge-digital-5"
+  note: "Recorded talk/discussion (video)."
+
+- date: 2021-02-02
+  type: press
+  outlet: "Badische Neueste Nachrichten (BNN)"
+  title: "Maschinen für den Frieden"
+  url: "https://www.wiwi.kit.edu/6417.php"
+  note: "Print article (clipping hosted on KIT domain)."
+
+- date: 2020-12-01
+  type: press
+  outlet: "lookKIT (issue 4/2020)"
+  title: "Maschinen für den Frieden"
+  url: "https://www.sts.kit.edu/downloads/lookkit-202004.pdf"
+  note: "Multi-page magazine feature (PDF)."
