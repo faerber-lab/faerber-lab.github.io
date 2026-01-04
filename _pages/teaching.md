@@ -27,6 +27,8 @@ Teaching in my group is research-driven and closely connected to our work in:
 
 More examples: **[/student-outcomes/](/student-outcomes/)**.
 
+How we work (projects → papers): **[/how-we-work/](/how-we-work/)**.
+
 ---
 
 #### Semester Course Offerings at TU Dresden
