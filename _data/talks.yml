@@ -1,0 +1,72 @@
+# _data/talks.yml
+# Selected keynotes / invited talks / recorded lectures.
+
+- date: 2025-10-30
+  kind: "Invited talk"
+  title: "AI with a Conscience: Aligning LLMs with Knowledge, Rules, and Verifiability"
+  event: "Huazhong University of Science and Technology (HUST)"
+  location: "Wuhan, China"
+  url: "https://scads.ai/michael-faerber-in-china-2025/"
+
+- date: 2025-10-16
+  kind: "University-wide inaugural lecture (video)"
+  title: "Will AI Replace Scientists? From Papers to Insights with Large Language Models and Knowledge Graphs"
+  event: "TU Dresden / ScaDS.AI"
+  location: "Dresden, Germany"
+  url: "https://www.youtube.com/watch?v=GFmRx9eBAsg&pp=ygUkaW5hdWd1cmF0aW9uIGxlY3R1cmUgbWljaGFlbCBmw6RyYmVy"
+
+- date: 2025-09-03
+  kind: "Keynote"
+  title: "LLMs and Knowledge Graphs for Science: From Papers to Insights"
+  event: "SEMANTiCS 2025"
+  location: "Vienna, Austria"
+  url: "https://infai.org/semantics2025/"
+
+- date: 2024-10-30
+  kind: "Inaugural lecture"
+  title: "LLMs und Wissensgraphen für die Wissenschaft: Von Publikationen zu Erkenntnissen"
+  event: "TU Dresden"
+  location: "Dresden, Germany"
+  url: "https://tu-dresden.de/tu-dresden/veranstaltungen/veranstaltungskalender/llms-und-wissensgraphen-fuer-die-wissenschaft-von-publikationen-zu-erkenntnissen"
+
+- date: 2023-01-01
+  kind: "Invited talk"
+  title: "Extracting and Recommending Scientific Knowledge"
+  event: "Lecture Days, University of Salzburg"
+  location: "Salzburg, Austria"
+  url: ""
+
+- date: 2022-09-23
+  kind: "Invited talk"
+  title: "Knowledge Graph-based Recommendation for AI-Powered Research"
+  event: "DiSCourse Seminar, University of Innsbruck"
+  location: "Innsbruck, Austria"
+  url: "https://www.uibk.ac.at/en/disc/events/discourse-faerber/"
+
+- date: 2022-07-01
+  kind: "Invited talk"
+  title: "Creating and Using Knowledge Graphs for Trustworthy AI"
+  event: "BMW Group"
+  location: "Virtual event"
+  url: ""
+
+- date: 2021-11-24
+  kind: "Invited talk (webinar)"
+  title: "Using Scientific Publications and Scientific Knowledge Graphs for Innovation Management"
+  event: "Fraunhofer IAO webinar “Smart Innovation”"
+  location: "Virtual event"
+  url: "https://www.iao.fraunhofer.de/de/veranstaltungen/2021/smart-innovation-nov.html"
+
+- date: 2020-09-28
+  kind: "Invited talk"
+  title: "Creating and Using a Large Scholarly Knowledge Graph"
+  event: "INFORMATIK 2020 (GI Annual Conference)"
+  location: "Virtual event"
+  url: "https://gi.de/veranstaltung/informatik-2020-back-to-the-future"
+
+- date: 2018-02-01
+  kind: "Invited lecture & science dialogue"
+  title: "Becoming a Computer Science Researcher from Germany"
+  event: "Yamashiro High School"
+  location: "Kyoto, Japan"
+  url: ""
