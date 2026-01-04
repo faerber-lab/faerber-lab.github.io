@@ -13,8 +13,8 @@ ScaDS.AI Dresden / TU Dresden
 
 - 📧 **Email:** [michael.faerber@tu-dresden.de](mailto:michael.faerber@tu-dresden.de)  
 - 🗓️ **Meetings:** by appointment. You are also welcome to contact me by phone.
-- 📰 **Media/press inquiries:** very welcome — see **[/media/](/media/)** for topics and interview logistics.  
-  (Subject prefix “Press: ...” is helpful.)
+- 📰 **Media/press inquiries:** very welcome — see **[/media/](/media/)** for topics and interview logistics.
+- 🎤 **Talks / invited presentations:** **[/talks/](/talks/)**
 - ☎️ **Phone (general inquiries):** +49 (0)351 463 40900 (Secretary: **Angèle Helies** — English / German / French)  
 - ☎️ **Phone (direct):** +49 (0)351 463-38743  
 - 🏢 **Office:**  
