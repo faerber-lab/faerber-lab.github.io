@@ -13,6 +13,8 @@ We supervise student theses with a **research-first, publication-oriented** mind
 
 <div class="mt-1"><small>More examples: <a href="/student-outcomes/">/student-outcomes/</a></small></div>
 
+How we work (publication mindset, expectations): **[/how-we-work/](/how-we-work/)**.
+
 
 | No. | Topic | Field(s) | Contact |
 | --- | ----- | -------- | ------- |
