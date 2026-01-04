@@ -65,6 +65,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/talks/";
           },
+        },{id: "nav-datasets",
+          title: "datasets",
+          description: "Selected datasets and resources from our group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/datasets/";
+          },
         },{id: "post-stock-market-predictions-through-deep-learning",
       
         title: "Stock Market Predictions through Deep Learning",
