@@ -1,0 +1,23 @@
+{%- assign mentions = site.data.media_mentions | sort: "date" | reverse -%}
+{%- assign lim = include.limit | default: 999 -%}
+
+<ul class="mb-0">
+{%- for m in mentions limit: lim -%}
+  <li class="mb-2">
+    <span class="text-muted">{{ m.date | date: "%m/%Y" }}</span>
+    {%- if m.type and m.type != "" -%}
+      <span class="text-muted"> · {{ m.type | replace: "_", " " }}</span>
+    {%- endif -%}
+    <br />
+    <strong>{{ m.outlet }}</strong>
+    {%- if m.url and m.url != "" -%}
+      : <a href="{{ m.url }}">{{ m.title }}</a>
+    {%- else -%}
+      : {{ m.title }}
+    {%- endif -%}
+    {%- if m.note and m.note != "" -%}
+      <br /><small class="text-muted">{{ m.note }}</small>
+    {%- endif -%}
+  </li>
+{%- endfor -%}
+</ul>
