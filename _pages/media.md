@@ -49,14 +49,8 @@ Languages: German / English
 
 #### Selected coverage (examples)
 
-- KIT feature: **“Maschinen für den Frieden”** (online)  
-  https://www.kit.edu/kit/technik-folgen-visionen.php  *(section: “Maschinen für den Frieden”)*
-
-- lookKIT / KIT publication (PDF):  
-  https://www.sts.kit.edu/downloads/lookkit-202004.pdf
-
-- BNN print coverage (clipping hosted on KIT domain):  
-  https://www.wiwi.kit.edu/6417.php
+{% include media_mentions_list.liquid limit=3 %}
+More: **[/media-mentions/](/media-mentions/)**.
 
 ---
 
