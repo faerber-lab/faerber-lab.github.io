@@ -5,6 +5,8 @@ title: publications
 description: List of Publications
 nav: true
 nav_order: 3
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
 For complete and updated list, see my **<a href='https://scholar.google.de/citations?user=Jb7JUOsAAAAJ&view_op=list_works&sortby=pubdate'>Google Scholar profile</a>**.
