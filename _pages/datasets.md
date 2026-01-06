@@ -12,3 +12,4 @@ og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 Selected datasets and resources (curated). For context and publications, see **[/publications/](/publications/)** and **[/projects/](/projects/)**.
 
 {% include datasets_list.liquid %}
+{% include datasets_schema.liquid %}
