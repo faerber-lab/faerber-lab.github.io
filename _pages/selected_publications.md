@@ -5,6 +5,8 @@ title: Selected Publications
 description: Selected publications with short summaries.
 nav: false
 nav_order: 2
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
 Below is a curated list of ten of my publications (listed chronologically), each with a short summary highlighting its impact.
