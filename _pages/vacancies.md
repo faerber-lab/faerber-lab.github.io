@@ -5,6 +5,8 @@ title: vacancies
 description: Latest openings and available student thesis topics.
 nav: true
 nav_order: 6
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
 <h4 style="border-left: 4px solid #2a6592; padding-left: 12px; color: #2a6592; font-weight: 600;">
