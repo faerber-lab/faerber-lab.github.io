@@ -5,6 +5,8 @@ title: team
 description: Core group members, including postdocs and PhD students.
 nav: true
 nav_order: 2
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
