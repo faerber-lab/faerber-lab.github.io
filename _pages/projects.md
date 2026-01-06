@@ -5,8 +5,10 @@ permalink: /projects/
 description: List of publicly funded research projects.
 nav: true
 nav_order: 4
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
 <!-- pages/projects.md -->
