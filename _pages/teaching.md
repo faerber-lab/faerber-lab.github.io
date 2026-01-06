@@ -5,6 +5,8 @@ title: teaching
 description: Overview of teaching activities, course offerings by semester, past courses, and supervision.
 nav: true
 nav_order: 5
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
 Teaching in my group is research-driven and closely connected to our work in:
