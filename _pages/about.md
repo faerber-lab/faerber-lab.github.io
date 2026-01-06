@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 subtitle: <a href='https://www.scads.ai'>ScaDS.AI, TU Dresden</a> 📧 <b>michael.faerber@tu-dresden.de</b>.
 
 profile:
