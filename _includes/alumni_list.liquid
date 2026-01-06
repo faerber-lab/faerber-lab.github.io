@@ -1,0 +1,53 @@
+{%- assign alumni = site.data.alumni | sort: "year" | reverse -%}
+{%- assign lim = include.limit | default: 999 -%}
+{%- assign boxed = include.boxed | default: "false" -%}
+
+{%- if boxed == "true" -%}
+<div class="p-3 my-3 border rounded bg-light bg-opacity-25">
+{%- endif -%}
+
+<ul class="mb-0">
+{%- for a in alumni limit: lim -%}
+  <li class="mb-3">
+    <div>
+      <strong>{{ a.name }}</strong>
+      {%- if a.level_at_time and a.level_at_time != "" -%}
+        <span class="text-muted"> ({{ a.level_at_time }})</span>
+      {%- endif -%}
+      {%- if a.year -%}
+        <span class="text-muted"> · {{ a.year }}</span>
+      {%- endif -%}
+    </div>
+
+    {%- if a.now and a.now != "" -%}
+      <div class="mt-1">
+        <span class="text-muted">Now:</span>
+        {%- if a.now_url and a.now_url != "" -%}
+          <a href="{{ a.now_url }}">{{ a.now }}</a>
+        {%- else -%}
+          {{ a.now }}
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if a.relation_to_group and a.relation_to_group != "" -%}
+      <div class="small text-muted">{{ a.relation_to_group }}</div>
+    {%- endif -%}
+
+    {%- if a.highlight and a.highlight != "" -%}
+      <div class="small text-muted">
+        Highlight:
+        {%- if a.highlight_url and a.highlight_url != "" -%}
+          <a href="{{ a.highlight_url }}">{{ a.highlight }}</a>
+        {%- else -%}
+          {{ a.highlight }}
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </li>
+{%- endfor -%}
+</ul>
+
+{%- if boxed == "true" -%}
+</div>
+{%- endif -%}
