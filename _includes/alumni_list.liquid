@@ -3,25 +3,24 @@
 {%- assign boxed = include.boxed | default: "true" -%}
 
 {%- if boxed == "true" -%}
-<div class="p-3 my-3 border rounded bg-light bg-opacity-25">
+<div class="my-3 border rounded" style="background: rgba(0,0,0,0.02);">
 {%- endif -%}
 
-<ul class="list-unstyled mb-0">
+<ul class="list-group list-group-flush mb-0">
 {%- for a in alumni limit: lim -%}
-  <li class="{% unless forloop.last %}pb-3 mb-3 border-bottom{% endunless %}">
-    <div class="d-flex flex-wrap align-items-baseline gap-2">
+  <li class="list-group-item bg-transparent py-3">
+    <div>
       <strong>{{ a.name }}</strong>
       {%- if a.level_at_time and a.level_at_time != "" -%}
-        <span class="text-muted">({{ a.level_at_time }})</span>
-      {%- endif -%}
-      {%- if a.year -%}
-        <span class="text-muted">{{ a.year }}</span>
+        <span class="text-muted"> ({{ a.level_at_time }}{% if a.year %}, {{ a.year }}{% endif %})</span>
+      {%- elsif a.year -%}
+        <span class="text-muted"> ({{ a.year }})</span>
       {%- endif -%}
     </div>
 
     {%- if a.now and a.now != "" -%}
       <div class="mt-1">
-        <span class="text-muted">Now: </span>
+        <span class="text-muted">Now:</span>
         {%- if a.now_url and a.now_url != "" -%}
           <a href="{{ a.now_url }}">{{ a.now }}</a>
         {%- else -%}
@@ -36,7 +35,7 @@
 
     {%- if a.highlight and a.highlight != "" -%}
       <div class="small text-muted mt-1">
-        <span class="text-muted">Highlight: </span>
+        Highlight:
         {%- if a.highlight_url and a.highlight_url != "" -%}
           <a href="{{ a.highlight_url }}">{{ a.highlight }}</a>
         {%- else -%}
