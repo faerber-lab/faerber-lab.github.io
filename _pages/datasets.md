@@ -5,6 +5,7 @@ title: datasets
 description: Selected datasets and resources from our group.
 nav: true
 nav_order: 10
+search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
