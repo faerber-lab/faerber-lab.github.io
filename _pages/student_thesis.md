@@ -5,6 +5,8 @@ title: Student Thesis Supervision
 description: Current student thesis topics and how to apply.
 nav: false
 nav_order: 1
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
 We supervise student theses with a **research-first, publication-oriented** mindset. The current topics are described (incl. contact person) on the linked ScaDS.AI pages below.
