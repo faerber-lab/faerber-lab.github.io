@@ -24,6 +24,7 @@ latest_posts:
   scrollable: true  # adds a vertical scroll bar if there are more than 3 new posts
   limit: 3  # leave blank to include all blog posts
 ---
+{% include person_org_schema.liquid %}
 
 Welcome! I’m **Michael Färber**, a full professor at ScaDS.AI, TU Dresden, Germany. Our group focuses on AI research that prioritizes **trustworthiness** and **alignment with human values**. We work at the intersection of natural language processing (NLP), particularly large language models (LLMs), graph-based machine learning, and structured knowledge representation (e.g., knowledge graphs). 
 
