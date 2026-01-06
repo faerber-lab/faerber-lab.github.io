@@ -1,0 +1,40 @@
+{%- assign ds = site.data.datasets | sort: "year" | reverse -%}
+
+{%- for d in ds -%}
+  {%- comment -%}Pick homepage URL for the Dataset.url (prefer "Homepage", otherwise first link){%- endcomment -%}
+  {%- assign homepage = "" -%}
+  {%- if d.links and d.links.size > 0 -%}
+    {%- assign homepage = d.links[0].url -%}
+    {%- for l in d.links -%}
+      {%- if l.label == "Homepage" -%}
+        {%- assign homepage = l.url -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- comment -%}Find a canonical identifier URL (DOI) for sameAs (optional, but recommended by Google){%- endcomment -%}
+  {%- assign same_as = "" -%}
+  {%- if d.links and d.links.size > 0 -%}
+    {%- for l in d.links -%}
+      {%- if l.url contains "doi.org" -%}
+        {%- assign same_as = l.url -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "{{ d.title | strip_newlines | escape }}",
+  "description": "{{ d.what | default: "" | strip_newlines | escape }}",
+  "url": "{{ homepage | escape }}"{% if same_as != "" %},
+  "sameAs": "{{ same_as | escape }}"{% endif %}{% if d.license and d.license != "" %},
+  "license": "{{ d.license | strip_newlines | escape }}"{% endif %}{% if d.tags and d.tags.size > 0 %},
+  "keywords": {{ d.tags | jsonify }}{% endif %}{% if d.year %},
+  "datePublished": "{{ d.year }}-01-01"{% endif %}
+}
+</script>
+{%- endfor -%}
