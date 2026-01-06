@@ -4,6 +4,7 @@ permalink: /how-we-work/
 title: how we work
 description: How we run research projects (publication mindset, reproducibility, mentoring).
 nav: false
+search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
