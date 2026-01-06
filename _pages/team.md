@@ -61,3 +61,5 @@ profiles:
       <p>AFM Mohimenul Joaa</p>
 
 ---
+
+Selected alumni / career paths: **[/alumni/](/alumni/)**.
