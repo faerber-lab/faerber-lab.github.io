@@ -4,7 +4,9 @@ permalink: /research_stays/
 title: Research Stays  
 description: Opportunities for funded research stays in my group.  
 nav: false  
-nav_order: 1  
+nav_order: 1
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
 We are part of both TU Dresden and ScaDS.AI, and welcome researchers at all career stages for on-site research stays in our lab. If you already have funding, feel free to [contact us](/contact/) to discuss hosting possibilities. If you require financial support, review the options below—several past research stays in our group have been funded through these programs. 
