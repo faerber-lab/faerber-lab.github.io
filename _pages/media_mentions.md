@@ -4,6 +4,7 @@ permalink: /media-mentions/
 title: media mentions
 description: Selected press coverage and public outreach (curated).
 nav: false
+search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
