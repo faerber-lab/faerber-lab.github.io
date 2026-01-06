@@ -56,3 +56,5 @@ For current calls regarding student theses and general information on supervisio
 We also welcome researchers at all career stages—from Master’s and PhD students to postdocs and established scientists—for research stays (e.g., between 3 and 12 months) in our research group. For more details, please visit our [research stays page](/research_stays/).
 
 We look forward to welcoming you to our lab!
+
+Selected alumni: **[/alumni/](/alumni/)**.
