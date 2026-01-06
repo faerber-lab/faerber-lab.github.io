@@ -4,6 +4,7 @@ permalink: /student-outcomes/
 title: Student outcomes
 description: Selected student-led papers and open artifacts from our group.
 nav: false
+search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
