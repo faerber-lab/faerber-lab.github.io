@@ -5,6 +5,8 @@ title: Winter Semester 2025/2026
 description: Course offerings for Winter Semester 2025/2026 at TU Dresden.
 nav: false
 nav_order: 3
+search: true
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
 In the Winter Semester 2025/26, we offer the course **SecretLLM – Behind the Secrets of Large Language Models**.  
