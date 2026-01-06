@@ -5,6 +5,8 @@ title: Summer Semester 2026
 description: Course offerings for Summer Semester 2026 at TU Dresden.
 nav: false
 nav_order: 2
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
+search: true
 ---
 
 Planned courses for the **Summer Semester 2026** (subject to confirmation in the official course catalog):
