@@ -1,0 +1,102 @@
+# _data/alumni.yml
+# Alumni / career paths (selected).
+# Keep it compact. Add entries only if collaboration is finished and you are comfortable listing them.
+
+- name: "Daniel Gomm"
+  level_at_time: "MSc"
+  relation_to_group: "MSc thesis / project supervision"
+  year: 2025
+  now: "PhD student, CWI & University of Amsterdam"
+  now_url: "https://daniel-gomm.github.io/"
+  highlight: "CoDy (ICML 2025): Counterfactual Explainers for Dynamic Graphs"
+  highlight_url: "https://openreview.net/forum?id=FE9QN8d536&noteId=WKlQyq8iA9"
+
+- name: "Alberto Gómez-Espés"
+  level_at_time: "MSc"
+  relation_to_group: "MSc thesis supervision"
+  year: 2024
+  now: "Research Assistant / Django Developer (CSIC lab)"
+  now_url: "https://dargcsic.github.io/lab_team/"
+  highlight: "Scientometrics 2024: Benefits of international collaboration in CS"
+  highlight_url: "https://link.springer.com/article/10.1007/s11192-023-04902-3"
+
+- name: "David Lamprecht"
+  level_at_time: "MSc"
+  relation_to_group: "BSc/MSc thesis supervision"
+  year: 2024
+  now: "Knowledge Graph Engineer, metaphacts GmbH"
+  now_url: "https://de.linkedin.com/in/david-lamprecht-25707919b"
+  highlight: "LPWC / SemOpenAlex / AutoRDF2GML (Semantic Web + graph ML resources)"
+  highlight_url: ""
+
+- name: "Johan Krause"
+  level_at_time: "MSc"
+  relation_to_group: "MSc thesis supervision"
+  year: 2022
+  now: "Senior Consultant | AI & Data, Capgemini Invent"
+  now_url: "https://de.linkedin.com/in/johankrause/en"
+  highlight: "SemOpenAlex (ISWC 2023): scholarly KG at scale"
+  highlight_url: ""
+
+- name: "Tarek Saier"
+  level_at_time: "PhD"
+  relation_to_group: "PhD (main supervision; previously MSc thesis supervision)"
+  year: 2024
+  now: "Machine Learning Engineer, Helpfeel Inc. (Kyoto, Japan)"
+  now_url: "https://illdepence.github.io/cv/"
+  highlight: "Scientific text mining / citation-related NLP"
+  highlight_url: ""
+
+- name: "Lazaros Tampakis"
+  level_at_time: "BSc"
+  relation_to_group: "BSc thesis supervision"
+  year: 2022
+  now: "Forward Deployed Engineer, askLio"
+  now_url: "https://de.linkedin.com/in/lazaros-tampakis"
+  highlight: "Scientometrics / analysis of enterprise impact on AI research"
+  highlight_url: ""
+
+- name: "Victoria Burkard"
+  level_at_time: "BSc"
+  relation_to_group: "BSc thesis supervision"
+  year: 2020
+  now: "Project Manager, amiconsult GmbH"
+  now_url: "https://de.linkedin.com/in/victoria-burkard-895990206"
+  highlight: "News bias dataset / annotation & analysis"
+  highlight_url: ""
+
+- name: "Jannik Schwade"
+  level_at_time: "BSc"
+  relation_to_group: "BSc thesis supervision"
+  year: 2022
+  now: "Marketing Automation IT-Consultant, dmTECH"
+  now_url: "https://linkedin.com/in/jannikschwade"
+  highlight: "News diversity / media analysis"
+  highlight_url: ""
+
+- name: "Christian Petrov"
+  level_at_time: "MSc"
+  relation_to_group: "MSc thesis supervision"
+  year: 2021
+  now: "Software Developer, Innoopract"
+  now_url: "https://de.linkedin.com/in/christian-petrov-0ab94978"
+  highlight: "Commit message quality checking (ML for software engineering)"
+  highlight_url: ""
+
+- name: "Benjamin Scheer"
+  level_at_time: "MSc"
+  relation_to_group: "MSc thesis supervision"
+  year: 2020
+  now: "Head of Artificial Intelligence & MLOps, IONOS"
+  now_url: "https://de.linkedin.com/in/benjamin-scheer-0ba56b194"
+  highlight: "Applied ML / MLOps"
+  highlight_url: ""
+
+- name: "Anna Nguyen"
+  level_at_time: "PhD"
+  relation_to_group: "Supervised research collaboration"
+  year: 2021
+  now: "IBM (watsonx.governance)"
+  now_url: "https://de.linkedin.com/in/dr-anna-nguyen-4593a320b"
+  highlight: "Semantic AI / FAIR metadata for neural networks"
+  highlight_url: ""
