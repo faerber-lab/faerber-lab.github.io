@@ -1,0 +1,28 @@
+{%- assign demos = site.data.demos -%}
+{%- assign lim = include.limit | default: 999 -%}
+
+<ul class="list-group list-group-flush mb-0">
+{%- for d in demos limit: lim -%}
+  <li class="list-group-item py-3">
+    <div>
+      <strong><a href="{{ d.url }}">{{ d.title }}</a></strong>
+      {%- if d.tags and d.tags.size > 0 -%}
+        <span class="text-muted"> · {{ d.tags | join: ", " }}</span>
+      {%- endif -%}
+    </div>
+
+    {%- if d.what and d.what != "" -%}
+      <div class="mt-1">{{ d.what }}</div>
+    {%- endif -%}
+
+    {%- if d.links and d.links.size > 0 -%}
+      <div class="small text-muted mt-1">
+        Links:
+        {%- for l in d.links -%}
+          <a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </li>
+{%- endfor -%}
+</ul>
