@@ -32,4 +32,4 @@ In addition to core AI research, we actively explore applications in scientific 
 
 Explore our latest <a href='/vacancies/'>openings </a> and <a href='/student_thesis/'>thesis topics</a> to join our group.
 
-See als our **[/datasets/](/datasets/)**.
+See als our **[/demos/](/demos/)** and **[/datasets/](/datasets/)**.
