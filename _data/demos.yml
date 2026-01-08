@@ -1,0 +1,52 @@
+# _data/demos.yml
+# Selected public systems / demos / tools (curated).
+
+- title: "SQuAI"
+  what: "Answers scientific questions with explicit sources and citations (evidence-based QA)."
+  url: "https://squai.scads.ai/"
+  tags: ["LLMs", "RAG", "QA"]
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2510.15682"
+    - label: "Code"
+      url: "https://github.com/faerber-lab/SQuAI"
+
+- title: "SimplifyMyText"
+  what: "Turns complex texts and websites into plain language (inclusive text simplification)."
+  url: "https://simplifymytext.org/"
+  tags: ["NLP", "Plain Language", "Accessibility"]
+  links:
+    - label: "Project"
+      url: "/projects/klartext/"
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2504.14223"
+
+- title: "RefBee"
+  what: "Checks whether your publications are complete across major bibliographic databases."
+  url: "https://refbee.org/"
+  tags: ["Scholarly Metadata", "Digital Libraries"]
+  links: []
+
+- title: "C-Rex"
+  what: "Suggests relevant scientific references for a given text."
+  url: "https://c-rex.org/"
+  tags: ["Citations", "Recommendation"]
+  links: []
+
+- title: "PaperHunter"
+  what: "Searches where and how specific papers are cited (citation contexts)."
+  url: "https://paperhunter.net/"
+  tags: ["Citations", "Full Text Search"]
+  links: []
+
+- title: "ScholarSight"
+  what: "Shows how scientific topics and concepts trend over time."
+  url: "https://scholarsight.org/"
+  tags: ["Scholarly Analytics", "Trends"]
+  links: []
+
+- title: "Linked Crunchbase"
+  what: "Searches startup and innovation data in a structured, machine-readable way."
+  url: "https://linked-crunchbase.org/"
+  tags: ["Startups", "Linked Data"]
+  links: []
