@@ -20,6 +20,8 @@ Languages: German / English
 
 More talks (keynotes / invited talks): **[/talks/](/talks/)**.
 
+Selected demos/systems: **[/demos/](/demos/)**.
+
 ---
 
 #### Common media angles (ready-to-use)
