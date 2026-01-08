@@ -72,6 +72,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/datasets/";
           },
+        },{id: "nav-demos",
+          title: "demos",
+          description: "Selected public systems and demos from our group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/demos/";
+          },
         },{id: "post-stock-market-predictions-through-deep-learning",
       
         title: "Stock Market Predictions through Deep Learning",
