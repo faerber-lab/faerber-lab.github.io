@@ -58,6 +58,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/datasets/";
           },
+        },{id: "nav-demos",
+          title: "demos",
+          description: "Selected public systems and demos from our group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/demos/";
+          },
         },{id: "nav-media",
           title: "media",
           description: "Press information and expert interviews.",
@@ -71,13 +78,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
-          },
-        },{id: "nav-demos",
-          title: "demos",
-          description: "Selected public systems and demos from our group.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/demos/";
           },
         },{id: "post-stock-market-predictions-through-deep-learning",
       
