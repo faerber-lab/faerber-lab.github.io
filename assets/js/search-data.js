@@ -51,6 +51,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
+        },{id: "nav-datasets",
+          title: "datasets",
+          description: "Selected datasets and resources from our group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/datasets/";
+          },
         },{id: "nav-media",
           title: "media",
           description: "Press information and expert interviews.",
@@ -64,13 +71,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
-          },
-        },{id: "nav-datasets",
-          title: "datasets",
-          description: "Selected datasets and resources from our group.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/datasets/";
           },
         },{id: "nav-demos",
           title: "demos",
