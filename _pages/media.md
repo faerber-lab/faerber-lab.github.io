@@ -5,7 +5,7 @@ title: media
 description: Press information and expert interviews.
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 nav: true
-nav_order: 8
+nav_order: 9
 search: true
 ---
 
