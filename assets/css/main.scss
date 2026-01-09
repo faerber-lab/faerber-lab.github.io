@@ -29,3 +29,12 @@ $max-content-width: {{ site.max_width }};
   color: #1a73e8;
   font-weight: 500;
 }
+
+.footer-links a {
+  margin: 0 0.35rem;
+  text-decoration: underline;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+}
