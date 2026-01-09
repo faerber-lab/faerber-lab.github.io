@@ -44,13 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/vacancies/";
           },
-        },{id: "nav-contact",
-          title: "contact",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/contact/";
-          },
         },{id: "nav-datasets",
           title: "datasets",
           description: "Selected datasets and resources from our group.",
@@ -78,6 +71,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
+          },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
           },
         },{id: "post-stock-market-predictions-through-deep-learning",
       
