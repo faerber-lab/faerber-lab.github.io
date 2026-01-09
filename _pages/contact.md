@@ -3,7 +3,7 @@ layout: page
 permalink: /contact/
 title: contact
 nav: true
-nav_order: 7
+nav_order: 11
 search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
