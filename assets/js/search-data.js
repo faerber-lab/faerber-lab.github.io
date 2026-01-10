@@ -30,19 +30,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "dropdown-thesis-topics",
-              title: "thesis topics",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/student_thesis/";
-              },
-            },{id: "dropdown-teaching",
+        },{id: "dropdown-teaching",
               title: "teaching",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/teaching/";
+              },
+            },{id: "dropdown-thesis-topics",
+              title: "thesis topics",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/student_thesis/";
               },
             },{id: "dropdown-outcomes",
               title: "outcomes",
