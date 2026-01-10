@@ -65,14 +65,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/faq/";
               },
-            },{id: "nav-teaching",
-          title: "teaching",
-          description: "Overview of teaching activities, course offerings by semester, past courses, and supervision.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-vacancies",
+            },{id: "nav-vacancies",
           title: "vacancies",
           description: "Latest openings and available student thesis topics.",
           section: "Navigation",
