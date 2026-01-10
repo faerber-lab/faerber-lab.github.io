@@ -107,14 +107,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/demos/";
               },
-            },{id: "nav-demos",
-          title: "demos",
-          description: "Selected public systems and demos from our group.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/demos/";
-          },
-        },{id: "dropdown-press-page",
+            },{id: "dropdown-press-page",
               title: "press page",
               description: "",
               section: "Dropdown",
