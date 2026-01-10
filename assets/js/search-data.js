@@ -107,13 +107,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/media/";
               },
-            },{id: "dropdown-press-kit",
-              title: "press kit",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/press-kit/";
-              },
             },{id: "dropdown-media-mentions",
               title: "media mentions",
               description: "",
@@ -127,6 +120,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/talks/";
+              },
+            },{id: "dropdown-press-kit",
+              title: "press kit",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/press-kit/";
               },
             },{id: "nav-contact",
           title: "contact",
