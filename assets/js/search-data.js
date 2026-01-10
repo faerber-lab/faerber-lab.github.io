@@ -86,7 +86,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/datasets/";
           },
-        },{id: "nav-demos",
+        },{id: "dropdown-themes",
+              title: "themes",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/themes/";
+              },
+            },{id: "dropdown-projects",
+              title: "projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/projects/";
+              },
+            },{id: "dropdown-datasets",
+              title: "datasets",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/datasets/";
+              },
+            },{id: "dropdown-demos",
+              title: "demos",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/demos/";
+              },
+            },{id: "nav-demos",
           title: "demos",
           description: "Selected public systems and demos from our group.",
           section: "Navigation",
