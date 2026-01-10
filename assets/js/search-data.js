@@ -30,7 +30,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "dropdown-teaching",
+        },{id: "dropdown-themes",
+              title: "themes",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/themes/";
+              },
+            },{id: "dropdown-projects",
+              title: "projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/projects/";
+              },
+            },{id: "dropdown-datasets",
+              title: "datasets",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/datasets/";
+              },
+            },{id: "dropdown-demos",
+              title: "demos",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/demos/";
+              },
+            },{id: "dropdown-teaching",
               title: "teaching",
               description: "",
               section: "Dropdown",
@@ -72,35 +100,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/vacancies/";
           },
-        },{id: "dropdown-themes",
-              title: "themes",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/themes/";
-              },
-            },{id: "dropdown-projects",
-              title: "projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/projects/";
-              },
-            },{id: "dropdown-datasets",
-              title: "datasets",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/datasets/";
-              },
-            },{id: "dropdown-demos",
-              title: "demos",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/demos/";
-              },
-            },{id: "dropdown-press-page",
+        },{id: "dropdown-press-page",
               title: "press page",
               description: "",
               section: "Dropdown",
