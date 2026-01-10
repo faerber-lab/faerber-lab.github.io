@@ -401,23 +401,23 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 3rem; // was 4
+    font-size: 2.3rem; // was 4
 
     a {
       img {
-        width: 3.2rem;
-        height: 3.2rem;
+        width: 1.9rem; // 3.2rem;
+        height: 1.9rem; // 3.2rem;
         margin-bottom: 1rem;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
+        width: 2.1rem; // 3.5rem;
+        height: 2.3rem; // 4rem;
         margin-bottom: 0.5rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 2.1rem; // 3.5rem;
+          height: 2.1rem; // 3.5rem;
         }
       }
 
