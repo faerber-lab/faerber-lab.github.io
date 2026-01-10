@@ -6,10 +6,10 @@ nav: true
 nav_order: 5
 dropdown: true
 children:
-  - title: thesis topics
-    permalink: /student_thesis/
   - title: teaching
     permalink: /teaching/
+  - title: thesis topics
+    permalink: /student_thesis/
   - title: outcomes
     permalink: /outcomes/
   - title: how we work
