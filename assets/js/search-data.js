@@ -79,13 +79,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/vacancies/";
           },
-        },{id: "nav-datasets",
-          title: "datasets",
-          description: "Selected datasets and resources from our group.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/datasets/";
-          },
         },{id: "dropdown-themes",
               title: "themes",
               description: "",
