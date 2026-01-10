@@ -93,7 +93,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/demos/";
           },
-        },{id: "nav-media",
+        },{id: "dropdown-press-page",
+              title: "press page",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/media/";
+              },
+            },{id: "dropdown-press-kit",
+              title: "press kit",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/press-kit/";
+              },
+            },{id: "dropdown-media-mentions",
+              title: "media mentions",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/media-mentions/";
+              },
+            },{id: "dropdown-talks",
+              title: "talks",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/talks/";
+              },
+            },{id: "nav-media",
           title: "media",
           description: "Press information and expert interviews.",
           section: "Navigation",
