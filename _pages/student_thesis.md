@@ -17,6 +17,8 @@ We supervise student theses with a **research-first, publication-oriented** mind
 
 How we work (publication mindset, expectations): **[/how-we-work/](/how-we-work/)**.
 
+Quick answers: **[/faq/](/faq/)**.
+
 
 | No. | Topic | Field(s) | Contact |
 | --- | ----- | -------- | ------- |
