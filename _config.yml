@@ -8,11 +8,15 @@ middle_name:
 last_name: Färber
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Michael Faerber's Research Group.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>/<a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-keywords: Michael Färber, Michael Farber, Michael Faerber, TU Dresden, ScaDS.AI, Germany, LLMs, NLP, Knowledge Graphs TUD # add your own keywords or leave empty
+description: >
+  Research group at TU Dresden / ScaDS.AI working on trustworthy LLMs,
+  knowledge graphs, retrieval-augmented generation, and AI for science
+  (search, recommendations, and citation-grounded text generation).
+keywords: Michael Färber, Michael Farber, Michael Faerber, TU Dresden, ScaDS.AI,
+  LLMs, NLP, Information Retrieval, RAG, Knowledge Graphs, Graph Neural Networks,
+  AI for Science, Scholarly Search, Scientific Text Mining, Germany
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)⚛️
 
@@ -49,6 +53,7 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
+posts_in_search: true
 socials_in_search: true
 bib_search: true
 
@@ -344,7 +349,7 @@ enable_publication_thumbnails: true
 # These are the defaults
 external_links:
   enabled: true
-  rel: external nofollow noopener
+  rel: external noopener
   target: _blank
   exclude:
 
@@ -387,7 +392,7 @@ enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
