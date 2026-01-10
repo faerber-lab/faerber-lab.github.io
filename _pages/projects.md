@@ -67,3 +67,5 @@ og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 </div>
 
 See also our datasets/resources: **[/datasets/](/datasets/)**.
+
+Collaboration entry point: **[/collaborate/](/collaborate/)**.
