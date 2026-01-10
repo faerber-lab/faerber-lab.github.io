@@ -14,6 +14,8 @@ children:
     permalink: /datasets/
   - title: demos
     permalink: /demos/
+  - title: collaborate
+    permalink: /collaborate/
 ---
 
 Overview: **[/themes/](/themes/)**.
