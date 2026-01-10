@@ -323,7 +323,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/8_postdocE13_2025/";
-            },},{id: "projects-aicom",
+            },},{id: "news-the-bmftr-funded-software-campus-project-evidenz-started-today",
+          title: 'The BMFTR-funded Software Campus project EVIDENZ started today!',
+          description: "",
+          section: "News",},{id: "projects-aicom",
           title: 'AICOM',
           description: "Corporate Knowledge Graph Assistant for evidence-grounded enterprise communication",
           section: "Projects",handler: () => {
