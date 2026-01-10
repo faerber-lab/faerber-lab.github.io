@@ -3,7 +3,7 @@ layout: page
 permalink: /talks/
 title: talks
 description: Keynotes, invited talks, and selected recorded lectures.
-nav: true
+nav: false
 nav_order: 10
 search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
