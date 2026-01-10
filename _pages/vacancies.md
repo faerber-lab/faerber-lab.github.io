@@ -25,6 +25,8 @@ We are hiring two postdoctoral researchers in the areas of **Large Language Mode
 
 **How to apply:** Please follow the instructions on the respective call pages (single PDF + job number).
 
+Quick answers: **[/faq/](/faq/)**.
+
 If you want a quick impression of our publication style and pace, see [/publications/](/publications/) and [/news/](/news/).
 
 International applicants can also apply for external funding (e.g., DAAD, DFG, Humboldt). For research stays—from short-term visits to long-term stays of up to 2 years—please visit [this page](/research_stays/).
