@@ -93,14 +93,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/faq/";
               },
-            },{id: "nav-vacancies",
-          title: "vacancies",
-          description: "Latest openings and available student thesis topics.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/vacancies/";
-          },
-        },{id: "dropdown-press-page",
+            },{id: "dropdown-press-page",
               title: "press page",
               description: "",
               section: "Dropdown",
@@ -128,7 +121,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/press-kit/";
               },
-            },{id: "nav-contact",
+            },{id: "nav-vacancies",
+          title: "vacancies",
+          description: "Latest openings and available student thesis topics.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/vacancies/";
+          },
+        },{id: "nav-contact",
           title: "contact",
           description: "",
           section: "Navigation",
