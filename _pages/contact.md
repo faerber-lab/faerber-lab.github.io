@@ -30,4 +30,6 @@ _Note for visitors:_ Access to the 7th floor is restricted. If the door is locke
 
 Quick answers: **[/faq/](/faq/)**.
 
+Collaboration / industry / public-sector: **[/collaborate/](/collaborate/)**.
+
 <img src="{{ site.baseurl }}/assets/img/Dresden.jpg" alt="Dresdner Frauenkirche" loading="lazy" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
