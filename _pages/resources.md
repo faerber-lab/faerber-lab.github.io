@@ -3,7 +3,7 @@ layout: page
 title: resources
 permalink: /resources/
 nav: true
-nav_order: 7
+nav_order: 5
 dropdown: true
 children:
   - title: themes
