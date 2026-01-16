@@ -7,6 +7,7 @@
   abstract  = {Large Language Models (LLMs) are increasingly integral to information dissemination and decision-making processes. Given their growing societal influence, understanding potential biases, particularly within the political domain, is crucial to prevent undue influence on public opinion and democratic processes. This work investigates political bias and stereotype propagation across eight prominent LLMs using the two-dimensional Political Compass Test (PCT). Initially, the PCT is employed to assess the inherent political leanings of these models. Subsequently, persona prompting with the PCT is used to explore explicit stereotypes across various social dimensions. In a final step, implicit stereotypes are uncovered by evaluating models with multilingual versions of the PCT. Key findings reveal a consistent left-leaning political alignment across all investigated models. Furthermore, while the nature and extent of stereotypes vary considerably between models, implicit stereotypes elicited through language variation are more pronounced than those identified via explicit persona prompting. Interestingly, for most models, implicit and explicit stereotypes show a notable alignment, suggesting a degree of transparency or "awareness" regarding their inherent biases. This study underscores the complex interplay of political bias and stereotypes in LLMs.},
   keywords  = {LLMs, bias, politics, stereotypes},
   tldr = {We measure political leanings and stereotypes in major LLMs and show that language variation can reveal stronger implicit bias than persona prompts.},
+  plain = {We run chatbots through a “political compass” quiz and then take a close look at the stereotypes they repeat, especially when we ask the same things in another language.}
 }
 
 @inproceedings{Qu2026PoeTone,
@@ -20,6 +21,7 @@
   pdf = {publications/PoeTone_AAAI2026.pdf},
   keywords = {LLMs, constrained generation, Chinese poetry, Songci},
   tldr = {We build a framework for generating classical Chinese Songci that satisfies strict tone and rhyme constraints.},
+  plain = {Songci poetry has rules like sheet music, and we teach an AI to write it while staying on the right tones and rhymes, with a strict checker that keeps it honest.}
 }
 
 @inproceedings{Yuan2025Psycholinguistics,
@@ -31,6 +33,7 @@
   abstract  = {Large Language Models (LLMs) exhibit strong linguistic capabilities, but little is known about how they encode psycholinguistic knowledge across languages. We investigate whether and how LLMs exhibit human-like psycholinguistic responses under different linguistic identities using two tasks: sound symbolism and word valence. We evaluate two models, Llama-3.3-70B-Instruct and Qwen2.5-72B-Instruct, under monolingual and bilingual prompting in English, Dutch, and Chinese. Behaviorally, both models adjust their outputs based on prompted language identity, with Qwen showing greater sensitivity and sharper distinctions between Dutch and Chinese. Probing analysis reveals that psycholinguistic signals become more decodable in deeper layers, with Chinese prompts yielding stronger and more stable valence representations than Dutch. Our results demonstrate that language identity conditions both output behavior and internal representations in LLMs, providing new insights into their application as models of cross-linguistic cognition.},
   pdf       = {publications/Psycholinguistics_AACL2025.pdf},
   tldr = {We show that prompting an LLM with a specific language identity changes its behavior on psycholinguistic tasks and shifts what its internal layers encode across languages.},
+plain = {We show that an AI can “put on” another language like a costume and then answers differently, and even its inner signals shift when it is prompted in a different language.}
 }
 
 @inproceedings{yuan2025llmintheloop,
@@ -41,6 +44,7 @@
   url = {https://arxiv.org/pdf/2506.01484},
   abstract = {Detoxification, the task of rewriting harmful language into non-toxic text, has become increasingly important amid the growing prevalence of toxic content online. However, high-quality parallel datasets for detoxification, especially for hate speech, remain scarce due to the cost and sensitivity of human annotation. In this paper, we propose a novel LLM-in-the-loop pipeline leveraging GPT-4o-mini for automated detoxification. We first replicate the ParaDetox pipeline by replacing human annotators with an LLM and show that the LLM performs comparably to human annotation. Building on this, we construct ParaDeHate, a large-scale parallel dataset specifically for hate-speech detoxification. We release ParaDeHate as a benchmark of over 8K hate/non-hate text pairs and evaluate a wide range of baseline methods. Experimental results show that models such as BART, fine-tuned on ParaDeHate, achieve better performance in style accuracy, content preservation, and fluency, demonstrating the effectiveness of LLM-generated detoxification text as a scalable alternative to human annotation.},
   tldr = {We create ParaDeHate, an LLM-in-the-loop dataset for hate-speech detoxification, enabling systematic evaluation of meaning-preserving toxic-text rewriting.},
+plain = {We build a large training set that rewrites toxic text into cleaner language without changing the meaning, like running dirty water through a filter and checking the result.}
 }
 
 @inproceedings{nie2025decomposed,
@@ -51,6 +55,7 @@
   url       = {https://arxiv.org/pdf/2402.18397},
   abstract  = {Probing the multilingual knowledge of linguistic structure in large language models (LLMs), often characterized as sequence labeling, faces challenges with maintaining output templates in current text-to-text prompting strategies. To address this, we introduce a decomposed prompting approach for sequence labeling tasks. Instead of relying on a single text-to-text prompt, our method generates an individual prompt for each token in the input sentence, querying its linguistic label. We evaluate our approach on Universal Dependencies part-of-speech tagging across 38 languages, using both English-centric and multilingual LLMs. Our results show that decomposed prompting outperforms iterative prompting baselines in both effectiveness and efficiency under zero- and few-shot settings. Moreover, our analysis of multilingual performance in English-centric LLMs provides insights into the transferability of linguistic knowledge via multilingual prompting.},
   tldr = {We introduce token-wise decomposed prompting for multilingual sequence labeling, improving accuracy and efficiency for POS tagging across 38 languages.},
+plain = {Instead of asking an AI to label a whole sentence in one go, we ask about each word step by step, like a teacher calling roll, and this makes the labels more reliable across languages.}
 }
 
 @inproceedings{salsabil2025contextbased,
@@ -60,6 +65,7 @@
   year      = {2025},
   abstract  = {This study presents a novel framework for automatically classifying open-access datasets and software (OADS) URLs in scholarly documents. Accurate classification of OADS-URLs is the first step in investigating the availability and preservability of OADS, a crucial step toward open science and computational reproducibility. Our framework, EnSU, leverages an ensemble-based approach to classify OADS-URLs by their citation contexts. The ensemble integrates three models: a Supervised Contrastive Learning model, a SciBERT-based model, and a BertGCN model. Our framework distinguishes the resource types (dataset vs. software) and providers (author vs. third-party). To train and evaluate EnSU, we compiled a dataset, OADS-1K, comprising 1,129 manually annotated sentences containing URLs along with their expanded contexts. Our model outperforms all baseline classifiers, including a large language model-based approach, with the best F1-score of 90%. The dataset and source code are publicly available at: https://github.com/lamps-lab/EnSU/tree/main.},
   tldr      = {We classify URLs in scholarly documents to identify open datasets and software links, enabling large-scale tracking of research artifacts and openness.},
+plain = {We build a “link bouncer” for research papers that checks whether a URL really leads to open data or usable software, so open resources are easier to find and count.}
 }
 
 @inproceedings{PolitovSJ025,
@@ -76,6 +82,7 @@
   abstract     = {Cross-lingual Named Entity Recognition (NER) exploits knowledge transfer across languages to identify and classify named entities, making it particularly valuable for low-resource languages. In this paper, we show that data-based cross-lingual transfer is an effective strategy for cross-lingual NER and can outperform multilingual language models in low-resource settings. We introduce two key enhancements to the annotation projection step. First, we refine word alignments by leveraging back-translation to improve projection accuracy. Second, we propose a novel, formalized projection method that matches source-language entities with candidate entities extracted in the target language. Through extensive experiments on two datasets covering 57 languages, we demonstrate that our approach consistently outperforms existing projection-based methods for low-resource languages. These results highlight the robustness and effectiveness of projection-based data transfer as a strong alternative to model-based approaches for cross-lingual named entity recognition in low-resource scenarios.},
   pdf          = {publications/XNER_NoDaLiDA2025.pdf},
 tldr = {We improve projection-based cross-lingual NER using back-translation and a formal matching step, outperforming baselines across 57 low-resource languages.},
+plain = {We improve name detection in languages where training material is scarce by transferring labels from other languages and checking again via translation, like carbon paper plus a second copy to catch errors.}
 }
 
 @inproceedings{Claim2source,
@@ -89,6 +96,7 @@ tldr = {We improve projection-based cross-lingual NER using back-translation and
   url  = {https://ceur-ws.org/Vol-4038/paper_94.pdf},
   pdf = {publications/Claim2Source_CLEF2025.pdf},
 tldr = {We test whether rewriting informal scientific claims in a more formal style improves claim-to-paper retrieval, and analyze when hybrid retrieval helps most.},
+plain = {We show that rewriting informal claims into a cleaner, paper-like wording helps find the right scientific source, like using the correct catalog terms when searching a library.}
 }
 
 @article{Adib:25,
@@ -107,6 +115,7 @@ tldr = {We test whether rewriting informal scientific claims in a more formal st
  abstract = {With the steadily progressing digitization of our society and the migration into urban areas, digitized and highly connected smart cities have attracted much attention from the research community due to their impact on everyday life, potential for new innovations, and ability to reduce carbon footprints. The versatile applications, which are intended to improve life in cities in various aspects, have one thing in common---they rely on widespread, reliable, and high-performing communication networks. Therefore, optical-access networks will be a crucial part of the smart cities' network infrastructure as they provide cost-effective and high-speed connectivity to antenna sites, residents, enterprises, businesses, and regional data centers in a point-to-multipoint topology. In this article, we address the overall impact of this urban transformation on such networks. We outline our vision of the future smart sustainable city, which will leverage advanced optical-access networks. Subsequently, the physical layer design of optical-access networks is analyzed in the context of point-to-multipoint network topology. This includes a 100-Gbit/s intensity-modulation and direct-detection passive optical network (PON) and a 200-Gbit/s coherent PON utilizing eight-digital subcarrier-based time- and wavelength-division multiplexing and coherent detection. We discuss artificial intelligence-based network monitoring and resource allocation. Next, we provide a techno-economical study for sustainable fiber deployment strategies. Finally, we report the results of a network demonstration for the remote assistance of a connected autonomous vehicle.},
  pdf = {publications/SmartCity_JOCN2025},
 tldr = {We outline optical access-network designs for smart cities and discuss AI-based monitoring and cost-aware fiber deployment for sustainable connectivity.},
+plain = {This work sketches the “roads and water pipes” of smart cities, explaining how fiber networks and AI monitoring can keep future connectivity fast, stable, and energy-aware.}
 }
 
 @inproceedings{Besrour2025SQuAI,
@@ -120,6 +129,7 @@ location = {Seoul, South Korea},
   pdf = {publications/SQuAI_CIKM2025.pdf},
 keywords = {scientific QA, RAG, multi-agent systems, citations, LLMs},
 tldr = {SQuAI answers scientific questions via multi-agent retrieval over millions of papers and produces claim-level citations with supporting evidence sentences.},
+plain = {SQuAI works like a team of librarians by splitting a hard question into smaller ones, pulling evidence from millions of papers, and answering with sources that readers can check.}
 }
 
 @inproceedings{Shao2025RealE,
@@ -133,6 +143,7 @@ tldr = {SQuAI answers scientific questions via multi-agent retrieval over millio
   pdf = {publications/Real-E_CIKM2025.pdf},
 keywords = {energy forecasting, time series},
 tldr = {We release Real-E, a large multi-country electricity-forecasting benchmark, and show current methods struggle under non-stationary correlation shifts.},
+plain = {We build a “weather station” for electricity, release a large real-world testbed, and show why models stumble when the grid’s patterns change over time.}
 }
 
 @inproceedings{Yuan2025HatefulPersona,
@@ -145,6 +156,7 @@ tldr = {We release Real-E, a large multi-country electricity-forecasting benchma
   pdf = {publications/PersonaHate_EMNLP2025.pdf},
 keywords = {hate speech, personas, MBTI, bias, LLM behavior},
 tldr = {We show that persona prompts can substantially change LLM hate-speech labels, raising fairness and reliability concerns for LLM-based moderation and annotation.},
+plain = {We show that switching a chatbot’s “persona mask” can change its hate-speech judgments, like getting different verdicts from the same judge in different costumes.}
 }
 
 @inproceedings{gruber2024complextempqa,
@@ -157,7 +169,8 @@ tldr = {We show that persona prompts can substantially change LLM hate-speech la
 	abstract     = {We introduce ComplexTempQA, a large-scale dataset consisting of over 100 million question-answer pairs designed to tackle the challenges in temporal question answering. ComplexTempQA significantly surpasses existing benchmarks in scale and scope. Utilizing Wikipedia and Wikidata, the dataset covers questions spanning over two decades and offers an unmatched scale. We introduce a new taxonomy that categorizes questions as attributes, comparisons, and counting questions, revolving around events, entities, and time periods, respectively. A standout feature of ComplexTempQA is the high complexity of its questions, which demand reasoning capabilities for answering such as across-time comparison, temporal aggregation, and multi-hop reasoning involving temporal event ordering and entity recognition. Additionally, each question is accompanied by detailed metadata, including specific time scopes, allowing for comprehensive evaluation of temporal reasoning abilities of large language models.},
 	pdf          = {publications/ComplexTempQA_EMNLP2025.pdf},
     keywords = {temporal QA, dataset, multi-hop reasoning, Wikidata, temporal reasoning},
-tldr = {ComplexTempQA provides 100 million temporal QA pairs that require multi-hop reasoning, enabling realistic evaluation of temporal reasoning in language models.},
+    tldr = {ComplexTempQA provides 100 million temporal QA pairs that require multi-hop reasoning, enabling realistic evaluation of temporal reasoning in language models.},
+    plain = {We create a giant time-travel quiz for AI with 100 million questions about “before”, “after”, and “during”, to see whether models truly keep track of time.}
 }
 
 @inproceedings{Popovic2025JEDI,
@@ -171,6 +184,7 @@ tldr = {ComplexTempQA provides 100 million temporal QA pairs that require multi-
   pdf       = {publications/JEDI_EMNLP2025.pdf},
   keywords  = {NLI, interpretability, fact decomposition, encoder-only},
 tldr = {JEDI performs atomic fact decomposition and interpretable NLI in a single encoder-only forward pass, reducing reliance on expensive generative inference at test time.},
+plain = {We break long statements into small fact “building blocks” and check them efficiently, like snapping sentences into LEGO pieces so the system can justify true or false.}
 }
 
 @inproceedings{Yuan2025GTRex,
@@ -184,6 +198,7 @@ tldr = {JEDI performs atomic fact decomposition and interpretable NLI in a singl
   pdf = {publications/GTRex_EMNLP2025.pdf},
 keywords = {explainability, NLE, graph neural networks, faithfulness, LLM},
 tldr = {We generate free-text explanations guided by faithful highlight cues encoded with a graph layer, improving explanation faithfulness across reasoning datasets.},
+plain = {We make explanations more like a guided tour by having the model point to evidence first and then connect it step by step, instead of telling a nice story after the fact.}
 }
 
 @inproceedings{XLLM-ACL2025,
@@ -195,7 +210,8 @@ tldr = {We generate free-text explanations guided by faithful highlight cues enc
   keywords  = {information extraction, entity extraction, relation extraction, in-context learning, synthetic data, document-level IE, LLMs},
   location  = {Vienna, Austria},
   pdf       = {publications/DocIE_XLLM-ACL2025.pdf},
-tldr = {We generate synthetic demonstrations and retrieve them at inference to improve document-level entity and relation extraction in low- or zero-shot settings.},
+  tldr = {We generate synthetic demonstrations and retrieve them at inference to improve document-level entity and relation extraction in low- or zero-shot settings.},
+  plain = {We let an AI create its own practice examples and then fetch the best ones when needed, like studying with a self-made box of flashcards for long documents.}
 }
 
 @inproceedings{SDP-ACL2025,
@@ -208,6 +224,7 @@ tldr = {We generate synthetic demonstrations and retrieve them at inference to i
 	pdf = {publications/NLI_Scholarly-Hallucination-Detection_SDP-ACL2025.pdf},
     keywords = {hallucination detection, NLI, scientific text, LLMs},
     tldr = {We fine-tune NLI models to detect scientific hallucinations by checking claims against references, achieving top performance in a shared task.},
+plain = {We build a science fact-checker that compares a model’s statements with the sources it cites, like a receipt check that flags items that do not match.}
 }
 
 @inproceedings{10.1145/2983323.2983324,
@@ -225,6 +242,7 @@ tldr = {We generate synthetic demonstrations and retrieve them at inference to i
 	location = {Indianapolis, Indiana, USA},
 	pdf = {publications/XKnowSearch_CIKM2016.pdf},
 tldr = {XKnowSearch uses knowledge-base entities to disambiguate queries and retrieve documents across languages for entity-based cross-lingual information retrieval.},
+plain = {We build a cross-language search tool that uses structured background knowledge like a bilingual map, so you can find relevant texts even when the query and documents use different languages.}
 }
 
 @inproceedings{Susanti2025PathToCausality,
@@ -238,6 +256,7 @@ tldr = {XKnowSearch uses knowledge-base entities to disambiguate queries and ret
 	pdf          = {publications/Paths_to_Causality_KDD2025.pdf},
     keywords = {causal discovery, knowledge graphs, LLMs, metapaths, ranking},
 tldr = {We propose a neurosymbolic method for knowledge-based causal discovery that selects relevant knowledge graph subgraphs to ground LLM prompting.},
+plain = {We help AI reason about cause and effect by highlighting the most informative routes through a knowledge map, like handing a detective the best trail of clues.}
 }
 
 @article{DBLP:journals/program/Farber16,
@@ -255,6 +274,7 @@ tldr = {We propose a neurosymbolic method for knowledge-based causal discovery t
     keywords     = {semantic wiki, technology forecasting, technology monitoring, knowledge management, innovation management},
     pdf          = {publications/SemWiki_PROG2015.pdf},
 tldr = {We extend Semantic MediaWiki with forecasting and monitoring features so organizations can track emerging technologies using structured knowledge and practical workflows.},
+plain = {We turn a semantic wiki into a radar for emerging technologies, so teams can collect and compare new signals instead of losing them in scattered notes.}
 }
 
 @article{DBLP:journals/ws/ZhangTRFMD17,
@@ -270,6 +290,7 @@ tldr = {We extend Semantic MediaWiki with forecasting and monitoring features so
     keywords     = {semantic annotation, cross-lingual search, cross-modal search, media stream processing, recommendation systems},
     pdf          = {publications/xLiMe-System_JWS2017.pdf},
 tldr = {We enable cross-lingual and cross-media semantic annotation, search, and recommendation over live TV, news, and social media streams.},
+plain = {We build a kind of “universal remote” for information streams, linking TV, news, and social media across languages so topics can be followed beyond language barriers.}
 }
 
 @article{DBLP:journals/semweb/FarberMH18,
@@ -286,6 +307,7 @@ tldr = {We enable cross-lingual and cross-media semantic annotation, search, and
     pdf          = {publications/CrunchBaseWrapper_SWJ2017.pdf},
     keywords     = {Linked Data, APIs, RDF, companies, data integration},
 tldr = {We provide Crunchbase as Linked Data, enabling richer integration and querying of startup, people, and investment data with web standards.},
+plain = {We publish Crunchbase as Linked Data, turning startup and investment information into a connected map that is easier to combine, query, and analyze.}
 }
 
 @article{FarberBMR18,
@@ -302,6 +324,7 @@ tldr = {We provide Crunchbase as Linked Data, enabling richer integration and qu
 	keywords     = {knowledge graphs, linked data quality, data quality assessment, DBpedia, Wikidata},
 	pdf          = {publications/KG-Comparison_SWJ2017.pdf},
     tldr = {We compare major knowledge graphs using a systematic data-quality framework and help practitioners choose the right graph for their application needs.},
+plain = {We create a consumer-style test report for major knowledge graphs, comparing data quality so developers can choose the right “map of the world” for their use case.}
 }
 
 @article{DBLP:journals/corr/abs-1809-11099,
@@ -317,6 +340,7 @@ tldr = {We provide Crunchbase as Linked Data, enabling richer integration and qu
 	keywords     = {knowledge graphs, decision support, data quality, linked data, KG selection},
 	pdf          = {publications/Which_KG_arXiv2018.pdf},
 tldr = {We translate knowledge graph quality analysis into practical selection rules so users can pick a knowledge graph that matches their data quality requirements.},
+plain = {We offer a practical “which map should I buy?” guide for knowledge graphs, turning quality checks into simple rules that help people choose.}
 }
 
 @article{DBLP:journals/corr/abs-1907-08671,
@@ -334,6 +358,7 @@ tldr = {We translate knowledge graph quality analysis into practical selection r
 	keywords     = {linked data, RDF, knowledge graphs, startups, innovation data},
 	pdf          = {publications/Crunchbase_arXiv2019.pdf},
 tldr = {We provide a Linked Data API and RDF dataset for Crunchbase, enabling machine-readable analytics of startups, organizations, people, and investments.},
+plain = {We publish Crunchbase as a web-friendly data stream, like adding a spout so machines can “drink” structured startup information.}
 }
 
 @article{DBLP:journals/jodl/FarberJ20,
@@ -350,6 +375,7 @@ tldr = {We provide a Linked Data API and RDF dataset for Crunchbase, enabling ma
 	keywords     = {citation recommendation, scholarly search, literature review, datasets, information retrieval},
 	pdf          = {publications/CiteRecSurvey_IJDL2020.pdf},
 tldr = {We survey citation recommendation methods and datasets and highlight evaluation pitfalls and open challenges for assisting scientific writing.},
+plain = {This survey explains citation recommendation, like a GPS for references, and summarizes which datasets and tests are needed before such tools deserve trust.}
 }
 
 @article{DBLP:journals/scientometrics/SaierF20,
@@ -367,6 +393,7 @@ tldr = {We survey citation recommendation methods and datasets and highlight eva
 	keywords     = {scholarly datasets, in-text citations, citation analysis, scientific corpora, metadata},
 	pdf          = {publications/unarXive_Scientometrics2020.pdf},
 tldr = {We present unarXive, a large-scale arXiv full-text corpus with precisely linked in-text citations and rich metadata, empowering citation-aware, transparent, and reproducible scholarly NLP.},
+plain = {We build a large “paper warehouse” where citations inside arXiv texts are tagged and linked, so citation analyses need far less manual cleanup.}
 }
 
 @article{FarberL21,
@@ -381,6 +408,7 @@ tldr = {We present unarXive, a large-scale arXiv full-text corpus with precisely
 	keywords     = {knowledge graphs, research datasets, linked open data, metadata, scholarly infrastructure},
 	pdf          = {publications/DSKG_QSS2021.pdf},
 tldr = {We introduce the Data Set Knowledge Graph (DSKG), the first large-scale linked open dataset that connects datasets to the scholarly papers that mention them, enabling better dataset discovery and making data contributions transparent and measurable.},
+plain = {We link datasets to the papers that mention them, creating a map that helps people find data faster and gives data creators clearer credit.}
 }
 
 @article{abs-2111-05097,
@@ -393,6 +421,7 @@ tldr = {We introduce the Data Set Knowledge Graph (DSKG), the first large-scale 
 	keywords     = {cross-lingual citations, citation analysis, multilingual scholarly communication, bibliometrics},
 	pdf          = {publications/Cross-lingual_Citations_IJDL2021.pdf},
 tldr = {We analyze cross-lingual citations at scale to quantify prevalence and impact, showing how language affects scholarly visibility and citation behavior.},
+plain = {We trace citations across languages like trade routes on a map, showing which languages get noticed and cited in English scientific writing.}
 }
 
 @article{WangJFY21,
@@ -408,6 +437,7 @@ tldr = {We analyze cross-lingual citations at scale to quantify prevalence and i
 	keywords     = {question answering, temporal information retrieval, news archives, event-centric QA},
 	pdf          = {publications/ImprovingQA_IRJ2021.pdf},
 tldr = {We improve question answering over long-term news archives with temporal reranking, helping users retrieve relevant evidence for event-centric questions.},
+plain = {We make question answering over news archives time-aware, like a historian who knows which year to search when the question forgets to say it.}
 }
 
 @article{abs-2112-00160,
@@ -423,6 +453,7 @@ tldr = {We improve question answering over long-term news archives with temporal
 	keywords     = {argument mining, argument search, text clustering, information retrieval},
 	pdf          = {publications/Towards_Full-Fledged_Argument_Search_arXiv2021.pdf},
 tldr = {We propose a unified argument-search framework that extracts and clusters arguments from text for more comprehensive debate analysis.},
+plain = {We build a machine that mines arguments from messy text and sorts them into clusters, like turning a chaotic debate into neat stacks of note cards.}
 }
 
 @article{abs-2112-00859,
@@ -438,6 +469,7 @@ tldr = {We propose a unified argument-search framework that extracts and cluster
 	keywords     = {gender bias, startup funding, innovation studies, linked data, empirical analysis},
 	pdf          = {publications/CrunchBias_2021.pdf},
 tldr = {We analyze European startup funding data and quantify how team gender composition relates to funding outcomes, providing evidence of structural bias risks.},
+plain = {We analyze European startup funding like checking a pipeline, asking whether team gender composition relates to how money flows and where bias may appear.}
 }
 
 @article{DBLP:journals/qss/FarberA22,
@@ -454,6 +486,7 @@ tldr = {We analyze European startup funding data and quantify how team gender co
 	pdf = {publications/MAKG+_QSS2022.pdf},
     keywords = {MAKG, author name disambiguation},
 tldr = {We enhance a massive scholarly knowledge graph with improved author disambiguation, publication classification, and embeddings to improve search and analytics at scale.},
+plain = {We clean and enrich a huge catalog of scientific papers, like fixing name tags and adding smart labels so large-scale search works more reliably.}
 }
 @inproceedings{faerber2023linked,
 	title        = {Linked Papers With Code: The Latest in Machine Learning as an RDF Knowledge Graph},
@@ -466,7 +499,9 @@ tldr = {We enhance a massive scholarly knowledge graph with improved author disa
 	pdf = {publications/LPWC_ISWC2023.pdf},
     keywords  = {Knowledge Graphs, RDF, Machine Learning, Scholarly Data, Linked Open Data, Knowledge Graph Embeddings,Papers With Code, LPWC},
 tldr = {LPWC turns the ML landscape into a machine-queryable knowledge graph linking papers to tasks, datasets, methods, and results for semantic search and analysis.},
+plain = {LPWC turns machine-learning research into a structured “periodic table” of papers, tasks, datasets, and results that can be searched and connected.}
 }
+
 @inproceedings{faerber2023semopenalex,
 	title        = {SemOpenAlex: The Scientific Landscape in 26 Billion RDF Triples},
 	author       = {Michael Färber and David Lamprecht and Johan Krause and Linn Aung and Peter Haase},
@@ -478,6 +513,7 @@ tldr = {LPWC turns the ML landscape into a machine-queryable knowledge graph lin
 	pdf = {publications/SemOpenAlex_ISWC2023.pdf},
     keywords  = {Scholarly Data, Linked Open Data, Knowledge Graph},
 tldr = {We release SemOpenAlex, a scholarly knowledge graph with 26 billion triples, dumps, SPARQL access, and embeddings, enabling large-scale semantic science analytics and search.},
+plain = {SemOpenAlex is an open “Google Maps for science”, built as a connected map of papers and authors so others can navigate research at web scale.}
 }
 
 @article{DBLP:journals/scientometrics/FarberCY23,
@@ -494,6 +530,7 @@ tldr = {We release SemOpenAlex, a scholarly knowledge graph with 26 billion trip
 	pdf = {publications/ScholarBias_Scientometrics2023.pdf},
     keywords  = {Scholarly Data, Bias, Recommender Systems, Mitigation, Survey},
     tldr = {We measure biases in scholarly recommender systems and discuss mitigation strategies to support fairer literature discovery under severe paper overload.},
+    plain = {We show that literature recommenders can have blind spots, like a librarian who keeps pointing to the same shelves, and we outline how to measure and reduce this effect.}
 }
 
 @article{Straub2023OTDRDetection,
@@ -506,6 +543,7 @@ tldr = {We release SemOpenAlex, a scholarly knowledge graph with 26 billion trip
   keywords     = {OTDR, Passive Optical Networks, Optical Distribution Networks, AI-based Monitoring, Event Detection, Fiber Optic Sensing},
   pdf = {publications/OTDR_ECOC2023.pdf},
 tldr = {We detect and classify events in optical networks from OTDR traces and assign faults to network branches, improving reliability of passive optical networks.},
+plain = {We listen to echoes in fiber cables like sonar and use machine learning to spot and locate faults, improving how networks can be monitored.}
 }
 
 @inproceedings{aydin2024assessing,
@@ -518,6 +556,7 @@ tldr = {We detect and classify events in optical networks from OTDR traces and a
 	pdf = {publications/Privacy_Policies_AI_AISyS2024.pdf},
     keywords = {Ethics, Legal, Privacy, Philosophy},
 tldr = {We analyze technical feasibility plus ethical and legal risks of using LLMs to assess privacy policies.},
+plain = {We ask whether AI can read privacy policies like a magnifying glass for fine print and we lay out the technical, ethical, and legal pitfalls.}
 }
 
 @article{OTDRJOCN2024,
@@ -535,6 +574,7 @@ tldr = {We analyze technical feasibility plus ethical and legal risks of using L
 	pdf = {publications/OTDR_JOCN2024.pdf},
     keywords = {OTDR, PON, Machine Learning, Event Detection, Fiber Monitoring},
 tldr = {We improve ML-based OTDR diagnostics using measured and synthetic traces and map events to network branches for practical fiber monitoring.},
+plain = {We improve fiber fault diagnosis by training on both real and simulated signals, like training a mechanic on real cars and realistic simulators.}
 }
 
 @article{CollabScientometrics2024,
@@ -551,6 +591,7 @@ abstract = {Co-authored publications can yield benefits such as additional exper
 	pdf = {publications/Collaboration_Scientometrics2024.pdf},
 keywords = {International Collaboration, Co-authorship, Citation Impact, China, EU, US},
 tldr = {We quantify how international collaboration in computer science relates to productivity and citation impact across China, the EU, and the United States.},
+plain = {We map scientific collaboration like flight routes and study how cross-border co-authoring relates to productivity and impact over decades.}
 }
 
 @article{DBLP:journals/scientometrics/FarberT24,
@@ -567,6 +608,7 @@ tldr = {We quantify how international collaboration in computer science relates 
 	keywords     = {scientometrics, industry influence, AI research, bibliometrics, altmetrics},
 	pdf          = {publications/AI_Impact_Scientometrics2023.pdf},
 tldr = {We measure how companies influence AI research via publishing and show differences in citation impact and online attention between industry and academia.},
+plain = {We measure how strongly companies shape AI research through publishing, like tracking who is rowing and who is steering in a shared boat.}
 }
 
 @inproceedings{politov2025revisiting,
@@ -580,6 +622,7 @@ tldr = {We measure how companies influence AI research via publishing and show d
 	pdf = {publications/XNER_NoDaLiDA2025.pdf},
 	location    = {Tallinn, Estonia},
 tldr = {We refine projection-based cross-lingual NER transfer and show data-based transfer can outperform multilingual-model baselines in low-resource settings.},
+plain = {We revisit cross-language label transfer for name detection, like tracing a drawing onto another sheet, and show how to make the tracing far more accurate.}
 }
 
 @inproceedings{DBLP:conf/clef/ZhangRFT13,
