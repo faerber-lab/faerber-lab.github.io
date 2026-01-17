@@ -14,6 +14,8 @@ children:
     permalink: /datasets/
   - title: demos
     permalink: /demos/
+  - title: selected publications
+    permalink: /selected_publications/
   - title: collaborate
     permalink: /collaborate/
 ---
