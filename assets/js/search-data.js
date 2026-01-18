@@ -44,6 +44,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/projects/";
               },
+            },{id: "dropdown-funding-amp-partners",
+              title: "funding &amp; partners",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/funding/";
+              },
             },{id: "dropdown-datasets",
               title: "datasets",
               description: "",
