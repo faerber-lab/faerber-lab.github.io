@@ -1,0 +1,392 @@
+# _data/funding.yml
+# Notes:
+# - amount_* are strings (formatted) to keep the website output readable.
+# - Privacy-first rendering: funding_list.liquid can hide amounts and grant IDs unless enabled.
+
+summary:
+  own_group_total_eur: "3,016,000"
+  note: "Own share across listed projects with known amounts."
+
+projects:
+  # --- Current group projects (TU Dresden / ScaDS.AI) ---
+  - id: aicom
+    title: "AICOM: Corporate Knowledge Graph Assistant for Evidence-Grounded Enterprise Communication"
+    funder: "SAB"
+    role: "Academic lead"
+    start: "2026-04-01"
+    end: "2028-09-30"
+    duration_months: 30
+    grant_id: null
+    amount_total_eur: "396,000"
+    amount_own_group_eur: "241,000"
+    consortium: true
+    partners:
+      - "WeichertMehner"
+    url: "/projects/aicom/"
+
+  - id: evidenz
+    title: "EVIDENZ: Evidence-based Text Generation with LLMs"
+    funder: "BMFTR (Software Campus)"
+    role: "Academic supervisor"
+    start: "2026-01-01"
+    end: "2027-12-31"
+    duration_months: 24
+    grant_id: null
+    amount_total_eur: "115,000"
+    amount_own_group_eur: "115,000"
+    consortium: true
+    partners:
+      - "Holtzbrinck / Springer Nature"
+    url: "/projects/evidenz/"
+
+  - id: llm4edu
+    title: "LLM4Edu: Learning Large Language Models on Graphs for Education"
+    funder: "BMBF/BMFTR (Software Campus)"
+    role: "Academic advisor"
+    start: "2025-01-01"
+    end: "2026-05-14"
+    duration_months: 17
+    grant_id: "01IS23070"
+    amount_total_eur: "115,000"
+    amount_own_group_eur: "115,000"
+    consortium: true
+    partners:
+      - "Macmillan Learning"
+      - "Holtzbrinck Publishing Group"
+    url: "/projects/llm4edu/"
+
+  - id: klartext
+    title: "Klartext: AI-based Translation of Websites Into Plain / Easy Language"
+    funder: "TU Dresden"
+    role: "Lead"
+    start: "2024-09-01"
+    end: "2024-12-31"
+    duration_months: 4
+    grant_id: null
+    amount_total_eur: "22,000"
+    amount_own_group_eur: "22,000"
+    consortium: true
+    partners:
+      - "Prof. Alexander Lasch"
+      - "Claudia Neumann"
+    url: "/projects/klartext/"
+
+  # --- Track record (selected; KIT/Freiburg/etc.) ---
+  - id: truthfullm
+    title: "TruthfulLM: Verifying and Ensuring Truthfulness in Large Language Models"
+    funder: "BMBF"
+    role: "PI"
+    start: "2023-09-01"
+    end: null
+    grant_id: null
+    amount_total_eur: "50,000"
+    amount_own_group_eur: "50,000"
+    consortium: true
+    partners:
+      - "Aleph Alpha"
+    url: ""
+
+  - id: wg2text
+    title: "WG2Text: Knowledge Graph-based Text Generation"
+    funder: "Vector Stiftung"
+    role: "Co-PI"
+    start: "2023-07-01"
+    end: null
+    grant_id: null
+    amount_total_eur: "33,000"
+    amount_own_group_eur: "33,000"
+    consortium: true
+    partners: []
+    url: ""
+
+  - id: kiwi
+    title: "KIWI: Artificial Intelligence to Detect and Characterize Wake Turbulence in LiDAR Scans"
+    funder: "BMDV"
+    role: "PI"
+    start: "2023-01-01"
+    end: "2024-06-30"
+    grant_id: "19F1137B"
+    amount_total_eur: "200,000"
+    amount_own_group_eur: "80,000"
+    consortium: true
+    partners:
+      - "DLR"
+    url: ""
+
+  - id: pessst
+    title: "PESSST: Publications for Everyone – Summarizing and Simplifying Scientific Text"
+    funder: "KIT KCIST"
+    role: "PI"
+    start: "2022-12-01"
+    end: "2023-12-31"
+    grant_id: null
+    amount_total_eur: "10,000"
+    amount_own_group_eur: "10,000"
+    consortium: false
+    partners: []
+    url: ""
+
+  - id: kd4re
+    title: "KD4RE: Knowledge Distillation for Relation Extraction"
+    funder: "BMBF"
+    role: "PI"
+    start: "2022-06-01"
+    end: "2022-11-30"
+    grant_id: null
+    amount_total_eur: "35,000"
+    amount_own_group_eur: "35,000"
+    consortium: true
+    partners:
+      - "Aleph Alpha"
+    url: ""
+
+  - id: iidi
+    title: "IIDI: Intelligent Information Services for Topic-specific Web Portals"
+    funder: "BMBF"
+    role: "PI"
+    start: "2021-11-01"
+    end: "2023-10-31"
+    grant_id: "01IS21026D"
+    amount_total_eur: "550,000"
+    amount_own_group_eur: "183,000"
+    consortium: true
+    partners:
+      - "metaphacts GmbH"
+      - "TecIntelli GmbH"
+      - "BABLE GmbH"
+      - "Karlsruhe Institute of Technology"
+    url: ""
+
+  - id: chemkb
+    title: "ChemKB: Creation of a Knowledge Base for Chemistry as a Basis for Future Scientific Information"
+    funder: "KIT Strategy Fund"
+    role: "Co-PI"
+    start: "2021-07-01"
+    end: "2023-12-31"
+    grant_id: null
+    amount_total_eur: "381,000"
+    amount_own_group_eur: "95,000"
+    consortium: true
+    partners:
+      - "Karlsruhe Institute of Technology"
+    url: ""
+
+  - id: kiglis
+    title: "KIGLIS: AI to Optimize Fiber Optic Networks in an Intelligent City"
+    funder: "BMBF"
+    role: "Co-PI"
+    start: "2020-11-01"
+    end: "2023-10-31"
+    grant_id: "16KIS1228"
+    amount_total_eur: "3,080,000"
+    amount_own_group_eur: "562,000"
+    consortium: true
+    partners:
+      - "Nokia Solutions and Networks GmbH & Co. KG"
+      - "Karlsruher Institut für Technologie (KIT)"
+      - "VPIphotonics GmbH"
+      - "FZI Forschungszentrum Informatik"
+      - "Atesio GmbH"
+      - "TelemaxX Telekommunikation GmbH"
+    url: "https://kiglis.de"
+
+  - id: transper
+    title: "TransPer: Transparent Personalization in e-Commerce"
+    funder: "BMBF"
+    role: "PI"
+    start: "2020-08-01"
+    end: "2021-01-31"
+    grant_id: "01IS19030A"
+    amount_total_eur: "35,000"
+    amount_own_group_eur: "35,000"
+    consortium: true
+    partners:
+      - "econda GmbH"
+    url: ""
+
+  - id: datascore_dora4kit
+    title: "DataScore for DORA4KIT: Prototype Development of Reward Systems for Students and Researchers"
+    funder: "KIT Excellence Fund"
+    role: "Co-PI"
+    start: "2020-08-01"
+    end: "2020-12-31"
+    grant_id: null
+    amount_total_eur: "63,650"
+    amount_own_group_eur: "17,000"
+    consortium: true
+    partners:
+      - "Karlsruher Institute of Technology"
+    url: ""
+
+  - id: sirs
+    title: "Scholarly Information Recommender Systems Using Knowledge Graphs"
+    funder: "DAAD & Ministry of Foreign Affairs"
+    role: "PI"
+    start: "2020-01-01"
+    end: "2021-12-31"
+    grant_id: null
+    amount_total_eur: "9,000"
+    amount_own_group_eur: "9,000"
+    consortium: true
+    partners:
+      - "Kyoto University"
+    url: ""
+
+  - id: mediating_machines
+    title: "Mediating Machines? Opportunities and Challenges of Artificial Intelligence in Peacemaking"
+    funder: "Volkswagen Stiftung"
+    role: "Co-PI"
+    start: "2020-01-01"
+    end: "2020-12-31"
+    grant_id: null
+    amount_total_eur: "150,000"
+    amount_own_group_eur: "0"
+    consortium: true
+    partners:
+      - "Karlsruher Institute of Technology"
+      - "Heinrich Heine Universität Düsseldorf"
+      - "Universität Basel"
+      - "Schweizerische Friedensstiftung (SwissPeace)"
+      - "Graduate Institute Geneva"
+      - "Fraunhofer-Institut für Optronik, Systemtechnik und Bildauswertung"
+    url: ""
+
+  - id: digilog_bw
+    title: "digilog@bw: Digitization in Dialogue"
+    funder: "MWK Baden-Württemberg"
+    role: "Co-PI"
+    start: "2019-04-01"
+    end: "2022-12-31"
+    grant_id: "31-7547.223/35/1"
+    amount_total_eur: "3,098,000"
+    amount_own_group_eur: "205,000"
+    consortium: true
+    partners:
+      - "GESIS – Leibniz-Institut für Sozialwissenschaften"
+      - "Zentrum für Europäische Wirtschaftsforschung (ZEW)"
+      - "Institut für Deutsche Sprache (IDS)"
+      - "Leibniz-Institut für Wissensmedien (IWM)"
+      - "ZKM | Zentrum für Kunst und Medien Karlsruhe"
+    url: ""
+
+  - id: interlinking_framework
+    title: "Development of an Interlinking Framework"
+    funder: "BMW Group"
+    role: "PI"
+    start: "2019-06-01"
+    end: "2019-11-30"
+    grant_id: null
+    amount_total_eur: "71,000"
+    amount_own_group_eur: "71,000"
+    consortium: false
+    partners:
+      - "BMW Group"
+    url: ""
+
+  - id: recits
+    title: "ReCits: Recommending Relevant Citations in Text"
+    funder: "University of Freiburg (Innovation Fund)"
+    role: "PI"
+    start: "2018-04-01"
+    end: "2019-03-31"
+    grant_id: null
+    amount_total_eur: "25,000"
+    amount_own_group_eur: "25,000"
+    consortium: false
+    partners: []
+    url: ""
+
+  - id: prodata
+    title: "ProData: Production-related Service Systems Based on Big Data Analysis"
+    funder: "BMBF"
+    role: "Co-PI"
+    note: "Co-PI since 2019."
+    start: "2017-11-01"
+    end: "2021-03-31"
+    grant_id: "02K16C082"
+    amount_total_eur: "5,277,000"
+    amount_own_group_eur: "527,000"
+    consortium: true
+    partners:
+      - "Arend Prozessautomation GmbH"
+      - "BALLUFF GmbH"
+      - "Carl Zeiss Industrielle Messtechnik GmbH"
+      - "CeramTec GmbH"
+      - "Gebr. Pfeiffer SE"
+      - "Hilscher Gesellschaft für Systemautomation mit beschränkter Haftung"
+      - "Robert Bosch GmbH"
+      - "RWTH Aachen"
+      - "USU Software AG"
+    url: ""
+
+  - id: dev_kg_bmw
+    title: "Development of a Knowledge Graph"
+    funder: "BMW Group"
+    role: "PI"
+    start: "2017-12-01"
+    end: "2019-02-28"
+    grant_id: null
+    amount_total_eur: "60,000"
+    amount_own_group_eur: "60,000"
+    consortium: true
+    partners:
+      - "BMW Group"
+    url: ""
+
+  - id: scientification
+    title: "Scientification: Automatically Enriching Text with Citations and References"
+    funder: "Japan Society for the Promotion of Science (JSPS)"
+    role: "PI"
+    start: "2017-10-01"
+    end: "2018-09-30"
+    grant_id: null
+    amount_total_eur: "37,000"
+    amount_own_group_eur: "37,000"
+    consortium: false
+    partners: []
+    url: ""
+
+  - id: sora
+    title: "SoRa: Social-Spatial Research DFG Data Infrastructure"
+    funder: "DFG"
+    role: "Co-PI"
+    note: "Co-PI since 2019."
+    start: "2017-03-01"
+    end: "2020-12-31"
+    grant_id: "316669855"
+    amount_total_eur: "721,000"
+    amount_own_group_eur: "249,000"
+    consortium: true
+    partners:
+      - "GESIS - Leibniz Institute for the Social Sciences"
+      - "IOER - Leibniz Institute of Ecological Urban and Regional Development"
+      - "SOEP - Socio-Economic Panel"
+    url: ""
+
+  - id: watson_bmw
+    title: "Prototypical Development and Evaluation of a Watson-based Information System"
+    funder: "BMW Group"
+    role: "PI"
+    start: "2016-01-01"
+    end: "2016-12-31"
+    grant_id: null
+    amount_total_eur: "140,000"
+    amount_own_group_eur: "140,000"
+    consortium: false
+    partners:
+      - "BMW Group"
+    url: ""
+
+  - id: suite
+    title: "SUITE: Semiautomatic Detection and Knowledge Base Integration of Novel Items From Text Documents"
+    funder: "BMBF (Software Campus)"
+    role: "PI"
+    start: "2014-04-01"
+    end: "2016-03-31"
+    grant_id: null
+    amount_total_eur: "100,000"
+    amount_own_group_eur: "100,000"
+    consortium: true
+    partners:
+      - "SAP"
+    url: ""
