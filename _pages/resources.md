@@ -10,6 +10,8 @@ children:
     permalink: /themes/
   - title: projects
     permalink: /projects/
+  - title: funding & partners
+    permalink: /funding/
   - title: datasets
     permalink: /datasets/
   - title: demos
