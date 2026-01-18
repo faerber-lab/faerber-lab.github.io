@@ -9,4 +9,4 @@ search: true
 
 Curated highlights. For the full list, see **[/publications/](/publications/)**.
 
-{% bibliography -f papers -q @*[selected=true]* %}
+{% bibliography -f papers -q @*[selected=true]* --template bib_selected %}
