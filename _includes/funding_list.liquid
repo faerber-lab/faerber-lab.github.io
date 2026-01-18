@@ -19,7 +19,7 @@ Reads:
 {%- assign group_by_current      = page.funding_group_by_current      | default: cfg.group_by_current      | default: true -%}
 {%- assign group_by_track_record = page.funding_group_by_track_record | default: cfg.group_by_track_record | default: true -%}
 
-{%- assign show_dates          = page.funding_show_dates          | default: cfg.show_dates          | default: true -%}
+{%- assign show_dates           = page.funding_show_dates           | default: cfg.show_dates           | default: true -%}
 {%- assign show_duration_months = page.funding_show_duration_months | default: cfg.show_duration_months | default: false -%}
 
 {%- assign show_funder_labels = page.funding_show_funder_labels | default: cfg.show_funder_labels | default: true -%}
@@ -33,8 +33,7 @@ Heuristic grouping:
 - "track record": everything else
 {%- endcomment -%}
 
-{%- assign current = projects | where_exp: "p", "p.url and (p.url contains '/projects/')" -%}
-{%- assign track   = projects | where_exp: "p", "p.url == nil or p.url == '' or (p.url contains 'http')" -%}
+{%- assign current = projects | where_exp: "p", "p.url and p.url contains '/projects/'" -%}
 
 {%- if show_summary and site.data.funding.summary -%}
   <div class="small text-muted mb-3">
@@ -44,6 +43,10 @@ Heuristic grouping:
     {%- endif -%}
   </div>
 {%- endif -%}
+
+{%- comment -%}
+Helper: meta line (funder / role / dates / duration) without parentheses (Liquid range pitfall)
+{%- endcomment -%}
 
 {% if group_by_current and current and current.size > 0 %}
   <h4 class="mt-4">Current group projects</h4>
@@ -56,32 +59,49 @@ Heuristic grouping:
         </div>
 
         <div class="small text-muted mt-1">
-          {%- if show_funder_labels and p.funder and p.funder != "" -%}
-            <span class="badge badge-light">{{ p.funder }}</span>
-          {%- elsif p.funder and p.funder != "" -%}
-            {{ p.funder }}
+          {%- assign has_meta = false -%}
+
+          {%- if p.funder and p.funder != "" -%}
+            {%- if show_funder_labels -%}
+              <span class="badge badge-light">{{ p.funder }}</span>
+            {%- else -%}
+              {{ p.funder }}
+            {%- endif -%}
+            {%- assign has_meta = true -%}
           {%- endif -%}
 
           {%- if show_roles and p.role and p.role != "" -%}
-            {% if p.funder and p.funder != "" %} · {% endif %}{{ p.role }}
+            {%- if has_meta -%} <span class="mx-1">·</span> {%- endif -%}
+            {{ p.role }}
+            {%- assign has_meta = true -%}
           {%- endif -%}
 
           {%- if show_dates and p.start -%}
-            · {{ p.start | date: "%b %Y" }}
-            {%- if p.end -%}–{{ p.end | date: "%b %Y" }}{%- endif -%}
+            {%- if has_meta -%} <span class="mx-1">·</span> {%- endif -%}
+            {{ p.start | date: "%b %Y" }}{%- if p.end -%}–{{ p.end | date: "%b %Y" }}{%- endif -%}
+            {%- assign has_meta = true -%}
           {%- endif -%}
 
-          {%- if (not p.end) and show_duration_months and p.duration_months -%}
-            · {{ p.duration_months }} months
+          {%- if p.end == nil and show_duration_months and p.duration_months -%}
+            {%- if has_meta -%} <span class="mx-1">·</span> {%- endif -%}
+            {{ p.duration_months }} months
           {%- endif -%}
         </div>
 
         {%- if show_partners and p.partners and p.partners.size > 0 -%}
-          <div class="small text-muted">Partners: {{ p.partners | join: ", " }}</div>
+          <div class="mt-2">
+            {%- for partner in p.partners -%}
+              <span class="badge badge-pill badge-light mr-1">{{ partner }}</span>
+            {%- endfor -%}
+          </div>
         {%- endif -%}
 
         {%- if p.note -%}
-          <div class="small text-muted mt-1">{{ p.note }}</div>
+          <div class="mt-2">
+            <div class="small text-muted" style="line-height: 1.35;">
+              {{ p.note }}
+            </div>
+          </div>
         {%- endif -%}
 
       </li>
@@ -89,66 +109,100 @@ Heuristic grouping:
   </ul>
 {% endif %}
 
-{% if group_by_track_record and track and track.size > 0 %}
-  <h4 class="mt-4">Track record (selected)</h4>
-  <ul class="list-group list-group-flush mb-0">
-    {%- for p in track -%}
-      <li class="list-group-item bg-transparent py-3">
+{%- comment -%}
+Track record: render everything that is NOT in "current" (robust, avoids complex where_exp logic)
+{%- endcomment -%}
 
-        <div>
-          <strong>
-            {%- if p.url and p.url != "" -%}
-              {%- if p.url contains 'http' -%}
-                <a href="{{ p.url }}">{{ p.title }}</a>
+{% if group_by_track_record and projects and projects.size > 0 %}
+  {%- assign has_any_track = false -%}
+  {%- for p in projects -%}
+    {%- if p.url and p.url contains '/projects/' -%}
+      {%- continue -%}
+    {%- endif -%}
+    {%- assign has_any_track = true -%}
+    {%- break -%}
+  {%- endfor -%}
+
+  {% if has_any_track %}
+    <h4 class="mt-4">Track record (selected)</h4>
+    <ul class="list-group list-group-flush mb-0">
+      {%- for p in projects -%}
+        {%- if p.url and p.url contains '/projects/' -%}
+          {%- continue -%}
+        {%- endif -%}
+
+        <li class="list-group-item bg-transparent py-3">
+
+          <div>
+            <strong>
+              {%- if p.url and p.url != "" -%}
+                {%- if p.url contains 'http' -%}
+                  <a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }} ↗</a>
+                {%- else -%}
+                  <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+                {%- endif -%}
               {%- else -%}
-                <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+                {{ p.title }}
               {%- endif -%}
-            {%- else -%}
-              {{ p.title }}
+            </strong>
+          </div>
+
+          <div class="small text-muted mt-1">
+            {%- assign has_meta = false -%}
+
+            {%- if p.funder and p.funder != "" -%}
+              {%- if show_funder_labels -%}
+                <span class="badge badge-light">{{ p.funder }}</span>
+              {%- else -%}
+                {{ p.funder }}
+              {%- endif -%}
+              {%- assign has_meta = true -%}
             {%- endif -%}
-          </strong>
-        </div>
 
-        <div class="small text-muted mt-1">
-          {%- if show_funder_labels and p.funder and p.funder != "" -%}
-            <span class="badge badge-light">{{ p.funder }}</span>
-          {%- elsif p.funder and p.funder != "" -%}
-            {{ p.funder }}
-          {%- endif -%}
+            {%- if show_roles and p.role and p.role != "" -%}
+              {%- if has_meta -%} <span class="mx-1">·</span> {%- endif -%}
+              {{ p.role }}
+              {%- assign has_meta = true -%}
+            {%- endif -%}
 
-          {%- if show_roles and p.role and p.role != "" -%}
-            {% if p.funder and p.funder != "" %} · {% endif %}{{ p.role }}
-          {%- endif -%}
+            {%- if show_dates and p.start -%}
+              {%- if has_meta -%} <span class="mx-1">·</span> {%- endif -%}
+              {{ p.start | date: "%b %Y" }}{%- if p.end -%}–{{ p.end | date: "%b %Y" }}{%- endif -%}
+            {%- endif -%}
+          </div>
 
-          {%- if show_dates and p.start -%}
-            · {{ p.start | date: "%b %Y" }}
-            {%- if p.end -%}–{{ p.end | date: "%b %Y" }}{%- endif -%}
-          {%- endif -%}
-        </div>
-
-        {%- if show_partners and p.partners and p.partners.size > 0 -%}
-          <div class="small text-muted">Partners: {{ p.partners | join: ", " }}</div>
-        {%- endif -%}
-
-        {%- if show_grant_ids and p.grant_id and p.grant_id != "" -%}
-          <div class="small text-muted">Grant ID: {{ p.grant_id }}</div>
-        {%- endif -%}
-
-        {%- if show_amounts -%}
-          {%- if p.amount_total_eur or p.amount_own_group_eur -%}
-            <div class="small text-muted">
-              Funding:
-              {%- if p.amount_total_eur -%} €{{ p.amount_total_eur }} total{%- endif -%}
-              {%- if p.amount_own_group_eur -%}{% if p.amount_total_eur %};{% endif %} €{{ p.amount_own_group_eur }} own share{%- endif -%}
+          {%- if show_partners and p.partners and p.partners.size > 0 -%}
+            <div class="mt-2">
+              {%- for partner in p.partners -%}
+                <span class="badge badge-pill badge-light mr-1">{{ partner }}</span>
+              {%- endfor -%}
             </div>
           {%- endif -%}
-        {%- endif -%}
 
-        {%- if p.note -%}
-          <div class="small text-muted mt-1">{{ p.note }}</div>
-        {%- endif -%}
+          {%- if show_grant_ids and p.grant_id and p.grant_id != "" -%}
+            <div class="small text-muted mt-2">Grant ID: {{ p.grant_id }}</div>
+          {%- endif -%}
 
-      </li>
-    {%- endfor -%}
-  </ul>
+          {%- if show_amounts -%}
+            {%- if p.amount_total_eur or p.amount_own_group_eur -%}
+              <div class="small text-muted mt-2">
+                Funding:
+                {%- if p.amount_total_eur -%} €{{ p.amount_total_eur }} total{%- endif -%}
+                {%- if p.amount_own_group_eur -%}{% if p.amount_total_eur %};{% endif %} €{{ p.amount_own_group_eur }} own share{%- endif -%}
+              </div>
+            {%- endif -%}
+          {%- endif -%}
+
+          {%- if p.note -%}
+            <div class="mt-2">
+              <div class="small text-muted" style="line-height: 1.35;">
+                {{ p.note }}
+              </div>
+            </div>
+          {%- endif -%}
+
+        </li>
+      {%- endfor -%}
+    </ul>
+  {% endif %}
 {% endif %}
