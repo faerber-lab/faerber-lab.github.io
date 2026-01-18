@@ -130,3 +130,4 @@ Please send a short email including a **1-page brief** with:
 
 For contact details, please see **[/contact/](/contact/)**.  
 For press inquiries, see **[/media/](/media/)** and **[/press-kit/](/press-kit/)**.
+Selected funding & partners: **[/funding/](/funding/)**.
