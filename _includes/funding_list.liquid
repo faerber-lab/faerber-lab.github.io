@@ -1,0 +1,117 @@
+{%- comment -%}
+funding_list.liquid (privacy-first)
+
+Config options (in _config.yml under `funding:`) or per page front matter:
+  funding:
+    show_summary: false
+    show_amounts: false
+    show_grant_ids: false
+    show_partners: true
+
+Per page (front matter overrides):
+  funding_show_summary: true/false
+  funding_show_amounts: true/false
+  funding_show_grant_ids: true/false
+  funding_show_partners: true/false
+{%- endcomment -%}
+
+{%- assign cfg = site.funding | default: {} -%}
+{%- assign show_summary   = page.funding_show_summary   | default: cfg.show_summary   | default: false -%}
+{%- assign show_amounts   = page.funding_show_amounts   | default: cfg.show_amounts   | default: false -%}
+{%- assign show_grant_ids = page.funding_show_grant_ids | default: cfg.show_grant_ids | default: false -%}
+{%- assign show_partners  = page.funding_show_partners  | default: cfg.show_partners  | default: true -%}
+
+{%- assign projects = site.data.funding.projects | sort: "start" | reverse -%}
+
+{%- comment -%}Group current group projects by internal /projects/ URLs{%- endcomment -%}
+{%- assign current = projects | where_exp: "p", "p.url and (p.url contains '/projects/')" -%}
+{%- assign track   = projects | where_exp: "p", "p.url == nil or p.url == '' or (p.url contains 'http')" -%}
+
+{%- if show_summary and site.data.funding.summary -%}
+  <div class="small text-muted mb-3">
+    {{ site.data.funding.summary.note }}
+    {%- if site.data.funding.summary.own_group_total_eur -%}
+      · Own share (known amounts): €{{ site.data.funding.summary.own_group_total_eur }}
+    {%- endif -%}
+  </div>
+{%- endif -%}
+
+{% if current and current.size > 0 %}
+  <h4 class="mt-4">Current group projects</h4>
+  <ul class="list-group list-group-flush mb-4">
+    {%- for p in current -%}
+      <li class="list-group-item bg-transparent py-3">
+        <div>
+          <strong><a href="{{ p.url | relative_url }}">{{ p.title }}</a></strong>
+        </div>
+
+        <div class="small text-muted mt-1">
+          {%- if p.funder and p.funder != "" -%}{{ p.funder }}{%- endif -%}
+          {%- if p.role and p.role != "" -%}{% if p.funder and p.funder != "" %} · {% endif %}{{ p.role }}{%- endif -%}
+          {%- if p.start -%} · {{ p.start | date: "%b %Y" }}{%- endif -%}
+          {%- if p.end -%}–{{ p.end | date: "%b %Y" }}{%- elsif p.duration_months -%} · {{ p.duration_months }} months{%- endif -%}
+        </div>
+
+        {%- if show_partners and p.partners and p.partners.size > 0 -%}
+          <div class="small text-muted">Partners: {{ p.partners | join: ", " }}</div>
+        {%- endif -%}
+
+        {%- if p.note -%}
+          <div class="small text-muted mt-1">{{ p.note }}</div>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+{% endif %}
+
+{% if track and track.size > 0 %}
+  <h4 class="mt-4">Track record (selected)</h4>
+  <ul class="list-group list-group-flush mb-0">
+    {%- for p in track -%}
+      <li class="list-group-item bg-transparent py-3">
+        <div>
+          <strong>
+            {%- if p.url and p.url != "" -%}
+              {%- if p.url contains 'http' -%}
+                <a href="{{ p.url }}">{{ p.title }}</a>
+              {%- else -%}
+                <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+              {%- endif -%}
+            {%- else -%}
+              {{ p.title }}
+            {%- endif -%}
+          </strong>
+        </div>
+
+        <div class="small text-muted mt-1">
+          {%- if p.funder and p.funder != "" -%}{{ p.funder }}{%- endif -%}
+          {%- if p.role and p.role != "" -%}{% if p.funder and p.funder != "" %} · {% endif %}{{ p.role }}{%- endif -%}
+          {%- if p.start -%} · {{ p.start | date: "%b %Y" }}{%- endif -%}
+          {%- if p.end -%}–{{ p.end | date: "%b %Y" }}{%- endif -%}
+        </div>
+
+        {%- if show_partners and p.partners and p.partners.size > 0 -%}
+          <div class="small text-muted">Partners: {{ p.partners | join: ", " }}</div>
+        {%- endif -%}
+
+        {%- if show_grant_ids and p.grant_id and p.grant_id != "" -%}
+          <div class="small text-muted">Grant ID: {{ p.grant_id }}</div>
+        {%- endif -%}
+
+        {%- if show_amounts -%}
+          {%- if p.amount_total_eur or p.amount_own_group_eur -%}
+            <div class="small text-muted">
+              Funding:
+              {%- if p.amount_total_eur -%} €{{ p.amount_total_eur }} total{%- endif -%}
+              {%- if p.amount_own_group_eur -%}{% if p.amount_total_eur %};{% endif %} €{{ p.amount_own_group_eur }} own share{%- endif -%}
+            </div>
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- if p.note -%}
+          <div class="small text-muted mt-1">{{ p.note }}</div>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+{% endif %}
