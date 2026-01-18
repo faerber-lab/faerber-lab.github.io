@@ -648,3 +648,24 @@ jsonresume:
   - languages
   - interests
   - references
+
+funding:
+  # 🧾 Allgemeines
+  show_summary: false          # zeigt die summary-Box oben an
+  show_partners: true          # zeigt Partner/Consortium anzeigen
+
+  # 💶 Beträge & IDs
+  show_amounts: false          # zeigt €-Beträge (total + own share)
+  show_grant_ids: false        # zeigt Grant IDs (z. B. DFG-Aktenzeichen)
+
+  # 🕐 Zeitliche Gruppierung
+  group_by_current: true       # trennt "current group projects" oben
+  group_by_track_record: true  # trennt den Track Record unten
+
+  # 📅 Anzeigeoptionen
+  show_dates: true             # zeigt Start/End-Jahr/Monat
+  show_duration_months: false  # alternativ Dauer in Monaten, wenn kein End-Datum
+
+  # 📍 Labels/Badges
+  show_funder_labels: true     # zeigt z. B. "BMBF", "DFG", "Industry" als Badge/Label
+  show_roles: true             # zeigt die Rolle an (PI / Co-PI / lead etc.)
