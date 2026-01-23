@@ -1,13 +1,28 @@
+@inproceedings{HendlFaerber2025QuantumKG,
+  author    = {Jonas Hendl and Michael F{\"a}rber},
+  title     = {Incorporating Content-based Features into Quantum Knowledge Graph Embeddings},
+  booktitle = {AIQxQIA@ECAI},
+  year      = {2025},
+  url       = {https://ceur-ws.org/Vol-4153/paper2.pdf},
+  abstract     = {Link prediction in relational data structures, such as knowledge graphs, plays a crucial role in maintaining up-to-date and accurate information. While classical approaches typically leverage either the graph's connectivity or associated textual descriptions (e.g., labels, definitions), recent quantum models have focused predominantly on structural aspects, leaving the potential of textual information largely unexplored. This paper presents the first quantum link prediction framework that combines both structural and textual modalities. We first generate classical text embeddings, apply dimensionality reduction, and encode them into quantum circuits using two complementary strategies: an Amplitude Encoding Model for high-dimensional fidelity and an Angle Encoding Model optimized for gate efficiency. Experimental results on standard benchmark datasets demonstrate that incorporating textual features in quantum architectures is not only feasible but also enhances the predictive performance of quantum link prediction models.},
+  keywords     = {quantum machine learning, link prediction, knowledge graphs, multimodal learning, text embeddings},
+ tldr  = {We introduce the first quantum link prediction framework that fuses knowledge-graph structure with text features, using amplitude and angle encoding to inject reduced text embeddings into quantum circuits and improve prediction accuracy.},
+ plain = {We teach a quantum model to “read the labels” in a knowledge graph—not just follow the links. By turning short texts into simple signals for a quantum circuit, it predicts missing connections more accurately.},
+ pdf = {publications/LinkPred_AIQxQIA_ECAI2025.pdf} 
+}
+
+
 @inproceedings{loehr2026hiddenbias,
   title     = {The Hidden Bias: A Study on Explicit and Implicit Political Stereotypes in Large Language Models},
   author    = {L{\"o}hr, Konrad and Yuan, Shuzhou and F{\"a}rber, Michael},
-  booktitle = {Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)},
+  booktitle = {EACL},
   year      = {2026},
   url       = {https://arxiv.org/pdf/2510.08236},
   abstract  = {Large Language Models (LLMs) are increasingly integral to information dissemination and decision-making processes. Given their growing societal influence, understanding potential biases, particularly within the political domain, is crucial to prevent undue influence on public opinion and democratic processes. This work investigates political bias and stereotype propagation across eight prominent LLMs using the two-dimensional Political Compass Test (PCT). Initially, the PCT is employed to assess the inherent political leanings of these models. Subsequently, persona prompting with the PCT is used to explore explicit stereotypes across various social dimensions. In a final step, implicit stereotypes are uncovered by evaluating models with multilingual versions of the PCT. Key findings reveal a consistent left-leaning political alignment across all investigated models. Furthermore, while the nature and extent of stereotypes vary considerably between models, implicit stereotypes elicited through language variation are more pronounced than those identified via explicit persona prompting. Interestingly, for most models, implicit and explicit stereotypes show a notable alignment, suggesting a degree of transparency or "awareness" regarding their inherent biases. This study underscores the complex interplay of political bias and stereotypes in LLMs.},
   keywords  = {LLMs, bias, politics, stereotypes},
   tldr = {We measure political leanings and stereotypes in major LLMs and show that language variation can reveal stronger implicit bias than persona prompts.},
-  plain = {We run chatbots through a “political compass” quiz and then take a close look at the stereotypes they repeat, especially when we ask the same things in another language.}
+  plain = {We run chatbots through a “political compass” quiz and then take a close look at the stereotypes they repeat, especially when we ask the same things in another language.},
+ pdf = {publications/Political_Bias_and_Stereotypes_in_LLM_EACL2026.pdf}
 }
 
 @inproceedings{Qu2026PoeTone,
