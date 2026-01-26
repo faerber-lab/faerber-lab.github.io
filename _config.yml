@@ -228,12 +228,23 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# Sitemap settings
+# Sitemap settings (default)
+# defaults:
+#  - scope:
+#      path: "assets"
+#    values:
+#      sitemap: false
+# Sitemap settings - changed in 2026
 defaults:
   - scope:
-      path: "assets"
+      path: "assets/html/**"
     values:
       sitemap: false
+  - scope:
+      path: "assets/**/demos/**"
+    values:
+      sitemap: false
+
 
 sass:
   style: compressed
