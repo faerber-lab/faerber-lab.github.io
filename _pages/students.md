@@ -11,7 +11,7 @@ children:
   - title: thesis topics
     permalink: /student_thesis/
   - title: outcomes
-    permalink: /outcomes/
+    permalink: /student-outcomes/
   - title: how we work
     permalink: /how-we-work/
   - title: faq
