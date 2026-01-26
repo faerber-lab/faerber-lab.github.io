@@ -98,7 +98,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/outcomes/";
+                window.location.href = "/student-outcomes/";
               },
             },{id: "dropdown-how-we-work",
               title: "how we work",
