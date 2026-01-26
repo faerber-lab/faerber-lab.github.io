@@ -1,0 +1,22 @@
+name: Check for broken links
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  htmlproofer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Build site
+        run: bundle exec jekyll build
+      - name: Proof HTML
+        uses: athackst/htmlproofer-action@main
+        with:
+          directory: ./_site
