@@ -25,7 +25,6 @@ latest_posts:
   enabled: false
   scrollable: true  # adds a vertical scroll bar if there are more than 3 new posts
   limit: 3  # leave blank to include all blog posts
-  
 ---
 {% include person_org_schema.liquid %}
 
@@ -36,4 +35,3 @@ In addition to core AI research, we actively explore applications in scientific 
 Explore our latest <a href='/vacancies/'>openings </a> and <a href='/student_thesis/'>thesis topics</a> to join our group.
 
 See also our **[/demos/](/demos/)**, **[/datasets/](/datasets/)**, and research **[/themes/](/themes/)**.
-
