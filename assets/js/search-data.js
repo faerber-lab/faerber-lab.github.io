@@ -86,7 +86,49 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
+        },{id: "dropdown-students-overview",
+              title: "students overview",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/students/";
+              },
+            },{id: "dropdown-thesis-topics",
+              title: "thesis topics",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/student_thesis/";
+              },
+            },{id: "dropdown-how-we-work",
+              title: "how we work",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/how-we-work/";
+              },
+            },{id: "dropdown-student-outcomes",
+              title: "student outcomes",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/student-outcomes/";
+              },
+            },{id: "dropdown-faq",
+              title: "faq",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/faq/";
+              },
+            },{id: "dropdown-teaching",
+              title: "teaching",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/teaching/";
+              },
+            },{id: "nav-projects",
           title: "projects",
           description: "List of publicly funded research projects.",
           section: "Navigation",
