@@ -1,21 +1,20 @@
 ---
 layout: page
-title: students
+title: students overview
 permalink: /students/
-nav: true
-nav_order: 6
-dropdown: true
-children:
-  - title: teaching
-    permalink: /teaching/
-  - title: thesis topics
-    permalink: /student_thesis/
-  - title: outcomes
-    permalink: /student-outcomes/
-  - title: how we work
-    permalink: /how-we-work/
-  - title: faq
-    permalink: /faq/
+nav: false
+search: true
+description: Overview of teaching, thesis topics, and student opportunities.
+og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
-Start here: **[/student_thesis/](/student_thesis/)**.
+This page is the main entry point for students interested in our teaching, thesis topics, and related opportunities.
+
+See:
+- [Thesis Topics](/student_thesis/)
+- [How We Work](/how-we-work/)
+- [Student Outcomes](/student-outcomes/)
+- [FAQ](/faq/)
+- [Teaching](/teaching/)
+
+For thesis applications, please check the thesis topics page and contact the listed person directly.
