@@ -128,6 +128,34 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
+            },{id: "dropdown-press-amp-interviews",
+              title: "press &amp; interviews",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/media/";
+              },
+            },{id: "dropdown-media-mentions",
+              title: "media mentions",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/media-mentions/";
+              },
+            },{id: "dropdown-talks",
+              title: "talks",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/talks/";
+              },
+            },{id: "dropdown-press-kit",
+              title: "press kit",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/press-kit/";
+              },
             },{id: "nav-projects",
           title: "projects",
           description: "List of publicly funded research projects.",
@@ -183,34 +211,6 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/collaborate/";
-              },
-            },{id: "dropdown-press-page",
-              title: "press page",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/media/";
-              },
-            },{id: "dropdown-media-mentions",
-              title: "media mentions",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/media-mentions/";
-              },
-            },{id: "dropdown-talks",
-              title: "talks",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/talks/";
-              },
-            },{id: "dropdown-press-kit",
-              title: "press kit",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/press-kit/";
               },
             },{id: "nav-vacancies",
           title: "vacancies",
