@@ -1,6 +1,6 @@
 ---
 layout: page
-title: join us
+title: join!
 permalink: /vacancies/
 description: Latest openings.
 nav: true
