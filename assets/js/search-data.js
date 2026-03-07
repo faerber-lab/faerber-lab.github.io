@@ -16,7 +16,63 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/";
           },
-        },{id: "nav-team",
+        },{id: "dropdown-research-overview",
+              title: "research overview",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/research/";
+              },
+            },{id: "dropdown-research-areas",
+              title: "research areas",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/themes/";
+              },
+            },{id: "dropdown-selected-publications",
+              title: "selected publications",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/selected_publications/";
+              },
+            },{id: "dropdown-publications",
+              title: "publications",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/publications/";
+              },
+            },{id: "dropdown-projects",
+              title: "projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/projects/";
+              },
+            },{id: "dropdown-datasets",
+              title: "datasets",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/datasets/";
+              },
+            },{id: "dropdown-demos",
+              title: "demos",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/demos/";
+              },
+            },{id: "dropdown-talks",
+              title: "talks",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/talks/";
+              },
+            },{id: "nav-team",
           title: "team",
           description: "Core group members, including postdocs and PhD students.",
           section: "Navigation",
