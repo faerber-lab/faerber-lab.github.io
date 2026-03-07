@@ -60,7 +60,7 @@ profiles:
 
 ---
 
-The group is led by [Prof. Dr.-Ing. Michael Färber](/cv/) and currently includes postdocs and PhD students.
+The group is led by [Prof. Dr.-Ing. Michael Färber](/cv/). It currently includes postdocs and PhD students.
 
 Student assistants and interns: **[/student-assistants/](/student-assistants/)**.  
 Selected alumni: **[/alumni/](/alumni/)**.
