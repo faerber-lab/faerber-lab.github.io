@@ -2,7 +2,7 @@
 layout: page
 title: resources
 permalink: /resources/
-nav: true
+nav: false
 nav_order: 5
 dropdown: true
 children:
