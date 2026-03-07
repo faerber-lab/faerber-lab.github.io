@@ -72,6 +72,34 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/talks/";
               },
+            },{id: "dropdown-press-amp-interviews",
+              title: "press &amp; interviews",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/media/";
+              },
+            },{id: "dropdown-media-mentions",
+              title: "media mentions",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/media-mentions/";
+              },
+            },{id: "dropdown-talks",
+              title: "talks",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/talks/";
+              },
+            },{id: "dropdown-press-kit",
+              title: "press kit",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/press-kit/";
+              },
             },{id: "dropdown-students-overview",
               title: "students overview",
               description: "",
@@ -114,33 +142,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "dropdown-press-amp-interviews",
-              title: "press &amp; interviews",
+            },{id: "dropdown-student-assistants",
+              title: "student assistants",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/media/";
-              },
-            },{id: "dropdown-media-mentions",
-              title: "media mentions",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/media-mentions/";
-              },
-            },{id: "dropdown-talks",
-              title: "talks",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/talks/";
-              },
-            },{id: "dropdown-press-kit",
-              title: "press kit",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/press-kit/";
+                window.location.href = "/student-assistants/";
               },
             },{id: "nav-join-us",
           title: "join us",
