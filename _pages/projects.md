@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: List of publicly funded research projects.
-nav: true
+nav: false
 nav_order: 4
 display_categories: [work]
 horizontal: false
