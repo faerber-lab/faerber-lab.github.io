@@ -1,9 +1,10 @@
 ---
 layout: page
-permalink: /contact/
 title: contact
+permalink: /contact/
+description: Contact information and ways to get in touch.
 nav: true
-nav_order: 11
+nav_order: 6
 search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
