@@ -3,7 +3,7 @@ layout: page
 title: students
 permalink: /students-menu/
 nav: true
-nav_order: 3
+nav_order: 4
 dropdown: true
 children:
   - title: students overview
@@ -18,6 +18,8 @@ children:
     permalink: /faq/
   - title: teaching
     permalink: /teaching/
+  - title: student assistants
+    permalink: /student-assistants/
 ---
 
 Student entry point: **[/students/](/students/)**.
