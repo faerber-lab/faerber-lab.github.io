@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+nav: true
+nav_order: 1
 search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 subtitle: <a href='https://www.scads.ai'>ScaDS.AI, TU Dresden</a> 📧 <b>michael.faerber@tu-dresden.de</b>.
@@ -23,6 +25,7 @@ latest_posts:
   enabled: false
   scrollable: true  # adds a vertical scroll bar if there are more than 3 new posts
   limit: 3  # leave blank to include all blog posts
+  
 ---
 {% include person_org_schema.liquid %}
 
