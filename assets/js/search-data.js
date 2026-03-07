@@ -184,41 +184,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/collaborate/";
               },
-            },{id: "dropdown-teaching",
-              title: "teaching",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/teaching/";
-              },
-            },{id: "dropdown-thesis-topics",
-              title: "thesis topics",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/student_thesis/";
-              },
-            },{id: "dropdown-outcomes",
-              title: "outcomes",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/student-outcomes/";
-              },
-            },{id: "dropdown-how-we-work",
-              title: "how we work",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/how-we-work/";
-              },
-            },{id: "dropdown-faq",
-              title: "faq",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/faq/";
-              },
             },{id: "dropdown-press-page",
               title: "press page",
               description: "",
