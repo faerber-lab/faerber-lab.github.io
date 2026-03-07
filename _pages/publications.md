@@ -4,6 +4,7 @@ permalink: /publications/
 title: publications
 description: List of Publications
 nav_order: 3
+nav: false
 search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
