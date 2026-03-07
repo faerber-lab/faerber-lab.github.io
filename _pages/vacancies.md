@@ -1,10 +1,10 @@
 ---
 layout: page
+title: join us
 permalink: /vacancies/
-title: vacancies
-description: Latest openings and available student thesis topics.
+description: Latest openings.
 nav: true
-nav_order: 8
+nav_order: 5
 search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
