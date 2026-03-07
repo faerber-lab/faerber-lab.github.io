@@ -3,10 +3,10 @@ layout: page
 title: media
 permalink: /media-menu/
 nav: true
-nav_order: 7
+nav_order: 4
 dropdown: true
 children:
-  - title: press page
+  - title: press & interviews
     permalink: /media/
   - title: media mentions
     permalink: /media-mentions/
