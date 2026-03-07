@@ -142,14 +142,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/press-kit/";
               },
-            },{id: "nav-projects",
-          title: "projects",
-          description: "List of publicly funded research projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "dropdown-themes",
+            },{id: "dropdown-themes",
               title: "themes",
               description: "",
               section: "Dropdown",
