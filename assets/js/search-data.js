@@ -149,8 +149,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/student-assistants/";
               },
-            },{id: "nav-join-us",
-          title: "join us",
+            },{id: "nav-join",
+          title: "join!",
           description: "Latest openings.",
           section: "Navigation",
           handler: () => {
