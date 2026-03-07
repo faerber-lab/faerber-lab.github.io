@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-team",
           title: "team",
-          description: "Core group members, including postdocs and PhD students.",
+          description: "Current group members, including postdocs and PhD students.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
