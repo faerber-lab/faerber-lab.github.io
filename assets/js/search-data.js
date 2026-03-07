@@ -212,9 +212,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/collaborate/";
               },
-            },{id: "nav-vacancies",
-          title: "vacancies",
-          description: "Latest openings and available student thesis topics.",
+            },{id: "nav-join-us",
+          title: "join us",
+          description: "Latest openings.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/vacancies/";
