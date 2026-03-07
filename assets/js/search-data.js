@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "dropdown-research-overview",
+  },{id: "nav-team",
+          title: "team",
+          description: "Core group members, including postdocs and PhD students.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
+          },
+        },{id: "dropdown-research-overview",
               title: "research overview",
               description: "",
               section: "Dropdown",
@@ -65,14 +72,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/talks/";
               },
-            },{id: "nav-team",
-          title: "team",
-          description: "Core group members, including postdocs and PhD students.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/team/";
-          },
-        },{id: "dropdown-students-overview",
+            },{id: "dropdown-students-overview",
               title: "students overview",
               description: "",
               section: "Dropdown",
