@@ -14,7 +14,7 @@ profiles:
     content: about_michael.md
     image_circular: false
     more_info: >
-      <p>Prof. Dr.-Ing. Michael Färber</p>
+      <p>Prof. Michael Färber</p>
 
   - align: right
     image: nic.jpg
