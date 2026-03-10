@@ -9,115 +9,117 @@ search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
-Below is a curated list of ten of my publications (listed chronologically), each with a short summary highlighting its impact.
+Below is a curated list of **10 of my publications** (listed in reverse chronological order), each with a short summary highlighting its impact.
 
 A full list of publications is available <a href='/publications/'>here</a>.
 
+## 2026
+
+**The Hidden Bias: A Study on Explicit and Implicit Political Stereotypes in Large Language Models**  
+**K. Löhr, S. Yuan, M. Färber**  
+_EACL 2026_  
+[📄 Read the paper](https://arxiv.org/pdf/2510.08236)
+
+This paper studies political bias and stereotype propagation in major LLMs. Beyond explicit persona prompting, it shows that multilingual language variation can reveal even stronger implicit stereotypes. The work highlights the societal relevance of trustworthy AI and the need for more careful evaluation of LLM behavior.
+
 ---
-#### **Paths to Causality: Finding Informative Subgraphs Within Knowledge Graphs for Knowledge-Based Causal Discovery**  
+
+## 2025
+
+**Paths to Causality: Finding Informative Subgraphs Within Knowledge Graphs for Knowledge-Based Causal Discovery**  
 **Y. Susanti, M. Färber**  
 _KDD 2025_  
-[📄 Read the paper](https://arxiv.org/pdf/2506.08771)  
+[📄 Read the paper](https://arxiv.org/pdf/2506.08771)
 
-While traditional methods rely on observational data, knowledge-based causal discovery uses metadata (like variable names or context) to infer causality—a promising but currently unreliable approach when using LLMs alone. To improve stability and accuracy, we propose a novel method that combines LLMs with Knowledge Graphs. By identifying _informative_ metapath-based subgraphs and ranking them using a Learning-to-Rank model, our approach enhances zero-shot LLM prompts for more accurate causal inference. 
+While traditional methods rely on observational data, knowledge-based causal discovery uses metadata (like variable names or context) to infer causality -- a promising but currently unreliable approach when using LLMs alone. To improve stability and accuracy, we propose a method that combines LLMs with Knowledge Graphs. By identifying informative metapath-based subgraphs and ranking them using a Learning-to-Rank model, our approach improves zero-shot LLM prompts for causal inference.
 
 ---
 
-#### **Embedded Named Entity Recognition using Probing Classifiers**  
+**SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation**  
+**I. Besrour, J. He, T. Schreieder, M. Färber**  
+_CIKM 2025_  
+[📄 Read the paper](https://arxiv.org/pdf/2510.15682)
+
+SQuAI is a multi-agent retrieval-augmented generation framework for scientific question answering. It combines decomposition, retrieval, filtering, and citation-grounded answer generation to provide more faithful and transparent answers over large scholarly corpora. The system reflects my current work on trustworthy LLMs and AI for science.
+
+---
+
+**ComplexTempQA: A 100m Dataset for Complex Temporal Question Answering**  
+**R. Gruber, A. Abdallah, M. Färber, A. Jatowt**  
+_EMNLP 2025_  
+[📄 Read the paper](https://aclanthology.org/2025.emnlp-main.463.pdf)
+
+ComplexTempQA introduces a large-scale benchmark for temporal question answering with over 100 million question-answer pairs. It substantially expands the scale and scope of temporal QA resources and supports research on more realistic, time-aware AI systems.
+
+---
+
+## 2024
+
+**Embedded Named Entity Recognition using Probing Classifiers**  
 **N. Popovič, M. Färber**  
 _EMNLP 2024_  
-[📄 Read the paper](https://arxiv.org/pdf/2403.11747?) 
+[📄 Read the paper](https://arxiv.org/pdf/2403.11747)
 
-Streaming text generation enhances the responsiveness of language model applications like chat assistants, while real-time semantic extraction—such as named entity recognition (NER)—is valuable for tasks like fact-checking and retrieval-augmented generation. However, current methods often require costly additional models or fine-tuning. To address this, we introduce EMBER, a method for streaming NER in decoder-only language models that avoids fine-tuning and adds minimal inference overhead. 
+Streaming text generation enhances the responsiveness of language model applications like chat assistants, while real-time semantic extraction -- such as named entity recognition (NER) -- is valuable for tasks like fact-checking and retrieval-augmented generation. To address this, we introduce EMBER, a method for streaming NER in decoder-only language models that avoids fine-tuning and adds minimal inference overhead.
 
 ---
 
-#### **Knowledge Graph Structure as Prompt: Improving Small Language Models Capabilities for Knowledge-Based Causal Discovery**  
+**Knowledge Graph Structure as Prompt: Improving Small Language Models Capabilities for Knowledge-Based Causal Discovery**  
 **Y. Susanti, M. Färber**  
 _ISWC 2024_  
-[📄 Read the paper](https://arxiv.org/pdf/2407.18752)  
+[📄 Read the paper](https://arxiv.org/pdf/2407.18752)
 
-We introduce a method for extracting causal relationships from text by integrating _small_ language models (under 1B parameters) with knowledge graphs via prompt-based learning. The approach outperforms larger models—more efficiently and at lower cost—highlighting the power of combining knowledge graphs with compact AI models.
+We introduce a method for extracting causal relationships from text by integrating small language models (under 1B parameters) with knowledge graphs via prompt-based learning. The approach outperforms larger models more efficiently and at lower cost, highlighting the power of combining knowledge graphs with compact AI models.
 
 ---
 
-#### **GNNAVI: Navigating the Information Flow in Large Language Models by Graph Neural Network**  
+**GNNAVI: Navigating the Information Flow in Large Language Models by Graph Neural Network**  
 **S. Yuan, E. Nie, M. Färber, H. Schmid, H. Schütze**  
 _Findings of ACL 2024_  
-[📄 Read the paper](https://arxiv.org/pdf/2402.11709)  
+[📄 Read the paper](https://arxiv.org/pdf/2402.11709)
 
-This ACL paper proposes a fine-tuning technique for large language models using Graph Neural Networks (GNNs) to improve information flow. GNNAVI achieves state-of-the-art accuracy in few-shot tasks while updating less than 0.5% of model parameters—demonstrating high efficiency and scalability.
+This paper proposes a parameter-efficient fine-tuning technique for large language models using Graph Neural Networks (GNNs) to improve information flow. GNNAVI achieves state-of-the-art accuracy in few-shot tasks while updating less than 0.5% of model parameters, demonstrating high efficiency and scalability.
 
 ---
 
-#### **SemOpenAlex: The Scientific Landscape in 26 Billion RDF Triples**  
+## 2023
+
+**SemOpenAlex: The Scientific Landscape in 26 Billion RDF Triples**  
 **M. Färber, D. Lamprecht, J. Krause, L. Aung, P. Haase**  
 _ISWC 2023 -- Best Paper Award_  
-[📄 Read the paper](https://arxiv.org/abs/2308.03671)  
+[📄 Read the paper](https://arxiv.org/abs/2308.03671)
 
-SemOpenAlex is the largest existing scholarly knowledge graph, with 26 billion triples. It provides open access to global research metadata and sets a new benchmark for scientific discovery, interdisciplinary research, and large-scale knowledge integration.
-
----
-
-#### **Biases in Scholarly Recommender Systems: Impact, Prevalence, and Mitigation**  
-**M. Färber, S. Yuan, M. Coutinho**  
-_Scientometrics, 2023_  
-[📄 Read the paper](https://arxiv.org/pdf/2301.07483)  
-
-This paper identifies and categorizes biases in academic recommender systems and presents strategies to mitigate them. It offers a framework that advances fairness and transparency in research discovery and information access.
+SemOpenAlex is one of the largest scholarly knowledge graphs, with 26 billion RDF triples. It provides open access to global research metadata and supports scientific discovery, interdisciplinary research, and large-scale knowledge integration. The paper received the ISWC Best Paper Award.
 
 ---
 
-#### **Few-Shot Document-Level Relation Extraction**  
-**N. Popovic, M. Färber**  
+## 2022
+
+**Few-Shot Document-Level Relation Extraction**  
+**N. Popovič, M. Färber**  
 _NAACL 2022_  
-[📄 Read the paper](https://arxiv.org/pdf/2205.02048)  
+[📄 Read the paper](https://arxiv.org/pdf/2205.02048)
 
-This paper defines a new benchmark for few-shot learning in document-level relation extraction. It addresses the lack of scalable, domain-specific datasets and introduces a novel strategy for building more realistic NLP benchmarks.
-
----
-
-#### **Recommending Datasets for Scientific Problem Descriptions**  
-**M. Färber, A.-K. Leisinger**  
-_CIKM 2021_  
-[📄 Read the paper](https://www.researchgate.net/publication/355784011_Recommending_Datasets_for_Scientific_Problem_Descriptions)  
-
-This work introduces a system that recommends datasets based on research problem descriptions. It was validated through a large-scale evaluation and user study, and paves the way for AI-driven research data discovery tools.
+This paper defines a new benchmark for few-shot learning in document-level relation extraction. It addresses the lack of scalable, domain-specific datasets and introduces a strategy for building more realistic NLP benchmarks in low-resource settings.
 
 ---
 
-#### **Quantifying Explanations of Neural Networks in E-Commerce Based on LRP**  
-**A. Nguyen, F. Krause, D. Hagenmayer, M. Färber**  
-_ECML-PKDD 2021_  
-[📄 Read the paper](https://www.researchgate.net/publication/354480093_Quantifying_Explanations_of_Neural_Networks_in_E-Commerce_Based_on_LRP)  
+## 2019
 
-We propose a framework to explain neural network behavior using Layer-wise Relevance Propagation (LRP) in real-world e-commerce scenarios. Our metrics help ensure transparency, fairness, and accountability in AI systems.
-
----
-
-#### **Citation Recommendation: Approaches and Datasets**  
-**M. Färber, A. Jatowt**  
-_International Journal on Digital Libraries, 2020_  
-[📄 Read the paper](https://ceur-ws.org/Vol-2591/paper-07.pdf)  
-
-A comprehensive survey on citation recommendation methods and datasets. This article is a cornerstone in the field of citation-based AI and part of a broader series of contributions to bibliometrics and NLP.
-
----
-
-#### **The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of Scholarly Data**  
+**The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of Scholarly Data**  
 **M. Färber**  
 _ISWC 2019_  
-[📄 Read the paper](https://www.researchgate.net/profile/Michael_Faerber/publication/336594090_The_Microsoft_Academic_Knowledge_Graph_A_Linked_Data_Source_with_8_Billion_Triples_of_Scholarly_Data/links/61d82154b6b5667157cfde0a/The-Microsoft-Academic-Knowledge-Graph-A-Linked-Data-Source-with-8-Billion-Triples-of-Scholarly-Data.pdf)  
+[📄 Read the paper](https://www.researchgate.net/profile/Michael_Faerber/publication/336594090_The_Microsoft_Academic_Knowledge_Graph_A_Linked_Data_Source_with_8_Billion_Triples_of_Scholarly_Data/links/61d82154b6b5667157cfde0a/The-Microsoft-Academic-Knowledge-Graph-A-Linked-Data-Source-with-8-Billion-Triples-of-Scholarly-Data.pdf)
 
 As the sole author, I introduced the largest open scholarly knowledge graph at the time, with over 8 billion triples. This dataset has since supported numerous research and industry applications.
 
 ---
 
-#### **Linked Data Quality of DBpedia, Freebase, OpenCyc, Wikidata, and YAGO**  
+## 2018
+
+**Linked Data Quality of DBpedia, Freebase, OpenCyc, Wikidata, and YAGO**  
 **M. Färber, F. Bartscherer, C. Menne, A. Rettinger**  
 _Semantic Web Journal, 2018 -- Outstanding Paper Award_  
-[📄 Read the paper](https://www.semantic-web-journal.net/system/files/swj1366.pdf)  
+[📄 Read the paper](https://www.semantic-web-journal.net/system/files/swj1366.pdf)
 
-This highly cited journal article presents a framework for evaluating the quality of major knowledge graphs. It remains a foundational reference for semantic web researchers and linked data quality assessment.
-
----
+This highly cited journal article presents a framework for evaluating the quality of major knowledge graphs. It remains a foundational reference for semantic web research and linked data quality assessment, and it received the Outstanding Paper Award of the *Semantic Web Journal*.
