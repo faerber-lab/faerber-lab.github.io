@@ -20,8 +20,6 @@ children:
     permalink: /datasets/
   - title: demos
     permalink: /demos/
-  - title: talks
-    permalink: /talks/
 ---
 
 Research entry point: **[/research/](/research/)**.
