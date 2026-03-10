@@ -68,13 +68,13 @@ We look forward to welcoming you to our group!
   Mobility grants supporting short research visits within European research networks. Our group participates, for example, in the **[GOBLIN COST Action](https://goblin-cost.eu/)**.
 
 - **[China Scholarship Council (CSC)](https://www.csc.edu.cn/)** – Visiting PhD Program  
-  Particularly relevant for Chinese doctoral candidates conducting a research visit abroad while remaining enrolled at their home university (often 6–12 months). CSC commonly funds living expenses and international travel for visiting scholars and PhD researchers. :contentReference[oaicite:0]{index=0}
+  Particularly relevant for Chinese doctoral candidates conducting a research visit abroad while remaining enrolled at their home university (often **6–12 months**).
 
 - **Industry-funded doctoral fellowships (e.g., Google, Meta, Microsoft)**  
   Some doctoral students funded through competitive industry PhD fellowships receive travel or collaboration funding that allows them to spend several months abroad with a host research group.
 
-- **[JSPS Fellowships (Japan Society for the Promotion of Science)](https://www.jsps.go.jp/english/e-fellow/)**  
-  The JSPS offers fellowship programs supporting Japanese doctoral students and researchers visiting international research groups for collaborative research stays.
+- **[JSPS Overseas Challenge Program for Young Researchers](https://www.jsps.go.jp/english/e-abc/)**  
+  A program of the **Japan Society for the Promotion of Science (JSPS)** supporting Japanese doctoral students conducting collaborative research abroad for **3–12 months**.
 
 **How to Proceed:**
 
@@ -89,12 +89,12 @@ Preference is given to candidates whose research interests closely match the gro
 #### Postdocs
 
 If you completed your PhD within the past few years, the following programs may be relevant.  
-Some funding routes listed above for PhD students (e.g., **DAAD research grants**, **COST STSM**, or **JSPS fellowships**) may also support **postdoctoral research visits**, depending on the program.
+Some funding routes listed above for PhD students (e.g., *DAAD research grants*, *COST STSM*, or *JSPS mobility programs*) may also support *postdoctoral research visits*, depending on the scheme.
 
 **[Humboldt Research Fellowship (Postdoc Track)](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship)**  
 
 - **Who’s Eligible:** Outstanding researchers from all countries who recently completed their doctorate.  
-- **What’s Offered:** A prestigious fellowship supporting research stays in Germany (typically 6–24 months).  
+- **What’s Offered:** A prestigious fellowship supporting research stays in Germany (typically **6–24 months**).  
 - **When to Apply:** Rolling basis.
 
 **[Georg Forster Research Fellowship (Postdoc Track)](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/georg-forster-research-fellowship)**  
@@ -104,16 +104,16 @@ Some funding routes listed above for PhD students (e.g., **DAAD research grants*
 
 **[DAAD Research Grants in Germany](https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/)**  
 
-Depending on the specific scheme and your career stage, DAAD programs may also support **shorter postdoctoral research stays**.
+Depending on the specific scheme and your career stage, DAAD programs may also support *shorter postdoctoral research stays*.
 
 **[COST Actions – Short-Term Scientific Missions (STSM)](https://www.cost.eu/)**  
 
 Mobility grants supporting collaborative research visits within European research networks.  
 Our group participates, for example, in the **[GOBLIN COST Action](https://goblin-cost.eu/)**.
 
-**[JSPS Fellowships (Japan Society for the Promotion of Science)](https://www.jsps.go.jp/english/e-fellow/)**  
+**[JSPS Overseas Research Fellowships](https://www.jsps.org/japanese_researchers/)**  
 
-Fellowship programs supporting Japanese postdoctoral researchers visiting international research groups.
+A JSPS fellowship supporting **Japanese postdoctoral researchers conducting research abroad**, typically for **up to two years**.
 
 **[Dresden Fellowship Program](https://tu-dresden.de/internationales/foerdermoeglichkeiten/individuelle-foerderungen/dresden-fellowship-programm?set_language=en)**  
 
