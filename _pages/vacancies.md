@@ -35,15 +35,21 @@ International applicants can also apply for external funding (e.g., DAAD, DFG, H
 
 #### Open PhD Positions
 
-While we do not have a public call for PhD positions at the moment, several routes are possible:
+While we do not always have a publicly advertised PhD position, strong **candidates are always welcome to contact us**. Several PhD students in our group are funded through external scholarships, graduate schools, or research projects. Below are common routes to pursue a PhD with our group.
 
-1. **NHR Graduate School (Scholarship):** Applications are typically due **September 15** each year; funding starts **April 1** of the following year. See the NHR application page for the current schedule and topics.
+1. **NHR Graduate School (Scholarship):** The [NHR Graduate School](https://www.nhr-verein.de/en/application) offers competitive PhD scholarships in high-performance computing, data science, and related areas. Applications are typically due **September 15** each year, with funding starting **April 1** of the following year. The program is particularly suitable for projects involving large-scale AI, scientific computing, or data-intensive research.
 
-2. **International Grants:** Applicants from abroad can apply for grants from various funding agencies (e.g., DAAD). Please note that applications often must be submitted several months before your planned start date.
+2. **DAAD and Other International PhD Scholarships:** International applicants can apply for doctoral funding through programs such as the [DAAD scholarship database](https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/). Depending on your country of origin, there may also be suitable national scholarship schemes, bilateral programs, or foundation-based fellowships that support doctoral studies in Germany. Since deadlines and eligibility conditions vary, candidates should usually start preparing **6–12 months in advance**.
 
-3. **EUTOPIA PhD Co-tutelle Programme:** From time to time, positions may become available through the EUTOPIA co-tutelle programme (calls and Home/Host configurations vary).
+3. **EU-Funded PhD Positions (e.g., MSCA Doctoral Networks):** Many PhD positions in Europe are funded through collaborative EU projects, such as **Marie Skłodowska-Curie Doctoral Networks**, and are advertised internationally via platforms like [EURAXESS](https://euraxess.ec.europa.eu/jobs). These positions are often fully funded and embedded in international research and training networks.
 
-4. **Proposal-Driven Funding:** If you have a rough idea for your PhD topic (or are highly interested in the group’s research areas), [contact me](/contact/) and we can discuss proposal-driven funding (e.g., DFG). Keep in mind that the review process can take several months, so early engagement is recommended.
+4. **Joint PhD Supervision with International Partners:** There are also funding opportunities for doctoral projects jointly supervised with partner universities abroad. One relevant example is the [EUTOPIA PhD Co-tutelle Call](https://eutopia-university.eu/english-version/opportunities/research/co-tutelle-call), which supports funded PhD projects across EUTOPIA universities. If this route is of interest, please feel free to contact me directly — I may be able to help identify a suitable *second supervisor* at one of our partner institutions (e.g., for topics such as *multimodal LLMs* and *knowledge graphs*).
+
+5. **German Doctoral Scholarships:** A good starting point is [StipendiumPlus](https://stipendiumplus.de/), which provides an overview of the major scholarship foundations supporting PhD candidates in Germany.
+
+6. **Proposal-Driven Funding:** If you already have a rough idea for your PhD topic — or if you are strongly interested in the group's research areas — please [contact me](/contact/). In some cases, a doctoral project can be developed jointly and funded through external proposals (e.g., DFG or foundations). Please keep in mind that the review process can take **6–9 months**, so early contact is recommended.
+
+*How to get in touch:* If you are interested in pursuing a PhD with our group, please send a short email including your *CV*, *transcript of records*, a *brief description of your research interests*, and, optionally, a *short research idea* related to our topics. Strong candidates often contact us before applying for external funding so that we can discuss supervision and suitable funding routes early on.
 
 ---
 
@@ -55,7 +61,7 @@ For current calls regarding student theses and general information on supervisio
 
 #### Research Stays
 
-We also welcome researchers at all career stages—from Master’s and PhD students to postdocs and established scientists—for research stays (e.g., between 3 and 12 months) in our research group. For more details, please visit our [research stays page](/research_stays/).
+We also welcome researchers at all career stages -- from Master's and PhD students to postdocs and established scientists -- for research stays (e.g., between 3 and 12 months) in our research group. For more details, please visit our **[research stays page](/research_stays/)**.
 
 We look forward to welcoming you to our lab!
 
