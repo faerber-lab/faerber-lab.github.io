@@ -25,11 +25,9 @@ Teaching in my group is research-driven and closely connected to our work in:
 - **Visibility and outreach:** strong outcomes are presented via talks/demos and communicated publicly; when suitable, we also aim for broader outreach.
 - **Close mentoring:** supervision slots are limited; we therefore prioritize strong fit and clear commitment.
 
-{% include student_outcomes_compact.liquid limit_papers=4 limit_artifacts=4 %}
+<!-- {% include student_outcomes_compact.liquid limit_papers=4 limit_artifacts=4 %} -->
 
-More examples: **[/student-outcomes/](/student-outcomes/)**.
-
-How we work (projects → papers): **[/how-we-work/](/how-we-work/)**.
+Student outcomes are listed **[here](/student-outcomes/)**. How we work is described **[here](/how-we-work/)**.
 
 ---
 
