@@ -42,7 +42,7 @@ We push beyond standard retrieval-augmented generation by developing new methods
 
 If you are interested in working on this project:
 
-- **Students:** thesis / HiWi opportunities are available — see [/student_thesis/](/student_thesis/) or contact **Tobias Schreieder**.  
+- **Students:** thesis / HiWi opportunities are available — see [/student_thesis/](/student_thesis/) or contact [Tobias Schreieder](/team/).  
 - **Media:** for expert interviews on AI reliability, citations, chatbots, and scientific QA, please see [/media/](/media/).
 
 ---
