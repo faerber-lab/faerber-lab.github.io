@@ -9,6 +9,12 @@ search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
+<div style="border-left: 3px solid #2a6592; padding: 10px 14px; margin-bottom: 20px; background:#f8fbff;">
+  <strong>Visiting researchers welcome.</strong>
+  Interested in spending a few months in our group (e.g., 3–12 months)?
+  Please see our <a href="/research_stays/"><strong>research stays page</strong></a> for funding options and application details.
+</div>
+
 <h4 style="border-left: 4px solid #2a6592; padding-left: 12px; color: #2a6592; font-weight: 600;">
   Open Postdoc Positions
 </h4>
@@ -29,11 +35,14 @@ Quick answers: **[/faq/](/faq/)**.
 
 If you want a quick impression of our publication style and pace, see [/publications/](/publications/) and [/news/](/news/).
 
-International applicants can also apply for external funding (e.g., DAAD, DFG, Humboldt). For research stays—from short-term visits to long-term stays of up to 2 years—please visit [this page](/research_stays/).
+International applicants can also apply for external funding (e.g., DAAD, DFG, Humboldt).  
+For research stays—from short-term visits to long-term stays of up to 2 years—please visit **[/research_stays/](/research_stays/)**.
 
 ---
 
-#### Open PhD Positions
+<h4 style="border-left: 4px solid #2a6592; padding-left: 12px; color: #2a6592; font-weight: 600;">
+  Open PhD Positions
+</h4>
 
 While we do not always have a publicly advertised PhD position, strong **candidates are always welcome to contact us**. Several PhD students in our group are funded through external scholarships, graduate schools, or research projects. Below are common routes to pursue a PhD with our group.
 
@@ -49,19 +58,26 @@ While we do not always have a publicly advertised PhD position, strong **candida
 
 6. **Proposal-Driven Funding:** If you already have a rough idea for your PhD topic — or if you are strongly interested in the group's research areas — please [contact me](/contact/). In some cases, a doctoral project can be developed jointly and funded through external proposals (e.g., DFG or foundations). Please keep in mind that the review process can take **6–9 months**, so early contact is recommended.
 
-*How to get in touch:* If you are interested in pursuing a PhD with our group, please send a short email including your *CV*, *transcript of records*, a *brief description of your research interests*, and, optionally, a *short research idea* related to our topics. Strong candidates often contact us before applying for external funding so that we can discuss supervision and suitable funding routes early on.
+*How to get in touch:*  
+If you are interested in pursuing a PhD with our group, please send a short email including your *CV*, *transcript of records*, a *brief description of your research interests*, and, optionally, a *short research idea* related to our topics.
 
 ---
 
-#### Open Student Theses
+<h4 style="border-left: 4px solid #2a6592; padding-left: 12px; color: #2a6592; font-weight: 600;">
+  Open Student Theses
+</h4>
 
 For current calls regarding student theses and general information on supervision, please see our [student thesis page](/student_thesis/).
 
 ---
 
-#### Research Stays
+<h4 style="border-left: 4px solid #2a6592; padding-left: 12px; color: #2a6592; font-weight: 600;">
+  Research Stays
+</h4>
 
-We also welcome researchers at all career stages -- from Master's and PhD students to postdocs and established scientists -- for research stays (e.g., between 3 and 12 months) in our research group. For more details, please visit our **[research stays page](/research_stays/)**.
+We also welcome researchers at all career stages — from Master's and PhD students to postdocs and established scientists — for research stays (typically **3–12 months**) in our research group.
+
+➡ For detailed information on funding opportunities and how to apply, please visit our **[research stays page](/research_stays/)**.
 
 We look forward to welcoming you to our lab!
 
