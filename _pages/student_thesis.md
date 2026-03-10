@@ -9,13 +9,13 @@ search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 ---
 
-We supervise student theses with a **research-first, publication-oriented** mindset. The current topics are described (incl. contact person) on the linked ScaDS.AI pages below.
+We supervise student theses with a **research-first, publication-oriented** mindset. The current topics are described (incl. contact person) on the linked ScaDS.AI pages below. The page **[/student-outcomes/](/student-outcomes/)** provides selected examples of student-led papers, datasets, code, and demos.
 
-{% include student_outcomes_compact.liquid limit_papers=4 limit_artifacts=4 %}
+<!-- {% include student_outcomes_compact.liquid limit_papers=4 limit_artifacts=4 %}
 
-<div class="mt-1"><small>More examples: <a href="/student-outcomes/">/student-outcomes/</a></small></div>
+<div class="mt-1"><small>More examples: <a href="/student-outcomes/">/student-outcomes/</a></small></div> -->
 
-How we work (publication mindset, expectations): **[/how-we-work/](/how-we-work/)**.
+Please read first: **[/how-we-work/](/how-we-work/)** (publication mindset, expectations).
 
 Quick answers: **[/faq/](/faq/)**.
 
@@ -37,12 +37,14 @@ Quick answers: **[/faq/](/faq/)**.
 
 ---
 
-**Important (how to apply):**  
-Please choose a topic and email the listed contact person. To keep the process efficient, please include:
+**How to apply:**  
+Please choose a topic and email the listed contact person. Before doing so, please also have a look at **[/student-outcomes/](/student-outcomes/)**, **[/how-we-work/](/how-we-work/)**, and **[/faq/](/faq/)**.
+
+To keep the process efficient, please include:
 
 - short CV  
-- transcript of records (and, if applicable: transcript of your bachelor’s)  
-- short statement (a few sentences) highlighting your skills, motivation for the topic, and your planned thesis starting date  
+- transcript of records (and, if applicable, transcript of your bachelor’s)  
+- short statement (a few sentences) on your skills, your motivation for the topic, and your planned thesis starting date  
 - if applicable: PDF of your bachelor’s thesis  
 - optional but helpful: GitHub/portfolio or a pointer to relevant past projects  
 
