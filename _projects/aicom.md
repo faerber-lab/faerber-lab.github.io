@@ -46,9 +46,6 @@ The project is designed for real-world impact and communication. Results will be
 
 ## Get involved
 
-### PhD position (coming soon)
-A funded PhD position for AICOM will be advertised publicly. If you are interested, please watch **/vacancies/** and **/news/** on this website.
-
 ### Industry / public sector pilots
 If you are interested in a pilot use case, please send a short note (max. 1 page) describing:
 
