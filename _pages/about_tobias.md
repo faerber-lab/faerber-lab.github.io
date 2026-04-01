@@ -1,3 +1,3 @@
-Tobias Schreieder's research interests lie in the areas of information retrieval, natural language processing and privacy. Currently, he is working on citation-aware large language models - the idea of giving LLMs the ability to cite the references used to create responses.
+Tobias Schreieder's research interests lie in the areas of natural language processing, information retrieval, trustworthy AI and privacy. With a focus on evidence-based text generation with LLMs, he develops methods that allow users to trace LLM-generated content back to their underlying sources through citations.
 
-📧 [tobias.schreieder@tu-dresden.de](mailto:tobias.schreieder@tu-dresden.de) 📚 [Google Scholar](https://scholar.google.com/citations?user=Rt0lgBYAAAAJ&hl=de)
+📧 [tobias.schreieder@tu-dresden.de](mailto:tobias.schreieder@tu-dresden.de) 📚 [Google Scholar](https://scholar.google.com/citations?user=Rt0lgBYAAAAJ)
