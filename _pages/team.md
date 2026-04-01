@@ -71,4 +71,11 @@ profiles:
     image_circular: false
     more_info: >
       <p>AFM Mohimenul Joaa</p>
+
+  - align: right
+    image: photo_jingbo.jpg
+    content: about_jingbo.md
+    image_circular: false
+    more_info: >
+      <p>Jingbo He</p>
 ---
