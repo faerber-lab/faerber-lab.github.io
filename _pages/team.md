@@ -15,7 +15,6 @@ group_leader:
     image_circular: false
     more_info: >
       <p>Prof. Michael Färber</p>
-      <p>Group Leader</p>
 
 current_members:
   - align: right
@@ -60,7 +59,6 @@ associated_members:
     image_circular: false
     more_info: >
       <p>Nicholas Popovic</p>
-      <p>Associated PhD Student</p>
 
   - align: right
     image: parisa.jpg
@@ -68,7 +66,6 @@ associated_members:
     image_circular: false
     more_info: >
       <p>Parisa Aghdam</p>
-      <p>Associated PhD Student</p>
 
 alumni:
   - align: left
@@ -77,7 +74,6 @@ alumni:
     image_circular: false
     more_info: >
       <p>Tim Schopf</p>
-      <p>Postdoc (01/2025–02/2026)</p>
 
   - align: right
     image: chen.jpg
@@ -85,5 +81,4 @@ alumni:
     image_circular: false
     more_info: >
       <p>Chen Shao</p>
-      <p>Formerly supervised at KIT</p>
 ---
