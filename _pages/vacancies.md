@@ -35,8 +35,7 @@ Quick answers: **[/faq/](/faq/)**.
 
 If you want a quick impression of our publication style and pace, see [/publications/](/publications/) and [/news/](/news/).
 
-International applicants can also apply for external funding (e.g., DAAD, DFG, Humboldt).  
-For research stays—from short-term visits to long-term stays of up to 2 years—please visit **[/research_stays/](/research_stays/)**.
+International applicants may also consider externally funded positions in our group through prestigious fellowship programs (e.g., Alexander von Humboldt Foundation, DAAD, JSPS, or the Dresden Fellowship Program). These schemes can provide an attractive alternative to a regular TU Dresden contract and may support research stays ranging from a few months up to 1–2 years, depending on the program. For details, please see **[/research_stays/](/research_stays/)**.
 
 ---
 
@@ -75,9 +74,9 @@ For current calls regarding student theses and general information on supervisio
   Research Stays
 </h4>
 
-We also welcome researchers at all career stages — from Master's and PhD students to postdocs and established scientists — for research stays (typically **3–12 months**) in our research group.
+We also welcome researchers at all career stages — from Master's and PhD students to postdocs and established scientists/professors — for funded research stays in our group. Depending on the funding scheme, these stays can range from short-term visits to longer appointments of up to 1–2 years.
 
-➡ For detailed information on funding opportunities and how to apply, please visit our **[research stays page](/research_stays/)**.
+➡ For detailed information on suitable funding opportunities and how to apply, please visit our **[research stays page](/research_stays/)**.
 
 We look forward to welcoming you to our lab!
 
