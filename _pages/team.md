@@ -81,6 +81,13 @@ alumni:
     image_circular: false
     more_info: >
       <p>Chen Shao</p>
+
+  - align: left
+    image: tarek.jpg
+    content: about_tarek.md
+    image_circular: false
+    more_info: >
+      <p>Tarek Saier</p>
 ---
 
 In addition to current postdocs and PhD students, I have supervised more than 50 Bachelor’s, Master’s, and Diplom students. Selected alumni are listed on the [alumni page](/alumni/).
