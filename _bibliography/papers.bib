@@ -1,3 +1,40 @@
+@inproceedings{kelber2026retrieval,
+  author    = {Florian Kelber and Matthias Jobst and Yuni Susanti and Michael F{\"a}rber},
+  title     = {Do We Need Bigger Models for Science? Task-Aware Retrieval with Small Language Models},
+  booktitle   = {LREC},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2604.01965},
+  abstract  = {Scientific knowledge discovery increasingly relies on large language models, yet many existing scholarly assistants depend on proprietary systems with tens or hundreds of billions of parameters. We investigate whether carefully designed retrieval pipelines can compensate for reduced model scale. We propose a lightweight retrieval-augmented framework with task-aware routing that selects specialized retrieval strategies based on the query, integrates full-text papers and structured metadata, and uses compact instruction-tuned models for citation-grounded responses. Evaluations across scholarly QA, multi-document reasoning, biomedical QA under domain shift, and text compression show that retrieval and model scale are complementary: retrieval design can partially offset smaller models, but model capacity remains crucial for complex reasoning.},
+  tldr      = {We show that task-aware retrieval pipelines combined with small instruction-tuned models can achieve strong performance on scholarly tasks, partially compensating for reduced model size. However, model scale remains important for complex reasoning, highlighting a complementary relationship between retrieval design and model capacity.},
+  plain     = {Do we really need huge AI models for science? Not always. With smart retrieval of relevant papers, smaller models can already perform well—but very complex reasoning still benefits from larger models.},
+  keywords  = {retrieval-augmented generation, scholarly QA, small language models, task-aware retrieval}
+}
+
+@inproceedings{yuan2026codae,
+  author    = {Shuzhou Yuan and William LaCroix and Hardik Ghoshal and Ercong Nie and Michael F{\"a}rber},
+  title     = {CoDAE: Adapting Large Language Models for Education via Chain-of-Thought Data Augmentation},
+  booktitle = {LREC},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2508.08386},
+  doi       = {10.48550/arXiv.2508.08386},
+  abstract  = {Large Language Models (LLMs) are increasingly used as AI tutors, but often fail to provide pedagogically appropriate guidance. They may reveal answers too quickly, struggle to adapt to student uncertainty, and remain vulnerable to manipulative prompts. We introduce CoDAE, a framework that adapts LLMs for educational use via Chain-of-Thought (CoT) data augmentation. Using real-world student–tutor dialogues, we enrich training data with step-by-step reasoning and targeted dialogue cases addressing over-compliance, low adaptivity, and threat vulnerability. Fine-tuning multiple open-source LLMs on these datasets leads to improved pedagogical behavior, stronger reasoning support, and increased robustness against premature answer disclosure.},
+  tldr      = {We propose CoDAE, a CoT-based data augmentation framework to adapt LLMs for educational settings. Fine-tuned models provide more pedagogically aligned guidance, better reasoning support, and improved robustness against over-compliance and manipulation.},
+  plain     = {AI tutors often give answers too quickly or can be manipulated. We improve them by training on better example dialogues, helping them guide students step by step instead of just giving solutions.},
+  keywords  = {educational NLP, chain-of-thought, data augmentation, LLM fine-tuning}
+}
+
+@inproceedings{thellmann2026eu20,
+  author    = {Klaudia Thellmann and Bernhard Stadler and Michael F{\"a}rber},
+  title     = {Diagnosing Translated Benchmarks: An Automated Quality Assurance Study of the EU20 Benchmark Suite},
+  booktitle   = {LREC},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2604.01957},
+  keywords  = {machine translation evaluation, benchmark quality, multilingual NLP},
+  abstract  = {Machine-translated benchmark datasets reduce costs and offer scale, but noise, loss of structure, and uneven quality weaken confidence. What matters is not merely whether we can translate, but also whether we can measure and verify translation reliability at scale. We study translation quality in the EU20 benchmark suite, which comprises five established benchmarks translated into 20 languages, via a three-step automated quality assurance approach: (i) a structural corpus audit with targeted fixes; (ii) quality profiling using a neural metric (COMET, reference-free and reference-based) with translation service comparisons (DeepL / ChatGPT / Google); and (iii) an LLM-based span-level translation error landscape. Trends are consistent: datasets with lower COMET scores exhibit a higher share of accuracy/mistranslation errors at span level (notably HellaSwag; ARC is comparatively clean). Reference-based COMET on MMLU against human-edited samples points in the same direction. We release cleaned/corrected versions of the EU20 datasets, and code for reproducibility. In sum, automated quality assurance offers practical, scalable indicators that help prioritize review -- complementing, not replacing, human gold standards.},
+  tldr      = {We analyze the multilingual EU20 benchmark suite with automated quality assurance methods combining structural checks, COMET-based scoring, and LLM-based error analysis. The results show that automated metrics can reliably surface problematic translated datasets and help prioritize manual review at scale.},
+  plain     = {Many AI benchmarks are translated automatically into many languages, but some translations contain serious errors. We show how automatic checks can find these weak spots efficiently and help improve benchmark quality before researchers rely on them.}
+}
+
 @inproceedings{kummer2026prompt,
   author    = {Cornelius Kummer and Lena Jurkschat and Michael F{\"a}rber and Sahar Vahdati},
   title     = {Prompt Compression in the Wild: Measuring Latency, Rate Adherence, and Quality for Faster LLM Inference},
