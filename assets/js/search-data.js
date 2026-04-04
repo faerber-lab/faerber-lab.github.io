@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-team",
           title: "team",
-          description: "Current group members of Michael Färber’s research group, including postdocs and PhD students.",
+          description: "Members, associated PhD students, and alumni of Michael Färber&#39;s research group at ScaDS.AI, TU Dresden.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
