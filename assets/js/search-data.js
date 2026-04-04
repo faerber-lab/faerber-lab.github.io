@@ -343,9 +343,9 @@ ninja.data = [{
           section: "News",},{id: "news-the-sab-funded-research-project-aicom-started-today",
           title: 'The SAB-funded research project AICOM started today!',
           description: "",
-          section: "News",},{id: "projects-aicom",
-          title: 'AICOM',
-          description: "Corporate Knowledge Graph Assistant for evidence-grounded enterprise communication",
+          section: "News",},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aicom/";
             },},{id: "projects-evidenz",
