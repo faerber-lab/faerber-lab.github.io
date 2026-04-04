@@ -2,68 +2,42 @@
 layout: profiles
 permalink: /team/
 title: team
-description: Current group members of Michael Färber’s research group, including postdocs and PhD students.
+description: Members, associated PhD students, and alumni of Michael Färber's research group at ScaDS.AI, TU Dresden.
 nav: true
 nav_order: 2
 search: true
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 
-profiles:
+group_leader:
   - align: left
     image: Michael_Faerber_2024_700p.jpg
     content: about_michael.md
     image_circular: false
     more_info: >
       <p>Prof. Michael Färber</p>
+      <p>Group Leader</p>
 
+current_members:
   - align: right
-    image: nic.jpg
-    content: about_nic.md
-    image_circular: false
-    more_info: >
-      <p>Nicholas Popovic</p>
-
-  - align: left
     image: joe.jpg
     content: about_joe.md
     image_circular: false
     more_info: >
       <p>Shuzhou Yuan</p>
 
-  - align: right
+  - align: left
     image: zhan.png
     content: about_zhan.md
     image_circular: false
     more_info: >
       <p>Zhan Qu</p>
 
-  - align: left
-    image: chen.jpg
-    content: about_chen.md
-    image_circular: false
-    more_info: >
-      <p>Chen Shao</p>
-
   - align: right
-    image: parisa.jpg
-    content: about_parisa.md
-    image_circular: false
-    more_info: >
-      <p>Parisa Aghdam</p>
-
-  - align: left
     image: tobias.png
     content: about_tobias.md
     image_circular: false
     more_info: >
       <p>Tobias Schreieder</p>
-
-  - align: right
-    image: tim.webp
-    content: about_tim.md
-    image_circular: false
-    more_info: >
-      <p>Tim Schopf</p>
 
   - align: left
     image: joa.png
@@ -78,4 +52,38 @@ profiles:
     image_circular: false
     more_info: >
       <p>Jingbo He</p>
+
+associated_members:
+  - align: left
+    image: nic.jpg
+    content: about_nic.md
+    image_circular: false
+    more_info: >
+      <p>Nicholas Popovic</p>
+      <p>Associated PhD Student</p>
+
+  - align: right
+    image: parisa.jpg
+    content: about_parisa.md
+    image_circular: false
+    more_info: >
+      <p>Parisa Aghdam</p>
+      <p>Associated PhD Student</p>
+
+alumni:
+  - align: left
+    image: tim.webp
+    content: about_tim.md
+    image_circular: false
+    more_info: >
+      <p>Tim Schopf</p>
+      <p>Postdoc (01/2025–02/2026)</p>
+
+  - align: right
+    image: chen.jpg
+    content: about_chen.md
+    image_circular: false
+    more_info: >
+      <p>Chen Shao</p>
+      <p>Formerly supervised at KIT</p>
 ---
