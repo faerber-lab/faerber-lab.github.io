@@ -1,13 +1,15 @@
 @inproceedings{kummer2026prompt,
   author    = {Cornelius Kummer and Lena Jurkschat and Michael F{\"a}rber and Sahar Vahdati},
   title     = {Prompt Compression in the Wild: Measuring Latency, Rate Adherence, and Quality for Faster LLM Inference},
-  booktitle = {ECIR 2026},
-  pages     = {257--271},
+  booktitle = {ECIR},
   year      = {2026},
-  doi       = {10.1007/978-3-032-21289-4_17},
+  location  = {Delft, The Netherlands},
+  url       = {https://doi.org/10.1007/978-3-032-21289-4_17},
   pdf      = {publications/PromptCompression_ECIR2026.pdf},
- tldr  = {We show that prompt compression can reduce LLM inference time by up to 18\% without measurable quality loss, but only when the model, hardware, and compression setting are well aligned.},
- plain = {Prompt compression can make language models faster and cheaper, but only in the right setting. We show when it helps in practice and when the compression step takes longer than the time it saves.}
+  abstract = {With the widespread adoption of language models in information retrieval, especially in retrieval-augmented generation (RAG) systems, inference latency has become a key bottleneck, as retrieved passages substantially increase prompt length and computational cost. Prompt compression reduces input size while aiming to preserve downstream task performance, but its practical value depends on whether the added preprocessing time is compensated by faster decoding. We present the first systematic large-scale study of this trade-off, based on thousands of runs and 30,000 queries across several open-source LLMs and three GPU classes. Our evaluation disentangles compression overhead from decoding latency while also measuring output quality and memory usage. LLMLingua yields up to 18\% end-to-end speedups when prompt length, compression ratio, and hardware capacity are well aligned, while response quality remains statistically unchanged across summarization, code generation, and question answering tasks. Outside this operating regime, however, compression overhead dominates and offsets the gains. We further show that effective compression can reduce memory usage enough to move workloads from data-center GPUs to commodity graphics cards, with only a 0.3\,s increase in latency. Finally, we release an open-source profiler that predicts the latency break-even point for each model-hardware setup and provides practical guidance on when prompt compression is beneficial in real-world deployments.},
+  keywords = {prompt compression, large language models, retrieval-augmented generation, inference latency},
+  tldr = {We present the first large-scale empirical study of prompt compression under realistic inference conditions, showing that LLMLingua yields up to 18\% end-to-end latency reduction without statistically significant quality degradation when prompt length, compression ratio, and hardware are properly aligned, while misaligned settings let compression overhead dominate.},
+  plain = {Prompt compression can make language models faster and cheaper, but only in the right setting. We show when it helps in practice and when the compression step takes longer than the time it saves.}
 }
 
 @article{doi:10.1021/acscentsci.5c02031,
@@ -24,6 +26,67 @@
   keywords = {high-throughput experimentation, reaction conditions, reaction optimization, z-scores, statistical analysis, Buchwald--Hartwig coupling, Suzuki--Miyaura coupling, drug-like molecules, chemical synthesis},
   tldr     = {We analyze 66,000 high-throughput reactions on complex, drug-like molecules using a robust z-score-based statistical method, and release both the dataset and an analysis tool, revealing data-driven optimal conditions for Buchwald--Hartwig and Suzuki--Miyaura couplings that differ markedly from literature guidelines.},
   plain    = {We study outcomes from 66,000 automated chemistry experiments and use a simple, robust statistic (z-scores) to identify which starting reaction settings work best. The released dataset and tool show that the best conditions for common cross-coupling reactions can differ a lot from what textbooks and papers typically recommend, giving better starting points for faster optimization.}
+}
+
+@article{DBLP:journals/corr/abs-2601-08668,
+  author       = {Kyuri Im and Shuzhou Yuan and Michael Farber},
+  title        = {Analyzing Bias in False Refusal Behavior of Large Language Models for Hate Speech Detoxification},
+  journal      = {CoRR},
+  volume       = {abs/2601.08668},
+  year         = {2026},
+  url          = {https://doi.org/10.48550/arXiv.2601.08668},
+  eprinttype   = {arXiv},
+  abstract     = {We study false refusal behavior of large language models in hate speech detoxification. Across nine models and English/multilingual datasets, refusals increase with semantic toxicity and for targets such as nationality, religion, and political ideology, with additional language-dependent biases. We propose a simple cross-translation strategy (English→Chinese→English) that significantly reduces false refusals while preserving content.}
+}
+
+@article{DBLP:journals/corr/abs-2602-00279,
+  author       = {Philip M{\"{u}}ller and Nicholas Popovic and Michael F{\"{a}}rber and Peter Steinbach},
+  title        = {Benchmarking Uncertainty Calibration in Large Language Model Long-Form Question Answering},
+  journal      = {CoRR},
+  volume       = {abs/2602.00279},
+  year         = {2026},
+  url          = {https://doi.org/10.48550/arXiv.2602.00279},
+  eprinttype   = {arXiv},
+  eprint       = {2602.00279},
+  abstract     = {Large language models (LLMs) are increasingly used for question answering in the natural sciences and beyond, making reliable uncertainty quantification (UQ) essential for trustworthy deployment. However, existing UQ approaches remain only weakly validated in scientific QA, where factual retrieval and reasoning are both critical. We introduce the first large-scale benchmark for evaluating UQ metrics in reasoning-intensive QA and provide an extensible open-source framework for reproducible calibration assessment. Our study covers up to 20 LLMs, including base, instruction-tuned, and reasoning-oriented variants, and evaluates them on seven scientific QA datasets spanning multiple-choice and arithmetic tasks, formulated through prompting as open QA. In total, we analyze 685,000 long-form responses across varying levels of reasoning complexity representative of domain-specific settings. At the token level, we find that instruction tuning strongly polarizes probability mass, reducing the reliability of token-level confidences as uncertainty estimates. Models additionally fine-tuned for reasoning exhibit the same pattern, although the reasoning process can partially mitigate this effect depending on the provider. At the sequence level, verbalized confidence methods are systematically biased and only weakly correlated with correctness, whereas answer frequency across samples provides the most reliable calibration. We further show that relying exclusively on expected calibration error (ECE) can give a misleading picture of UQ performance on benchmark datasets. Overall, our findings reveal substantial limitations of current UQ methods for LLMs and of standard benchmarking practices in scientific QA.}
+}
+
+@article{DBLP:journals/corr/abs-2602-12828,
+  author       = {Zhan Qu and
+                  Michael F{\"{a}}rber},
+  title        = {{GRAIL:} Geometry-Aware Retrieval-Augmented Inference with LLMs over Hyperbolic Representations of Patient Trajectories},
+  journal      = {CoRR},
+  volume       = {abs/2602.12828},
+  year         = {2026},
+  url          = {https://doi.org/10.48550/arXiv.2602.12828},
+  eprinttype   = {arXiv},
+  eprint       = {2602.12828},
+  abstract     = {Predicting future clinical events from longitudinal electronic health records (EHRs) is challenging due to sparse multi-type observations, hierarchical medical vocabularies, and the tendency of large language models (LLMs) to hallucinate when reasoning over long structured histories. We study next-visit event prediction, which aims to forecast a patient's upcoming clinical events from prior visits. We propose GRAIL, a framework that represents longitudinal EHRs through structured geometric modeling and structure-aware retrieval. GRAIL builds a unified clinical graph by combining deterministic coding-system hierarchies with data-driven temporal associations across event types, embeds this graph in hyperbolic space, and summarizes each visit as a probabilistic Central Event to denoise sparse observations. At inference time, it retrieves a structured set of clinically plausible future events that respect hierarchical and temporal progression, and can optionally refine their ranking using an LLM as a constrained reranker. Experiments on MIMIC-IV show that GRAIL consistently improves multi-type next-visit prediction and produces forecasts that are more consistent with clinical hierarchies.}
+}
+
+@article{DBLP:journals/corr/abs-2602-12833,
+  author       = {Zhan Qu and Michael F{\"{a}}rber},
+  title        = {{TRACE:} Temporal Reasoning via Agentic Context Evolution for Streaming Electronic Health Records (EHRs)},
+  journal      = {CoRR},
+  volume       = {abs/2602.12833},
+  year         = {2026},
+  url          = {https://doi.org/10.48550/arXiv.2602.12833},
+  eprinttype   = {arXiv},
+  eprint       = {2602.12833},
+  abstract     = {Large language models (LLMs) encode extensive medical knowledge but struggle to apply it reliably to longitudinal patient trajectories, where evolving clinical states, irregular timing, and heterogeneous events degrade performance over time. Existing adaptation strategies typically rely on fine-tuning or retrieval-based augmentation, which introduce computational overhead, privacy constraints, or instability under long contexts. We introduce TRACE (Temporal Reasoning via Agentic Context Evolution), a framework for temporal clinical reasoning with frozen LLMs that explicitly structures and maintains context rather than extending context windows or updating model parameters. TRACE operates through a dual-memory architecture comprising a static Global Protocol that captures institutional clinical rules and a dynamic Individual Protocol that tracks patient-specific state. Four agentic components---Router, Reasoner, Auditor, and Steward---coordinate over this structured memory to support temporal inference and state evolution. The framework maintains bounded inference cost through structured state compression and selectively audits safety-critical clinical decisions. Evaluated on longitudinal clinical event streams from MIMIC-IV, TRACE substantially improves next-event prediction accuracy, protocol adherence, and clinical safety over long-context and retrieval-augmented baselines, while producing interpretable and auditable reasoning traces.}
+}
+
+@article{DBLP:journals/corr/abs-2602-12869,
+  author       = {Zhan Qu and
+                  Michael F{\"{a}}rber},
+  title        = {{X-VORTEX:} Spatio-Temporal Contrastive Learning for Wake Vortex Trajectory Forecasting},
+  journal      = {CoRR},
+  volume       = {abs/2602.12869},
+  year         = {2026},
+  url          = {https://doi.org/10.48550/arXiv.2602.12869},
+  eprinttype   = {arXiv},
+  eprint       = {2602.12869},
+  abstract     = {Wake vortices are strong, coherent air turbulences generated by aircraft and remain a major safety and capacity challenge in air traffic management. Tracking their movement, weakening, and dissipation over time from LiDAR measurements is difficult because scans are sparse, vortex signatures fade as the flow breaks down under atmospheric turbulence and instabilities, and point-wise annotation is prohibitively expensive. Existing approaches largely treat each scan as an independent, fully supervised segmentation problem, thereby neglecting temporal structure and scaling poorly to the large unlabeled archives available in practice. We present X-VORTEX, a spatio-temporal contrastive learning framework grounded in Augmentation Overlap Theory that learns physics-aware representations from unlabeled LiDAR point cloud sequences. X-VORTEX addresses two central challenges, sensor sparsity and time-varying vortex dynamics, by constructing paired inputs from the same underlying flight event: a weakly perturbed sequence and a strongly augmented counterpart created through temporal subsampling and spatial masking. This training strategy encourages the model to align representations across missing frames and partial observations. Architecturally, a time-distributed geometric encoder extracts per-scan features, while a sequential aggregator models the evolving vortex state across variable-length sequences. Experiments on a real-world dataset containing more than one million LiDAR scans show that X-VORTEX achieves superior vortex center localization while requiring only 1\% of the labeled data needed by supervised baselines, and that its learned representations also support accurate trajectory forecasting.}
 }
 
 
@@ -51,7 +114,7 @@
   keywords  = {LLMs, bias, politics, stereotypes},
   tldr = {We measure political leanings and stereotypes in major LLMs and show that language variation can reveal stronger implicit bias than persona prompts.},
   plain = {We run chatbots through a “political compass” quiz and then take a close look at the stereotypes they repeat, especially when we ask the same things in another language.},
- pdf = {publications/Political_Bias_and_Stereotypes_in_LLM_EACL2026.pdf}
+  pdf = {publications/Political_Bias_and_Stereotypes_in_LLM_EACL2026.pdf}
 }
 
 @inproceedings{Qu2026PoeTone,
@@ -186,9 +249,9 @@ plain = {SQuAI works like a team of librarians by splitting a hard question into
   url       = {https://doi.org/10.48550/arXiv.2509.05768},
   abstract  = {Energy forecasting is vital for grid reliability and operational efficiency. Although recent advances in time series forecasting have led to progress, existing benchmarks remain limited in spatial and temporal scope and lack multi-energy features. This raises concerns about their reliability and applicability in real-world deployment. To address this, we present the Real-E dataset, covering over 74 power stations across 30+ European countries over a 10-year span with rich metadata. Using Real-E, we conduct an extensive data analysis and benchmark over 20 baselines across various model types. We introduce a new metric to quantify shifts in correlation structures and show that existing methods struggle on our dataset, which exhibits more complex and non-stationary correlation dynamics. Our findings highlight key limitations of current methods and offer a strong empirical basis for building more robust forecasting models.},
   pdf = {publications/Real-E_CIKM2025.pdf},
-keywords = {energy forecasting, time series},
-tldr = {We release Real-E, a large multi-country electricity-forecasting benchmark, and show current methods struggle under non-stationary correlation shifts.},
-plain = {We build a “weather station” for electricity, release a large real-world testbed, and show why models stumble when the grid’s patterns change over time.}
+  keywords = {energy forecasting, time series},
+  tldr = {We release Real-E, a large multi-country electricity-forecasting benchmark, and show current methods struggle under non-stationary correlation shifts.},
+  plain = {We build a “weather station” for electricity, release a large real-world testbed, and show why models stumble when the grid’s patterns change over time.}
 }
 
 @inproceedings{Yuan2025HatefulPersona,
