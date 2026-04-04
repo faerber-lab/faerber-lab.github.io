@@ -1,14 +1,14 @@
 ---
 layout: page
 title: AICOM
-description: Corporate Knowledge Graph Assistant for evidence-grounded enterprise communication
+description: AICOM: Corporate Knowledge Graph Assistant. Knowledge graph-Powered AI for Trustworthy Corporate Communications
 img: assets/img/5.jpg
 importance: 4
 category: work
 related_publications: true
 ---
 
-Large language models are powerful, but in enterprise settings the main challenge is **reliability**. Hallucinations, missing evidence, and untraceable answers make standard LLM assistants hard to deploy responsibly for compliance, reporting, documentation, and decision support.
+Large language models (LLMs) are powerful, but in enterprise settings the main challenge is **reliability**. Hallucinations, missing evidence, and untraceable answers make standard LLM assistants hard to deploy responsibly for compliance, reporting, documentation, and decision support.
 
 **AICOM (Corporate Knowledge Graph Assistant)** develops a new class of enterprise assistants that combine large language models with curated corporate knowledge graphs. The goal is to generate answers that are **grounded in internal knowledge**, **traceable to sources**, and accompanied by **quality and trust indicators**.
 
@@ -40,7 +40,7 @@ This work is crucial for real-world AI adoption in regulated and knowledge-criti
 
 ## Public-facing demonstrations
 
-The project is designed for real-world impact and communication. Results will be accompanied by a project website and regular updates. Selected demonstrators are planned for public innovation and science spaces.
+The project is designed for real-world impact and communication. Selected demonstrators are planned for public innovation and science spaces.
 
 ---
 
@@ -51,13 +51,13 @@ If you are interested in a pilot use case, please send a short note (max. 1 page
 
 - your scenario and objectives  
 - available data sources  
-- constraints (e.g., on-premise / EU-only deployment, compliance requirements)
+- constraints (e.g., on-premise/EU-only deployment, compliance requirements)
 
 ### Media
-For expert interviews on trustworthy enterprise AI, LLMs, chatbots, and evidence-based QA, see **/media/**.
+For expert interviews on trustworthy enterprise AI, LLMs, chatbots, and evidence-based QA, see [**/media/**]({{ '/media/' | relative_url }}).
 
 ---
 
 **Partner:** WeichertMehner (project coordinator)  
-**Academic lead:** TU Dresden / ScaDS.AI (Michael Färber)  
+**Academic lead:** TU Dresden / ScaDS.AI (Michael Färber)
 **Start:** 01/04/2026 · **Duration:** 30 months
