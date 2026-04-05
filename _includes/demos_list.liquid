@@ -18,9 +18,9 @@
     {%- if d.links and d.links.size > 0 -%}
       <div class="small text-muted mt-1">
         Links:
-        {%- for l in d.links -%}
+        {% for l in d.links %}
           <a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}
-        {%- endfor -%}
+        {% endfor %}
       </div>
     {%- endif -%}
   </li>
