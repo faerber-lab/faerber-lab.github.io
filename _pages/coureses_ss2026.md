@@ -24,10 +24,10 @@ The following courses are offered in the **Summer Semester 2026** at TU Dresden:
 
 All courses listed above (e.g., *research project*) are built around concrete research topics from our group.
 
-➡ See the current topics here: **[/proposed-topics/](/proposed-topics/)**
+➡ See the current topics here: **[/proposed-student-projects/](/proposed-student-projects/)**
 
 > **Application deadline for topics:** April 15, 2026  
-> Applications are reviewed on a rolling basis — the earlier, the better. See [/proposed-topics/](/proposed-topics/) for more information.
+> Applications are reviewed on a rolling basis — the earlier, the better. See [/proposed-student-projects/](/proposed-student-projects/) for more information.
 
 Besides the listed topics, own topics can be suggested. Selected topics may also be extended into **Bachelor's/Master's theses**.
 
