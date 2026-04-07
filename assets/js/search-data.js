@@ -107,6 +107,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/student_thesis/";
               },
+            },{id: "dropdown-course-projects",
+              title: "course projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/proposed-student-projects/";
+              },
             },{id: "dropdown-how-we-work",
               title: "how we work",
               description: "",
