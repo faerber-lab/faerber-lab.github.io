@@ -10,6 +10,8 @@ children:
     permalink: /students/
   - title: thesis topics
     permalink: /student_thesis/
+  - title: course projects
+    permalink: /proposed-student-projects/
   - title: how we work
     permalink: /how-we-work/
   - title: student outcomes
