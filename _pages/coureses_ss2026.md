@@ -9,7 +9,7 @@ og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 search: true
 ---
 
-Planned courses for the **Summer Semester 2026** (subject to confirmation in the official course catalog):
+The following courses are offered in the **Summer Semester 2026** at TU Dresden:
 
 | **Course Title**                                                      | **Modules**                    | **SWS**  |
 |-----------------------------------------------------------------------|--------------------------------|----------|
@@ -22,6 +22,26 @@ Planned courses for the **Summer Semester 2026** (subject to confirmation in the
 
 ---
 
-Topics and how to apply: **[/student_thesis/](/student_thesis/)** (and **[/teaching/](/teaching/)** for the publication mindset + what to send).
+All courses listed above (e.g., *research project*) are built around concrete research topics from our group.
 
-Official listing (once published): https://wwwdek.inf.tu-dresden.de/mole-web/catalogs/semester/en
+➡ See the current topics here: **[/proposed-topics/](/proposed-topics/)**
+
+> **Application deadline for topics:** April 15, 2026  
+> Applications are reviewed on a rolling basis — the earlier, the better. See [/proposed-topics/](/proposed-topics/) for more information.
+
+Besides the listed topics, own topics can be suggested. Selected topics may also be extended into **Bachelor's/Master's theses**.
+
+
+---
+
+### Related Information
+
+- **Topics & projects:** **[/proposed-topics/](/proposed-topics/)**
+- **Thesis topics & application:** **[/student_thesis/](/student_thesis/)**
+- **Supervision & expectations:** **[/teaching/](/teaching/)**, **[/how-we-work/](/how-we-work/)**
+- **Supervisors:** **[/team/](/team/)**
+
+---
+
+Official TU Dresden course catalog:  
+https://wwwdek.inf.tu-dresden.de/mole-web/catalogs/sose26/institute/courses/en
