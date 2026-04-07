@@ -33,8 +33,6 @@ How we work: **[/teaching/](/teaching/)**, **[/how-we-work/](/how-we-work/)**, *
 
 ## Automatic Tool Discovery and Registration Mechanisms
 
-Status: **open** / Type of Theses: **Master theses** / Location: **Dresden**
-
 ### Supervisor
 
 A F M Mohimenul Joaa  
@@ -108,8 +106,6 @@ We have successfully collected and curated datasets comprising 102,069 Bangla tr
 
 ## Complementing Autoregressive Models with Diffusion for Structured Generation Tasks
 
-Status: **open** / Type of Theses: **Master theses** / Location: **Dresden**
-
 ### Supervisor
 
 A F M Mohimenul Joaa
@@ -136,8 +132,6 @@ In addition, this work explores how both paradigms can be combined effectively b
 
 ## KGNode v2: Self-Tuning Agentic Framework for Universal Knowledge Graph Question Answering
 
-Status: **open** / Type of Theses: **Master theses** / Location: **Dresden**
-
 ### Supervisor
 
 A F M Mohimenul Joaa
@@ -154,8 +148,6 @@ This project proposes KGNode v2, extending the submitted paper by transforming t
 
 ## Mechanistic Analysis and Control of Persona Representations in LLM Agents
 
-Status: **open** / Type of Theses: **Master theses** / Location: **Dresden**
-
 ### Supervisor
 
 Shuzhou Yuan
@@ -169,8 +161,6 @@ This project investigates how different persona traits (e.g., politeness, formal
 ---
 
 ## Advanced Multimodal Learning for Electronic Health Records: Toward Comprehensive and Interpretable Clinical Intelligence
-
-Status: **open** / Type of Theses: **Master theses** / Location: **Dresden**
 
 ### Supervisor
 
@@ -223,8 +213,6 @@ In this thesis, you will explore how advanced multimodal learning can be used to
 
 ## Does Retrieval Granularity Matter? Analyzing the Effect of Context Noise on LLM-based Scientific Question Answering
 
-Status: **open** / Type of Theses: **Master theses** / Location: **Dresden**
-
 ### Supervisor
 
 Jingbo He
@@ -264,3 +252,63 @@ This project systematically investigates whether LLMs can compensate for this im
 
 - **An open research question:** The literature does not yet systematically address whether LLM semantic understanding compensates for retrieval noise in scientific QA, your experiments will produce a concrete, publishable finding either way.
 - **Real-world relevance:** Results will directly inform the design of SQuAI, a running scientific QA system processing millions of arXiv papers.
+
+---
+
+## Dissertation Analytics in Computer Science: Understanding PhD Publication Patterns and Research Impact
+
+### Supervisor
+
+Michael Färber  
+Chair of Scalable Software Architectures for Data Analytics  
+TUD Dresden University of Technology  
+michael.faerber@tu-dresden.de
+
+### Description
+
+This thesis invites you to work at the intersection of scientometrics, natural language processing, information extraction, and research analytics. Every year, many doctoral dissertations are written in computer science worldwide, yet we still lack a systematic, data-driven understanding of what publication output is typically associated with a successful PhD: How many papers are part of a dissertation? Which venues matter? How much of a candidate’s publication record is actually reflected in the thesis? And how do expectations differ across research groups, universities, and subfields?
+
+These questions are relevant for multiple stakeholders. Prospective PhD candidates want to understand what is realistically expected before starting a doctorate. Current doctoral researchers want to benchmark their progress. Professors and supervisors want to better understand common practices across institutions. Universities and research centers are interested in how doctoral training translates into scientific visibility and impact.
+
+In this thesis, you will build the foundations for a dissertation-centric analytics system. Starting from a large collection of dissertations, you will automatically extract publication-related evidence, link it to external scholarly metadata, and analyze patterns across candidates, groups, and institutions. The work combines large-scale data collection, LLM-based information extraction, and data analysis, with optional system-building components. The aim is a methodologically strong thesis with clear research potential and possible follow-up toward a peer-reviewed publication.
+
+### What are the tasks?
+
+- **Collect and analyze dissertations**
+  - Build a corpus of doctoral dissertations in computer science or a selected subfield.
+  - Study structural differences and publication practices across institutions and research areas.
+  - Define concrete research questions (e.g., number of publications, venue quality, variation across groups).
+
+- **Extract publication evidence**
+  - Identify publications associated with the doctoral candidate directly from the dissertation text.
+  - Distinguish between publications that count toward the dissertation and those that are only mentioned.
+  - Use LLM-based prompting and/or classical information extraction to resolve ambiguities.
+
+- **Enrich and integrate metadata**
+  - Link extracted publications to external sources (e.g., OpenAlex, DBLP, Semantic Scholar).
+  - Collect metadata on venues, citations, co-authorship, supervisors, and institutions.
+  - Build a structured database connecting dissertations, publications, and institutional context.
+
+- **Analyze patterns and research impact**
+  - Study how doctoral publication records vary across institutions, groups, and subfields.
+  - Explore indicators beyond simple counts (e.g., venue quality, collaboration patterns, citation impact).
+  - Critically discuss strengths and limitations of such metrics.
+
+- **Optional: Build an exploration tool**
+  - Create a simple search or exploration interface.
+  - Optionally prototype a recommender system for prospective PhD candidates.
+
+### What prerequisites do you need?
+
+- Strong interest in AI/ML, NLP, data analytics, or scientometrics.
+- Good programming skills in Python.
+- Interest in working with real-world PDFs, metadata, and noisy document collections.
+- Basic familiarity with NLP, information extraction, or LLM prompting is beneficial.
+- Very good English skills (for reading literature and writing the thesis).
+
+### Why this thesis is special
+
+- **Novel perspective:** Focus on dissertation-level analysis rather than professor- or institution-level metrics.
+- **High relevance:** Useful for PhD candidates, supervisors, and research institutions.
+- **Technically rich:** Combines document mining, LLM-based extraction, metadata integration, and data analysis.
+- **Research potential:** Ambitious and timely topic with realistic publication potential.
