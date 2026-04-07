@@ -10,6 +10,30 @@
   keywords  = {retrieval-augmented generation, scholarly QA, small language models, task-aware retrieval}
 }
 
+@inproceedings{besrour2026unarxive,
+  author    = {Ines Besrour and Michael F{\"a}rber},
+  title     = {unarXive 2024: A Large-Scale Scientific Corpus for Citation-Aware Retrieval and Generation},
+  booktitle = {LREC},
+  year      = {2026},
+  abstract  = {Full-text collections of scientific papers are essential for NLP research and the training of language models. However, existing resources remain incomplete: they often lag behind the fast-paced growth of scientific publishing, lack comprehensive citation networks, and discard essential structural elements. In this work, we introduce unarXive 2024, a large-scale, richly structured corpus containing every arXiv submission from January 1991 to December 2024 – over 2.28 million documents across physics, mathematics, computer science, and other fields. Our release enhances each paper with detailed metadata, reconstructs a substantially more complete citation network than existing datasets, and preserves fine-grained structural information, including section boundaries, mathematical notation, and non-textual elements. Beyond the corpus itself, we provide dense and sparse indexes optimized for retrieval-augmented generation (RAG) over the full arXiv archive. All resources, including code and data, are publicly available: https://github.com/faerber-lab/unarXive-2024},
+  url       = {https://github.com/faerber-lab/unarXive-2024},
+  pdf       = {publications/unarXive_LREC2026.pdf},
+  tldr      = {We introduce unarXive 2024, a 2.28M-paper corpus with improved citation resolution (39.5M links) and structured full text, enabling large-scale citation-aware retrieval and RAG.},
+  plain     = {We collected millions of scientific papers and organized them so computers can better understand what they say and how they reference each other.}
+}
+
+@inproceedings{schopf2026idea,
+  author    = {Tim Schopf and Michael F{\"a}rber},
+  title     = {Is this Idea Novel? An Automated Benchmark for Judgment of Research Ideas},
+  booktitle = {LREC},
+  year      = {2026},
+  abstract  = {Judging the novelty of research ideas is crucial for advancing science, enabling the identification of unexplored directions, and ensuring contributions meaningfully extend existing knowledge rather than reiterate minor variations. However, given the exponential growth of scientific literature, manually judging the novelty of research ideas through literature reviews is labor-intensive, subjective, and infeasible at scale. Therefore, recent efforts have proposed automated approaches for research idea novelty judgment. Yet, evaluation of these approaches remains largely inconsistent and is typically based on non-standardized human evaluations, hindering large-scale, comparable evaluations. To address this, we introduce RINoBench, the first comprehensive benchmark for large-scale evaluation of research idea novelty judgments. It comprises 1,381 research ideas derived from and judged by human experts as well as nine automated evaluation metrics designed to assess both rubric-based novelty scores and textual justifications of novelty judgments. Using this benchmark, we evaluate several state-of-the-art large language models (LLMs) on their ability to judge the novelty of research ideas. Our findings reveal that while LLM-generated reasoning closely mirrors human rationales, this alignment does not reliably translate into accurate novelty judgments, which diverge significantly from human gold standard judgments—even among leading reasoning-capable models.},
+  url       = {https://github.com/TimSchopf/RINoBench},
+  pdf       = {publications/IdeaNovel_LREC2026.pdf},
+  tldr      = {We introduce RINoBench, a large-scale benchmark for evaluating how well language models judge the novelty of research ideas, showing that current models produce plausible reasoning but fail to make accurate novelty judgments.},
+  plain     = {We built a dataset to test whether AI can judge if a research idea is new. Current models can explain their reasoning well, but they often still get the final decision wrong.}
+}
+
 @inproceedings{yuan2026codae,
   author    = {Shuzhou Yuan and William LaCroix and Hardik Ghoshal and Ercong Nie and Michael F{\"a}rber},
   title     = {CoDAE: Adapting Large Language Models for Education via Chain-of-Thought Data Augmentation},
@@ -20,7 +44,8 @@
   abstract  = {Large Language Models (LLMs) are increasingly used as AI tutors, but often fail to provide pedagogically appropriate guidance. They may reveal answers too quickly, struggle to adapt to student uncertainty, and remain vulnerable to manipulative prompts. We introduce CoDAE, a framework that adapts LLMs for educational use via Chain-of-Thought (CoT) data augmentation. Using real-world student–tutor dialogues, we enrich training data with step-by-step reasoning and targeted dialogue cases addressing over-compliance, low adaptivity, and threat vulnerability. Fine-tuning multiple open-source LLMs on these datasets leads to improved pedagogical behavior, stronger reasoning support, and increased robustness against premature answer disclosure.},
   tldr      = {We propose CoDAE, a CoT-based data augmentation framework to adapt LLMs for educational settings. Fine-tuned models provide more pedagogically aligned guidance, better reasoning support, and improved robustness against over-compliance and manipulation.},
   plain     = {AI tutors often give answers too quickly or can be manipulated. We improve them by training on better example dialogues, helping them guide students step by step instead of just giving solutions.},
-  keywords  = {educational NLP, chain-of-thought, data augmentation, LLM fine-tuning}
+  keywords  = {educational NLP, chain-of-thought, data augmentation, LLM fine-tuning},
+  pdf       = {publications/CoDAE_LREC2026.pdf}
 }
 
 @inproceedings{thellmann2026eu20,
@@ -32,7 +57,8 @@
   keywords  = {machine translation evaluation, benchmark quality, multilingual NLP},
   abstract  = {Machine-translated benchmark datasets reduce costs and offer scale, but noise, loss of structure, and uneven quality weaken confidence. What matters is not merely whether we can translate, but also whether we can measure and verify translation reliability at scale. We study translation quality in the EU20 benchmark suite, which comprises five established benchmarks translated into 20 languages, via a three-step automated quality assurance approach: (i) a structural corpus audit with targeted fixes; (ii) quality profiling using a neural metric (COMET, reference-free and reference-based) with translation service comparisons (DeepL / ChatGPT / Google); and (iii) an LLM-based span-level translation error landscape. Trends are consistent: datasets with lower COMET scores exhibit a higher share of accuracy/mistranslation errors at span level (notably HellaSwag; ARC is comparatively clean). Reference-based COMET on MMLU against human-edited samples points in the same direction. We release cleaned/corrected versions of the EU20 datasets, and code for reproducibility. In sum, automated quality assurance offers practical, scalable indicators that help prioritize review -- complementing, not replacing, human gold standards.},
   tldr      = {We analyze the multilingual EU20 benchmark suite with automated quality assurance methods combining structural checks, COMET-based scoring, and LLM-based error analysis. The results show that automated metrics can reliably surface problematic translated datasets and help prioritize manual review at scale.},
-  plain     = {Many AI benchmarks are translated automatically into many languages, but some translations contain serious errors. We show how automatic checks can find these weak spots efficiently and help improve benchmark quality before researchers rely on them.}
+  plain     = {Many AI benchmarks are translated automatically into many languages, but some translations contain serious errors. We show how automatic checks can find these weak spots efficiently and help improve benchmark quality before researchers rely on them.},
+  pdf       = {publications/EU20_Benchmarks_LREC2026.pdf}
 }
 
 @inproceedings{kummer2026prompt,
