@@ -35,9 +35,7 @@ How we work: **[/teaching/](/teaching/)**, **[/how-we-work/](/how-we-work/)**, *
 
 ### Supervisor
 
-A F M Mohimenul Joaa  
-Chair of Scalable Software Architectures for Data Analytics  
-TUD Dresden University of Technology
+A F M Mohimenul Joaa <a_f_m_mohimenul.joaa@mailbox.tu-dresden.de>
 
 ### Description
 
@@ -59,13 +57,9 @@ Through experiments and ablations, this work aims to clarify when each synthesis
 
 ## Phonetic-Aware Letter-Based Next Word Prediction for Transliterated South Asian Languages
 
-Status: **open** / Type of Theses: **Master theses** / Location: **Dresden**
-
 ### Supervisor
 
-A F M Mohimenul Joaa  
-Chair of Scalable Software Architectures for Data Analytics  
-TUD Dresden University of Technology
+A F M Mohimenul Joaa <a_f_m_mohimenul.joaa@mailbox.tu-dresden.de>
 
 ### Problem
 
@@ -108,9 +102,7 @@ We have successfully collected and curated datasets comprising 102,069 Bangla tr
 
 ### Supervisor
 
-A F M Mohimenul Joaa
-Chair of Scalable Software Architectures for Data Analytics
-TUD Dresden University of Technology
+A F M Mohimenul Joaa <a_f_m_mohimenul.joaa@mailbox.tu-dresden.de>
 
 ### Description
 
@@ -134,9 +126,7 @@ In addition, this work explores how both paradigms can be combined effectively b
 
 ### Supervisor
 
-A F M Mohimenul Joaa
-Chair of Scalable Software Architectures for Data Analytics
-TUD Dresden University of Technology
+A F M Mohimenul Joaa <a_f_m_mohimenul.joaa@mailbox.tu-dresden.de>
 
 ### Description
 
@@ -150,9 +140,7 @@ This project proposes KGNode v2, extending the submitted paper by transforming t
 
 ### Supervisor
 
-Shuzhou Yuan
-Chair of Scalable Software Architectures for Data Analytics
-TUD Dresden University of Technology
+Shuzhou Yuan <shuzhou.yuan@tu-dresden.de>
 
 ### Description
 
@@ -164,10 +152,7 @@ This project investigates how different persona traits (e.g., politeness, formal
 
 ### Supervisor
 
-Zhan Qu
-Chair of Scalable Software Architectures for Data Analytics
-TUD Dresden University of Technology
-zhan.qu@tu-dresden.de
+Zhan Qu <zhan.qu@tu-dresden.de>
 
 ### Description
 
@@ -215,9 +200,7 @@ In this thesis, you will explore how advanced multimodal learning can be used to
 
 ### Supervisor
 
-Jingbo He
-Chair of Scalable Software Architectures for Data Analytics
-TUD Dresden University of Technology
+Jingbo He <jingbo.he@tu-dresden.de>
 
 ### Description
 
@@ -259,10 +242,7 @@ This project systematically investigates whether LLMs can compensate for this im
 
 ### Supervisor
 
-Michael Färber  
-Chair of Scalable Software Architectures for Data Analytics  
-TUD Dresden University of Technology  
-michael.faerber@tu-dresden.de
+Michael Färber <michael.faerber@tu-dresden.de>
 
 ### Description
 
