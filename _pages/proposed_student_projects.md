@@ -291,3 +291,39 @@ In this thesis, you will build the foundations for a dissertation-centric analyt
 - **High relevance:** Useful for PhD candidates, supervisors, and research institutions.
 - **Technically rich:** Combines document mining, LLM-based extraction, metadata integration, and data analysis.
 - **Research potential:** Ambitious and timely topic with realistic publication potential.
+
+---
+
+## Citation-Worthiness Detection for Evidence-Based Text Generation with Large Language Models
+
+### Supervisor
+
+Tobias Schreieder <tobias.schreieder@tu-dresden.de>
+
+### Description
+
+Evidence-based text generation with large language models aims to generate text together with explicit references that make the output traceable to supporting evidence. Today, this is typically implemented via retrieval-augmented generation (RAG): relevant sources are retrieved, inserted into the prompt, and then cited by the model. However, such systems usually do not decide explicitly whether a citation is actually needed at a given point in the generated text. As a result, they often overcite by adding unnecessary references, or undercite by failing to support factual claims. :contentReference[oaicite:0]{index=0}
+
+This project investigates **citation-worthiness detection** for evidence-based text generation. The core idea is to equip the generation pipeline with a component that decides during generation whether a claim is **cite-worthy**, that is, whether it should trigger retrieval and citation generation. This enables a more precise and context-aware use of evidence and helps align citation behavior with the actual informational needs of the generated text. The project is particularly relevant for scientific question answering and literature-oriented generation, where both correctness and appropriate citation behavior matter. :contentReference[oaicite:1]{index=1}
+
+### Research Goal
+
+The goal of this project is to develop a citation-worthiness-aware pipeline for evidence-based text generation with four main components:
+
+- **Evidence-based text generation:** Use an LLM to generate answers to scientific user queries, for example in scholarly question answering or literature overview generation.
+- **Citation-worthiness detection:** Develop a classification model that detects during text generation whether a generated claim requires a citation, enabling real-time decisions on when retrieval should be triggered.
+- **Scholarly information retrieval:** Integrate retrieval models over large-scale scholarly corpora such as unarXive 2024 to provide relevant supporting evidence for detected cite-worthy claims.
+- **System evaluation:** Design an evaluation framework that measures answer correctness, citation quality, and citation-worthiness behavior such as overcitation and undercitation. :contentReference[oaicite:2]{index=2}
+
+### Prerequisites
+
+- Very good programming skills in **Python**
+- Experience with the implementation of **search or retrieval systems**
+- Background in **machine learning**
+- Basic understanding of **RAG pipelines**
+
+### References
+
+1. Schreieder, T., Schopf, T., Färber, M. (2025): *Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models*. arXiv. https://arxiv.org/abs/2508.15396 :contentReference[oaicite:3]{index=3}
+2. Gao, T., Yen, H., Yu, J., Chen, D. (2023): *Enabling Large Language Models to Generate Text with Citations*. EMNLP 2023. https://aclanthology.org/2023.emnlp-main.398/ :contentReference[oaicite:4]{index=4}
+3. Wright, D., Augenstein, I. (2021): *CiteWorth: Cite-Worthiness Detection for Improved Scientific Document Understanding*. Findings of ACL-IJCNLP 2021. https://aclanthology.org/2021.findings-acl.157/ :contentReference[oaicite:5]{index=5}
