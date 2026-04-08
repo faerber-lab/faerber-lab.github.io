@@ -17,7 +17,7 @@ Some of these topics may also be extended into **Bachelor's** or **Master's thes
   <strong>Application period (Summer Semester 2026).</strong><br>
   <strong>Published:</strong> April 7, 2026<br>
   <strong>Deadline:</strong> April 15, 2026<br>
-  Applications are reviewed on a rolling basis — <strong>the earlier, the better</strong>.<br><br>
+  <br>
   Please include your <strong>CV</strong>, <strong>current transcript of records</strong>, and a short note on the topic(s) you are applying for, your background, and your motivation. As these projects are research-oriented and supervision capacity is limited, we will give preference to students with a strong academic record, relevant skills, and a convincing fit to the topic.<br><br>
   <strong>Note:</strong> Additional topics will be added in the coming days. Some topics may be filled early.
 </div>
