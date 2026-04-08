@@ -11,23 +11,22 @@ search: true
 
 This page lists selected research topics in our group, primarily for the courses provided in the summer semester 2026 (e.g., *Forschungsprojekt*, *Komplexpraktikum*, *Teamprojekt*).
 
-Some of these topics may also be extended into **Bachelor’s** or **Master’s theses**. For formally advertised thesis topics and application details, please see **[/student_thesis/](/student_thesis/)**. In practice, if you are strongly interested in a topic — whether listed here or there — feel free to contact the **corresponding supervisor directly**.
+Some of these topics may also be extended into **Bachelor's** or **Master's theses**. For further thesis topics, see **[/student_thesis/](/student_thesis/)**. In practice, if you are strongly interested in a topic — whether listed here or there — feel free to contact the **corresponding supervisor directly** (see email addresses below).
 
 <div style="border-left: 3px solid #2a6592; padding: 12px 16px; margin: 18px 0 22px 0; background:#f8fbff;">
   <strong>Application period (Summer Semester 2026).</strong><br>
   <strong>Published:</strong> April 7, 2026<br>
   <strong>Deadline:</strong> April 15, 2026<br>
   Applications are reviewed on a rolling basis — <strong>the earlier, the better</strong>.<br><br>
-
+  Please include your <strong>CV</strong>, <strong>current transcript of records</strong>, and a short note on the topic(s) you are applying for, your background, and your motivation. As these projects are research-oriented and supervision capacity is limited, we will give preference to students with a strong academic record, relevant skills, and a convincing fit to the topic.<br><br>
   <strong>Note:</strong> Additional topics will be added in the coming days. Some topics may be filled early.
 </div>
 
-Supervisors: **[/team/](/team/)**  
 How we work: **[/teaching/](/teaching/)**, **[/how-we-work/](/how-we-work/)**, **[/faq/](/faq/)**
 
 ---
 
-# Thesis and Project Descriptions
+# Proposed Project Descriptions
 
 ---
 
