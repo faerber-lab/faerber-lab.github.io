@@ -327,3 +327,79 @@ The goal of this project is to develop a citation-worthiness-aware pipeline for 
 1. Schreieder, T., Schopf, T., Färber, M. (2025): *Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models*. arXiv. https://arxiv.org/abs/2508.15396 :contentReference[oaicite:3]{index=3}
 2. Gao, T., Yen, H., Yu, J., Chen, D. (2023): *Enabling Large Language Models to Generate Text with Citations*. EMNLP 2023. https://aclanthology.org/2023.emnlp-main.398/ :contentReference[oaicite:4]{index=4}
 3. Wright, D., Augenstein, I. (2021): *CiteWorth: Cite-Worthiness Detection for Improved Scientific Document Understanding*. Findings of ACL-IJCNLP 2021. https://aclanthology.org/2021.findings-acl.157/ :contentReference[oaicite:5]{index=5}
+
+---
+(added April 9, 2026:)
+
+## Personal Email Language Models: Retrieval-Augmented Question Answering and Style-Personalized Email Generation
+
+### Supervisor
+
+Michael Färber <michael.faerber@tu-dresden.de>
+
+### Description
+
+Emails contain a large amount of valuable personal knowledge: past decisions, agreements, explanations, writing habits, and interaction histories. At the same time, they are one of the most important communication channels in academic and professional life. Yet current large language model systems make only limited use of personal email archives. In practice, users often want two things: first, they want to search and question-answer over their own emails more effectively; second, they want AI systems to help them write emails in a style that actually sounds like them.
+
+This project investigates how large language models can be customized using personal email data for both **grounded information access** and **personalized generation**. The central idea is to build a system that uses incoming and outgoing emails as a private knowledge source for retrieval-augmented generation, while also learning a user’s characteristic writing style from previously sent emails. This would enable a personal email assistant that can, for example, answer questions such as “What did I promise this collaborator last month?”, “Did I already discuss this issue with someone else?”, or “Draft a reply in my usual style based on my previous emails.”
+
+The project should go beyond pure engineering. It should investigate research questions around **personalized retrieval**, **email-aware RAG**, **style adaptation**, and **evaluation**. A strong outcome could be a demo-style paper or system paper on a personal email copilot that combines private-document question answering with style-personalized email generation. Personalized LLM benchmarks such as **LaMP** and **LongLaMP** already show that personalization is a meaningful and measurable challenge, but they are not specifically centered on email-centric assistants. The classic **Enron Email Dataset** further provides a realistic large-scale email corpus for prototyping and evaluation.
+
+### What are the tasks?
+
+- Study related work on personalized generation, retrieval-augmented generation, email understanding, and style adaptation for LLMs.
+- Build a pipeline for ingesting email data, e.g., from Gmail exports, IMAP-based mailboxes, or public benchmark datasets such as Enron.
+- Design an email-aware retrieval module that indexes not only email text, but also metadata such as thread structure, timestamps, sender/recipient information, and quoted context.
+- Develop a question-answering component that can answer user questions over a private mailbox using grounded retrieval.
+- Develop a personalization component that learns the user’s writing style from previously sent emails.
+- Compare different personalization strategies, for example:
+  - prompt-based style conditioning from retrieved sent emails,
+  - retrieval-augmented personalization,
+  - lightweight fine-tuning or LoRA-based adaptation,
+  - hybrid approaches combining retrieval for content and adaptation for style.
+- Design evaluation protocols for:
+  - retrieval quality,
+  - answer faithfulness and correctness,
+  - style similarity to the original author,
+  - usefulness of generated email drafts,
+  - privacy and leakage risks.
+- Implement a demo system that allows a user to search emails, ask questions over their archive, and generate stylistically personalized replies.
+
+### Possible research questions
+
+- How should personal email archives be indexed so that retrieval goes beyond keyword matching and captures thread context, temporal dependencies, and implicit references?
+- How much does access to **sent emails** improve style-personalized generation compared to using only prompting with generic LLMs?
+- Is retrieval augmentation sufficient for personalized email drafting, or does model adaptation provide additional gains?
+- Can one disentangle **content grounding** from **style imitation**, so that the model uses retrieved emails for facts while preserving a stable personal writing style?
+- How can we evaluate whether a generated email is both **factually appropriate** and **stylistically consistent** with the user?
+- What are suitable public and private evaluation settings for studying personal email assistants?
+
+### Why this thesis is special
+
+This thesis sits at the intersection of several highly relevant directions in current AI research: private-document RAG, personalized LLMs, authorship-aware generation, and human-centered AI assistants. It is also highly practical. Many users would immediately benefit from a system that not only helps them find information hidden in their own mailbox, but also supports them in drafting emails that reflect their own wording, tone, and communication style.
+
+At the same time, the topic is scientifically interesting because it combines two problems that are often studied separately: **question answering over private personal data** and **personalized text generation**. This creates room for novel research contributions, especially around retrieval design, hybrid personalization strategies, style evaluation, and privacy-aware system design.
+
+### What prerequisites do you need?
+
+- Very good programming skills in **Python**
+- Solid background in **machine learning** and **natural language processing**
+- Good understanding of **large language models**
+- Familiarity with **retrieval-augmented generation (RAG)** and information retrieval
+- Interest in **personalization**, **text generation**, and **AI systems**
+- Ideally, experience with one or more of the following:
+  - vector databases or search engines,
+  - fine-tuning/LoRA,
+  - email or document processing pipelines,
+  - evaluation of generative systems
+
+### References
+
+1. Salemi, A., Mysore, S., Bendersky, M., Zamani, H. (2024): *LaMP: When Large Language Models Meet Personalization*. ACL 2024.  
+   https://aclanthology.org/2024.acl-long.399/
+
+2. Kumar, I., Viswanathan, S., Yerra, S., et al. (2024): *A Benchmark for Personalized Long-form Text Generation*.  
+   https://arxiv.org/abs/2407.11016
+
+3. The Enron Email Dataset. Carnegie Mellon University.  
+   https://www.cs.cmu.edu/~enron/
