@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AICOM
-description: AICOM: Corporate Knowledge Graph Assistant. Knowledge graph-Powered AI for Trustworthy Corporate Communications
+description: "AICOM: Corporate Knowledge Graph Assistant. Knowledge graph-Powered AI for Trustworthy Corporate Communications"
 img: assets/img/5.jpg
 importance: 4
 category: work
