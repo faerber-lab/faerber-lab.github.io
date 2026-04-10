@@ -353,9 +353,9 @@ ninja.data = [{
           section: "News",},{id: "news-topics-for-internships-research-projects-etc-for-summer-semester-2026-are-now-available-at-proposed-student-projects",
           title: 'Topics for internships, research projects, etc. for Summer Semester 2026 are now available...',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
+          section: "News",},{id: "projects-aicom",
+          title: 'AICOM',
+          description: "AICOM: Corporate Knowledge Graph Assistant. Knowledge graph-Powered AI for Trustworthy Corporate Communications",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aicom/";
             },},{id: "projects-evidenz",
