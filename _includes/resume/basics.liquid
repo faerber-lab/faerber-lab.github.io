@@ -10,7 +10,11 @@
 
     <tr>
       <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
+        {% if content[0] == 'birthYear' %}
+          <b>Year of Birth</b>
+        {% else %}
+          <b>{{ content[0] | capitalize }}</b>
+        {% endif %}
       </td>
       <td class="p-1 pl-2 font-weight-light text">
         {% if content[0] == 'url' %}
