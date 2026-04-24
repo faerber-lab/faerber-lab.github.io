@@ -3,8 +3,8 @@
   contents:
     - name: Full Name
       value: Prof. Michael Färber
-    - name: Date of Birth
-      value: May 1987
+    - name: Year of Birth
+      value: 1987
     - name: Languages
       value: English, German
 
