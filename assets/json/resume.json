@@ -2,6 +2,7 @@
   "basics": {
     "name": "Michael Färber",
     "profession": "Full Professor (W3)",
+    "birthYear": "1987",
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Michael_Faerber_2024_700p.jpg",
     "email": "michael.faerber@tu-dresden.de",
     "phone": "+49 (0)351 463 40900",
