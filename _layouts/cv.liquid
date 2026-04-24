@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
+{% if site.data.cv and site.data.cv.size > 0 %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
@@ -52,7 +52,7 @@ layout: default
       </div>
     </article>
   </div>
-{% else %}
+{% elsif site.data.resume %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
@@ -126,4 +126,4 @@ layout: default
       </div>
     </article>
   </div>
-{% endunless %}
+{% endif %}
