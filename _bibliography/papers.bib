@@ -1,3 +1,55 @@
+@inproceedings{thellmann2026quantifying,
+  author    = {Thellmann, Klaudia-Doris and Stadler, Bernhard and F{\"a}rber, Michael and Lehmann, Jens},
+  title     = {Quantifying the Impact of Translation Errors on Multilingual LLM Evaluation},
+  booktitle = {ACL},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2605.24904},
+  abstract  = {Machine-translated benchmarks are widely used to assess the multilingual capabilities of large language models (LLMs), yet translation errors in these benchmarks remain underexplored, raising concerns about the reliability and comparability of multilingual evaluation. We address two practical gaps: (i) how well automatic MQM-style error spans from LLM judges and a span-aware QE baseline (xCOMET-XXL) match expert human span annotations on benchmark translations, and (ii) how strongly translation errors (as opposed to source-side issues in the English original) explain accuracy drops on translated benchmarks. We find that span agreement is non-trivial on naturally occurring benchmark translations, and that target-side translation errors are consistently associated with measurable, percentage-point drops in translated accuracy even after controlling for English correctness and source-side anomalies.},
+  tldr      = {We quantify how translation errors in machine-translated benchmarks affect multilingual LLM evaluation and show that such errors measurably reduce translated accuracy.},
+  plain     = {Many multilingual AI benchmarks are translated from English. This paper shows that translation mistakes can make language models look worse or better than they really are, so multilingual evaluation must account for these errors.},
+  keywords  = {multilingual LLM evaluation, translation errors, machine-translated benchmarks, MQM, quality estimation, benchmark reliability},
+  pdf       = {publications/Quantifying_Translation_Errors_ACL2026.pdf}
+}
+
+@inproceedings{popovic2026tracing,
+  author    = {Popovi{\v{c}}, Nicholas and F{\"a}rber, Michael},
+  title     = {Tracing Relational Knowledge Recall in Large Language Models},
+  booktitle = {ACL},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2604.19934},
+  abstract  = {We study how large language models recall relational knowledge during text generation, with a focus on identifying latent representations suitable for relation classification via linear probes. Prior work shows how attention heads and MLPs interact to resolve subject, predicate, and object, but it remains unclear which representations support faithful linear relation classification and why some relation types are easier to capture linearly than others. We systematically evaluate different latent representations derived from attention head and MLP contributions, showing that per-head attention contributions to the residual stream are comparatively strong features for linear relation classification. Feature attribution analyses of the trained probes, as well as characteristics of the different relation types, reveal clear correlations between probe accuracy and relation specificity, entity connectedness, and how distributed the signal on which the probe relies is across attention heads. Finally, we show how token-level feature attribution of probe predictions can be used to reveal probe behavior in further detail.},
+  tldr      = {We analyze how LLMs recall relational knowledge and show that attention-head contributions provide strong features for linear relation classification.},
+  plain     = {How do language models remember facts such as who founded a company or where a city is located? This paper traces where such relational knowledge appears inside LLMs and shows which internal signals make it easier to classify relations.},
+  keywords  = {large language models, relational knowledge, interpretability, probing, attention heads, relation classification},
+  pdf       = {publications/Tracing_Relational_Knowledge_Recall_ACL2026.pdf}
+}
+
+@inproceedings{schreieder2026attribution,
+  author    = {Schreieder, Tobias and Schopf, Tim and F{\"a}rber, Michael},
+  title     = {Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models},
+  booktitle = {ACL},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2508.15396},
+  abstract  = {The increasing adoption of large language models (LLMs) has been accompanied by growing concerns regarding their reliability and trustworthiness. As a result, a growing body of research focuses on evidence-based text generation with LLMs, aiming to link model outputs to supporting evidence to ensure traceability and verifiability. However, the field is fragmented due to inconsistent terminology, isolated evaluation practices, and a lack of unified benchmarks. To bridge this gap, we systematically analyze 134 papers, introduce a unified taxonomy of evidence-based text generation with LLMs, and investigate 300 evaluation metrics across seven key dimensions. Thereby, we focus on approaches that use citations, attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising directions for future work.},
+  tldr      = {We survey evidence-based text generation with LLMs, focusing on attribution, citation, and quotation, and introduce a unified taxonomy and evaluation overview for the field.},
+  plain     = {How can AI-generated text show where its claims come from? This survey explains how language models can use citations, attribution, and quotations to make their answers more transparent and verifiable.},
+  keywords  = {large language models, evidence-based text generation, attribution, citation, quotation, survey, trustworthy AI},
+  pdf       = {publications/Attribution_Citation_Quotation_ACL2026.pdf}
+}
+
+@inproceedings{qu2026medieval,
+  author    = {Qu, Zhan and F{\"a}rber, Michael},
+  title     = {MediEval: A Unified Medical Benchmark for Patient-Contextual and Knowledge-Grounded Reasoning in LLMs},
+  booktitle = {ACL},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2512.20822},
+  abstract  = {Large Language Models (LLMs) are increasingly applied to medicine, yet their adoption is limited by concerns over reliability and safety. Existing evaluations either test factual medical knowledge in isolation or assess patient-level reasoning without verifying correctness, leaving a critical gap. We introduce MediEval, a benchmark that links MIMIC-IV electronic health records (EHRs) to a unified knowledge base built from UMLS and other biomedical vocabularies. MediEval generates diverse factual and counterfactual medical statements within real patient contexts, enabling systematic evaluation across a 4-quadrant framework that jointly considers knowledge grounding and contextual consistency. Using this framework, we identify critical failure modes, including hallucinated support and truth inversion, that current proprietary, open-source, and domain-specific LLMs frequently exhibit. To address these risks, we propose Counterfactual Risk-Aware Fine-tuning (CoRFu), a DPO-based method with an asymmetric penalty targeting unsafe confusions. CoRFu improves by +16.4 macro-F1 points over the base model and eliminates truth inversion errors, demonstrating both higher accuracy and substantially greater safety.},
+  tldr      = {We introduce MediEval, a unified medical benchmark for evaluating whether LLMs can reason over patient context while remaining grounded in biomedical knowledge.},
+  plain     = {Can medical AI models reason correctly about real patient situations? MediEval tests whether language models combine patient context with reliable medical knowledge instead of giving plausible but unsafe answers.},
+  keywords  = {medical reasoning, large language models, benchmark, knowledge grounding, factuality, safety},
+  pdf       = {publications/MediEval_ACL2026.pdf}
+}
+
 @inproceedings{kelber2026retrieval,
   author    = {Florian Kelber and Matthias Jobst and Yuni Susanti and Michael F{\"a}rber},
   title     = {Do We Need Bigger Models for Science? Task-Aware Retrieval with Small Language Models},
