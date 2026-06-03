@@ -1,3 +1,18 @@
+@inproceedings{qu2026xvortex,
+  author    = {Qu, Zhan and F{\"a}rber, Michael},
+  title     = {X-VORTEX: Spatio-Temporal Contrastive Learning for Wake Vortex Trajectory Forecasting},
+  booktitle = {KDD},
+  year      = {2026},
+  location  = {Jeju Island, Republic of Korea},
+  doi       = {10.1145/3770855.3818507},
+  url       = {https://doi.org/10.1145/3770855.3818507},
+  abstract  = {Wake vortices are strong, coherent air turbulences created by aircraft, and they pose a major safety and capacity challenge for air traffic management. Tracking how vortices move, weaken, and dissipate over time from LiDAR measurements is still difficult because scans are sparse, vortex signatures fade as the flow breaks down under atmospheric turbulence and instabilities, and point-wise annotation is prohibitively expensive. Existing approaches largely treat each scan as an independent, fully supervised segmentation problem, which overlooks temporal structure and does not scale to the vast unlabeled archives collected in practice. We present X-VORTEX, a spatio-temporal contrastive learning framework grounded in Augmentation Overlap Theory that learns physics-aware representations from unlabeled LiDAR point cloud sequences. X-VORTEX addresses two core challenges: sensor sparsity and time-varying vortex dynamics. It constructs paired inputs from the same underlying flight event by combining a weakly perturbed sequence with a strongly augmented counterpart produced via temporal subsampling and spatial masking, encouraging the model to align representations across missing frames and partial observations. Architecturally, a time-distributed geometric encoder extracts per-scan features and a sequential aggregator models the evolving vortex state across variable-length sequences. We evaluate on a real-world dataset of over one million LiDAR scans. X-VORTEX achieves superior vortex center localization while using only 1\% of the labeled data required by supervised baselines, and the learned representations support accurate trajectory forecasting.},
+  tldr      = {We introduce X-VORTEX, a self-supervised spatio-temporal contrastive learning framework for wake vortex localization and trajectory forecasting from LiDAR point cloud sequences.},
+  plain     = {Aircraft create invisible wake vortices that can be dangerous for following planes. X-VORTEX learns from large LiDAR datasets to track and predict these vortices with very little labeled data.},
+  keywords  = {wake vortex, trajectory forecasting, spatio-temporal contrastive learning, self-supervised learning, LiDAR point clouds, aviation safety},
+  pdf       = {publications/X-VORTEX_KDD2026.pdf}
+}
+
 @inproceedings{thellmann2026quantifying,
   author    = {Thellmann, Klaudia-Doris and Stadler, Bernhard and F{\"a}rber, Michael and Lehmann, Jens},
   title     = {Quantifying the Impact of Translation Errors on Multilingual LLM Evaluation},
