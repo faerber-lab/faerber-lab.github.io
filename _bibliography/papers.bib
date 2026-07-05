@@ -1,3 +1,16 @@
+@inproceedings{bi2026echorl,
+  author    = {Bi, Jinhe and {{Aniri}} and Yang, Minglai and Zhou, Xingcheng and Huang, Wenke and Yan, Sikuan and Wang, Yujun and Cao, Zixuan and F{\"a}rber, Michael and Xiao, Xun and Tresp, Volker and Ma, Yunpu},
+  title     = {EchoRL: Reinforcement Learning via Rollout Echoing},
+  booktitle = {ICML},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2605.31228},
+  abstract  = {Reinforcement Learning with Verifiable Rewards is an effective route for post-training to strengthen the reasoning capability of large language models. However, as training proceeds, the learning signal can collapse thus makes the training gain become marginal and ineffective. Specifically, a growing fraction of prompts' rollouts become advantage-degenerated: all the self-generated rollouts show verified-success, making the standard deviation over their rewards be zero; accordingly each rollout's advantage becomes degenerated (zero) as well. Given such rollouts' advantages, the policy-gradient for model optimization eventually vanishes, capping the training performance. We argue that some of these rollouts still contain valuable learning signals but unfortunately omitted with the existing RLVR methods. In this paper, inspired through analyzing the entropy pattern behind golden trajectories produced by external expert models, we propose EchoRL for better exploiting the advantage-degenerated rollouts to further improve the training performance. EchoRL is a lightweight module that first identifies an EchoClip from verified-success rollouts based on their step-level entropy values, and then feeds this clip back as an auxiliary supervision signal in the RL objective. Extensive experiments across 10 benchmarks, 5 LLM backbones, and 4 popular RLVR post-training methods demonstrate that EchoRL consistently improves RLVR post-training with minimal overhead.},
+  tldr      = {EchoRL improves RLVR post-training by reusing entropy-selected clips from verified-success rollouts whose standard advantage signal has degenerated.},
+  plain     = {This paper helps language models keep learning during reinforcement learning even when many generated answers are already correct and the usual training signal disappears.},
+  keywords  = {reinforcement learning, RLVR, large language models, rollout echoing, advantage degeneration, post-training, reasoning},
+  pdf       = {publications/EchoRL_ICML2026.pdf}
+}
+
 @inproceedings{qu2026xvortex,
   author    = {Qu, Zhan and F{\"a}rber, Michael},
   title     = {X-VORTEX: Spatio-Temporal Contrastive Learning for Wake Vortex Trajectory Forecasting},
