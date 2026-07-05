@@ -15,6 +15,8 @@ Many funding schemes require a prior agreement with a host professor or an invit
 
 **Note:** We cannot investigate the suitability and eligibility of funding programs for you; please verify these details independently before contacting us.
 
+**Country-specific exchange routes:** For selected bilateral collaborations, additional funding routes may be available. For Germany–China research exchange and collaboration, see the dedicated overview on **[Germany–China Research Exchange and Collaboration Funding](/research_stays/china/)**.
+
 We look forward to welcoming you to our group!
 
 ---
