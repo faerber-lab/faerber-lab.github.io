@@ -51,6 +51,13 @@ current_members:
     image_circular: false
     more_info: >
       <p>Jingbo He</p>
+      
+  - align: left
+    image: Himanshu.jpeg
+    content: about_himanshu.md
+    image_circular: false
+    more_info: >
+      <p>Himanshu Beniwal</p>
 
 associated_members:
   - align: left
