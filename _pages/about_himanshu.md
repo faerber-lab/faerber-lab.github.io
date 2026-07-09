@@ -1,0 +1,3 @@
+Himanshu Beniwal works on making large language models safer and more reliable across languages, not just English. His research focuses on multilingual NLP, AI safety, and mechanistic interpretability, with recent work on multilingual safety moderation, cross-lingual detoxification via model editing, factuality and toxicity assessment, and building better multilingual benchmarks. He has published at venues such as ACL, EMNLP, EACL, and COLM.
+
+📧 [himanshubeniwal015@gmail.com](mailto:himanshubeniwal015@gmail.com) 📚 [Google Scholar](https://scholar.google.com/citations?user=wXkqUU8AAAAJ&hl=en) 🔗 [Personal Website](https://himanshubeniwal.github.io/)
