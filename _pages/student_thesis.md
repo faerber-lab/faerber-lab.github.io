@@ -34,6 +34,13 @@ Quick answers: **[/faq/](/faq/)**.
 | 10 | [Fusing RDF Knowledge Graphs with Deep Learning for Advanced Recommender Systems](https://scads.ai/theses/fusing-rdf-knowledge-graphs-with-deep-learning-for-advanced-recommender-systems/) | Knowledge Graphs (RDF), Graph ML | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
 | 11 | [Extending the RDF Knowledge Graph SemOpenAlex.org](https://scads.ai/theses/extending-the-rdf-knowledge-graph-semopenalex-org/) | Knowledge Graphs (RDF), SemOpenAlex | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
 | 12 | [Stock Market Predictions through Deep Learning](https://scads.ai/theses/stock-market-predictions-through-deep-learning/) | Machine Learning, Finance | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 13 | [Copyright and Generative AI: Does Reproduction Imply Memorization?](https://scads.ai/theses/copyright-and-generative-ai-does-reproduction-imply-memorization/) | LLMs, Memorization, Copyright / Legal AI | [Michael Färber](mailto:michael.faerber@tu-dresden.de) |
+| 14 | [Claim Detection in Sensitive and Multilingual Domains](https://scads.ai/theses/claim-detection-in-sensitive-and-multilingual-domains/) | NLP, Fact-Checking, Multilingual NLP | [Marina Litvak](mailto:litvak.marina@gmail.com) |
+| 15 | [How Close Are Information Retrieval (IR) and Natural Language Processing (NLP)? A Study of Top-Tier Conferences](https://scads.ai/theses/how-close-are-information-retrieval-ir-and-natural-language-processing-nlp-a-study-of-top-tier-conferences/) | Information Retrieval, NLP, Bibliometrics | [Marina Litvak](mailto:litvak.marina@gmail.com) |
+| 16 | [Text Anonymization: Robustness Against LLM Attacks](https://scads.ai/theses/text-anonymization-robustness-against-llm-attacks/) | NLP, Privacy, LLM Security | [Marina Litvak](mailto:litvak.marina@gmail.com) |
+| 17 | [Context-Aware Code Development with AI Assistance](https://scads.ai/theses/context-aware-code-development-with-ai-assistance/) | LLMs for Code, RAG, Software Engineering | [Marina Litvak](mailto:litvak.marina@gmail.com) |
+| 18 | [Text Simplification: A Case Study with Agentic AI](https://scads.ai/theses/text-simplification-a-case-study-with-agentic-ai/) | Agentic AI, Text Simplification, NLP | [Marina Litvak](mailto:litvak.marina@gmail.com) |
+
 
 ---
 
