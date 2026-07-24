@@ -59,6 +59,13 @@ current_members:
     more_info: >
       <p>Himanshu Beniwal</p>
 
+  - align: right
+    image: marina.jpg
+    content: about_marina.md
+    image_circular: false
+    more_info: >
+      <p>Marina Litvak</p>
+
 associated_members:
   - align: left
     image: nic.jpg
