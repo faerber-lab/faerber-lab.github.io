@@ -18,9 +18,9 @@ layout: page
 {% if forloop.first %}
   <h2>{{ title }}</h2>
 {% elsif key == "associated_members" or key == "alumni" %}
-  <h2 style="margin-top: 3rem;">{{ title }}</h2>
+  <h2 style="margin-top: 3rem !important;">{{ title }}</h2>
 {% else %}
-  <h2 style="margin-top: 1.2rem;">{{ title }}</h2>
+  <h2 style="margin-top: 1.2rem !important;">{{ title }}</h2>
 {% endif %}
 
         {% for profile in entries %}
