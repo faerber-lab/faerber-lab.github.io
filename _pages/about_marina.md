@@ -1,0 +1,3 @@
+Marina Litvak is an [Ada Lovelace Distinguished Research Fellow at ScaDS.AI Dresden/Leipzig](https://scads.ai/about-us/ada-lovelace/marina-litvak/) and an Associate Professor at the Shamoon College of Engineering in Israel. Her research focuses on information retrieval and natural language processing, with particular interests in large language models, retrieval-augmented generation, text simplification, text anonymization, multilingual NLP, and AI-assisted software engineering. She has authored more than 100 scientific publications and is actively involved in international research collaborations on AI and intelligent information access.
+
+📚 [Google Scholar](https://scholar.google.com/citations?user=Gc3HuWMAAAAJ&hl=en)
