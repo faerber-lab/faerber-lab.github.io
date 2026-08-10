@@ -2,7 +2,7 @@
 layout: post
 title: Junior PostDoc position available; apply now to join our team!
 permalink: /news/8_postdocE13_2025/
-date: 2025-11-01 20:00:00 +0000
+date: 2026-08-08 20:00:00 +0000
 inline: false
 related_posts: false
 tags: [positions]
@@ -13,7 +13,7 @@ tags: [positions]
 
 Within my research group at the Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at TU Dresden, the following position is available: 
 
-#### (Junior) Postdoc (m/f/d)
+#### PhD or (Junior) Postdoc Position (m/f/d)
 
 
 - **Assignment**: Professorship for Scalable Software Architectures for Data Analytics (Prof. Dr. Michael Färber)
@@ -30,8 +30,8 @@ Within my research group at the Center for Scalable Data Analytics and Artificia
 - Participating in teaching activities (e.g., seminars; no foundational lectures)
 
 **Requirements:** 
-- A completed or imminent PhD degree in Computer Science, Artificial Intelligence, Mathematics, Physics, Computational Linguistics or a closely related field
-- A strong publication record in one or more of the above research areas
+- A completed or imminent PhD degree or Master degree in Computer Science, Artificial Intelligence, Mathematics, Physics, Computational Linguistics or a closely related field
+- A publication record in one or more of the above research areas
 - Hands-on experience with AI (NLP/ML) model development, ideally in an HPC environment
 - A strong passion for publishing scientific research and applying for research grants
 - Excellent written and spoken English skills
