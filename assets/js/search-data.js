@@ -334,12 +334,7 @@ ninja.data = [{
           section: "News",},{id: "news-three-papers-have-been-accepted-at-emnlp-2025-see-you-in-suzhou-china",
           title: 'Three papers have been accepted at EMNLP 2025 ! See you in Suzhou,...',
           description: "",
-          section: "News",},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
-          title: 'Junior PostDoc position available; apply now to join our team!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/8_postdocE13_2025/";
-            },},{id: "news-the-bmftr-funded-software-campus-project-evidenz-started-today",
+          section: "News",},{id: "news-the-bmftr-funded-software-campus-project-evidenz-started-today",
           title: 'The BMFTR-funded Software Campus project EVIDENZ started today!',
           description: "",
           section: "News",},{id: "news-the-sab-funded-research-project-aicom-started-today",
@@ -353,6 +348,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/7_postdocE14_2025/";
+            },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
+          title: 'Junior PostDoc position available; apply now to join our team!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/8_postdocE13_2025/";
             },},{id: "projects-aicom",
           title: 'AICOM',
           description: "AICOM: Corporate Knowledge Graph Assistant. Knowledge graph-Powered AI for Trustworthy Corporate Communications",
