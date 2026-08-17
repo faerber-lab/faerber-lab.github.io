@@ -381,13 +381,6 @@ ninja.data = [{
           window.open("mailto:%6D%69%63%68%61%65%6C.%66%61%65%72%62%65%72@%74%75-%64%72%65%73%64%65%6E.%64%65", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/michael-faerber", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
@@ -395,11 +388,81 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=Jb7JUOsAAAAJ", "_blank");
         },
       },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-5458-8645", "_blank");
+        },
+      },{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/129/9499", "_blank");
+        },
+      },{
+        id: 'social-scopus',
+        title: 'Scopus',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.scopus.com/authid/detail.uri?authorId=85217785401", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/michael-faerber", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/michaelfaerber", "_blank");
+        },
+      },{
+        id: 'social-semanticscholar',
+        title: 'Semantic Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.semanticscholar.org/author/151112226", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Michael_Faerber/", "_blank");
+        },
+      },{
+        id: 'social-wikidata',
+        title: 'Wikidata',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.wikidata.org/wiki/Q57231890", "_blank");
+        },
+      },{
+        id: 'social-wikipedia',
+        title: 'Wikipedia',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wikipedia.org/wiki/User:Michael Färber (Informatiker)", "_blank");
+        },
+      },{
+        id: 'social-publons',
+        title: 'Publons',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://publons.com/a/4148814/", "_blank");
+        },
+      },{
         id: 'social-work',
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://scads.ai/about-us/ai-professorships/scalable-software-architectures-for-data-analytics/# work page URL", "_blank");
+          window.open("https://scads.ai/about-us/ai-professorships/scalable-software-architectures-for-data-analytics/", "_blank");
         },
       },{
       id: 'light-theme',
