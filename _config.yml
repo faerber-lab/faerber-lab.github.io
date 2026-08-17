@@ -15,8 +15,9 @@ description: >
   knowledge graphs, retrieval-augmented generation, and AI for science
   (search, recommendations, and citation-grounded text generation).
 keywords: Michael Färber, Michael Farber, Michael Faerber, TU Dresden, ScaDS.AI,
-  LLMs, NLP, Information Retrieval, RAG, Knowledge Graphs, Graph Neural Networks,
-  AI for Science, Scholarly Search, Scientific Text Mining, Germany
+  Artificial Intelligence, LLMs, NLP, Information Retrieval, RAG, Knowledge Graphs,
+  Graph Neural Networks, Neuro-Symbolic AI, Trustworthy AI, AI for Science,
+  Scholarly Data Mining, Scientific Knowledge Discovery, Germany
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
