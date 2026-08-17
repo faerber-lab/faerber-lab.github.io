@@ -1,0 +1,3 @@
+Subhendu Khatuya's research interests lie in natural language processing and large language models, with a focus on domain-specific reasoning, efficient adaptation, and financial NLP. His work spans instruction tuning, retrieval-augmented and numerical reasoning, generative retrieval, dynamic in-context learning, and parameter-efficient fine-tuning, with publications at ACL, EMNLP, NAACL, SIGIR, AAAI, and IJCAI.
+
+📧 [subhendu.khatuya@tu-dresden.de](mailto:subhendu.khatuya@tu-dresden.de) 📚 [Google Scholar](https://scholar.google.com/citations?user=m4iT4HEAAAAJ&hl=en) 🔗 [Personal Website](https://subhendukhatuya.github.io/)
