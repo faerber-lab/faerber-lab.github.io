@@ -60,6 +60,13 @@ current_members:
       <p>Himanshu Beniwal</p>
 
   - align: right
+    image: subhendu.jpg
+    content: about_subhendu.md
+    image_circular: false
+    more_info: >
+      <p>Subhendu Khatuya</p>
+
+  - align: left
     image: marina.jpg
     content: about_marina.md
     image_circular: false
