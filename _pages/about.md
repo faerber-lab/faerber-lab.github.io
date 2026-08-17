@@ -26,7 +26,7 @@ latest_posts:
 ---
 {% include person_org_schema.liquid %}
 
-Welcome! I’m **Michael Färber**, a full professor at ScaDS.AI and TU Dresden, Germany, where I head the **Cognitive AI Unit**. Our research focuses on **trustworthy AI for science** at the intersection of **large language models (LLMs)**, **knowledge graphs**, and **information retrieval**. We develop methods for grounding AI in structured and external knowledge to enable **retrieval-augmented, verifiable, and evidence-based generation** and **scientific knowledge discovery**.
+Welcome! I’m **Michael Färber**, a full professor at ScaDS.AI and TU Dresden, Germany, where I head the Cognitive AI Unit. Our research focuses on *trustworthy AI for science* at the intersection of large language models (LLMs), knowledge graphs, and information retrieval. We develop methods for grounding AI in structured and external knowledge to enable retrieval-augmented, verifiable, and evidence-based generation and scientific knowledge discovery.
 
 We also apply these methods to other knowledge-intensive domains, including healthcare and education. We welcome [research, industry, and public-sector collaborations](/collaborate/).
 
