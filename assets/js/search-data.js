@@ -402,13 +402,6 @@ ninja.data = [{
           window.open("https://dblp.org/pid/129/9499", "_blank");
         },
       },{
-        id: 'social-scopus',
-        title: 'Scopus',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.scopus.com/authid/detail.uri?authorId=85217785401", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -420,7 +413,7 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/michaelfaerber", "_blank");
+          window.open("https://github.com/faerber-lab", "_blank");
         },
       },{
         id: 'social-semanticscholar',
@@ -456,13 +449,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://publons.com/a/4148814/", "_blank");
-        },
-      },{
-        id: 'social-work',
-        title: 'Work',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scads.ai/about-us/ai-professorships/scalable-software-architectures-for-data-analytics/", "_blank");
         },
       },{
       id: 'light-theme',
