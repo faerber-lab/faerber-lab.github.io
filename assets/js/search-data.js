@@ -114,8 +114,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/proposed-student-projects/";
               },
-            },{id: "dropdown-course-projects-ws-2026-27",
-              title: "course projects WS 2026/27",
+            },{id: "dropdown-research-projects-ws-2026-27",
+              title: "research projects WS 2026/27",
               description: "",
               section: "Dropdown",
               handler: () => {
