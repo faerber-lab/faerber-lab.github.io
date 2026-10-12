@@ -78,7 +78,7 @@ details[open] .sp-more .o, details:not([open]) .sp-more .c{display:none}
 </style>
 
 <div class="sp-intro" markdown="0">
-<p>Semester-long research projects in NLP, LLMs, information retrieval and AI for science and health — for the courses <em>Forschungsprojekt</em>, <em>Komplexpraktikum</em> and <em>Teamprojekt</em> in the Winter Semester 2026/27. Some topics can be extended into a Bachelor's or Master's thesis; for more thesis topics see <a href="/student_thesis/">/student_thesis/</a>.</p>
+<p>Semester-long research projects in NLP, LLMs, information retrieval and AI for science and health — for the courses <em>Forschungsprojekt</em>, <em>Komplexpraktikum</em> and <em>Teamprojekt</em> in the Winter Semester 2026/27. Some topics can be extended into a Bachelor's or Master's thesis.</p>
 <p><a class="sp-btn" style="margin-top:0" href="{{ page.form_url }}" target="_blank" rel="noopener">Apply via the registration form →</a></p>
 </div>
 
