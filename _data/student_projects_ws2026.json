@@ -1,0 +1,157 @@
+[
+  {
+    "title": "LLM Routing",
+    "supervisor": "Subhendu Khatuya",
+    "email": "subhendu.khatuya@tu-dresden.de",
+    "description": [
+      "With the proliferation of Specialized Large Language Models (LLMs) varying in size, cost, and capability, dynamically directing user queries to the most suitable model is critical. This project focuses on developing/evaluating lightweight routing mechanisms (e.g., using small classifier models, embedding similarity, or performance predictors) to automatically route incoming prompts to the optimal LLM (e.g., smaller/faster model for simple queries vs. larger model for complex tasks). The goal is to maximize overall response quality while minimizing computational cost and response latency."
+    ],
+    "deliverables": [
+      "Literature Review of LLM Routing on Multi Agent System.",
+      "Baseline implementation",
+      "Extensive ablation, analysis and experimentation.",
+      "Research paper."
+    ],
+    "prerequisites": [
+      "Skill to verify LLM coding in Python",
+      "Background in NLP and LLM",
+      "Experience with PyTorch and/or Hugging Face Transformers"
+    ],
+    "references": [],
+    "places": 2,
+    "status": "Open"
+  },
+  {
+    "title": "Mitigating Medium-Novelty Bias in Research Idea Judgment",
+    "supervisor": "Tobias Schreieder",
+    "email": "tobias.schreieder@tu-dresden.de",
+    "description": [
+      "Large language models (LLMs) can assess the novelty of research ideas, but existing approaches exhibit a systematic medium-novelty bias: predictions tend to concentrate on intermediate novelty scores, while very low- and high-novelty ideas are harder to identify. The RINoBench benchmark enables systematic evaluation of this behavior, while the recent Think-Probe-Respond (TPR) approach demonstrates that classifiers operating on internal LLM representations can mitigate this bias.",
+      "This project investigates alternative classification approaches for mitigating medium-novelty bias in research idea judgment. Students will analyze relevant approaches for classification and judgment biases and investigate whether dedicated models or training strategies can improve the identification of low- and high-novelty research ideas. Possible approaches are not restricted to LLMs and may include encoder models, neural classifiers, or other suitable classification architectures."
+    ],
+    "deliverables": [
+      "Literature analysis: Review research on classification and judgment biases and identify promising mitigation approaches.",
+      "Baseline implementation: Implement and evaluate suitable RINoBench baselines.",
+      "Develop and implement at least one classification approach that targets a medium-novelty bias and is grounded in relevant literature.",
+      "Evaluation and analysis: Compare the proposed approach with the baselines using overall and class-specific metrics and analyze its effect on medium-novelty bias.",
+      "Scientific report: Document the project in the style of a scientific research paper. Ensure reproducibility of the experiments."
+    ],
+    "prerequisites": [
+      "Very good programming skills in Python",
+      "Strong background in machine learning",
+      "Good understanding of large language models",
+      "Experience with PyTorch and/or Hugging Face Transformers is beneficial"
+    ],
+    "references": [
+      "Schopf, T., Färber, M. (2026): Is This Idea Novel? An Automated Benchmark for Judgment of Research Ideas. Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pp. 4716–4727.",
+      "Schopf, T., Schreieder, T., Aizawa, A. (2026): Think-Probe-Respond: Improving Large Language Models as Judges of Research Idea Novelty. Findings of the Association for Computational Linguistics: EMNLP 2026."
+    ],
+    "places": 1,
+    "status": "Open"
+  },
+  {
+    "title": "Advanced Multimodal Learning for Electronic Health Records: Toward Comprehensive and Interpretable Clinical Intelligence",
+    "supervisor": "Zhan Qu",
+    "email": "zhan.qu@tu-dresden.de",
+    "description": [
+      "This thesis invites you to work at the intersection of machine learning, multimodal AI, and digital health. Electronic Health Records (EHRs) increasingly combine several data types: structured tabular data (diagnoses, procedures, lab values), unstructured clinical text (reports, summaries), medical images (e.g., X-rays), and clinical time series (vital signs, monitoring data). Most current models focus on a single modality – but real clinical understanding requires joint reasoning over all of them."
+    ],
+    "deliverables": [
+      "Data and problem analysis: identify realistic EHR prediction tasks (e.g. risk, length of stay, readmission) and gaps in recent multimodal healthcare literature.",
+      "Strong single-modality baselines (tabular and/or text).",
+      "A multimodal model combining two or more modalities; comparison of fusion strategies (early/late fusion, cross-attention, contrastive learning), optionally with pretrained clinical models.",
+      "Interpretability: attention analysis, feature attribution and modality-contribution analysis that a clinician could follow.",
+      "Evaluation with AUROC, AUPRC and calibration, plus modality ablations, and a critical discussion of limitations."
+    ],
+    "prerequisites": [
+      "Strong motivation to apply AI/ML to healthcare",
+      "Good Python and deep learning skills",
+      "Familiarity with transformers or sequence models; basic NLP, time-series or computer vision knowledge",
+      "Very good English"
+    ],
+    "references": [],
+    "places": 2,
+    "status": "Open"
+  },
+  {
+    "title": "Weakly Supervised Citation Localization in Scientific Full Texts",
+    "supervisor": "Jingbo He",
+    "email": "jingbo.he@tu-dresden.de",
+    "description": [
+      "When a paper cites another work, it usually relies on one specific finding in the cited paper, but the citation graph only records that paper P cites paper B, not which passage of B is meant. Locating this passage is the first step towards checking whether cited sources actually support the claims made about them, a problem that has become pressing with LLM-assisted writing. Human-labelled data for this task is scarce, and current systems rely on generic retrieval. This project investigates whether the citation network itself can serve as training signal: unarXive provides millions of arXiv full texts with in-text citations linked to the cited papers, and papers that cite the same work for the same finding provide natural, if noisy, labels. Students will design a weak-supervision strategy for citation localization, train a retrieval model on it, and evaluate against standard baselines on existing annotated data. Suitable approaches include dense retrievers, rerankers, late-interaction models, and noise-aware training methods."
+    ],
+    "deliverables": [
+      "Literature review on cited-text-span identification and on learning retrieval models from weak or noisy supervision.",
+      "Baseline implementation: Implement and evaluate standard retrieval baselines on existing annotated datasets.",
+      "Model development: Train at least one retrieval model on the weakly labelled data, including a strategy for handling label noise.",
+      "Evaluation and analysis: Compare the model with the baselines and analyze where weak supervision helps or fails.",
+      "Scientific report: Document the project in the style of a research paper, with reproducible code."
+    ],
+    "prerequisites": [
+      "Solid Python",
+      "Experience with PyTorch and Hugging Face Transformers",
+      "Basic information retrieval",
+      "Experience with scientific-document NLP is a plus"
+    ],
+    "references": [
+      "Besrour, S., Färber, M. (2026): unarXive 2024: A Large-Scale Dataset of arXiv Full Texts with Citation Network and Structured Content. Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026).",
+      "Saier, T., Krause, J., Färber, M. (2023): unarXive 2022: All arXiv Publications Pre-Processed for NLP, Including Structured Full-Text and Citation Network. Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL 2023).",
+      "Sarol, M. J., Ming, S., Radhakrishna, S., Schneider, J., Kilicoglu, H. (2024): Assessing citation integrity in biomedical publications: corpus annotation and NLP models. Bioinformatics 40(7).",
+      "Chandrasekaran, M. K., et al. (2020): Overview and Insights from the Shared Tasks at Scholarly Document Processing 2020: CL-SciSumm, LaySumm and LongSumm. Proceedings of the First Workshop on Scholarly Document Processing (SDP 2020)."
+    ],
+    "places": 1,
+    "status": "Open"
+  },
+  {
+    "title": "Phonetic-Aware Letter-Based Next Word Prediction for Transliterated South Asian Languages",
+    "supervisor": "A F M Mohimenul Joaa",
+    "email": "a_f_m_mohimenul.joaa@mailbox.tu-dresden.de",
+    "description": [
+      "Over a billion South Asian users type their languages in Latin script on English keyboards, but autocomplete serves them poorly: suggestions only appear once a word is complete, valid spelling variants are treated as different words, and code-mixed sentences confuse single-language models. This project builds a single on-device model for Hindi-, Urdu-, Bangla- and Tamil-English transliterated typing that predicts after every keystroke, uses phonetic matching (weighted edit distance over sound and consonant patterns) to treat spelling variants as equivalent, and ranks top-K suggestions by context. Lightweight text commands (e.g. ?fix, ?formal, ?shorten, ?translate) extend it beyond autocomplete."
+    ],
+    "deliverables": [],
+    "prerequisites": [],
+    "references": [
+      "T-Board paper (IEEE): https://ieeexplore.ieee.org/abstract/document/11022532",
+      "T-Board web demo: https://infai.xyz/td-search"
+    ],
+    "places": 1,
+    "status": "Filled"
+  },
+  {
+    "title": "KGNode v2: Self-Tuning Agentic Framework for Universal Knowledge Graph Question Answering",
+    "supervisor": "A F M Mohimenul Joaa",
+    "email": "a_f_m_mohimenul.joaa@mailbox.tu-dresden.de",
+    "description": [
+      "KGNode is a training-free knowledge-graph question answering pipeline evaluated on DBLP-QuAD and QALD-10. Version 2 turns it into a self-optimising agentic system: a LangGraph workflow with quality gates that stop early on poor intermediate results, DSPy-driven prompt optimisation for entity extraction, template generation and SPARQL synthesis, and automatic hyperparameter adaptation to the query and the KG. The system is packaged as an MCP server and evaluated against v1 on accuracy, runtime and cross-domain transfer, with ablations per component."
+    ],
+    "deliverables": [],
+    "prerequisites": [],
+    "references": [],
+    "places": 1,
+    "status": "Filled"
+  },
+  {
+    "title": "BabelDojo: Do Prompt-Injection Defenses for LLM Agents Survive Outside English?",
+    "supervisor": "Himanshu Beniwal",
+    "email": "himanshu.beniwal@tu-dresden.de",
+    "description": [
+      "Tool-using agents read emails, web pages and documents that an attacker can write. Instructions hidden in that data (indirect prompt injection) can hijack the agent into sending money or leaking files. Nearly every benchmark and defense has been tested only in English. You will extend the AgentDojo benchmark with injections in about 10 languages (high- to low-resource, plus code-switched and romanized text) and measure how attack success, task utility and defense performance change with the language of the attack."
+    ],
+    "deliverables": [
+      "Multilingual extension of AgentDojo's injection tasks, with native-speaker spot checks.",
+      "Evaluation of 3–4 open models and one API model against at least 5 defenses (e.g., tool filter, spotlighting, PIGuard, DataSentinel, MELON, CaMeL).",
+      "Analysis of the case where the attack language differs from the user's language.",
+      "Released code and data.",
+      "Final report in ACL format, aimed at an ACL/EMNLP submission."
+    ],
+    "prerequisites": [
+      "Python",
+      "experience calling LLMs (API or vLLM/Hugging Face)",
+      "one NLP or ML course. Speaking a non-English language is a plus."
+    ],
+    "references": [],
+    "places": 2,
+    "status": "Open"
+  }
+]
