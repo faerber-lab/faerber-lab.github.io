@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /student-projects-ws2026/
-title: Student Projects WS 2026/27
-description: Open research projects for Forschungsprojekt, Komplexpraktikum and Teamprojekt in the research group of Michael Färber, Winter Semester 2026/27.
+title: Research Projects WS 2026/27
+description: Research projects for Forschungsprojekt, Komplexpraktikum and Teamprojekt in the research group of Michael Färber, Winter Semester 2026/27.
 nav: false
 og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 search: true
