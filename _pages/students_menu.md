@@ -12,6 +12,8 @@ children:
     permalink: /student_thesis/
   - title: course projects
     permalink: /proposed-student-projects/
+  - title: course projects WS 2026/27
+    permalink: /student-projects-ws2026/
   - title: how we work
     permalink: /how-we-work/
   - title: student outcomes
