@@ -135,6 +135,7 @@
     "title": "BabelDojo: Do Prompt-Injection Defenses for LLM Agents Survive Outside English?",
     "supervisor": "Himanshu Beniwal",
     "email": "himanshu.beniwal@tu-dresden.de",
+    "project_url": "https://faerber-lab.github.io/projects/babeldojo/",
     "description": [
       "Tool-using agents read emails, web pages and documents that an attacker can write. Instructions hidden in that data (indirect prompt injection) can hijack the agent into sending money or leaking files. Nearly every benchmark and defense has been tested only in English. You will extend the AgentDojo benchmark with injections in about 10 languages (high- to low-resource, plus code-switched and romanized text) and measure how attack success, task utility and defense performance change with the language of the attack."
     ],
