@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BabelDojo — Do prompt-injection defenses survive outside English?</title>
+  <meta name="description" content="BabelDojo extends the AgentDojo benchmark to about ten languages to measure whether prompt-injection defenses for LLM agents still work when the attack is not written in English.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BabelDojo — Do prompt-injection defenses survive outside English?">
+  <meta property="og:description" content="A multilingual extension of AgentDojo: the same hidden instruction in about ten languages, tested against five or more defenses.">
+  <meta property="og:url" content="https://faerber-lab.github.io/projects/babeldojo/">
+  <link rel="canonical" href="https://faerber-lab.github.io/projects/babeldojo/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Arabic:wght@400;600&family=Noto+Sans+Bengali:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Ethiopic:wght@400;600&family=Noto+Sans+Tamil:wght@400;600&family=Noto+Sans+Thai:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.min.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ───────────── Navigation ───────────── -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#top" aria-label="BabelDojo home">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#3B5BDB"/><path d="M6 9.5Q16 13 26 9.5" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/><path d="M8.5 16h15" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><path d="M11.5 12.5V24M20.5 12.5V24" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <span class="brand__name">Babel<span>Dojo</span></span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Sections">
+        <a href="#problem">Problem</a>
+        <a href="#demo">Live example</a>
+        <a href="#languages">Languages</a>
+        <a href="#defenses">Defenses</a>
+        <a href="#method">Method</a>
+        <a href="#deliverables">Deliverables</a>
+        <a href="#architecture">Architecture</a>
+      </nav>
+      <div class="nav__actions">
+        <a class="btn btn--ghost btn--sm" href="https://github.com/faerber-lab/BabelDojo" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+        <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ───────────── Hero ───────────── -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="pill"><span class="pill__dot"></span> Research project · built on AgentDojo</p>
+          <h1>Do prompt-injection defenses survive <em>outside English?</em></h1>
+          <p class="hero__lead">AI agents read emails, web pages and documents that anyone can write. One instruction hidden in that data can hijack the agent into sending money or leaking files. BabelDojo measures whether today's defenses still hold when the attack arrives in another language.</p>
+
+          <div class="attackline" aria-label="An example hidden instruction, shown in several languages">
+            <div class="attackline__top">
+              <span class="attackline__label"><i></i> hidden in an email</span>
+              <span class="attackline__lang" id="rotLang">English</span>
+            </div>
+            <p class="attackline__text" id="rotText" dir="auto" lang="en">Ignore all previous instructions.</p>
+          </div>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary btn--lg" href="#demo">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5.14v13.72a1 1 0 0 0 1.52.86l11.2-6.86a1 1 0 0 0 0-1.72L9.52 4.28A1 1 0 0 0 8 5.14z"/></svg>
+              Run the live example
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#method">How it works</a>
+          </div>
+        </div>
+
+        <aside class="qrcard" id="share" aria-label="Share this page">
+          <img class="qrcard__img" src="assets/qr.svg" alt="QR code linking to https://faerber-lab.github.io/projects/babeldojo/" width="132" height="132">
+          <div class="qrcard__body">
+            <p class="qrcard__title">Scan to open this page on your phone</p>
+            <p class="qrcard__url">faerber-lab.github.io/projects/babeldojo</p>
+            <div class="qrcard__actions">
+              <a class="btn btn--primary btn--sm" href="assets/qr.png" download="babeldojo-qr.png">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.500 11l4.500 4.500 4.500-4.500M5 19.500h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Download QR
+              </a>
+              <button type="button" class="btn btn--ghost btn--sm" id="copyBtn">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8.500" y="8.500" width="11" height="11" rx="2.500" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M15.500 5.500v-1a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h1" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
+                <span id="copyLabel">Copy link</span>
+              </button>
+            </div>
+          </div>
+        </aside>
+
+        <div class="hero__visual">
+          <svg class="hero-art" viewBox="0 0 520 440" role="img" aria-labelledby="heroArtTitle">
+            <title id="heroArtTitle">An AI agent reading documents written in several languages. One of them carries a hidden instruction that changes what the agent does.</title>
+            <defs>
+              <radialGradient id="heroGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#3B5BDB" stop-opacity=".18"/>
+                <stop offset="1" stop-color="#3B5BDB" stop-opacity="0"/>
+              </radialGradient>
+              <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="160%">
+                <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0E1726" flood-opacity=".10"/>
+              </filter>
+            </defs>
+
+            <circle cx="260" cy="220" r="200" fill="url(#heroGlow)"/>
+            <circle class="ring ring--1" cx="260" cy="220" r="70"/>
+            <circle class="ring ring--2" cx="260" cy="220" r="70"/>
+
+            <!-- data flowing into the agent -->
+            <g class="hero-links" fill="none" stroke-linecap="round">
+              <path id="hl1" class="hl" d="M92 76 Q190 110 260 220"/>
+              <path id="hl2" class="hl" d="M424 64 Q330 110 260 220"/>
+              <path id="hl3" class="hl" d="M68 222 Q160 212 260 220"/>
+              <path id="hl4" class="hl" d="M110 366 Q200 330 260 220"/>
+              <path id="hl5" class="hl hl--bad" d="M450 212 Q350 196 260 220"/>
+              <path id="hl6" class="hl hl--out" d="M260 220 Q300 330 411 366"/>
+            </g>
+            <circle r="3.5" class="hdot"><animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#hl1"/></animateMotion></circle>
+            <circle r="3.5" class="hdot"><animateMotion dur="3.8s" begin="-1.4s" repeatCount="indefinite"><mpath href="#hl2"/></animateMotion></circle>
+            <circle r="3.5" class="hdot"><animateMotion dur="2.9s" begin="-.6s" repeatCount="indefinite"><mpath href="#hl3"/></animateMotion></circle>
+            <circle r="3.5" class="hdot"><animateMotion dur="3.5s" begin="-2s" repeatCount="indefinite"><mpath href="#hl4"/></animateMotion></circle>
+            <circle r="5" class="hdot hdot--bad"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#hl5"/></animateMotion></circle>
+            <circle r="4.5" class="hdot hdot--out"><animateMotion dur="2s" begin="-.5s" repeatCount="indefinite"><mpath href="#hl6"/></animateMotion></circle>
+
+            <!-- documents -->
+            <g transform="translate(24 40)"><g class="float f1">
+              <rect width="136" height="72" rx="12" fill="#fff" stroke="#E4E8F1" filter="url(#cardShadow)"/>
+              <circle cx="20" cy="22" r="6" fill="#3B5BDB"/>
+              <text x="34" y="27" class="doc-t">Invoice #2291</text>
+              <rect x="14" y="40" width="74" height="6" rx="3" fill="#EEF2FA"/>
+              <text x="14" y="62" class="doc-s">Amount due ₹3,480</text>
+            </g></g>
+
+            <g transform="translate(356 28)"><g class="float f2">
+              <rect width="136" height="72" rx="12" fill="#fff" stroke="#E4E8F1" filter="url(#cardShadow)"/>
+              <circle cx="20" cy="22" r="6" fill="#7048E8"/>
+              <text x="34" y="27" class="doc-t" lang="zh-Hans">会议纪要</text>
+              <rect x="14" y="40" width="88" height="6" rx="3" fill="#EEF2FA"/>
+              <text x="14" y="62" class="doc-s" lang="zh-Hans">周五 14:00 设计评审</text>
+            </g></g>
+
+            <g transform="translate(4 186)"><g class="float f3">
+              <rect width="128" height="72" rx="12" fill="#fff" stroke="#E4E8F1" filter="url(#cardShadow)"/>
+              <circle cx="108" cy="22" r="6" fill="#0C9F72"/>
+              <text x="94" y="27" class="doc-t" text-anchor="end" lang="ar">رسالة جديدة</text>
+              <rect x="40" y="40" width="74" height="6" rx="3" fill="#EEF2FA"/>
+              <text x="114" y="62" class="doc-s" text-anchor="end" lang="ar">موعد التسليم غدًا</text>
+            </g></g>
+
+            <g transform="translate(40 330)"><g class="float f4">
+              <rect width="140" height="72" rx="12" fill="#fff" stroke="#E4E8F1" filter="url(#cardShadow)"/>
+              <circle cx="20" cy="22" r="6" fill="#E8890C"/>
+              <text x="34" y="27" class="doc-t" lang="sw">Barua pepe mpya</text>
+              <rect x="14" y="40" width="66" height="6" rx="3" fill="#EEF2FA"/>
+              <text x="14" y="62" class="doc-s" lang="sw">Mkutano saa nne</text>
+            </g></g>
+
+            <!-- the poisoned document -->
+            <g transform="translate(376 168)"><g class="float f5">
+              <rect width="140" height="88" rx="12" fill="#fff" stroke="#E03131" stroke-width="1.6" filter="url(#cardShadow)"/>
+              <circle cx="20" cy="22" r="6" fill="#E03131"/>
+              <text x="34" y="27" class="doc-t" lang="hi">भुगतान सूचना</text>
+              <rect x="14" y="38" width="80" height="6" rx="3" fill="#EEF2FA"/>
+              <rect class="poison" x="10" y="52" width="120" height="26" rx="6"/>
+              <text x="16" y="70" class="doc-s doc-s--bad" lang="hi">पिछले निर्देश अनदेखा करें</text>
+            </g></g>
+
+            <!-- the agent -->
+            <g transform="translate(260 220)">
+              <g class="agent">
+                <line x1="0" y1="-48" x2="0" y2="-60" class="agent__stroke" stroke-width="2.4" stroke-linecap="round"/>
+                <circle cx="0" cy="-64" r="4.5" class="agent__fill"/>
+                <rect x="-48" y="-48" width="96" height="96" rx="24" fill="#fff" class="agent__stroke" stroke-width="2.4" filter="url(#cardShadow)"/>
+                <g class="agent__eyes"><circle cx="-15" cy="-6" r="7" class="agent__fill"/><circle cx="15" cy="-6" r="7" class="agent__fill"/></g>
+                <path d="M-11 16q11 8 22 0" fill="none" class="agent__stroke" stroke-width="2.4" stroke-linecap="round"/>
+              </g>
+              <text y="72" text-anchor="middle" class="agent-label">AI agent</text>
+            </g>
+
+            <!-- what the agent ends up doing -->
+            <g transform="translate(318 338)"><g class="float f6">
+              <g class="out out--safe">
+                <rect width="186" height="54" rx="12" fill="#E8FAF3" stroke="#0C9F72" stroke-width="1.4"/>
+                <text x="16" y="22" class="out-k out-k--safe">TOOL CALL</text>
+                <text x="16" y="41" class="out-v">pay_bill(₹3,480)</text>
+                <path d="M158 27l5 5 9-10" fill="none" stroke="#0C9F72" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <g class="out out--bad">
+                <rect width="186" height="54" rx="12" fill="#FFF1F1" stroke="#E03131" stroke-width="1.4"/>
+                <text x="16" y="22" class="out-k out-k--bad">TOOL CALL</text>
+                <text x="16" y="41" class="out-v">send_money(attacker)</text>
+              </g>
+            </g></g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container">
+        <dl class="facts">
+          <div><dt>≈10</dt><dd>languages, from high- to low-resource, plus code-switched and romanized text</dd></div>
+          <div><dt>5+</dt><dd>defenses, from input filters to system-level designs</dd></div>
+          <div><dt>4–5</dt><dd>models: three or four open-weight models and one API model</dd></div>
+          <div><dt>629</dt><dd>security test cases in AgentDojo, the benchmark we extend</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ───────────── Problem ───────────── -->
+    <section class="section" id="problem">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">The problem</p>
+          <h2>One hidden sentence can redirect an agent</h2>
+          <p class="lead">This is <strong>indirect prompt injection</strong>. The attacker never talks to the agent. They leave text where the agent will read it.</p>
+        </header>
+
+        <ol class="steps">
+          <li class="stepcard reveal">
+            <svg viewBox="0 0 280 150" aria-hidden="true" class="stepart">
+              <rect width="280" height="150" rx="14" fill="#F6F8FC"/>
+              <circle cx="52" cy="78" r="24" fill="#EEF2FF" stroke="#3B5BDB" stroke-width="1.6"/>
+              <circle cx="52" cy="71" r="7" fill="#3B5BDB"/><path d="M40 90a12 10 0 0 1 24 0z" fill="#3B5BDB"/>
+              <g class="bubble"><rect x="86" y="38" width="112" height="34" rx="12" fill="#fff" stroke="#D5DBE8"/><path d="M92 68l-8 10 14-5z" fill="#fff" stroke="#D5DBE8" stroke-linejoin="round"/><rect x="88" y="62" width="14" height="8" fill="#fff"/><text x="142" y="60" text-anchor="middle" class="art-t">Pay my bill</text></g>
+              <path d="M96 100H186" stroke="#3B5BDB" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="2 7" class="dash"/>
+              <path d="M184 94l8 6-8 6" fill="none" stroke="#3B5BDB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="204" y="54" width="48" height="48" rx="13" fill="#fff" stroke="#3B5BDB" stroke-width="1.8"/>
+              <circle cx="220" cy="75" r="4" fill="#3B5BDB"/><circle cx="236" cy="75" r="4" fill="#3B5BDB"/><path d="M221 87q7 5 14 0" fill="none" stroke="#3B5BDB" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <span class="stepcard__n">1</span>
+            <h3>You delegate</h3>
+            <p>You ask your assistant for something that needs tools: read the inbox, pay a bill, book a flight.</p>
+          </li>
+
+          <li class="stepcard reveal">
+            <svg viewBox="0 0 280 150" aria-hidden="true" class="stepart">
+              <rect width="280" height="150" rx="14" fill="#F6F8FC"/>
+              <rect x="28" y="51" width="48" height="48" rx="13" fill="#fff" stroke="#3B5BDB" stroke-width="1.8"/>
+              <circle cx="44" cy="72" r="4" fill="#3B5BDB"/><circle cx="60" cy="72" r="4" fill="#3B5BDB"/><path d="M45 84q7 5 14 0" fill="none" stroke="#3B5BDB" stroke-width="1.8" stroke-linecap="round"/>
+              <g fill="none" stroke="#3B5BDB" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="2 7" class="dash dash--rev">
+                <path d="M170 36C130 36 110 60 84 68"/><path d="M170 75H84"/><path d="M170 114C130 114 110 90 84 82"/>
+              </g>
+              <g>
+                <rect x="176" y="18" width="78" height="34" rx="9" fill="#fff" stroke="#D5DBE8"/>
+                <rect x="186" y="27" width="20" height="15" rx="2.5" fill="none" stroke="#45516B" stroke-width="1.5"/><path d="M186 29l10 7 10-7" fill="none" stroke="#45516B" stroke-width="1.5"/>
+                <text x="214" y="40" class="art-s">Email</text>
+                <rect x="176" y="58" width="78" height="34" rx="9" fill="#fff" stroke="#D5DBE8"/>
+                <circle cx="196" cy="75" r="8.5" fill="none" stroke="#45516B" stroke-width="1.5"/><path d="M187.500 75h17M196 66.500c-5 5-5 12 0 17M196 66.500c5 5 5 12 0 17" fill="none" stroke="#45516B" stroke-width="1.3"/>
+                <text x="214" y="80" class="art-s">Web</text>
+                <rect x="176" y="98" width="78" height="34" rx="9" fill="#fff" stroke="#D5DBE8"/>
+                <path d="M189 106h9l5 5v13h-14z" fill="none" stroke="#45516B" stroke-width="1.5" stroke-linejoin="round"/><path d="M198 106v5h5" fill="none" stroke="#45516B" stroke-width="1.5" stroke-linejoin="round"/>
+                <text x="214" y="120" class="art-s">Files</text>
+              </g>
+            </svg>
+            <span class="stepcard__n">2</span>
+            <h3>The agent reads untrusted data</h3>
+            <p>To do the job it opens emails, web pages and documents. Much of that content was written by someone else.</p>
+          </li>
+
+          <li class="stepcard stepcard--bad reveal">
+            <svg viewBox="0 0 280 150" aria-hidden="true" class="stepart">
+              <rect width="280" height="150" rx="14" fill="#FFF7F7"/>
+              <rect x="26" y="26" width="92" height="98" rx="10" fill="#fff" stroke="#D5DBE8"/>
+              <rect x="38" y="40" width="60" height="6" rx="3" fill="#E4E8F1"/><rect x="38" y="54" width="68" height="6" rx="3" fill="#E4E8F1"/>
+              <rect x="34" y="68" width="76" height="16" rx="5" class="poison"/><rect x="40" y="73" width="52" height="6" rx="3" fill="#E03131"/>
+              <rect x="38" y="94" width="48" height="6" rx="3" fill="#E4E8F1"/><rect x="38" y="108" width="62" height="6" rx="3" fill="#E4E8F1"/>
+              <path d="M112 76C140 76 136 56 160 56" fill="none" stroke="#E03131" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="2 7" class="dash"/>
+              <rect x="164" y="34" width="44" height="44" rx="12" fill="#fff" stroke="#E03131" stroke-width="1.8"/>
+              <circle cx="179" cy="53" r="3.6" fill="#E03131"/><circle cx="193" cy="53" r="3.6" fill="#E03131"/><path d="M180 66h12" stroke="#E03131" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M186 80v12" stroke="#E03131" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="2 6" class="dash"/>
+              <rect x="130" y="96" width="128" height="30" rx="9" fill="#FFF1F1" stroke="#E03131"/>
+              <text x="194" y="116" text-anchor="middle" class="art-m">send_money(…)</text>
+            </svg>
+            <span class="stepcard__n">3</span>
+            <h3>A hidden instruction takes over</h3>
+            <p>Text planted in that data tells the agent to do something else, such as move money or leak files. The agent can't always tell data from orders.</p>
+          </li>
+        </ol>
+
+        <div class="callouts">
+          <article class="callout reveal">
+            <span class="callout__tag callout__tag--bad">It already happens</span>
+            <h3>EchoLeak, 2025</h3>
+            <p>Researchers showed that a single crafted email could make Microsoft 365 Copilot leak internal data, with no click from the victim. Microsoft patched it; no abuse in the wild was reported.</p>
+            <a class="link" href="https://nvd.nist.gov/vuln/detail/CVE-2025-32711" target="_blank" rel="noopener">CVE-2025-32711 <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="callout callout--brand reveal">
+            <span class="callout__tag">The blind spot</span>
+            <h3>Almost all the evidence is in English</h3>
+            <p>Nearly every benchmark and defense for this attack has been tested only in English. Agents, their users and the data they read are not. Nobody has measured systematically what happens when the attack changes language.</p>
+            <a class="link" href="#demo">See the failure mode we're testing for <span aria-hidden="true">↓</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Live example ───────────── -->
+    <section class="section section--tint" id="demo">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Live example</p>
+          <h2>Watch an agent get hijacked, then change the language</h2>
+          <p class="lead">Priya runs a small design studio and lets her AI assistant handle the bills. Yesterday an attacker sent her an email with one sentence hidden in white text. Choose the attack language and a defense, then press Run.</p>
+          <p class="disclaimer"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v6M12 7.500v.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> A simulation that runs in your browser with a toy filter and a scripted agent. It illustrates the question; it is not an experimental result.</p>
+        </header>
+
+        <div class="demo">
+          <!-- controls -->
+          <div class="card demo__controls reveal">
+            <div class="ctl-grid">
+              <div class="ctl-col">
+                <div class="ctl">
+                  <p class="ctl__label"><span class="ctl__n">1</span> Priya talks to her assistant in</p>
+                  <div class="seg" role="group" aria-label="User language" id="userSeg">
+                    <button type="button" data-user="en" class="is-on" aria-pressed="true">English</button>
+                    <button type="button" data-user="hi" aria-pressed="false" lang="hi">हिन्दी</button>
+                  </div>
+                </div>
+                <div class="ctl">
+                  <p class="ctl__label"><span class="ctl__n">2</span> The attacker writes in</p>
+                  <div class="chipgroups" role="group" aria-label="Attack language" id="attackChips"></div>
+                </div>
+                <div class="ctl">
+                  <p class="ctl__label"><span class="ctl__n">3</span> Defense between the inbox and the agent</p>
+                  <div class="seg" role="group" aria-label="Defense" id="defenseSeg">
+                    <button type="button" data-def="none" class="is-on" aria-pressed="true">None</button>
+                    <button type="button" data-def="filter" aria-pressed="false">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.500-3 8.300-7 10-4-1.700-7-5.500-7-10V6z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></svg>
+                      English keyword filter
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ctl-col">
+                <div class="ctl">
+                  <label class="ctl__label" for="payload"><span class="ctl__n ctl__n--bad">!</span> The hidden text <span class="muted">(editable: try your own wording)</span></label>
+                  <textarea id="payload" rows="4" dir="auto" spellcheck="false" autocomplete="off"></textarea>
+                  <div class="preview" id="preview" aria-live="polite"></div>
+                </div>
+                <div class="ctl__actions">
+                  <button type="button" class="btn btn--primary btn--lg" id="runBtn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5.14v13.72a1 1 0 0 0 1.52.86l11.2-6.86a1 1 0 0 0 0-1.72L9.52 4.28A1 1 0 0 0 8 5.14z"/></svg>
+                    <span id="runLabel">Run the example</span>
+                  </button>
+                  <button type="button" class="btn btn--ghost" id="resetBtn">Reset</button>
+                  <span class="pairing" id="pairing"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- stage -->
+          <div class="demo__stage">
+            <div class="card scene-card reveal">
+              <div class="card__head">
+                <h3>What is happening</h3>
+                <span class="tag" id="defTag">No defense</span>
+              </div>
+              <svg id="scene" class="scene" viewBox="0 0 440 316" role="img" aria-label="Diagram of Priya, her AI agent, her inbox, her bank, and an attacker who can write to the inbox.">
+                <defs>
+                  <filter id="nodeShadow" x="-30%" y="-30%" width="160%" height="170%">
+                    <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0E1726" flood-opacity=".10"/>
+                  </filter>
+                </defs>
+                <g fill="none">
+                  <path id="wAttacker" class="wire wire--bad" d="M246 40C320 30 376 40 384 64"/>
+                  <path id="wUser" class="wire" d="M86 178H180"/>
+                  <path id="wInbox" class="wire" d="M260 162C300 146 322 110 346 98"/>
+                  <path id="wBank" class="wire" d="M260 194C300 210 322 240 346 250"/>
+                </g>
+
+                <g id="shield" class="shield" transform="translate(304 131)">
+                  <circle r="17" fill="#fff" stroke="#D5DBE8"/>
+                  <path d="M0-9l8 3.400v5.200c0 4.800-3.200 8.600-8 10.400-4.800-1.800-8-5.600-8-10.400v-5.200z" class="shield__ico"/>
+                </g>
+
+                <g id="nAttacker" class="node node--attacker" transform="translate(220 40)">
+                  <circle r="25" class="node__box"/>
+                  <circle cy="-6" r="7" class="node__ico"/><path d="M-12 13a12 10 0 0 1 24 0z" class="node__ico"/>
+                  <rect x="-8" y="-9" width="16" height="4.500" rx="2" fill="#fff"/>
+                  <text x="-34" y="5" text-anchor="end" class="node__label">Attacker</text>
+                </g>
+
+                <g id="nUser" class="node node--user" transform="translate(56 178)">
+                  <circle r="29" class="node__box" filter="url(#nodeShadow)"/>
+                  <circle cy="-7" r="8" class="node__ico"/><path d="M-14 15a14 11 0 0 1 28 0z" class="node__ico"/>
+                  <text y="50" text-anchor="middle" class="node__label">Priya</text>
+                </g>
+
+                <g id="nAgent" class="node node--agent" transform="translate(220 178)">
+                  <line y1="-38" y2="-48" class="node__line"/><circle cy="-52" r="4" class="node__ico"/>
+                  <rect x="-38" y="-38" width="76" height="76" rx="19" class="node__box" filter="url(#nodeShadow)"/>
+                  <circle cx="-12" cy="-5" r="5.500" class="node__ico"/><circle cx="12" cy="-5" r="5.500" class="node__ico"/>
+                  <path d="M-9 12q9 6 18 0" class="node__line"/>
+                  <text y="58" text-anchor="middle" class="node__label">AI agent</text>
+                </g>
+
+                <g id="nInbox" class="node node--tool" transform="translate(384 96)">
+                  <rect x="-36" y="-30" width="72" height="60" rx="15" class="node__box" filter="url(#nodeShadow)"/>
+                  <rect x="-15" y="-11" width="30" height="22" rx="3.500" class="node__glyph"/><path d="M-15-9L0 3 15-9" class="node__glyph"/>
+                  <g class="badge"><circle cx="28" cy="-24" r="10"/><text x="28" y="-20" text-anchor="middle">3</text></g>
+                  <text y="48" text-anchor="middle" class="node__label">Inbox</text>
+                </g>
+
+                <g id="nBank" class="node node--tool" transform="translate(384 250)">
+                  <rect x="-36" y="-30" width="72" height="60" rx="15" class="node__box" filter="url(#nodeShadow)"/>
+                  <path d="M-15-4L0-14 15-4z" class="node__glyph"/><path d="M-10-1v10M0-1v10M10-1v10M-16 13h32" class="node__glyph"/>
+                  <text y="48" text-anchor="middle" class="node__label">Bank</text>
+                </g>
+
+                <g id="packets"></g>
+              </svg>
+
+              <p class="scene-status" id="sceneStatus" aria-live="polite">Press <strong>Run</strong> to play the scenario.</p>
+
+              <div class="tiles">
+                <div class="tile" id="tBalance"><span class="tile__k">Priya's balance</span><span class="tile__v" id="vBalance">₹84,200</span></div>
+                <div class="tile" id="tAttacker"><span class="tile__k">Attacker received</span><span class="tile__v" id="vAttacker">₹0</span></div>
+                <div class="tile" id="tBill"><span class="tile__k">Electricity bill</span><span class="tile__v" id="vBill">Unpaid</span></div>
+              </div>
+            </div>
+
+            <div class="card trace-card reveal">
+              <div class="card__head">
+                <h3>Agent trace</h3>
+                <span class="tag tag--mono">messages · tool calls</span>
+              </div>
+              <ol class="trace" id="trace" aria-live="polite">
+                <li class="trace__empty" id="traceEmpty">
+                  <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="9" width="36" height="30" rx="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14 19h20M14 26h13M14 33h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  Every message and tool call will appear here, step by step.
+                </li>
+              </ol>
+              <div class="outcome" id="outcome" hidden></div>
+            </div>
+          </div>
+
+          <!-- explored combinations + takeaway -->
+          <div class="demo__after">
+            <div class="card explored reveal">
+              <div class="card__head">
+                <h3>What you have tried</h3>
+                <button type="button" class="btn btn--ghost btn--sm" id="runAllBtn">Fill in all</button>
+              </div>
+              <p class="explored__note">Each run fills one cell. Click a cell to run that combination. On a narrow screen, swipe sideways to see every language.</p>
+              <div class="xscroll"><div class="xtable" id="xtable" role="group" aria-label="Outcome of each attack language and defense combination in this toy simulation"></div></div>
+              <p class="explored__legend">
+                <span><i class="dot dot--bad"></i> hijacked</span>
+                <span><i class="dot dot--ok"></i> blocked</span>
+                <span><i class="dot dot--none"></i> not run yet</span>
+              </p>
+            </div>
+
+            <div class="takeaway reveal">
+              <h3>What this toy shows, and what it cannot</h3>
+              <ul>
+                <li><strong>The scripted agent follows every version.</strong> That mirrors the worry: multilingual models can read an instruction in Hindi or Swahili, not only in English.</li>
+                <li><strong>A filter that only knows English phrasing does not.</strong> It stops the English attack and waves every other version through.</li>
+                <li><strong>Real defenses are learned models, not keyword lists.</strong> They may generalize across languages, fail quietly, or over-block harmless foreign-language text.</li>
+              </ul>
+              <p class="takeaway__end">BabelDojo replaces this cartoon with measurements on real agents, real defenses and verified translations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Languages ───────────── -->
+    <section class="section" id="languages">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Languages</p>
+          <h2>One attack, <span data-lang-count>25</span> ways to write it</h2>
+          <p class="lead">A candidate pool of <span data-lang-count>25</span> languages and variants: high-resource and lower-resource languages, plus code-switched and romanized text, which is how many people actually write online. About ten of them will make the final benchmark.</p>
+        </header>
+
+        <div class="filters reveal" role="group" aria-label="Filter languages" id="tierFilters">
+          <button type="button" class="filter is-on" data-tier="all" aria-pressed="true">All</button>
+          <button type="button" class="filter" data-tier="high" aria-pressed="false"><i class="tdot tdot--high"></i> High-resource</button>
+          <button type="button" class="filter" data-tier="mid" aria-pressed="false"><i class="tdot tdot--mid"></i> Mid-resource</button>
+          <button type="button" class="filter" data-tier="low" aria-pressed="false"><i class="tdot tdot--low"></i> Lower-resource</button>
+          <button type="button" class="filter" data-tier="variant" aria-pressed="false"><i class="tdot tdot--variant"></i> Mixed &amp; romanized</button>
+        </div>
+
+        <div class="langgrid" id="langGrid"></div>
+        <p class="footnote reveal">A candidate pool, not the final list. Every translation on this page is an unverified draft that native speakers still have to check, which is the first deliverable of the project.</p>
+      </div>
+    </section>
+
+    <!-- ───────────── Defenses ───────────── -->
+    <section class="section section--tint" id="defenses">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Defenses under test</p>
+          <h2>Six defenses, one open question each</h2>
+          <p class="lead">At least five of these will be evaluated. Their published results come largely from English attacks, and each one raises a different question once the language changes.</p>
+        </header>
+
+        <div class="defgrid">
+          <article class="defcard reveal">
+            <div class="defcard__top">
+              <span class="deficon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16l-6 7.500V19l-4-2v-4.500z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+              <span class="kind kind--system">System-level</span>
+            </div>
+            <h3>Tool filter</h3>
+            <p>Before reading any untrusted data, a model picks the tools the user's task needs. Every other tool is hidden from the agent.</p>
+            <p class="defcard__q"><span>Language question</span>Does the tool selection stay accurate when the user's request is not in English?</p>
+            <a class="link" href="https://arxiv.org/abs/2406.13352" target="_blank" rel="noopener">AgentDojo baseline <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="defcard reveal">
+            <div class="defcard__top">
+              <span class="deficon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4H5v16h3M16 4h3v16h-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9.500 9.500h5M9.500 14.500h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              <span class="kind kind--prompt">Prompt-level</span>
+            </div>
+            <h3>Spotlighting</h3>
+            <p>Untrusted text is delimited, marked or encoded so the model can tell data from instructions, and the prompt tells it never to obey the marked part.</p>
+            <p class="defcard__q"><span>Language question</span>Do the markers still say "this is only data" when the data switches language mid-context?</p>
+            <a class="link" href="https://arxiv.org/abs/2403.14720" target="_blank" rel="noopener">Hines et al., 2024 <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="defcard reveal">
+            <div class="defcard__top">
+              <span class="deficon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.500-3 8.300-7 10-4-1.700-7-5.500-7-10V6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12l2.200 2.200L15 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="kind kind--detect">Detection</span>
+            </div>
+            <h3>PIGuard</h3>
+            <p>A guardrail classifier that flags injected prompts, trained to avoid over-defense: wrongly flagging harmless text that happens to contain trigger words.</p>
+            <p class="defcard__q"><span>Language question</span>Does it recognize the same injection in Swahili or romanized Hindi, and does over-defense return?</p>
+            <a class="link" href="https://aclanthology.org/2025.acl-long.1468/" target="_blank" rel="noopener">Li et al., ACL 2025 <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="defcard reveal">
+            <div class="defcard__top">
+              <span class="deficon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 12h8M17.500 12v3.500M20.500 12v2.500" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              <span class="kind kind--detect">Detection</span>
+            </div>
+            <h3>DataSentinel</h3>
+            <p>A fine-tuned detector is asked to repeat a secret key while ignoring the data. If the key does not come back, the data contained an instruction.</p>
+            <p class="defcard__q"><span>Language question</span>Does a non-English instruction still knock the detector off its task, so the alarm fires?</p>
+            <a class="link" href="https://arxiv.org/abs/2504.11358" target="_blank" rel="noopener">Liu et al., IEEE S&amp;P 2025 <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="defcard reveal">
+            <div class="defcard__top">
+              <span class="deficon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h10M4 16h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M17 5.500l3 2.500-3 2.500M17 13.500l3 2.500-3 2.500" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="kind kind--system">System-level</span>
+            </div>
+            <h3>MELON</h3>
+            <p>The agent's step is run again with the user's request masked. If it makes the same tool calls anyway, those calls come from the data, not the user.</p>
+            <p class="defcard__q"><span>Language question</span>It compares tool calls rather than text. Is that enough to make it language-robust?</p>
+            <a class="link" href="https://arxiv.org/abs/2502.05174" target="_blank" rel="noopener">Zhu et al., ICML 2025 <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="defcard reveal">
+            <div class="defcard__top">
+              <span class="deficon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.500" y="5" width="7" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13.500" y="5" width="7" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="2.500 2.500"/></svg></span>
+              <span class="kind kind--system">System-level</span>
+            </div>
+            <h3>CaMeL</h3>
+            <p>A privileged model turns the trusted request into a program. A quarantined model reads untrusted data but cannot call tools, and policies track where data flows.</p>
+            <p class="defcard__q"><span>Language question</span>Secure by design, but does task utility hold when users do not write in English?</p>
+            <a class="link" href="https://arxiv.org/abs/2503.18813" target="_blank" rel="noopener">Debenedetti et al., 2025 <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Method ───────────── -->
+    <section class="section" id="method">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Method</p>
+          <h2>From AgentDojo to BabelDojo</h2>
+          <p class="lead">AgentDojo runs agents in simulated workspace, banking, travel and Slack environments and checks, from the environment state, whether the user's task and the attacker's goal were achieved. BabelDojo keeps that machinery and changes one variable: language.</p>
+        </header>
+
+        <ol class="pipeline" id="pipeline">
+          <li class="pstep reveal">
+            <span class="pstep__n">01</span>
+            <h3>Start from AgentDojo</h3>
+            <p>97 realistic user tasks and 629 security test cases, each pairing a user task with an attacker goal.</p>
+          </li>
+          <li class="pstep reveal">
+            <span class="pstep__n">02</span>
+            <h3>Translate the attacks</h3>
+            <p>Injection tasks are rendered into about ten languages, with code-switched and romanized variants. Native speakers spot-check them.</p>
+          </li>
+          <li class="pstep reveal">
+            <span class="pstep__n">03</span>
+            <h3>Run the agents</h3>
+            <p>Three or four open-weight models and one API model, with no defense and with each of five or more defenses.</p>
+          </li>
+          <li class="pstep reveal">
+            <span class="pstep__n">04</span>
+            <h3>Compare across languages</h3>
+            <p>How do attack success, task utility and defense performance move as the language of the attack changes?</p>
+          </li>
+        </ol>
+
+        <div class="method-split">
+          <div class="metrics reveal">
+            <h3 class="subhead">What gets measured</h3>
+            <div class="metric">
+              <span class="metric__ico metric__ico--bad"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>
+              <div><h4>Attack success rate</h4><p>How often the agent carries out the attacker's goal.</p></div>
+            </div>
+            <div class="metric">
+              <span class="metric__ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.500l4.500 4.500L19 7.500" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div><h4>Benign utility</h4><p>How often the agent completes the user's task when nobody is attacking.</p></div>
+            </div>
+            <div class="metric">
+              <span class="metric__ico metric__ico--ok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.500-3 8.300-7 10-4-1.700-7-5.500-7-10V6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12l2.200 2.200L15 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div><h4>Utility under attack</h4><p>How often it still completes the user's task, with no harmful side effects, while under attack.</p></div>
+            </div>
+          </div>
+
+          <div class="mismatch reveal">
+            <h3 class="subhead">When attacker and user speak different languages</h3>
+            <p class="mismatch__lead">Most published numbers sit in one cell of this grid. Hover or tap a cell.</p>
+            <div class="mgrid" id="mgrid" role="group" aria-label="User language versus attack language">
+              <span class="mgrid__corner"><b>Attack →</b><b>User ↓</b></span>
+              <span class="mgrid__h">English</span><span class="mgrid__h" lang="hi">हिन्दी</span><span class="mgrid__h" lang="ar">العربية</span>
+
+              <span class="mgrid__h mgrid__h--row">English</span>
+              <button type="button" class="mcell mcell--covered is-on" data-kind="covered">Studied</button>
+              <button type="button" class="mcell mcell--mismatch" data-kind="mismatch">?</button>
+              <button type="button" class="mcell mcell--mismatch" data-kind="mismatch">?</button>
+
+              <span class="mgrid__h mgrid__h--row" lang="hi">हिन्दी</span>
+              <button type="button" class="mcell mcell--mismatch" data-kind="mismatch">?</button>
+              <button type="button" class="mcell mcell--same" data-kind="same">?</button>
+              <button type="button" class="mcell mcell--mismatch" data-kind="mismatch">?</button>
+
+              <span class="mgrid__h mgrid__h--row" lang="ar">العربية</span>
+              <button type="button" class="mcell mcell--mismatch" data-kind="mismatch">?</button>
+              <button type="button" class="mcell mcell--mismatch" data-kind="mismatch">?</button>
+              <button type="button" class="mcell mcell--same" data-kind="same">?</button>
+            </div>
+            <p class="mnote" id="mnote" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Deliverables ───────────── -->
+    <section class="section section--tint" id="deliverables">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Deliverables</p>
+          <h2>What the project will produce</h2>
+          <p class="lead">The experiments have not been run yet. This page describes the question and the plan, not findings.</p>
+        </header>
+
+        <div class="deliver">
+          <ol class="dlist">
+            <li class="ditem reveal"><span class="ditem__n">1</span><div><h3>A multilingual AgentDojo</h3><p>AgentDojo's injection tasks in about ten languages, with native-speaker spot checks.</p></div></li>
+            <li class="ditem reveal"><span class="ditem__n">2</span><div><h3>A cross-defense evaluation</h3><p>Three or four open models and one API model against at least five defenses, such as tool filter, spotlighting, PIGuard, DataSentinel, MELON and CaMeL.</p></div></li>
+            <li class="ditem reveal"><span class="ditem__n">3</span><div><h3>A language-mismatch analysis</h3><p>What changes when the attack language differs from the user's language.</p></div></li>
+            <li class="ditem reveal"><span class="ditem__n">4</span><div><h3>Released code and data</h3><p>Everything needed to reproduce the numbers and add a language.</p></div></li>
+            <li class="ditem reveal"><span class="ditem__n">5</span><div><h3>A paper</h3><p>A final report in ACL format, aimed at an ACL or EMNLP submission.</p></div></li>
+          </ol>
+
+          <aside class="glance reveal" aria-label="Project at a glance">
+            <h3>At a glance</h3>
+            <dl>
+              <div><dt>Team</dt><dd>Up to 2 students</dd></div>
+              <div><dt>You need</dt><dd>Python · experience calling LLMs through an API or vLLM / Hugging Face · one NLP or ML course</dd></div>
+              <div><dt>A plus</dt><dd>You speak a language other than English</dd></div>
+              <div><dt>Builds on</dt><dd><a class="link" href="https://agentdojo.spylab.ai/" target="_blank" rel="noopener">AgentDojo <span aria-hidden="true">↗</span></a></dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Architecture ───────────── -->
+    <section class="section" id="architecture">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Technical deep dive</p>
+          <h2>Where the safeguards sit in an agent</h2>
+          <p class="lead">No single check stops prompt injection. A well-defended agent stacks safeguards at five points between the user's request and a real-world action. Select a layer to see what can be deployed there, what it costs, and how much it depends on reading the attacker's language.</p>
+        </header>
+
+        <div class="arch">
+          <div class="arch__flow reveal" id="archFlow" role="group" aria-label="Safeguard layers in an agent pipeline"></div>
+          <div class="card arch__detail reveal" id="archDetail" aria-live="polite"></div>
+        </div>
+
+        <div class="codecard reveal">
+          <div class="codecard__head">
+            <h3>The same five layers as a guarded agent loop</h3>
+            <span class="tag tag--mono">illustrative pseudocode</span>
+          </div>
+          <pre class="code" id="archCode" aria-label="Pseudocode of an agent loop with five safeguard layers"></pre>
+          <p class="codecard__note">A sketch of where each safeguard hooks in, not code from this project. Real systems choose a subset. CaMeL, for example, replaces the loop with an interpreter that runs a plan written before any data is read. Click a highlighted line to jump to its layer.</p>
+        </div>
+
+        <div class="lessons">
+          <article class="lesson lesson--warn reveal">
+            <p class="lesson__tags"><span>2</span><span>3</span> layers that read the text</p>
+            <h3>Only as good as their grasp of the language</h3>
+            <p>Screening and marking work on the words themselves. A detector has to recognize an instruction in Swahili or romanized Hindi, and a model has to keep treating marked Arabic as inert data. These are the layers most likely to move when the attack leaves English.</p>
+          </article>
+          <article class="lesson lesson--ok reveal">
+            <p class="lesson__tags"><span>1</span><span>4</span><span>5</span> layers that constrain the action</p>
+            <h3>Indifferent to wording by construction</h3>
+            <p>Scoping, behavior checks and action policies look at tools, calls and data flow, not at phrasing. They should hold across languages, although they can still cost utility when the user's own request is not in English.</p>
+          </article>
+          <p class="lessons__end reveal">These exposure ratings are a working hypothesis, not a finding. BabelDojo exists to measure them. If they hold, the practical advice is short: never rely only on a layer that has to understand the attacker's words.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a class="brand" href="#top" aria-label="BabelDojo home">
+          <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#3B5BDB"/><path d="M6 9.5Q16 13 26 9.5" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/><path d="M8.5 16h15" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><path d="M11.5 12.5V24M20.5 12.5V24" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
+          <span class="brand__name">Babel<span>Dojo</span></span>
+        </a>
+        <p class="footer__note">The live example is a browser-side simulation with a toy filter and a scripted agent. It reports no experimental results. Translations are drafts pending native-speaker review. Names, companies and account numbers in the scenario are fictional.</p>
+      </div>
+      <div class="footer__links">
+        <a href="https://github.com/faerber-lab/BabelDojo" target="_blank" rel="noopener">Source on GitHub</a>
+        <a href="https://arxiv.org/abs/2406.13352" target="_blank" rel="noopener">AgentDojo paper (NeurIPS 2024)</a>
+        <a href="https://agentdojo.spylab.ai/" target="_blank" rel="noopener">AgentDojo site</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.min.js" defer></script>
+</body>
+</html>
