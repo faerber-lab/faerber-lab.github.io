@@ -25,6 +25,9 @@ timeline:
     title: Final allocation
     note: Students notified by email
 # Topics live in _data/student_projects_ws2026.json
+# Note: the deploy workflow ignores .json files, so after editing the topics,
+# also make a small edit to this page (e.g. bump updated:) to rebuild the site.
+updated: 2026-10-13
 ---
 
 {% assign projects = site.data.student_projects_ws2026 %}
