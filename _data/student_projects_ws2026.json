@@ -233,7 +233,7 @@
       "Case-study research paper (with extensive experiments using LLMs and different types of context)."
     ],
     "prerequisites": [
-      "Background in software engineering and LLMs (security background is an advantage)",
+      "Background in software engineering and LLMs (security is an advantage)",
       "Experience with PyTorch and/or Hugging Face Transformers"
     ],
     "references": [
