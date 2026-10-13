@@ -159,13 +159,19 @@
     "supervisor": "Marina Litvak",
     "email": "litvak.marina@gmail.com",
     "status": "Open",
-    "places": 1,
+    "places": 2,
     "description": [
       "This project focuses on developing methods for automatically detecting offensive or toxic language in text and transforming it into a more neutral or polite form. The student will explore state-of-the-art natural language processing techniques, including machine learning and large language models, to classify offensive content and generate detoxified alternatives while preserving the original meaning. The project may involve working with existing datasets, evaluating different modeling approaches, and designing a pipeline that combines detection and text rewriting. The outcome will contribute to building safer and more inclusive online communication systems."
     ],
     "research_questions": [],
-    "deliverables": [],
-    "prerequisites": [],
+    "deliverables": [
+      "Literature review of offensive language detection with LLMs.",
+      "Case-study research paper (with state-of-the-art LLMs)."
+    ],
+    "prerequisites": [
+      "Background in NLP and LLMs",
+      "Experience with PyTorch and/or Hugging Face Transformers"
+    ],
     "references": [
       "Davidson, T., Warmsley, D., Macy, M. and Weber, I. (2017): Automated hate speech detection and the problem of offensive language. Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), 11(1), pp. 512–515. https://ojs.aaai.org/index.php/ICWSM/article/view/14955",
       "Zampieri, M., Malmasi, S., Nakov, P., Rosenthal, S., Farra, N. and Kumar, R. (2019): Predicting the type and target of offensive posts in social media. Proceedings of NAACL-HLT 2019, pp. 1415–1420. https://aclanthology.org/N19-1144/",
@@ -178,7 +184,7 @@
     "supervisor": "Marina Litvak",
     "email": "litvak.marina@gmail.com",
     "status": "Open",
-    "places": 1,
+    "places": 2,
     "description": [
       "This project investigates how contextual information can improve LLM-based text simplification. Building on our work on Example-Guided Prompting (EGP), where retrieved simplification examples are used to guide generation, the project will study a broader range of context types and how they should be selected and presented to the model. Relevant context may include examples of previous simplifications, document-level information, target-reader characteristics, lexical and syntactic constraints, domain knowledge, and discourse context from surrounding passages. The goal is to determine which types of context improve simplicity while preserving meaning, factual consistency, and coherence.",
       "The project can compare different context configurations and context-selection strategies, including fixed context, retrieval-based context, and dynamically selected context. It may also investigate whether too much or irrelevant context harms simplification, analogous to what we observed in context-aware code generation. Evaluation would combine standard simplification metrics such as SARI, LENS, BERTScore, and readability measures with factuality and human evaluation."
@@ -190,8 +196,14 @@
       "How does context affect the trade-off between simplicity, meaning preservation, factuality, and document-level coherence?",
       "Can context-aware prompting outperform standard zero-shot prompting and EGP?"
     ],
-    "deliverables": [],
-    "prerequisites": [],
+    "deliverables": [
+      "Literature review of text simplification with LLMs.",
+      "Case-study research paper (with different types of context)."
+    ],
+    "prerequisites": [
+      "Background in NLP and LLMs",
+      "Experience with PyTorch and/or Hugging Face Transformers"
+    ],
     "references": [
       "Litvak, M., Perstin, A., Shtilman, I. and Färber, M. (2026): Example-Guided Prompting for Document-Level Text Simplification. arXiv:2608.05447 (accepted to INLG 2026).",
       "Färber, M., Aghdam, P., Im, K., Tawfelis, M. and Ghoshal, H. (2025): SimplifyMyText: An LLM-based system for inclusive plain language text simplification. European Conference on Information Retrieval (ECIR 2025), pp. 418–424. https://link.springer.com/chapter/10.1007/978-3-031-88717-8_32",
@@ -205,7 +217,7 @@
     "supervisor": "Marina Litvak",
     "email": "litvak.marina@gmail.com",
     "status": "Open",
-    "places": 1,
+    "places": 2,
     "description": [
       "This project investigates how AI—particularly large language models (LLMs)—can assist software developers by generating and adapting code based on contextual information. While modern AI coding assistants can produce syntactically correct code, they often struggle to account for the broader context of a project, such as existing classes, dependencies, APIs, and architectural constraints.",
       "The goal of this project is to design and evaluate a system that improves code generation by incorporating different types of context, including: local context (method or function description), structural context (file, class, and package structure), dependency context (APIs, libraries, imports), and semantic context (functional requirements and intent).",
@@ -217,8 +229,13 @@
       "Which context (API, structure, semantics) is most useful?",
       "Can retrieval improve reuse of existing code components?"
     ],
-    "deliverables": [],
-    "prerequisites": [],
+    "deliverables": [
+      "Case-study research paper (with extensive experiments using LLMs and different types of context)."
+    ],
+    "prerequisites": [
+      "Background in software engineering and LLMs (security background is an advantage)",
+      "Experience with PyTorch and/or Hugging Face Transformers"
+    ],
     "references": [
       "Reinhartz-Berger, I., Gal-Oz, N., Litvak, M. and Morad, A. (2026): LLM-assisted Code Generation and Reuse: An Exploratory Study on Contextual Information. To appear in Proceedings of VARIABILITY 2026.",
       "Wu, Q., Bansal, G., Zhang, J., Wu, Y., Li, B., Zhu, E., Jiang, L., Zhang, X., Zhang, S., Liu, J. and Awadallah, A.H. (2024): AutoGen: Enabling next-gen LLM applications via multi-agent conversations. First Conference on Language Modeling (COLM 2024). https://www.microsoft.com/en-us/research/wp-content/uploads/2023/08/LLM_agent.pdf",
@@ -235,8 +252,14 @@
       "This project investigates the convergence between Information Retrieval (IR) and Natural Language Processing (NLP) by analyzing publications from leading conferences (e.g., SIGIR, WSDM, ACL, EMNLP) over the past decade. The goal is to quantify how the two fields have become increasingly interconnected through shared tasks, methods, and research communities. The study will examine topic overlap (e.g., question answering, retrieval-augmented generation), methodological trends (e.g., transformers, embeddings), and citation patterns between the communities. By combining bibliometric analysis with content-based clustering of papers, the project aims to provide empirical evidence of the growing integration of IR and NLP, particularly in the era of large language models."
     ],
     "research_questions": [],
-    "deliverables": [],
-    "prerequisites": [],
+    "deliverables": [
+      "Software tool and data",
+      "Demo paper"
+    ],
+    "prerequisites": [
+      "Background in NLP and LLMs",
+      "Experience with PyTorch and/or Hugging Face Transformers"
+    ],
     "references": [
       "Dieng, A.B., Ruiz, F.J. and Blei, D.M. (2020): Topic modeling in embedding spaces. Transactions of the Association for Computational Linguistics, 8, pp. 439–453. https://doi.org/10.1162/tacl_a_00325",
       "BERTopic: https://github.com/MaartenGr/BERTopic",
@@ -249,7 +272,7 @@
     "supervisor": "Marina Litvak",
     "email": "litvak.marina@gmail.com",
     "status": "Open",
-    "places": 1,
+    "places": 2,
     "description": [
       "This project focuses on the automatic identification of verifiable, check-worthy claims in text — a foundational task in computational fact-checking and misinformation analysis. While claim detection has advanced significantly in English news and political discourse, it remains largely unexplored in sensitive domains (legal, clinical, financial) and low-resource languages.",
       "A core challenge is that existing models treat claim detection as a simple binary classification task, ignoring the context in which a claim appears: who makes it, in what type of document, and for what audience. This project will investigate how contextual signals — document type, speaker role, domain ontology, and discourse structure — can improve both the accuracy and interpretability of claim detection models.",
@@ -261,8 +284,13 @@
       "Privacy-aware claim detection: does masking or replacing named entities (text anonymization) degrade a model's ability to identify and rank claims?",
       "LLM-based detection: how well do instruction-tuned LLMs rank check-worthiness under zero-shot and few-shot prompting, and what are their failure modes (e.g., hallucination, inconsistency)?"
     ],
-    "deliverables": [],
-    "prerequisites": [],
+    "deliverables": [
+      "Research paper"
+    ],
+    "prerequisites": [
+      "Background in NLP and LLMs",
+      "Experience with PyTorch and/or Hugging Face Transformers"
+    ],
     "references": [
       "Nakov, P., Barrón-Cedeño, A., Da San Martino, G., Alam, F., et al. (2022): Overview of the CLEF-2022 CheckThat! Lab on Fighting the COVID-19 Infodemic and Fake News Detection. Proceedings of CLEF 2022.",
       "Konstantinovskiy, L., Price, O., Babakar, M. and Zubiaga, A. (2021): Toward automated fact-checking: Developing an annotation schema and benchmark for consistent automated claim detection. Transactions of the Association for Computational Linguistics, 9, pp. 1219–1235.",
