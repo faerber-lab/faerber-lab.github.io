@@ -27,7 +27,7 @@ timeline:
 # Topics live in _data/student_projects_ws2026.json
 # Note: the deploy workflow ignores .json files, so after editing the topics,
 # also make a small edit to this page (e.g. bump updated:) to rebuild the site.
-updated: 2026-10-13
+updated: 2026-10-13b
 ---
 
 {% assign projects = site.data.student_projects_ws2026 %}
@@ -120,6 +120,7 @@ details[open] .sp-more .o, details:not([open]) .sp-more .c{display:none}
   </summary>
   <div class="sp-body">
     <h4>Description</h4>{% for d in p.description %}<p>{{ d }}</p>{% endfor %}
+    {% if p.project_url %}<h4>Project page</h4><p><a href="{{ p.project_url }}" target="_blank" rel="noopener">{{ p.project_url }}</a></p>{% endif %}
     {% if p.research_questions.size > 0 %}<h4>Possible research questions</h4><ul>{% for d in p.research_questions %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
     {% if p.deliverables.size > 0 %}<h4>Expected deliverables</h4><ul>{% for d in p.deliverables %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
     {% if p.prerequisites.size > 0 %}<h4>Prerequisites</h4><ul>{% for d in p.prerequisites %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
