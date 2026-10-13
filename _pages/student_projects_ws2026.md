@@ -117,6 +117,7 @@ details[open] .sp-more .o, details:not([open]) .sp-more .c{display:none}
   </summary>
   <div class="sp-body">
     <h4>Description</h4>{% for d in p.description %}<p>{{ d }}</p>{% endfor %}
+    {% if p.research_questions.size > 0 %}<h4>Possible research questions</h4><ul>{% for d in p.research_questions %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
     {% if p.deliverables.size > 0 %}<h4>Expected deliverables</h4><ul>{% for d in p.deliverables %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
     {% if p.prerequisites.size > 0 %}<h4>Prerequisites</h4><ul>{% for d in p.prerequisites %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
     {% if p.references.size > 0 %}<h4>References</h4><ul class="sp-refs">{% for d in p.references %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
