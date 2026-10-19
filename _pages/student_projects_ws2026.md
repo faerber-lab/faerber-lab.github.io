@@ -26,22 +26,22 @@ timeline:
     note: Students notified by email
 # Topics live in _data/student_projects_ws2026.json
 # ---- Final allocation ----
-# The table lists exactly these projects, in this order. Students are shown by initials only.
+# The table lists exactly these projects, in this order. Students are shown as first initial + last name (no emails).
 allocation:
   - project: "LLM Routing"
-    students: ["G.S.C.", "A.T.", "A.S.N.", "A.W."]
+    students: ["G. Cherukuri", "A. Tabuldin", "A. Nagbanshi", "A. Weis"]
   - project: "Mitigating Medium-Novelty Bias in Research Idea Judgment"
-    students: ["J.C."]
+    students: ["J. Cremer"]
   - project: "Advanced Multimodal Learning for Electronic Health Records: Toward Comprehensive and Interpretable Clinical Intelligence"
-    students: ["B.B.", "C.Y."]
+    students: ["B. Bochkarev", "C. Yoo"]
   - project: "BabelDojo: Do Prompt-Injection Defenses for LLM Agents Survive Outside English?"
-    students: ["Y.R.R.d.S.", "P.S.", "L.H.M.V."]
+    students: ["Y. Ribeiro da Silva", "P. Sankhala", "L. H. M. Vu"]
   - project: "Claim Detection in Sensitive and Multilingual Domains"
-    students: ["P.N.W."]
+    students: ["P. Walther"]
   - project: "Context-Aware Code Development with AI Assistance"
-    students: ["H.P.", "P.R.B.", "Y.W.", "B.T."]
+    students: ["H. Patel", "P. Brahmkhatri", "Y. Wei", "B. Thrän"]
   - project: "Text Simplification with Context-Aware AI"
-    students: ["K.D.", "A.M."]
+    students: ["K. Dzhunkovskii", "A. Mamadjonov"]
 # Note: the deploy workflow ignores .json files, so after editing the topics,
 # also make a small edit to this page (e.g. bump updated:) to rebuild the site.
 updated: 2026-10-13b
