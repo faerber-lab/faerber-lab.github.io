@@ -82,8 +82,6 @@ allocation:
         email: "kirill.dzhunkovskii@tu-dresden.de"
       - name: "Aziz Mamadjonov"
         email: "aziz.mamadjonov@mailbox.tu-dresden.de"
-  - project: "How Close Are Information Retrieval (IR) and Natural Language Processing (NLP)? A Study of Top-Tier Conferences"
-    students: []
 # Note: the deploy workflow ignores .json files, so after editing the topics,
 # also make a small edit to this page (e.g. bump updated:) to rebuild the site.
 updated: 2026-10-13b
