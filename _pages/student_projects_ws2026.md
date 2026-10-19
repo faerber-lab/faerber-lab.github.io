@@ -26,62 +26,22 @@ timeline:
     note: Students notified by email
 # Topics live in _data/student_projects_ws2026.json
 # ---- Final allocation ----
-# One entry per allocated project. "project" must match the topic title exactly.
-# The table lists exactly these projects, in this order; an empty students list shows "To be announced".
-# Example:
-#  - project: LLM Routing
-#    students:
-#      - name: Jane Doe
-#        email: jane.doe@mailbox.tu-dresden.de
+# The table lists exactly these projects, in this order. Students are shown by initials only.
 allocation:
   - project: "LLM Routing"
-    students:
-      - name: "Gaurav Sushant Cherukuri"
-        email: "gaurav_sushant.cherukuri@mailbox.tu-dresden.de"
-      - name: "Aisultan Tabuldin"
-        email: "aisultan.tabuldin@mailbox.tu-dresden.de"
-      - name: "Aryan Sanjay Nagbanshi"
-        email: "aryan_sanjay.nagbanshi@mailbox.tu-dresden.de"
-      - name: "Alexander Weis"
-        email: "alexander.weis@tu-dresden.de"
+    students: ["G.S.C.", "A.T.", "A.S.N.", "A.W."]
   - project: "Mitigating Medium-Novelty Bias in Research Idea Judgment"
-    students:
-      - name: "Jonathan Cremer"
-        email: "jonathan_vincent.cremer@mailbox.tu-dresden.de"
+    students: ["J.C."]
   - project: "Advanced Multimodal Learning for Electronic Health Records: Toward Comprehensive and Interpretable Clinical Intelligence"
-    students:
-      - name: "Bogdan Bochkarev"
-        email: "bogdan.bochkarev@mailbox.tu-dresden.de"
-      - name: "Chaeran Yoo"
-        email: "chaeran.yoo@mailbox.tu-dresden.de"
+    students: ["B.B.", "C.Y."]
   - project: "BabelDojo: Do Prompt-Injection Defenses for LLM Agents Survive Outside English?"
-    students:
-      - name: "Yanka Raíssa Ribeiro da Silva"
-        email: "yanka.ribeiro@mailbox.tu-dresden.de"
-      - name: "Priyanshu Sankhala"
-        email: "priyanshu.sankhala@mailbox.tu-dresden.de"
-      - name: "Le Hoang Minh Vu"
-        email: "le_hoang_minh.vu@mailbox.tu-dresden.de"
+    students: ["Y.R.R.d.S.", "P.S.", "L.H.M.V."]
   - project: "Claim Detection in Sensitive and Multilingual Domains"
-    students:
-      - name: "Paul Neo Walther"
-        email: "paul_neo.walther@mailbox.tu-dresden.de"
+    students: ["P.N.W."]
   - project: "Context-Aware Code Development with AI Assistance"
-    students:
-      - name: "Het Patel"
-        email: "het_rajeshkumar.patel@mailbox.tu-dresden.de"
-      - name: "Pankit Ramesh Brahmkhatri"
-        email: "pankit_ramesh.brahmkhatri@mailbox.tu-dresden.de"
-      - name: "Yiyi Wei"
-        email: "yiyi.wei@mailbox.tu-dresden.de"
-      - name: "Bela Thrän"
-        email: "bela_leander.thraen@mailbox.tu-dresden.de"
+    students: ["H.P.", "P.R.B.", "Y.W.", "B.T."]
   - project: "Text Simplification with Context-Aware AI"
-    students:
-      - name: "Kirill Dzhunkovskii"
-        email: "kirill.dzhunkovskii@tu-dresden.de"
-      - name: "Aziz Mamadjonov"
-        email: "aziz.mamadjonov@mailbox.tu-dresden.de"
+    students: ["K.D.", "A.M."]
 # Note: the deploy workflow ignores .json files, so after editing the topics,
 # also make a small edit to this page (e.g. bump updated:) to rebuild the site.
 updated: 2026-10-13b
@@ -134,7 +94,7 @@ details[open] .sp-more .o, details:not([open]) .sp-more .c{display:none}
 .sp-step > b{display:block}
 .sp-empty{padding:1rem;text-align:center;color:var(--global-text-color-light)}
 .sp-alloc-wrap{overflow-x:auto;margin:0 0 2rem;border:1px solid var(--global-divider-color);border-radius:10px}
-.sp-alloc{width:100%;border-collapse:collapse;font-size:.9rem;min-width:820px}
+.sp-alloc{width:100%;border-collapse:collapse;font-size:.9rem;min-width:640px}
 .sp-alloc th{text-align:left;font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;color:var(--global-text-color-light);font-weight:600;padding:.6rem .8rem;border-bottom:1px solid var(--global-divider-color);background:var(--global-card-bg-color)}
 .sp-alloc td{padding:.6rem .8rem;border-bottom:1px solid var(--global-divider-color);vertical-align:top}
 .sp-alloc tr:last-child td{border-bottom:0}
@@ -164,19 +124,14 @@ details[open] .sp-more .o, details:not([open]) .sp-more .c{display:none}
 <h2 id="final-allocation">Final allocation</h2>
 <div class="sp-alloc-wrap" markdown="0">
 <table class="sp-alloc">
-  <thead><tr><th>Project</th><th>Supervisor</th><th>Supervisor email</th><th>Selected students</th><th>Student email</th></tr></thead>
+  <thead><tr><th>Project</th><th>Supervisor</th><th>Supervisor email</th><th>Selected students</th></tr></thead>
   <tbody>
   {% for a in page.allocation %}{% assign proj = projects | where: "title", a.project | first %}
     <tr>
       <td class="p">{{ a.project }}</td>
       <td>{{ proj.supervisor }}</td>
       <td>{% if proj.email %}<a href="mailto:{{ proj.email }}">{{ proj.email }}</a>{% endif %}</td>
-      {% if a.students.size > 0 %}
-      <td class="stack">{% for s in a.students %}<span>{{ s.name }}</span>{% endfor %}</td>
-      <td class="stack">{% for s in a.students %}<span>{% if s.email %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% else %}–{% endif %}</span>{% endfor %}</td>
-      {% else %}
-      <td class="tba">To be announced</td><td class="tba">–</td>
-      {% endif %}
+      {% if a.students.size > 0 %}<td>{{ a.students | join: ", " }}</td>{% else %}<td class="tba">To be announced</td>{% endif %}
     </tr>
   {% endfor %}
   </tbody>
