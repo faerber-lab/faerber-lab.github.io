@@ -25,6 +25,15 @@ timeline:
     title: Final allocation
     note: Students notified by email
 # Topics live in _data/student_projects_ws2026.json
+# ---- Final allocation ----
+# One entry per allocated project. "project" must match the topic title exactly.
+# Projects without an entry show "To be announced".
+# Example:
+#  - project: LLM Routing
+#    students:
+#      - name: Jane Doe
+#        email: jane.doe@mailbox.tu-dresden.de
+allocation: []
 # Note: the deploy workflow ignores .json files, so after editing the topics,
 # also make a small edit to this page (e.g. bump updated:) to rebuild the site.
 updated: 2026-10-13b
@@ -76,6 +85,14 @@ details[open] .sp-more .o, details:not([open]) .sp-more .c{display:none}
 .sp-step::before{counter-increment:s;content:counter(s);position:absolute;left:.8rem;top:.8rem;width:1.5rem;height:1.5rem;border-radius:50%;background:var(--global-theme-color);color:#fff;font-weight:700;display:grid;place-items:center;font-size:.8rem}
 .sp-step > b{display:block}
 .sp-empty{padding:1rem;text-align:center;color:var(--global-text-color-light)}
+.sp-alloc-wrap{overflow-x:auto;margin:0 0 2rem;border:1px solid var(--global-divider-color);border-radius:10px}
+.sp-alloc{width:100%;border-collapse:collapse;font-size:.9rem;min-width:620px}
+.sp-alloc th{text-align:left;font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;color:var(--global-text-color-light);font-weight:600;padding:.6rem .8rem;border-bottom:1px solid var(--global-divider-color);background:var(--global-card-bg-color)}
+.sp-alloc td{padding:.6rem .8rem;border-bottom:1px solid var(--global-divider-color);vertical-align:top}
+.sp-alloc tr:last-child td{border-bottom:0}
+.sp-alloc td.p{font-weight:600}
+.sp-alloc .tba{color:var(--global-text-color-light);font-style:italic}
+.sp-alloc .stack span{display:block}
 @media (max-width:767px){.sp-timeline{grid-template-columns:1fr 1fr}.sp-steps{grid-template-columns:1fr}}
 @media (max-width:420px){.sp-timeline{grid-template-columns:1fr}.sp-stat b{font-size:1.2rem}}
 </style>
@@ -95,6 +112,27 @@ details[open] .sp-more .o, details:not([open]) .sp-more .c{display:none}
 <ol class="sp-timeline" markdown="0">
 {% for t in page.timeline %}<li class="{% if t.done %}done{% endif %}"><div class="d">{{ t.date }}</div><div class="t">{{ t.title }}</div><div class="n">{{ t.note }}</div></li>{% endfor %}
 </ol>
+
+<h2 id="final-allocation">Final allocation</h2>
+<div class="sp-alloc-wrap" markdown="0">
+<table class="sp-alloc">
+  <thead><tr><th>Project</th><th>Supervisor</th><th>Selected students</th><th>Student email</th></tr></thead>
+  <tbody>
+  {% for p in open_projects %}{% assign alloc = page.allocation | where: "project", p.title | first %}
+    <tr>
+      <td class="p">{{ p.title }}</td>
+      <td>{{ p.supervisor }}</td>
+      {% if alloc and alloc.students.size > 0 %}
+      <td class="stack">{% for s in alloc.students %}<span>{{ s.name }}</span>{% endfor %}</td>
+      <td class="stack">{% for s in alloc.students %}<span>{% if s.email %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% else %}–{% endif %}</span>{% endfor %}</td>
+      {% else %}
+      <td class="tba">To be announced</td><td class="tba">–</td>
+      {% endif %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
 
 <h2>Topics</h2>
 <div class="sp-toolbar" markdown="0">
