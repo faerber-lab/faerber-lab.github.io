@@ -355,8 +355,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/acl-2026-publications/";
-            },},{id: "news-our-paper-medieval-has-received-an-outstanding-paper-award-at-acl-2026",
-          title: 'Our paper MediEval has received an Outstanding Paper Award at ACL 2026!',
+            },},{id: "news-two-papers-have-been-accepted-at-clef-2026-with-notable-achievements-best-of-labs-and-1st-place-finish",
+          title: 'Two papers have been accepted at CLEF 2026, with notable achievements: Best of...',
           description: "",
           section: "News",},{id: "news-i-was-interviewed-by-tagesschau-germany-s-flagship-tv-news-program-about-investment-in-ai-research-watch-here",
           title: 'I was interviewed by Tagesschau, Germany’s flagship TV news program, about investment in...',
