@@ -7,4 +7,4 @@ related_posts: false
 tags: [positions]
 ---
 
-Open positions to join our group: [PhD / Junior Postdocs](/news/8_positionE13/) and [Senior Postdocs](/news/7_positionE14/).
+Open positions to join our group: [PhD / Junior Postdocs](/news/e13-position/) and [Senior Postdocs](/news/e14-position/).
