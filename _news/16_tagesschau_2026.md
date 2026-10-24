@@ -7,4 +7,4 @@ related_posts: false
 tags: [media]
 ---
 
-I was interviewed by Tagesschau, Germany’s flagship TV news program, about investment in AI research. Watch [here](https://lnkd.in/eNgk2Grb).
+I was interviewed by _Tagesschau_, watch [here](https://lnkd.in/eNgk2Grb).
