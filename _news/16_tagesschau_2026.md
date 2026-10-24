@@ -7,4 +7,4 @@ related_posts: false
 tags: [media]
 ---
 
-I was interviewed by _Tagesschau_, watch [here](https://lnkd.in/eNgk2Grb).
+I was interviewed by Tagesschau, watch [here](https://www.tagesschau.de/tagesschau_20_uhr/video-1655596.html).
