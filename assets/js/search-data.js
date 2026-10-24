@@ -350,7 +350,12 @@ ninja.data = [{
           section: "News",},{id: "news-topics-for-internships-research-projects-etc-for-summer-semester-2026-are-now-available-at-proposed-student-projects",
           title: 'Topics for internships, research projects, etc. for Summer Semester 2026 are now available...',
           description: "",
-          section: "News",},{id: "news-our-paper-medieval-has-received-an-outstanding-paper-award-at-acl-2026",
+          section: "News",},{id: "news-four-papers-accepted-at-acl-2026",
+          title: 'Four papers accepted at ACL 2026!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/acl-2026-publications/";
+            },},{id: "news-our-paper-medieval-has-received-an-outstanding-paper-award-at-acl-2026",
           title: 'Our paper MediEval has received an Outstanding Paper Award at ACL 2026!',
           description: "",
           section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
