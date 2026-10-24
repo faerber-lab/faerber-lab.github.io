@@ -371,7 +371,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/7_positionE14/";
-            },},{id: "news-seven-papers-accepted-at-emnlp-2026",
+            },},{id: "news-open-positions-to-join-our-group-phd-junior-postdocs-and-senior-postdocs",
+          title: 'Open positions to join our group: PhD / Junior Postdocs and Senior Postdocs....',
+          description: "",
+          section: "News",},{id: "news-seven-papers-accepted-at-emnlp-2026",
           title: 'Seven papers accepted at EMNLP 2026!',
           description: "",
           section: "News",handler: () => {
