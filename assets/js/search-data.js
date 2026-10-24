@@ -363,15 +363,15 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/e13-position/";
-            },},{id: "news-i-was-interviewed-by-tagesschau-watch-here",
-          title: 'I was interviewed by Tagesschau, watch here.',
-          description: "",
-          section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
+            },},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
           title: 'Senior PostDoc position available; apply now to join our team!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/7_positionE14/";
-            },},{id: "news-open-positions-to-join-our-group-phd-junior-postdocs-and-senior-postdocs",
+              window.location.href = "/news/e14-position/";
+            },},{id: "news-i-was-interviewed-by-tagesschau-watch-here",
+          title: 'I was interviewed by Tagesschau, watch here.',
+          description: "",
+          section: "News",},{id: "news-open-positions-to-join-our-group-phd-junior-postdocs-and-senior-postdocs",
           title: 'Open positions to join our group: PhD / Junior Postdocs and Senior Postdocs....',
           description: "",
           section: "News",},{id: "news-seven-papers-accepted-at-emnlp-2026",
