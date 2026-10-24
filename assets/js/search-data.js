@@ -358,7 +358,12 @@ ninja.data = [{
             },},{id: "news-notable-achievements-at-clef-26-best-of-labs-and-1st-place-team",
           title: 'Notable achievements at CLEF’26: Best of Labs and 1st-place team**',
           description: "",
-          section: "News",},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
+          section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
+          title: 'Senior PostDoc position available; apply now to join our team!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/e14-position/";
+            },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
           title: 'Junior PostDoc position available; apply now to join our team!',
           description: "",
           section: "News",handler: () => {
@@ -366,12 +371,7 @@ ninja.data = [{
             },},{id: "news-i-was-interviewed-by-tagesschau-watch-here",
           title: 'I was interviewed by Tagesschau, watch here.',
           description: "",
-          section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
-          title: 'Senior PostDoc position available; apply now to join our team!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/e14-position/";
-            },},{id: "news-open-positions-to-join-our-group-phd-junior-postdocs-and-senior-postdocs",
+          section: "News",},{id: "news-open-positions-to-join-our-group-phd-junior-postdocs-and-senior-postdocs",
           title: 'Open positions to join our group: PhD / Junior Postdocs and Senior Postdocs....',
           description: "",
           section: "News",},{id: "news-seven-papers-accepted-at-emnlp-2026",
