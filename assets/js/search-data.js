@@ -350,8 +350,8 @@ ninja.data = [{
           section: "News",},{id: "news-topics-for-internships-research-projects-etc-for-summer-semester-2026-are-now-available-at-proposed-student-projects",
           title: 'Topics for internships, research projects, etc. for Summer Semester 2026 are now available...',
           description: "",
-          section: "News",},{id: "news-four-papers-accepted-at-acl-2026",
-          title: 'Four papers accepted at ACL 2026!',
+          section: "News",},{id: "news-four-papers-published-at-acl-2026-including-an-outstanding-paper-award",
+          title: 'Four papers published at ACL 2026, including an Outstanding Paper Award!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/acl-2026-publications/";
