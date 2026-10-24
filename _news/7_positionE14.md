@@ -2,7 +2,7 @@
 layout: post
 title: Senior PostDoc position available; apply now to join our team!
 permalink: /news/e14-position/
-date: 2026-10-20 20:00:00 +0000
+date: 2026-09-20 20:00:00 +0000
 inline: false
 related_posts: false
 tags: [positions]
