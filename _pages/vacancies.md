@@ -22,8 +22,8 @@ og_image: /assets/press/Michael_Faerber_2024_700p.jpg
 We are hiring two postdoctoral researchers in the areas of **Large Language Models (LLMs)**, **Natural Language Processing (NLP)**, **Knowledge Graphs**, and **Graph Machine Learning** at ScaDS.AI, TU Dresden.
 
 <ul>
-  <li><a href="/news/7_positionE14/" style="color:#2a6592; font-weight:bold;">Senior Postdoc (comparable to Assistant Professorship, TV-L E14)</a></li>
-  <li><a href="/news/8_positionE13/" style="color:#2a6592; font-weight:bold;">Junior Postdoc (TV-L E13)</a></li>
+  <li><a href="/news/e14-position/" style="color:#2a6592; font-weight:bold;">Senior Postdoc (comparable to Assistant Professorship, TV-L E14)</a></li>
+  <li><a href="/news/e13-position/" style="color:#2a6592; font-weight:bold;">Junior Postdoc (TV-L E13)</a></li>
 </ul>
 
 **Start date:** As soon as possible  
