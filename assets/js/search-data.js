@@ -350,16 +350,19 @@ ninja.data = [{
           section: "News",},{id: "news-topics-for-internships-research-projects-etc-for-summer-semester-2026-are-now-available-at-proposed-student-projects",
           title: 'Topics for internships, research projects, etc. for Summer Semester 2026 are now available...',
           description: "",
+          section: "News",},{id: "news-our-paper-medieval-has-received-an-outstanding-paper-award-at-acl-2026",
+          title: 'Our paper MediEval has received an Outstanding Paper Award at ACL 2026!',
+          description: "",
           section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
           title: 'Senior PostDoc position available; apply now to join our team!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/7_postdocE14_2025/";
+              window.location.href = "/news/7_positionE14/";
             },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
           title: 'Junior PostDoc position available; apply now to join our team!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/8_postdocE13_2025/";
+              window.location.href = "/news/7_positionE14/";
             },},{id: "projects-aicom",
           title: 'AICOM',
           description: "AICOM: Corporate Knowledge Graph Assistant. Knowledge graph-Powered AI for Trustworthy Corporate Communications",
