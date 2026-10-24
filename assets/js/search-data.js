@@ -358,16 +358,16 @@ ninja.data = [{
             },},{id: "news-notable-achievements-at-clef-26-best-of-labs-and-1st-place-team",
           title: 'Notable achievements at CLEF’26: Best of Labs and 1st-place team**',
           description: "",
-          section: "News",},{id: "news-i-was-interviewed-by-tagesschau-watch-here",
+          section: "News",},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
+          title: 'Junior PostDoc position available; apply now to join our team!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/7_positionE14/";
+            },},{id: "news-i-was-interviewed-by-tagesschau-watch-here",
           title: 'I was interviewed by Tagesschau, watch here.',
           description: "",
           section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
           title: 'Senior PostDoc position available; apply now to join our team!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/7_positionE14/";
-            },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
-          title: 'Junior PostDoc position available; apply now to join our team!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/7_positionE14/";
