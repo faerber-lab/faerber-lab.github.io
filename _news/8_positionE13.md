@@ -2,7 +2,7 @@
 layout: post
 title: Junior PostDoc position available; apply now to join our team!
 permalink: /news/8_postdocE13_2025/
-date: 2026-08-08 20:00:00 +0000
+date: 2026-10-20 20:00:00 +0000
 inline: false
 related_posts: false
 tags: [positions]
