@@ -355,8 +355,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/acl-2026-publications/";
-            },},{id: "news-two-papers-have-been-accepted-at-clef-2026-with-notable-achievements-best-of-labs-and-1st-place-finish",
-          title: 'Two papers have been accepted at CLEF 2026, with notable achievements: Best of...',
+            },},{id: "news-notable-achievements-at-clef-26-best-of-labs-and-1st-place-team",
+          title: 'Notable achievements at CLEF’26: Best of Labs and 1st-place team**',
           description: "",
           section: "News",},{id: "news-i-was-interviewed-by-tagesschau-watch-here",
           title: 'I was interviewed by Tagesschau, watch here.',
