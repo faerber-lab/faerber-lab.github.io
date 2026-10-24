@@ -307,6 +307,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/testnews/";
             },},{id: "news-starting-as-full-professor-w3-at-scads-ai-tu-dresden",
           title: 'Starting as full professor (W3) at ScaDS.AI / TU Dresden.',
           description: "",
@@ -353,16 +358,16 @@ ninja.data = [{
             },},{id: "news-notable-achievements-at-clef-26-best-of-labs-and-1st-place-team",
           title: 'Notable achievements at CLEF’26: Best of Labs and 1st-place team**',
           description: "",
-          section: "News",},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
-          title: 'Junior PostDoc position available; apply now to join our team!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/e13-position/";
-            },},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
+          section: "News",},{id: "news-senior-postdoc-position-available-apply-now-to-join-our-team",
           title: 'Senior PostDoc position available; apply now to join our team!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/e14-position/";
+            },},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
+          title: 'Junior PostDoc position available; apply now to join our team!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/e13-position/";
             },},{id: "news-i-was-interviewed-by-tagesschau-watch-here",
           title: 'I was interviewed by Tagesschau, watch here.',
           description: "",
