@@ -368,6 +368,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/7_positionE14/";
+            },},{id: "news-seven-papers-accepted-at-emnlp-2026",
+          title: 'Seven papers accepted at EMNLP 2026!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/emnlp-2026-presentations/";
             },},{id: "projects-aicom",
           title: 'AICOM',
           description: "AICOM: Corporate Knowledge Graph Assistant. Knowledge graph-Powered AI for Trustworthy Corporate Communications",
