@@ -350,8 +350,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/acl-2026-publications/";
-            },},{id: "news-notable-achievements-at-clef-26-best-of-labs-and-1st-place-team",
-          title: 'Notable achievements at CLEF’26: Best of Labs and 1st-place team**',
+            },},{id: "news-notable-achievements-at-clef-2026-best-of-labs-and-1st-place-at-checkthat-challenge",
+          title: 'Notable achievements at CLEF 2026: Best of Labs and 1st-place at CheckThat! challenge!...',
           description: "",
           section: "News",},{id: "news-junior-postdoc-position-available-apply-now-to-join-our-team",
           title: 'Junior PostDoc position available; apply now to join our team!',
