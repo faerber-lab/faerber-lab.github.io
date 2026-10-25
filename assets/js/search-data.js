@@ -363,8 +363,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/e14-position/";
-            },},{id: "news-i-was-interviewed-by-tagesschau-watch-here",
-          title: 'I was interviewed by Tagesschau, watch here.',
+            },},{id: "news-i-was-interviewed-by-tagesschau-germany-s-national-tv-news-program-watch-here",
+          title: 'I was interviewed by Tagesschau, Germany’s national TV news program. Watch here.',
           description: "",
           section: "News",},{id: "news-open-positions-to-join-our-group-phd-junior-postdocs-and-senior-postdocs",
           title: 'Open positions to join our group: PhD / Junior Postdocs and Senior Postdocs....',
