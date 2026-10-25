@@ -7,4 +7,4 @@ related_posts: false
 tags: [media]
 ---
 
-I was interviewed by Tagesschau, watch [here](https://www.tagesschau.de/tagesschau_20_uhr/video-1655596.html).
+I was interviewed by Tagesschau, Germany's national TV news program. Watch [here](https://www.tagesschau.de/tagesschau_20_uhr/video-1655596.html).
